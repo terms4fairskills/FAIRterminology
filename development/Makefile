@@ -19,7 +19,7 @@ release: copy_release_files
 
 STEM := fso
 # ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
-ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.1/robot.jar
+ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
 ROBOT := java -jar build/robot.jar
 
 # The TSV file that is the template for the generated OWL file
