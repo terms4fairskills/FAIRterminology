@@ -3,8 +3,8 @@
 ## fso draft December 2020
 
 *fso.owx* - draft terminology conforming to the EOSC Co-creation model and incorporating 346 terms from the CASRAI RDM Glossary.  
-*fso_casrai.owl* - work in progress version of the terminology without a number of relations.
-*fso_casrai.tsv* - tsv file of the terminology, before conversion into OWL format via ROBOT.
+*fso_casrai.owl* - work in progress version of the terminology without a number of relations.  
+*fso_casrai.tsv* - tsv file of the terminology, before conversion into OWL format via ROBOT.  
 
 ## References
 
