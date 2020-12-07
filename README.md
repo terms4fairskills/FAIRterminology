@@ -11,9 +11,13 @@ The completed terminology will be of use to trainers who teach FAIR data skills,
 
 This repository will be used to store the OWL version of the terminology, plus related files. Many of these files will be a 'work in progress'.
 
-We will use this repository as a space to work on the pipeline from the terms4FAIRskills google spreadsheet (used to generate and collate the terms and their definitions) to a true hierarchial terminology, using Robot and hand-crafted artisanal csv files.
+In July 2020, we received notification of our successful application for EOSC co-creation funding to continue this work.
 
-For more information on the technical aspects of converting the google spreadsheet to the OWL file, please contact either Peter McQuilton and/or Allyson Lister.
+Thanks to our successful EOSC co-creation proposal, we will continue to develop the FAIR Skills Terminology (FST) with our annotation and coordination groups to create v0.1 of the terminology. We will use a number of real-world use cases to drive this development to ensure a broad and pragmatic initial spread of terms. These terms will be refined via iterative annotation of training materials. Annotation will be performed using the Semaphora tool and will continue until an initial prototype terminology is created.
+
+We will use this repository as a space to work on the development of the terminology, from a collaborative google spreadsheet(used to generate and collate the terms and their definitions) to a true hierarchial terminology, including terms from other terminologies such as CASRAI, using Robot and hand-crafted artisanal csv files.
+
+For more information on any of the technical aspects of this work, please contact either Peter McQuilton and/or Yann Le Franc.
 
 
 ## Attribution of Tools
