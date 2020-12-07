@@ -19,8 +19,3 @@ We will use this repository as a space to work on the development of the termino
 
 For more information on any of the technical aspects of this work, please contact either Peter McQuilton and/or Yann Le Franc.
 
-
-## Attribution of Tools
-
-- [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. ROBOT: A tool for automating ontology workflows. BMC Bioinformatics, vol. 20, July 2019. https://doi.org/10.1186/s12859-019-3002-3
-- [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
