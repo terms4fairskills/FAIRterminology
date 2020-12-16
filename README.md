@@ -17,5 +17,5 @@ Thanks to our successful EOSC co-creation proposal, we will continue to develop 
 
 We will use this repository as a space to work on the development of the terminology, from a collaborative google spreadsheet(used to generate and collate the terms and their definitions) to a true hierarchial terminology, including terms from other terminologies such as CASRAI, using Robot and hand-crafted artisanal csv files.
 
-For more information on any of the technical aspects of this work, please contact either Peter McQuilton and/or Yann Le Franc.
+For more information on any of the technical aspects of this work, please contact Peter McQuilton.
 
