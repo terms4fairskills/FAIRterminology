@@ -2,7 +2,9 @@
 
 Building a terminology for the skills necessary to make data FAIR and to keep it FAIR.
 
-The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. When mature, this terminology will apply to a variety of use cases, including:
+The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
+
+When mature, this terminology will apply to a variety of use cases, including:
 - To assist with the creation and assessment of stewardship curricula;
 - To facilitate the annotation, discovery and evaluation of FAIR-enabling materials (e.g. training) and resources;
 - To enable the formalisation of job descriptions and CVs with recognised, structured competencies.
@@ -13,9 +15,11 @@ This repository will be used to store the OWL version of the terminology, plus r
 
 In July 2020, we received notification of our successful application for EOSC co-creation funding to continue this work.
 
-Thanks to our successful EOSC co-creation proposal, we will continue to develop the FAIR Skills Terminology (FST) with our annotation and coordination groups to create v0.1 of the terminology. We will use a number of real-world use cases to drive this development to ensure a broad and pragmatic initial spread of terms. These terms will be refined via iterative annotation of training materials. Annotation will be performed using the Semaphora tool and will continue until an initial prototype terminology is created.
+Thanks to our successful EOSC co-creation proposal, we continued to develop the Terms4FAIRskills (T4FS) using two real-life use cases - the CODATA/RDA Summer Schools and the ELIXIR Training Platform Training and Events Portal (TeSS). Through a number of workshops and hackathons, we iteratively annotated a large number of training materials using the Semaphora annotation tool.
 
-We will use this repository as a space to work on the development of the terminology, from a collaborative google spreadsheet(used to generate and collate the terms and their definitions) to a true hierarchial terminology, including terms from other terminologies such as CASRAI, using Robot and hand-crafted artisanal csv files.
+Our report on this work can be found on Zenodo at the following DOI: [10.5281/zenodo.4705219](https://doi.org/10.5281/zenodo.4705219).
 
-For more information on any of the technical aspects of this work, please contact Peter McQuilton.
+We continue to develop terms4FAIRskills and our latest terminology will always be found in our related GitHub repository. New term requests and queries can be posted on our issue tracker..
+
+For more information on any of the technical aspects of this work, please contact Peter McQuilton or Allyson Lister.
 
