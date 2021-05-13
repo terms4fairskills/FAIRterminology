@@ -1,0 +1,11 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?iri {
+    values ?objectType { owl:Class owl:DatatypeProperty owl:ObjectProperty owl:AnnotationProperty }
+    ?iri a ?objectType
+    FILTER (!regex(str(?iri),"geneontology")).
+    FILTER (!regex(str(?iri),"obolibrary")).
+    FILTER (!regex(str(?iri),"purl.org")).
+    FILTER (!regex(str(?iri),"w3.org")).
+}

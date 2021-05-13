@@ -1,0 +1,18 @@
+# Count classes by hierarchy section. In progress.
+# Created by: Allyson Lister
+
+prefix t4fs: <https://github.com/terms4fairskills/FAIRterminology/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?uri ?label ?sublabel ?definition {
+    ?uri rdfs:label ?label .
+    ?class rdf:type owl:Class .
+    ?class rdfs:subClassOf* ?uri .
+    ?class rdfs:label ?sublabel .
+    ?class obo:IAO_0000115 ?definition
+    FILTER (CONTAINS(?definition,"??")) .
+    FILTER (?uri IN (t4fs:T4FS_0000012, t4fs:T4FS_0000446, t4fs:T4FS_0000446, t4fs:T4FS_0000548, t4fs:T4FS_0000372, t4fs:T4FS_0000519, t4fs:T4FS_0000513))
+}
