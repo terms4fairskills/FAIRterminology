@@ -10817,7 +10817,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
         <obo:IAO_0000119>Laura Malloy</obo:IAO_0000119>
-        <rdfs:comment>owl:Thing</rdfs:comment>
         <rdfs:label>data stewardship soft skill</rdfs:label>
         <FAIRterminology:T4FS_0000564>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</FAIRterminology:T4FS_0000564>
         <FAIRterminology:T4FS_0000565>Revise Celia&apos;s presentation:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</FAIRterminology:T4FS_0000565>
