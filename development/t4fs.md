@@ -1,6 +1,6 @@
 Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.9.2
 
-# {no title found}
+# terms4FAIRskills
 
 ## Metadata
 * **URI**
