@@ -11,5 +11,5 @@ This directory contains the following:
 
 ## Tools
 
-The [html](t4fs.html) and [markdown](t4fs.md) versions of terms4FAIRskills was created using
+The [html](t4fs.html) and [markdown](t4fs.md) versions of terms4FAIRskills were created using
 [pylode](https://github.com/RDFLib/pyLODE).
