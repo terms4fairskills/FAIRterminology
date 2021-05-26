@@ -1,0 +1,16 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?class (GROUP_CONCAT(DISTINCT ?label; separator="|") as ?labels)
+WHERE {
+
+    { ?class a owl:Class . OPTIONAL { ?class rdfs:label ?label } FILTER (regex( str(?label), '^[A-Z]'))}
+    MINUS {
+      ?class rdfs:comment ?comment
+      FILTER (regex( str(?comment), "CASRAI"))
+    }
+}
+GROUP BY (?class)
