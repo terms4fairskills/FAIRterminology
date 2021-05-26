@@ -9,19 +9,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:t4fs="http://terms4FAIRskills.org/FAIRterminology"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:FAIRterminology="https://github.com/terms4fairskills/FAIRterminology/">
     <owl:Ontology rdf:about="https://github.com/terms4fairskills/FAIRterminology">
         <dc:contributor>Laura Molloy</dc:contributor>
         <dc:contributor>The terms4FAIRskills Community, https://terms4fairskills.github.io/community.html</dc:contributor>
-        <dc:creator>Allyson Lister</dc:creator>
         <dc:creator>Peter McQuilton</dc:creator>
         <dc:creator>Yann Le Franc</dc:creator>
-        <terms:description>The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. When mature, this terminology will apply to a variety of use cases, including: to assist with the creation and assessment of stewardship curricula; to facilitate the annotation, discovery and evaluation of FAIR-enabling materials (e.g. training) and resources; to enable the formalisation of job descriptions and CVs with recognised, structured competencies.
+        <dc:creator>Allyson Lister</dc:creator>
+        <terms:description>The terms4FAIRskills project has created this formalised terminology to describe the competencies, skills and knowledge associated with making and keeping data FAIR. This terminology can apply to a variety of use cases, including: to assist with the creation and assessment of stewardship curricula; to facilitate the annotation, discovery and evaluation of FAIR-enabling materials (e.g. training) and resources; to enable the formalisation of job descriptions and CVs with recognised, structured competencies.
 
-The completed terminology will be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
+This terminology is of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <rdfs:comment>terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
         <rdfs:comment>terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
@@ -199,6 +198,7 @@ The completed terminology will be of use to trainers who teach FAIR data skills,
         <rdfs:domain rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
         <rdfs:range rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000012"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T21:36:11.080721Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">confers/requires competency about</rdfs:label>
@@ -213,6 +213,7 @@ The completed terminology will be of use to trainers who teach FAIR data skills,
         <rdfs:domain rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
         <rdfs:range rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000372"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-06T00:00:00</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">confers/requires knowledge about</rdfs:label>
@@ -250,6 +251,7 @@ The completed terminology will be of use to trainers who teach FAIR data skills,
         <obo:IAO_0000115>A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’.
 A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>FAIR4S</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-06T00:00:00</oboInOwl:creation_date>
@@ -294,6 +296,7 @@ whether someone has an awareness of the area, or an ability to do it, or expert 
             </owl:Class>
         </rdfs:range>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
@@ -321,6 +324,7 @@ whether someone has an awareness of the area, or an ability to do it, or expert 
         <obo:IAO_0000115>A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’.
 A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>FAIR4S</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">has/wants practical skill about</rdfs:label>
@@ -335,6 +339,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:domain rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000513"/>
         <rdfs:range rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000548"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-03-24T15:33:43.476917Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">has aptitude for</rdfs:label>
@@ -349,6 +354,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:domain rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000372"/>
         <rdfs:range rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000446"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-03-22T15:25:13.443153Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">contributes to the implementation of</rdfs:label>
@@ -396,7 +402,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To carry out appropriate data imputation techniques relevant to the domain, namely methods to impute values for data where they are missing.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Apply data imputation</rdfs:label>
+        <rdfs:label>apply data imputation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000001"/>
@@ -437,7 +443,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000440"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:19:04.16346Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of the documenting of the cleaning steps</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of the documenting of the cleaning steps</rdfs:label>
     </owl:Class>
     
 
@@ -452,7 +458,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Software review and preservation</rdfs:label>
+        <rdfs:label>software review and preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000004"/>
@@ -491,7 +497,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Develop FAIR and open research vision</rdfs:label>
+        <rdfs:label>develop FAIR and open research vision</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000006"/>
@@ -511,7 +517,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Plan stewardship and sharing of FAIR outputs</rdfs:label>
+        <rdfs:label>plan stewardship and sharing of FAIR outputs</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000007"/>
@@ -532,7 +538,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Develop open research strategy and vision</rdfs:label>
+        <rdfs:label>develop open research strategy and vision</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000008"/>
@@ -575,7 +581,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand research code of conduct</rdfs:label>
+        <rdfs:label>understand research code of conduct</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000010"/>
@@ -611,7 +617,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to choose the appropriate reporting guideline/checklist for your data, based on community-adopted standards. [PMQ]</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Choosing the appropriate reporting guideline for your data</rdfs:label>
+        <rdfs:label>choosing the appropriate reporting guideline for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000011"/>
@@ -681,7 +687,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000509"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:12:01.832837Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of software development</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of software development</rdfs:label>
     </owl:Class>
     
 
@@ -693,7 +699,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills related to Resource management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:02:32.735608Z</dc:date>
-        <rdfs:label>A Skills for Resource Management</rdfs:label>
+        <rdfs:label>a skills for resource management</rdfs:label>
     </owl:Class>
     
 
@@ -724,7 +730,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118>Data Classification</obo:IAO_0000118>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:30:31.531624Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Data Categorisation</rdfs:label>
+        <rdfs:label xml:lang="en">data categorisation</rdfs:label>
     </owl:Class>
     
 
@@ -796,7 +802,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Expose your data</rdfs:label>
+        <rdfs:label>expose your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000021"/>
@@ -816,7 +822,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understanding the requirements of the analysis/research question</rdfs:label>
+        <rdfs:label>understanding the requirements of the analysis/research question</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000022"/>
@@ -834,7 +840,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Workflow technologies management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:50.315691Z</dc:date>
-        <rdfs:label>Aptitudes for Workflow technologies management</rdfs:label>
+        <rdfs:label>aptitudes for workflow technologies management</rdfs:label>
     </owl:Class>
     
 
@@ -909,7 +915,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Storage security risk assessment and mitigation</rdfs:label>
+        <rdfs:label>storage security risk assessment and mitigation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000027"/>
@@ -971,7 +977,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:12:20.624146Z</dc:date>
-        <rdfs:label>Skills related to High performance computing management</rdfs:label>
+        <rdfs:label>skills related to high performance computing management</rdfs:label>
     </owl:Class>
     
 
@@ -986,17 +992,16 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned [YLF, VDA, KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>FAIR Metrics selection skills</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned [YLF, VDA, KH]</owl:annotatedTarget>
+        <owl:annotatedTarget>Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned.</owl:annotatedTarget>
         <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1042,7 +1047,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000034">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">Database developer</rdfs:label>
+        <rdfs:label xml:lang="en">database developer</rdfs:label>
     </owl:Class>
     
 
@@ -1051,17 +1056,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000459"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Design</rdfs:label>
+        <rdfs:label>design</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1095,7 +1091,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000539"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:16:52.198233Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of applying software</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of applying software</rdfs:label>
     </owl:Class>
     
 
@@ -1132,11 +1128,9 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000040">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000007"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Claudia Engelhardt</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <oboInOwl:creation_date>2019-10-17T15:04:20.668118Z</oboInOwl:creation_date>
-        <rdfs:label>Creating and updating a DMP</rdfs:label>
+        <rdfs:label>creating and updating a DMP</rdfs:label>
     </owl:Class>
     
 
@@ -1151,7 +1145,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understanding FAIR and open research challenges in your organization</rdfs:label>
+        <rdfs:label>understanding FAIR and open research challenges in your organization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000041"/>
@@ -1166,17 +1160,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000042">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000106"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Ethical application of patents, licenses</rdfs:label>
+        <rdfs:label>ethical application of patents, licenses</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000042"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1274,7 +1259,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand societal impact of research</rdfs:label>
+        <rdfs:label>understand societal impact of research</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000047"/>
@@ -1295,7 +1280,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118> Programmatic search&apos;</obo:IAO_0000118>
         <obo:IAO_0000118> batch search</obo:IAO_0000118>
         <obo:IAO_0000118>Algorithm searching</obo:IAO_0000118>
-        <rdfs:label>Searching via algorithms and software</rdfs:label>
+        <rdfs:label>searching via algorithms and software</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000048"/>
@@ -1330,7 +1315,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000095"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T21:03:37.147424Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Wiki site</rdfs:label>
+        <rdfs:label xml:lang="en">wiki site</rdfs:label>
     </owl:Class>
     
 
@@ -1342,7 +1327,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:06:46.742463Z</dc:date>
-        <rdfs:label>Skills related to Authorisation management</rdfs:label>
+        <rdfs:label>skills related to authorisation management</rdfs:label>
     </owl:Class>
     
 
@@ -1388,7 +1373,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Storage management</rdfs:label>
+        <rdfs:label>storage management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000053"/>
@@ -1487,7 +1472,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Manage access</rdfs:label>
+        <rdfs:label>manage access</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000058"/>
@@ -1531,7 +1516,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Tactical/short-term planning</rdfs:label>
+        <rdfs:label>tactical/short-term planning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000060"/>
@@ -1567,7 +1552,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Provenance information management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:31.489884Z</dc:date>
-        <rdfs:label>Aptitudes for Provenance information management</rdfs:label>
+        <rdfs:label>aptitudes for provenance information management</rdfs:label>
     </owl:Class>
     
 
@@ -1598,7 +1583,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000022"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:16:02.035206Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding the requirements of the analysis/research question</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding the requirements of the analysis/research question</rdfs:label>
     </owl:Class>
     
 
@@ -1654,7 +1639,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to search and understand the results from dataset aggregrator sites. To understand the implications of the provenance of the data and how to integrate and analyse data with differing metadata. [PMQ]</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>Searching aggregator sites</obo:IAO_0000118>
-        <rdfs:label>Use of aggregator sites</rdfs:label>
+        <rdfs:label>use of aggregator sites</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000067"/>
@@ -1735,7 +1720,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Design and apply processes for attribution</rdfs:label>
+        <rdfs:label>design and apply processes for attribution</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000071"/>
@@ -1840,7 +1825,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>Data discovery</obo:IAO_0000118>
         <obo:IAO_0000118>Data search</obo:IAO_0000118>
-        <rdfs:label>Discover other peoples data</rdfs:label>
+        <rdfs:label>discover other peoples data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000076"/>
@@ -1858,7 +1843,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Claudia Engelhardt</obo:IAO_0000117>
         <oboInOwl:creation_date>2019-10-17T15:17:16.761778Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge about data modeling</rdfs:label>
+        <rdfs:label>knowledge about data modeling</rdfs:label>
     </owl:Class>
     
 
@@ -1885,19 +1870,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000079">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000320"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Conducting operations</rdfs:label>
+        <rdfs:label>conducting operations</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000079"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1949,7 +1927,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000095"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:52:57.551905Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Online workbook</rdfs:label>
+        <rdfs:label xml:lang="en">online workbook</rdfs:label>
     </owl:Class>
     
 
@@ -1961,7 +1939,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To have a sufficient grasp of the mathematical and statistical techniques relevant to the domain in question so that one can understand what is required to have the data in the right format for those techniques to be applied without further transformation of the data.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand mathematical and statistical concepts and techniques relevant to the domain</rdfs:label>
+        <rdfs:label>understand mathematical and statistical concepts and techniques relevant to the domain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000083"/>
@@ -1976,17 +1954,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000084">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000106"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Engaging in open innovation beyond academia</rdfs:label>
+        <rdfs:label>engaging in open innovation beyond academia</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000084"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2051,7 +2020,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Resource management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:02:18.105378Z</dc:date>
-        <rdfs:label>A Knowledge for Resource management</rdfs:label>
+        <rdfs:label>a knowledge for resource management</rdfs:label>
     </owl:Class>
     
 
@@ -2069,7 +2038,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Resource management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:01:53.754977Z</dc:date>
-        <rdfs:label>A Aptitudes for Resource Management</rdfs:label>
+        <rdfs:label>a aptitudes for resource management</rdfs:label>
     </owl:Class>
     
 
@@ -2081,7 +2050,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to construct data sets so that they can be called directly from methods that build prediction models from or interpret data relevant to the domain. </obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Make data actionable for computational prediction of or interpretations from data relevant</rdfs:label>
+        <rdfs:label>make data actionable for computational prediction of or interpretations from data relevant</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000090"/>
@@ -2099,7 +2068,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:19:33.078521Z</dc:date>
-        <rdfs:label>Knowledge of Storage management</rdfs:label>
+        <rdfs:label>knowledge of storage management</rdfs:label>
     </owl:Class>
     
 
@@ -2113,7 +2082,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand open access publishing</rdfs:label>
+        <rdfs:label>understand open access publishing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000092"/>
@@ -2137,7 +2106,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>[NH]</obo:IAO_0000115>
         <obo:IAO_0000117>Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Use of persistent, resolvable identifiers (PIDs)</rdfs:label>
+        <rdfs:label>use of persistent, resolvable identifiers (PIDs)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000093"/>
@@ -2170,9 +2139,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000095">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:59.107153Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Online documentation</rdfs:label>
+        <rdfs:label xml:lang="en">online documentation</rdfs:label>
     </owl:Class>
     
 
@@ -2191,7 +2161,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="https://casrai-test.evision.ca/?page_id=338"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">Metadata catalogue</rdfs:label>
+        <rdfs:label xml:lang="en">metadata catalogue</rdfs:label>
     </owl:Class>
     
 
@@ -2205,7 +2175,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand legal background of patents</rdfs:label>
+        <rdfs:label>understand legal background of patents</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000097"/>
@@ -2256,7 +2226,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Willingness to help and understand researchers</rdfs:label>
+        <rdfs:label>willingness to help and understand researchers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000099"/>
@@ -2291,7 +2261,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000506"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:10:23.29649Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding the processing of information retrieved from existing sources</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding the processing of information retrieved from existing sources</rdfs:label>
     </owl:Class>
     
 
@@ -2335,7 +2305,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000119>Based on https://www.cessda.eu/About/Projects/Past-projects/CESSDA-SaW/WP4/Cost-Benefit-Advocacy-Toolkit/Costs-Factsheet [LLC]</obo:IAO_0000119>
-        <rdfs:label>Preservation costs management</rdfs:label>
+        <rdfs:label>preservation costs management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000104"/>
@@ -2375,7 +2345,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>Publish and archive data</obo:IAO_0000118>
         <obo:IAO_0000118>Publishing and archiving data</obo:IAO_0000118>
-        <rdfs:label>Publish and Release</rdfs:label>
+        <rdfs:label>publish and release</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000106"/>
@@ -2390,7 +2360,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000107">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000012"/>
-        <rdfs:label>Information security and access management</rdfs:label>
+        <rdfs:label>information security and access management</rdfs:label>
     </owl:Class>
     
 
@@ -2437,7 +2407,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000471"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:17:04.539654Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding applying of tools</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding applying of tools</rdfs:label>
     </owl:Class>
     
 
@@ -2449,7 +2419,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Be able to put data into a format so that it can be directly called by a relevant piece of software, function or workflow which implements a specific mathematical or statistical step without recourse to any further transformation. </obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Be able to make data actionable for computational methods relevant to the data</rdfs:label>
+        <rdfs:label>be able to make data actionable for computational methods relevant to the data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000111"/>
@@ -2556,7 +2526,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Define access policy</rdfs:label>
+        <rdfs:label>define access policy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000116"/>
@@ -2574,7 +2544,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:02.313138Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Provenance information management</rdfs:label>
+        <rdfs:label>skills related to provenance information management</rdfs:label>
     </owl:Class>
     
 
@@ -2655,7 +2625,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000122">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">Trainer/Teacher</rdfs:label>
+        <rdfs:label xml:lang="en">trainer/teacher</rdfs:label>
     </owl:Class>
     
 
@@ -2667,7 +2637,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Identity management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:44:49.257438Z</dc:date>
-        <rdfs:label>Aptitudes for Identity management</rdfs:label>
+        <rdfs:label>aptitudes for identity management</rdfs:label>
     </owl:Class>
     
 
@@ -2682,7 +2652,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand information security challenges</rdfs:label>
+        <rdfs:label>understand information security challenges</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000124"/>
@@ -2700,7 +2670,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:36:46.018343Z</dc:date>
-        <rdfs:label>Aptitudes for Authorisation management</rdfs:label>
+        <rdfs:label>aptitudes for authorisation management</rdfs:label>
     </owl:Class>
     
 
@@ -2715,7 +2685,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Govern and Assess</rdfs:label>
+        <rdfs:label>govern and assess</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000126"/>
@@ -2750,7 +2720,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000471"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:17:21.167863Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of applying of tools</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of applying of tools</rdfs:label>
     </owl:Class>
     
 
@@ -2775,7 +2745,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Demonstrate willingness to involve others and share responsibility for applying FAIR principles</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Ability to solve FAIR implementation problems collaboratively</rdfs:label>
+        <rdfs:label>ability to solve fair implementation problems collaboratively</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000129"/>
@@ -2790,17 +2760,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000130">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Model data structure and define database needs</rdfs:label>
+        <rdfs:label>model data structure and define database needs</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000130"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2811,7 +2772,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Cloud computing environment management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:14:37.180683Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Cloud computing environment management</rdfs:label>
+        <rdfs:label>skills related to cloud computing environment management</rdfs:label>
     </owl:Class>
     
 
@@ -2866,7 +2827,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Cite contributions </rdfs:label>
+        <rdfs:label>cite contributions </rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000133"/>
@@ -2926,7 +2887,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Understand what reuse is permitted according to the licenses or terms and conditions applicable to services, tools and their content</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>How to make your data reuseable</rdfs:label>
+        <rdfs:label>how to make your data reuseable</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000136"/>
@@ -3059,7 +3020,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Authorisation management</rdfs:label>
+        <rdfs:label>authorisation management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000142"/>
@@ -3077,7 +3038,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:07:06.916293Z</dc:date>
-        <rdfs:label>Knowledge of Authorisation management</rdfs:label>
+        <rdfs:label>knowledge of authorisation management</rdfs:label>
     </owl:Class>
     
 
@@ -3091,7 +3052,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To create metadata to consistently define transformations on data that makes the data actionable for research and where possible to infer the original data.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Generate metadata to track transformations.</rdfs:label>
+        <rdfs:label>generate metadata to track transformations.</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000144"/>
@@ -3124,7 +3085,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118> searching databases</obo:IAO_0000118>
         <obo:IAO_0000118> searching repositories</obo:IAO_0000118>
         <obo:IAO_0000118>Repository search</obo:IAO_0000118>
-        <rdfs:label>Search repositories and knowledge-bases</rdfs:label>
+        <rdfs:label>search repositories and knowledge-bases</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000145"/>
@@ -3161,7 +3122,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To carry out the steps necessary to remove inconsistencies within a dataset that can cause downstream functions, software or workflows to fail; to label values as missing where necesary.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Be able to clean data</rdfs:label>
+        <rdfs:label>be able to clean data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000147"/>
@@ -3181,7 +3142,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand legal background of licensing</rdfs:label>
+        <rdfs:label>understand legal background of licensing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000148"/>
@@ -3253,7 +3214,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Identity management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:13:37.040505Z</dc:date>
-        <rdfs:label>Knowledge of Identity management</rdfs:label>
+        <rdfs:label>knowledge of identity management</rdfs:label>
     </owl:Class>
     
 
@@ -3268,7 +3229,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Quality assessment</rdfs:label>
+        <rdfs:label>quality assessment</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000153"/>
@@ -3341,7 +3302,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:32.816776Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge of Preservation costs management</rdfs:label>
+        <rdfs:label>knowledge of preservation costs management</rdfs:label>
     </owl:Class>
     
 
@@ -3376,7 +3337,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>A description with very little curation that would include at least a name and PID of a data object. Minimal metadata is only marginally targeted at discovery since there is much better infrastructure to accomplish this.</obo:IAO_0000115>
         <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=343</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Minimal metadata</rdfs:label>
+        <rdfs:label xml:lang="en">minimal metadata</rdfs:label>
     </owl:Class>
     
 
@@ -3420,7 +3381,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
  https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks.)</obo:IAO_0000115>
         <obo:IAO_0000117>Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Metadata creation and exposure</rdfs:label>
+        <rdfs:label>metadata creation and exposure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000160"/>
@@ -3503,7 +3464,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Process</rdfs:label>
+        <rdfs:label>process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000164"/>
@@ -3554,17 +3515,9 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000167">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000281"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Critical thinking and theory building</rdfs:label>
+        <rdfs:label>critical thinking and theory building</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000167"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -3611,7 +3564,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118> IAM</obo:IAO_0000118>
         <obo:IAO_0000118> Identity and Access Management</obo:IAO_0000118>
         <obo:IAO_0000118>IdM</obo:IAO_0000118>
-        <rdfs:label>Identity management</rdfs:label>
+        <rdfs:label>identity management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000169"/>
@@ -3641,7 +3594,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand sel-archiving</rdfs:label>
+        <rdfs:label>understand sel-archiving</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000171"/>
@@ -3661,7 +3614,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Investigate open innovation opportunities</rdfs:label>
+        <rdfs:label>investigate open innovation opportunities</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000172"/>
@@ -3714,7 +3667,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> FAIR data submission</obo:IAO_0000118>
         <obo:IAO_0000118>Repository FAIRness</obo:IAO_0000118>
-        <rdfs:label>Evaluation of repositories for data deposition</rdfs:label>
+        <rdfs:label>evaluation of repositories for data deposition</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000175"/>
@@ -3764,7 +3717,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Workflow technologies management</rdfs:label>
+        <rdfs:label>workflow technologies management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000177"/>
@@ -3801,7 +3754,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-steward/</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">Data steward</rdfs:label>
+        <rdfs:label xml:lang="en">data steward</rdfs:label>
     </owl:Class>
     
 
@@ -3821,7 +3774,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Prepare data for archiving/preservation</rdfs:label>
+        <rdfs:label>prepare data for archiving/preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000179"/>
@@ -3839,7 +3792,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:32.816013Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Preservation costs management</rdfs:label>
+        <rdfs:label>skills related to preservation costs management</rdfs:label>
     </owl:Class>
     
 
@@ -3850,7 +3803,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000489"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:10:11.837519Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Repository Certification Schemes</rdfs:label>
+        <rdfs:label xml:lang="en">repository certification schemes</rdfs:label>
     </owl:Class>
     
 
@@ -3887,7 +3840,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000118> credit</obo:IAO_0000118>
         <obo:IAO_0000118>attribution</obo:IAO_0000118>
-        <rdfs:label>Recognise and acknowledge contributions</rdfs:label>
+        <rdfs:label>recognise and acknowledge contributions</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000183"/>
@@ -3962,7 +3915,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Preservation skill</rdfs:label>
+        <rdfs:label>preservation skill</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000187"/>
@@ -4084,7 +4037,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Open access publishing and self-archiving</rdfs:label>
+        <rdfs:label>open access publishing and self-archiving</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000193"/>
@@ -4104,7 +4057,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Self-archive </rdfs:label>
+        <rdfs:label>self-archive </rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000194"/>
@@ -4164,7 +4117,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to deploy models that have been trained on data sets for further use.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Deploy generated models</rdfs:label>
+        <rdfs:label>deploy generated models</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000197"/>
@@ -4182,7 +4135,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To understand the techniques behind querying datasets relevant for a domain, whether it be (for example) SQL queries constructed from a relational databases or GraphQL queries for a graph.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand querying techniques</rdfs:label>
+        <rdfs:label>understand querying techniques</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000198"/>
@@ -4274,7 +4227,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000444"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:14:12.750798Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding Data Cleaning</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding data cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -4287,7 +4240,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Frans Huigen</obo:IAO_0000117>
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>File organisation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4306,7 +4258,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:16:10.561925Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge of Workflow technologies management</rdfs:label>
+        <rdfs:label>knowledge of workflow technologies management</rdfs:label>
     </owl:Class>
     
 
@@ -4361,7 +4313,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Access risk assessment and mitigation</rdfs:label>
+        <rdfs:label>access risk assessment and mitigation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000209"/>
@@ -4394,9 +4346,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000211">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:52:43.543314Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Presentation slides</rdfs:label>
+        <rdfs:label xml:lang="en">presentation slides</rdfs:label>
     </owl:Class>
     
 
@@ -4411,7 +4364,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Implement secure storage</rdfs:label>
+        <rdfs:label>implement secure storage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000212"/>
@@ -4444,19 +4397,11 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000214">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000407"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>Format and media migration</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000214"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4488,7 +4433,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Design processes for research integrity</rdfs:label>
+        <rdfs:label>design processes for research integrity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000216"/>
@@ -4509,7 +4454,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000119 rdf:resource="https://www.coretrustseal.org/about/"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Core Trust Seal</rdfs:label>
+        <rdfs:label xml:lang="en">core trust seal</rdfs:label>
     </owl:Class>
     
 
@@ -4560,7 +4505,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000220">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">Researcher</rdfs:label>
+        <rdfs:label xml:lang="en">researcher</rdfs:label>
     </owl:Class>
     
 
@@ -4572,7 +4517,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:53.731967Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Service level management</rdfs:label>
+        <rdfs:label>skills related to service level management</rdfs:label>
     </owl:Class>
     
 
@@ -4605,7 +4550,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand storage security challanges</rdfs:label>
+        <rdfs:label>understand storage security challanges</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000223"/>
@@ -4695,7 +4640,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge needed for Data management costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:10:48.465372Z</dc:date>
-        <rdfs:label>Knowledge of Data management costs management</rdfs:label>
+        <rdfs:label>knowledge of data management costs management</rdfs:label>
     </owl:Class>
     
 
@@ -4709,7 +4654,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Logistical support</rdfs:label>
+        <rdfs:label>logistical support</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000229"/>
@@ -4727,7 +4672,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Data management costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:25.790125Z</dc:date>
-        <rdfs:label>Aptitudes for Data management costs management</rdfs:label>
+        <rdfs:label>aptitudes for data management costs management</rdfs:label>
     </owl:Class>
     
 
@@ -4754,21 +4699,13 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000232">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000353"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000115>Planning for and controlling expenditures related to the data management lifecycle, including, but not limited to, labor and infrastructure expenses for data collection; data documentation; data storage; data access and security; data preservation; data sharing; and data disposition. [LLC]</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <obo:IAO_0000119>Written by LLC, based on list at https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management</obo:IAO_0000119>
-        <rdfs:label>Data management costs management</rdfs:label>
+        <rdfs:label>data management costs management</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000232"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4805,7 +4742,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Knows what a DMP is</rdfs:label>
+        <rdfs:label>knows what a DMP is</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000234"/>
@@ -4950,7 +4887,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Appreciate importance of research integrity</rdfs:label>
+        <rdfs:label>appreciate importance of research integrity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000240"/>
@@ -5012,7 +4949,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Be able to make data actionable for transformation and integration techniques relevant to the research</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Make data actionable for transformation and integration</rdfs:label>
+        <rdfs:label>make data actionable for transformation and integration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000243"/>
@@ -5116,7 +5053,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Influencing/community building</rdfs:label>
+        <rdfs:label>influencing/community building</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000249"/>
@@ -5185,17 +5122,16 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools. [YLF, VDA, KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>FAIRness assessment</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000252"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools. [YLF, VDA, KH]</owl:annotatedTarget>
+        <owl:annotatedTarget>Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools.</owl:annotatedTarget>
         <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5207,7 +5143,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000022"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:15:40.264196Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of the requirements of the analysis/research question</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of the requirements of the analysis/research question</rdfs:label>
     </owl:Class>
     
 
@@ -5384,7 +5320,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000440"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:20:01.728491Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding the documenting of the cleaning steps</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding the documenting of the cleaning steps</rdfs:label>
     </owl:Class>
     
 
@@ -5463,7 +5399,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>CASRAI.https://casrai.org/term/data-curation/</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">Data curation</rdfs:label>
+        <rdfs:label xml:lang="en">data curation</rdfs:label>
     </owl:Class>
     
 
@@ -5495,7 +5431,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:11:10.628886Z</dc:date>
-        <rdfs:label>Skills related to Funding acquisition management</rdfs:label>
+        <rdfs:label>skills related to funding acquisition management</rdfs:label>
     </owl:Class>
     
 
@@ -5531,7 +5467,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to construct queries of a dataset that is apposite for the domain,</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Build queries</rdfs:label>
+        <rdfs:label>build queries</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000269"/>
@@ -5587,7 +5523,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>evaluate, analyse</obo:IAO_0000118>
-        <rdfs:label>Appraise</rdfs:label>
+        <rdfs:label>appraise</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000272"/>
@@ -5683,7 +5619,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:43:11.30844Z</dc:date>
-        <rdfs:label>Aptitudes for High performance computing management</rdfs:label>
+        <rdfs:label>aptitudes for high performance computing management</rdfs:label>
     </owl:Class>
     
 
@@ -5721,7 +5657,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Document data-handling workflows</rdfs:label>
+        <rdfs:label>document data-handling workflows</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000279"/>
@@ -5756,7 +5692,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000484"/>
         <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Integrate and Analyse</rdfs:label>
+        <rdfs:label>integrate and analyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000281"/>
@@ -5810,7 +5746,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Project management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:12.388949Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge of Project management</rdfs:label>
+        <rdfs:label>knowledge of project management</rdfs:label>
     </owl:Class>
     
 
@@ -5825,7 +5761,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Develop FAIR and open research strategy</rdfs:label>
+        <rdfs:label>develop FAIR and open research strategy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000285"/>
@@ -5845,7 +5781,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Patent application</rdfs:label>
+        <rdfs:label>patent application</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000286"/>
@@ -5889,7 +5825,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Assess FAIRness</rdfs:label>
+        <rdfs:label>assess FAIRness</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000288"/>
@@ -5907,7 +5843,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:08:17.010632Z</dc:date>
-        <rdfs:label>Knowledge of Change management</rdfs:label>
+        <rdfs:label>knowledge of change management</rdfs:label>
     </owl:Class>
     
 
@@ -5990,7 +5926,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Appreciate the need for flexibility in applying FAIR criteria to make data as open as possible, as closed as necessary</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>Flexibility in relating FAIR criteria to openness</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6025,7 +5960,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118> Ontology identification</obo:IAO_0000118>
         <obo:IAO_0000118> Thesaurus identification</obo:IAO_0000118>
         <obo:IAO_0000118>Taxonomy identification</obo:IAO_0000118>
-        <rdfs:label>Choosing the appropriate terminology for your data</rdfs:label>
+        <rdfs:label>choosing the appropriate terminology for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000294"/>
@@ -6061,7 +5996,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Know how data handling practices in the domain make FAIR criteria more or less easy to implement</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Knowledge to contextualise FAIR principles to domain</rdfs:label>
+        <rdfs:label>knowledge to contextualise FAIR principles to domain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000296"/>
@@ -6150,7 +6085,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Metadata processing</obo:IAO_0000118>
         <obo:IAO_0000118>Metadata search</obo:IAO_0000118>
-        <rdfs:label>Metadata search via metadata providers</rdfs:label>
+        <rdfs:label>metadata search via metadata providers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000300"/>
@@ -6215,7 +6150,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000509"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:11:47.267105Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding software development</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding software development</rdfs:label>
     </owl:Class>
     
 
@@ -6226,7 +6161,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000444"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:14:23.189756Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of Data Cleaning</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of data cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -6235,9 +6170,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000305">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:54:08.535183Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Book</rdfs:label>
+        <rdfs:label xml:lang="en">book</rdfs:label>
     </owl:Class>
     
 
@@ -6299,7 +6235,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>HPC management</obo:IAO_0000118>
-        <rdfs:label>High performance computing management</rdfs:label>
+        <rdfs:label>high performance computing management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000308"/>
@@ -6406,8 +6342,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Show appreciation of strengths and weakness of earlier FAIR data management steps taken by self or others</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Ability to critically assess (earlier) work of others and yourself</rdfs:label>
+        <rdfs:label>ability to critically assess (earlier) work of others and yourself</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000313"/>
@@ -6455,7 +6390,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to define and deploy appropriate criteria, based on the FAIR principles, to identify the appropriate publishing platform for a dataset. This may, for example, involve discovering the mark-up of the platform, the exchange formats and data models used, and the licensing information for each repository. Tools such as the FAIR evaluator or FAIRshake may be used to assess the FAIRnessbased on human-entered questionnaires or FAIRsharing resource metadata. [PMQ]</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Evaluation of how to publish your data</rdfs:label>
+        <rdfs:label>evaluation of how to publish your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000315"/>
@@ -6499,7 +6434,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Publish open access</rdfs:label>
+        <rdfs:label>publish open access</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000317"/>
@@ -6534,7 +6469,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000471"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:17:51.743079Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding applying of tools</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding applying of tools</rdfs:label>
     </owl:Class>
     
 
@@ -6554,7 +6489,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Project management activities</rdfs:label>
+        <rdfs:label>project management activities</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000320"/>
@@ -6572,7 +6507,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:11:36.17879Z</dc:date>
-        <rdfs:label>Knowledge of Funding acquisition management</rdfs:label>
+        <rdfs:label>knowledge of funding acquisition management</rdfs:label>
     </owl:Class>
     
 
@@ -6612,7 +6547,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>PM</obo:IAO_0000118>
-        <rdfs:label>Project management</rdfs:label>
+        <rdfs:label>project management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000323"/>
@@ -6647,7 +6582,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000539"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:16:39.720692Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding applying of software</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding applying of software</rdfs:label>
     </owl:Class>
     
 
@@ -6905,7 +6840,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:09.356268Z</dc:date>
-        <rdfs:label>Aptitudes for Change management</rdfs:label>
+        <rdfs:label>aptitudes for change management</rdfs:label>
     </owl:Class>
     
 
@@ -6954,7 +6889,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Know how the acceptability of research evidence depends on the research community concept of data and its methods for deriving valid knowledge from it</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Knowledge to relate FAIR data assessment to research community norms</rdfs:label>
+        <rdfs:label>knowledge to relate FAIR data assessment to research community norms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000341"/>
@@ -6995,7 +6930,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:23:22.115275Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Maintaining Persistent Identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">maintaining persistent identifiers</rdfs:label>
     </owl:Class>
     
 
@@ -7011,7 +6946,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:comment>Aggregation of data discovery and dataset release</rdfs:comment>
-        <rdfs:label>Expose and Discover</rdfs:label>
+        <rdfs:label>expose and discover</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000344"/>
@@ -7031,7 +6966,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Select and apply license</rdfs:label>
+        <rdfs:label>select and apply license</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000345"/>
@@ -7085,7 +7020,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Service level management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:47:58.529806Z</dc:date>
-        <rdfs:label>Aptitudes for Service level management</rdfs:label>
+        <rdfs:label>aptitudes for service level management</rdfs:label>
     </owl:Class>
     
 
@@ -7098,7 +7033,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Frans Huigen</obo:IAO_0000117>
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>File naming</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7141,7 +7075,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:08:05.609352Z</dc:date>
-        <rdfs:label>Skills related to Change management</rdfs:label>
+        <rdfs:label>skills related to change management</rdfs:label>
     </owl:Class>
     
 
@@ -7181,7 +7115,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Resource_management"/>
-        <rdfs:label>Resource management</rdfs:label>
+        <rdfs:label>resource management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000353"/>
@@ -7217,7 +7151,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:48:15.071443Z</dc:date>
-        <rdfs:label>Aptitudes for Storage management</rdfs:label>
+        <rdfs:label>aptitudes for storage management</rdfs:label>
     </owl:Class>
     
 
@@ -7240,7 +7174,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118>Advise and enable</obo:IAO_0000118>
         <obo:IAO_0000118>Data Stewardship and FAIR mentorship activity</obo:IAO_0000118>
         <obo:IAO_0000118>data management and open research</obo:IAO_0000118>
-        <rdfs:label>Advise and Mentor</rdfs:label>
+        <rdfs:label>advise and mentor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000356"/>
@@ -7258,7 +7192,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:15:55.86138Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Workflow technologies management</rdfs:label>
+        <rdfs:label>skills related to workflow technologies management</rdfs:label>
     </owl:Class>
     
 
@@ -7288,7 +7222,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Data management cost management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:10:29.058244Z</dc:date>
-        <rdfs:label>Skills related to Data management cost management</rdfs:label>
+        <rdfs:label>skills related to data management cost management</rdfs:label>
     </owl:Class>
     
 
@@ -7369,7 +7303,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <oboInOwl:created_by>ylefranc</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-07-31T14:29:35.912213Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Data and Metadata capture</rdfs:label>
+        <rdfs:label xml:lang="en">data and metadata capture</rdfs:label>
     </owl:Class>
     
 
@@ -7428,7 +7362,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000539"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:16:25.4332Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding applying of software</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding applying of software</rdfs:label>
     </owl:Class>
     
 
@@ -7440,7 +7374,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Select data handling approaches likely to make data as FAIR as possible, considering what the data is about and its purpose in the research.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Knowledge to choose FAIR data handling approaches appropriate to the research phenomena</rdfs:label>
+        <rdfs:label>knowledge to choose FAIR data handling approaches appropriate to the research phenomena</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000367"/>
@@ -7472,7 +7406,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Provenance information management</rdfs:label>
+        <rdfs:label>provenance information management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000368"/>
@@ -7490,7 +7424,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To understand the computational techniques used in making predictions from or interpreting data sets relevant to the domain. These techniques include Predictive Modelling and Analytics, Machine Learning, Data Mining and Feature Engineering. Specifically the understanding of how the data needs to formatted for the relevant methods to used without any further intervention.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Computationally predict from or interpret data.</rdfs:label>
+        <rdfs:label>computationally predict from or interpret data.</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000369"/>
@@ -7572,7 +7506,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Document code</rdfs:label>
+        <rdfs:label>document code</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000374"/>
@@ -7650,7 +7584,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:53.73274Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge of Service level management</rdfs:label>
+        <rdfs:label>knowledge of service level management</rdfs:label>
     </owl:Class>
     
 
@@ -7695,7 +7629,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Appreciate security and usability trade-offs</rdfs:label>
+        <rdfs:label>appreciate security and usability trade-offs</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000380"/>
@@ -7796,7 +7730,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Project management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:12.38819Z</oboInOwl:creation_date>
-        <rdfs:label>Skills related to Project management</rdfs:label>
+        <rdfs:label>skills related to project management</rdfs:label>
     </owl:Class>
     
 
@@ -7808,7 +7742,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Identity management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:13:04.104557Z</dc:date>
-        <rdfs:label>Skills related to Identity management</rdfs:label>
+        <rdfs:label>skills related to identity management</rdfs:label>
     </owl:Class>
     
 
@@ -7825,7 +7759,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Using Persistent Identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">using persistent identifiers</rdfs:label>
     </owl:Class>
     
 
@@ -7834,7 +7768,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000389">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">Database curator</rdfs:label>
+        <rdfs:label xml:lang="en">database curator</rdfs:label>
     </owl:Class>
     
 
@@ -7848,7 +7782,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Engage innovation partners</rdfs:label>
+        <rdfs:label>engage innovation partners</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000390"/>
@@ -7921,7 +7855,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000440"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:31:21.804079Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding the documenting of cleaning steps</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding the documenting of cleaning steps</rdfs:label>
     </owl:Class>
     
 
@@ -7932,7 +7866,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000506"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:11:25.801081Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding the Processing of Information retrieved from existing sources</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding the processing of information retrieved from existing sources</rdfs:label>
     </owl:Class>
     
 
@@ -7977,7 +7911,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Appreciation of FAIR and open research </rdfs:label>
+        <rdfs:label>appreciation of FAIR and open research </rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000398"/>
@@ -8006,8 +7940,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Demonstrate willingness to engage with new ways of applying FAIR principles</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Ability to learn new techniques for FAIR implementation</rdfs:label>
+        <rdfs:label>ability to learn new techniques for fair implementation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000399"/>
@@ -8025,7 +7958,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:52.422513Z</dc:date>
-        <rdfs:label>Aptitudes for Funding acquisition management</rdfs:label>
+        <rdfs:label>aptitudes for funding acquisition management</rdfs:label>
     </owl:Class>
     
 
@@ -8056,7 +7989,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Which data model to use</obo:IAO_0000118>
         <obo:IAO_0000118>Which format to use</obo:IAO_0000118>
-        <rdfs:label>Choosing the appropriate model or format for your data</rdfs:label>
+        <rdfs:label>choosing the appropriate model or format for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000401"/>
@@ -8079,7 +8012,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Information concerning the creation, attribution, or version history of managed data. Provenance metadata that indicates the relationship between two versions of data objects and is generated whenever a new version of a dataset is created. Examples include: (i) the name of the program that generated the new version, (ii) the commit id of the program.</obo:IAO_0000115>
         <obo:IAO_0000119>CASRAI.https://casrai.org/term/provenance-metadata/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Provenance metadata</rdfs:label>
+        <rdfs:label xml:lang="en">provenance metadata</rdfs:label>
     </owl:Class>
     
 
@@ -8091,7 +8024,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to store and access data that is a projection of a larger data set either through tecniques such as Principal Component Analysis or more general feature engineering techniques.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Deploy feature data</rdfs:label>
+        <rdfs:label>deploy feature data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000403"/>
@@ -8140,7 +8073,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??Delete??</obo:IAO_0000118>
-        <rdfs:label>Willingness to put extra effort into preparing data for long term preservation</rdfs:label>
+        <rdfs:label>willingness to put extra effort into preparing data for long term preservation</rdfs:label>
     </owl:Class>
     
 
@@ -8167,20 +8100,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000407">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000484"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:comment>Aggregation of &quot;data appraisal and data preservation&quot;</rdfs:comment>
-        <rdfs:label>Appraise and preserve</rdfs:label>
+        <rdfs:label>appraise and preserve</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000407"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -8190,7 +8115,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000508"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:56:32.673701Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes associated with using FAIR tools and services</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes associated with using fair tools and services</rdfs:label>
     </owl:Class>
     
 
@@ -8202,7 +8127,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to define relevant metadata for models and features generated.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Build modelling metadata</rdfs:label>
+        <rdfs:label>build modelling metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000409"/>
@@ -8259,7 +8184,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>CM</obo:IAO_0000118>
-        <rdfs:label>Change management</rdfs:label>
+        <rdfs:label>change management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000411"/>
@@ -8276,7 +8201,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000506"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:11:00.919357Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Knowledge of the Processing of information retrieved from existing sources</rdfs:label>
+        <rdfs:label xml:lang="en">knowledge of the processing of information retrieved from existing sources</rdfs:label>
     </owl:Class>
     
 
@@ -8344,7 +8269,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>Code cleaning</obo:IAO_0000118>
-        <rdfs:label>Prepare code for archiving/preservation</rdfs:label>
+        <rdfs:label>prepare code for archiving/preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000416"/>
@@ -8397,7 +8322,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000022"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:15:28.237633Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding the requirements of the analysis/research question</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding the requirements of the analysis/research question</rdfs:label>
     </owl:Class>
     
 
@@ -8426,7 +8351,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000211"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-11-16T22:18:14.764875Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Presentation slides with interactive exercises</rdfs:label>
+        <rdfs:label xml:lang="en">presentation slides with interactive exercises</rdfs:label>
     </owl:Class>
     
 
@@ -8443,7 +8368,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:23:05.600474Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Creating Persistent Identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">creating persistent identifiers</rdfs:label>
     </owl:Class>
     
 
@@ -8473,7 +8398,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Project management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:47:30.242063Z</dc:date>
-        <rdfs:label>Aptitudes for Project management</rdfs:label>
+        <rdfs:label>aptitudes for project management</rdfs:label>
     </owl:Class>
     
 
@@ -8516,7 +8441,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>Funding acquisition management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8536,7 +8460,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Machine actionable search</obo:IAO_0000118>
         <obo:IAO_0000118>API access</obo:IAO_0000118>
-        <rdfs:label>Machine access via API</rdfs:label>
+        <rdfs:label>machine access via API</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000427"/>
@@ -8571,7 +8495,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000444"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:14:01.06012Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Skills surrounding Data Cleaning</rdfs:label>
+        <rdfs:label xml:lang="en">skills surrounding data cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -8618,7 +8542,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000305"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:37.24517Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Book chapter</rdfs:label>
+        <rdfs:label xml:lang="en">book chapter</rdfs:label>
     </owl:Class>
     
 
@@ -8679,17 +8603,9 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000436">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>Celia</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Analyse requirements for services or software</rdfs:label>
+        <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
+        <rdfs:label>analyse requirements for services or software</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000436"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -8731,7 +8647,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Stakeholder engagement on societal impact</rdfs:label>
+        <rdfs:label>stakeholder engagement on societal impact</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000439"/>
@@ -8831,7 +8747,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Data cleaning</rdfs:label>
+        <rdfs:label>data cleaning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000444"/>
@@ -8869,6 +8785,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- https://github.com/terms4fairskills/FAIRterminology/T4FS_0000446 -->
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000446">
+        <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <oboInOwl:created_by>ylefranc</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-03-17T16:34:14.943152Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">data stewardship guideline</rdfs:label>
@@ -8897,7 +8814,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Cloud computing environment management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:14.978093Z</dc:date>
-        <rdfs:label>Aptitudes for Cloud computing environment management</rdfs:label>
+        <rdfs:label>aptitudes for cloud computing environment management</rdfs:label>
     </owl:Class>
     
 
@@ -8941,17 +8858,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000451">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Specify metadata and persistent id. standards</rdfs:label>
+        <rdfs:label>specify metadata and persistent id. standards</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000451"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -9032,7 +8940,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:12:36.446558Z</dc:date>
-        <rdfs:label>Knowledge of High performance computing management</rdfs:label>
+        <rdfs:label>knowledge of high performance computing management</rdfs:label>
     </owl:Class>
     
 
@@ -9090,7 +8998,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Plan</rdfs:label>
+        <rdfs:label>plan</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000459"/>
@@ -9210,7 +9118,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Meeting/conference organisation</rdfs:label>
+        <rdfs:label>meeting/conference organisation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000465"/>
@@ -9243,7 +9151,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>SLM</obo:IAO_0000118>
-        <rdfs:label>Service level management</rdfs:label>
+        <rdfs:label>service level management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000466"/>
@@ -9300,17 +9208,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000469">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000106"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Access control and management</rdfs:label>
+        <rdfs:label>access control and management</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000469"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -9324,7 +9223,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Storage security management</rdfs:label>
+        <rdfs:label>storage security management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000470"/>
@@ -9383,7 +9282,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Policies (legal requirements, ethical &amp; FAIR principles)</rdfs:label>
+        <rdfs:label>policies (legal requirements, ethical &amp; FAIR principles)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000473"/>
@@ -9455,7 +9354,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Preservation costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:47:12.765575Z</dc:date>
-        <rdfs:label>Aptitudes for Preservation costs management</rdfs:label>
+        <rdfs:label>aptitudes for preservation costs management</rdfs:label>
     </owl:Class>
     
 
@@ -9491,7 +9390,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Cloud computing environment management</rdfs:label>
+        <rdfs:label>cloud computing environment management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000479"/>
@@ -9527,7 +9426,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Understand how to use FAIR and open research tools and services.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>The use of FAIR and open research tools or services
+        <rdfs:label>the use of FAIR and open research tools or services
  knowledge</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9579,7 +9478,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Appreciate importance of crediting research contributions</rdfs:label>
+        <rdfs:label>appreciate importance of crediting research contributions</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000483"/>
@@ -9711,7 +9610,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Understand the concepts underpinning FAIR criteria and their application</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Knowledge of theories underlying FAIR implementation</rdfs:label>
+        <rdfs:label>knowledge of theories underlying FAIR implementation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000490"/>
@@ -9731,7 +9630,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Document in lay terms</rdfs:label>
+        <rdfs:label>document in lay terms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000491"/>
@@ -9760,7 +9659,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:54:27.168274Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Understanding Persistent Identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">understanding persistent identifiers</rdfs:label>
     </owl:Class>
     
 
@@ -9820,7 +9719,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Know how to search for and identify FAIR services or tools that fit project needs</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>How to find FAIR research data tools/services (catalogues)</rdfs:label>
+        <rdfs:label>how to find FAIR research data tools/services (catalogues)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000495"/>
@@ -9853,17 +9752,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000497">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000035"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Appraise and select repositories for FAIR sharing</rdfs:label>
+        <rdfs:label>appraise and select repositories for FAIR sharing</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000497"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -9892,7 +9782,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:02.313897Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge of Provenance information management</rdfs:label>
+        <rdfs:label>knowledge of provenance information management</rdfs:label>
     </owl:Class>
     
 
@@ -9939,7 +9829,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000508"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:45:02.980527Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Application of FAIR tools and services</rdfs:label>
+        <rdfs:label xml:lang="en">application of fair tools and services</rdfs:label>
     </owl:Class>
     
 
@@ -10013,7 +9903,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Processing information retrieved from existing sources</rdfs:label>
+        <rdfs:label>processing information retrieved from existing sources</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000506"/>
@@ -10048,7 +9938,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000281"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:38:59.038306Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Using FAIR and open research tools or services</rdfs:label>
+        <rdfs:label xml:lang="en">using FAIR and open research tools or services</rdfs:label>
     </owl:Class>
     
 
@@ -10062,7 +9952,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Lennart Stoy</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Software Development</rdfs:label>
+        <rdfs:label>software development</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000509"/>
@@ -10077,9 +9967,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000510">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:15.691824Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Webinar</rdfs:label>
+        <rdfs:label xml:lang="en">webinar</rdfs:label>
     </owl:Class>
     
 
@@ -10162,7 +10053,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>Strategic/long-term planning</rdfs:label>
+        <rdfs:label>strategic/long-term planning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000514"/>
@@ -10312,7 +10203,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000520">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000415"/>
-        <rdfs:label xml:lang="en">Data manager</rdfs:label>
+        <rdfs:label xml:lang="en">data manager</rdfs:label>
     </owl:Class>
     
 
@@ -10398,7 +10289,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Research integrity, attribution, impact awareness</rdfs:label>
+        <rdfs:label>research integrity, attribution, impact awareness</rdfs:label>
     </owl:Class>
     
 
@@ -10410,7 +10301,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Cloud computing environment management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:15:04.651213Z</dc:date>
-        <rdfs:label>Knowledge of Cloud computing environment management</rdfs:label>
+        <rdfs:label>knowledge of cloud computing environment management</rdfs:label>
     </owl:Class>
     
 
@@ -10476,7 +10367,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
     </owl:Class>
     
 
@@ -10527,9 +10418,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000532">
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000519"/>
+        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T21:03:55.425579Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Github repository</rdfs:label>
+        <rdfs:label xml:lang="en">github repository</rdfs:label>
     </owl:Class>
     
 
@@ -10559,7 +10451,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:18:22.641817Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Data archiving</rdfs:label>
+        <rdfs:label xml:lang="en">data archiving</rdfs:label>
     </owl:Class>
     
 
@@ -10594,8 +10486,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Be able to frame data stewardship problems in a variety of ways to guide effective strategies for making data FAIR and open</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Ability to apply different perspectives to understand problems/phenomena</rdfs:label>
+        <rdfs:label>ability to apply different perspectives to understand problems/phenomena</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000536"/>
@@ -10631,7 +10522,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Understand data transformation and integration techniques relevant to the research</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Understand data transformation and integration</rdfs:label>
+        <rdfs:label>understand data transformation and integration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000538"/>
@@ -10693,7 +10584,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:19:33.077732Z</dc:date>
-        <rdfs:label>Skills related to Storage management</rdfs:label>
+        <rdfs:label>skills related to storage management</rdfs:label>
     </owl:Class>
     
 
@@ -10706,7 +10597,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Claudia Engelhardt</obo:IAO_0000117>
         <obo:IAO_0000118>Knowledge about data management planning</obo:IAO_0000118>
         <oboInOwl:creation_date>2019-10-17T15:10:08.183518Z</oboInOwl:creation_date>
-        <rdfs:label>Knowledge about data stewardship planning</rdfs:label>
+        <rdfs:label>knowledge about data stewardship planning</rdfs:label>
     </owl:Class>
     
 
@@ -10761,7 +10652,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>To be able to integrate disparate datasets, using associated metadata appropriately.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Integrate data from disparate data sets</rdfs:label>
+        <rdfs:label>integrate data from disparate data sets</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000545"/>
@@ -10811,22 +10702,13 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- https://github.com/terms4fairskills/FAIRterminology/T4FS_0000548 -->
 
     <owl:Class rdf:about="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000548">
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000115>The personal attributes necessary to perform a task.</obo:IAO_0000115>
-        <obo:IAO_0000117>??</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <obo:IAO_0000119>Laura Malloy</obo:IAO_0000119>
+        <obo:IAO_0000119>Laura Molloy</obo:IAO_0000119>
         <rdfs:label>data stewardship soft skill</rdfs:label>
         <FAIRterminology:T4FS_0000564>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</FAIRterminology:T4FS_0000564>
         <FAIRterminology:T4FS_0000565>Revise Celia&apos;s presentation:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</FAIRterminology:T4FS_0000565>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000548"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -10836,7 +10718,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000509"/>
         <oboInOwl:created_by>FransHuigen</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T09:13:40.778197Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Aptitudes surrounding software development</rdfs:label>
+        <rdfs:label xml:lang="en">aptitudes surrounding software development</rdfs:label>
     </owl:Class>
     
 
@@ -10856,7 +10738,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>Document data for archiving/preservation</rdfs:label>
+        <rdfs:label>document data for archiving/preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/terms4fairskills/FAIRterminology/T4FS_0000550"/>
