@@ -15,15 +15,16 @@
     <owl:Ontology rdf:about="https://github.com/terms4fairskills/FAIRterminology">
         <dc:contributor>Laura Molloy</dc:contributor>
         <dc:contributor>The terms4FAIRskills Community, https://terms4fairskills.github.io/community.html</dc:contributor>
+        <dc:creator>Allyson Lister</dc:creator>
         <dc:creator>Peter McQuilton</dc:creator>
         <dc:creator>Yann Le Franc</dc:creator>
-        <dc:creator>Allyson Lister</dc:creator>
         <terms:description>The terms4FAIRskills project has created this formalised terminology to describe the competencies, skills and knowledge associated with making and keeping data FAIR. This terminology can apply to a variety of use cases, including: to assist with the creation and assessment of stewardship curricula; to facilitate the annotation, discovery and evaluation of FAIR-enabling materials (e.g. training) and resources; to enable the formalisation of job descriptions and CVs with recognised, structured competencies.
 
 This terminology is of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <rdfs:comment>terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
         <rdfs:comment>terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25.5.21</owl:versionInfo>
     </owl:Ontology>
     
 
