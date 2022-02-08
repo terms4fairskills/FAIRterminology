@@ -274,20 +274,16 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000115>An element (topic) of theory or practice e.g. ‘workflow set-up and management’, combined with an expertise level to indicate
-whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
+        <obo:IAO_0000115>Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <obo:IAO_0000119>FAIR4S</obo:IAO_0000119>
         <rdfs:label>has/wants competency in</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</owl:annotatedTarget>
+        <obo:IAO_0000119>Allyson Lister 8.2.22</obo:IAO_0000119>
     </owl:Axiom>
     
 
