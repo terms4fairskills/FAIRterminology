@@ -691,16 +691,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology. SYNONYM. ConservationREFERENCE. JISC/TC3+; TBS Information Management Glossary (National Archives of Canada Preservation Policy)</obo:IAO_0000115>
+        <obo:IAO_0000115>An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Conservation</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology. SYNONYM. ConservationREFERENCE. JISC/TC3+; TBS Information Management Glossary (National Archives of Canada Preservation Policy)</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=377</obo:IAO_0000119>
+        <owl:annotatedTarget>An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/preservation/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -722,7 +724,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository. RELATED TERM. Repository; Persistent identifierREFERENCE. Research Data Alliance http://smw-rda.esc.rzg.mpg.de/index.php/Main_Page ; NISO (2004) Understanding Metadata. Bethesda, MD: NISO Press.</obo:IAO_0000115>
+        <obo:IAO_0000115>A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data registration</rdfs:label>
@@ -730,8 +733,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository. RELATED TERM. Repository; Persistent identifierREFERENCE. Research Data Alliance http://smw-rda.esc.rzg.mpg.de/index.php/Main_Page ; NISO (2004) Understanding Metadata. Bethesda, MD: NISO Press.</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-registration/</obo:IAO_0000119>
+        <owl:annotatedTarget>A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-registration/ RELATED TERM. Repository; Persistent identifierREFERENCE. Research Data Alliance http://smw-rda.esc.rzg.mpg.de/index.php/Main_Page ; NISO (2004) Understanding Metadata. Bethesda, MD: NISO Press.</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -818,7 +821,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A standard that is widely accepted and used, but lacks formal approval by a recognized standards developing organization (e.g., the QWERTY keyboard).n/ahttp://www.ses-standards.org/?58</obo:IAO_0000115>
+        <obo:IAO_0000115>A standard that is widely accepted and used, but lacks formal approval by a recognized standards developing organization (e.g., the QWERTY keyboard).</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>De facto standard</rdfs:label>
@@ -826,7 +829,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A standard that is widely accepted and used, but lacks formal approval by a recognized standards developing organization (e.g., the QWERTY keyboard).n/ahttp://www.ses-standards.org/?58</owl:annotatedTarget>
+        <owl:annotatedTarget>A standard that is widely accepted and used, but lacks formal approval by a recognized standards developing organization (e.g., the QWERTY keyboard).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/de-facto-standard/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -961,12 +964,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <rdfs:label>FAIR Metrics selection skills</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000031"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1187,7 +1184,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.REFERENCE. http://www.wmo.int/pages/prog/hwrp/datarescue.php ; http://iedro.org/data-rescue-process/ ;</obo:IAO_0000115>
+        <obo:IAO_0000115>Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data rescue</rdfs:label>
@@ -1195,8 +1193,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000046"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.REFERENCE. http://www.wmo.int/pages/prog/hwrp/datarescue.php ; http://iedro.org/data-rescue-process/ ;</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-rescue/</obo:IAO_0000119>
+        <owl:annotatedTarget>Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-rescue/ REFERENCE. http://www.wmo.int/pages/prog/hwrp/datarescue.php ; http://iedro.org/data-rescue-process/ ;</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -1320,18 +1318,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The term storage management encompasses the technologies and processes  organizations use to maximize or improve the performance of their  data storage resources.  It is a broad category that includes  virtualization, replication, mirroring, security, compression,  traffic analysis, process automation, storage provisioning and  related techniques (webopedia.com/TERM/S/storage_management.html)[VDA] </obo:IAO_0000115>
+        <obo:IAO_0000115>The term storage management encompasses the technologies and processes organizations use to maximize or improve the performance of their data storage resources. It is a broad category that includes  virtualization, replication, mirroring, security, compression, traffic analysis, process automation, storage provisioning and related techniques.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>storage management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The term storage management encompasses the technologies and processes  organizations use to maximize or improve the performance of their  data storage resources.  It is a broad category that includes  virtualization, replication, mirroring, security, compression,  traffic analysis, process automation, storage provisioning and  related techniques (webopedia.com/TERM/S/storage_management.html)[VDA] </owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The term storage management encompasses the technologies and processes organizations use to maximize or improve the performance of their data storage resources. It is a broad category that includes  virtualization, replication, mirroring, security, compression, traffic analysis, process automation, storage provisioning and related techniques.</owl:annotatedTarget>
+        <obo:IAO_0000119>(webopedia.com/TERM/S/storage_management.html)[VDA]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -1400,7 +1397,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt...</obo:IAO_0000115>
+        <obo:IAO_0000115>An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt it. Data splitting can be made even more effective by periodically retrieving and recombining the parts, and then splitting the data in a different way among different servers, and using a different encryption key.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data splitting</rdfs:label>
@@ -1408,7 +1406,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000057"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt...</owl:annotatedTarget>
+        <owl:annotatedTarget>An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt it. Data splitting can be made even more effective by periodically retrieving and recombining the parts, and then splitting the data in a different way among different servers, and using a different encryption key.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-splitting/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1423,15 +1421,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>manage access</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000058"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Monitor the status of information access of different stakeholder groups. Evaluate new access request and authorize or decline it. Update the organizational information access overview. </owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1463,19 +1454,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
         <rdfs:label>tactical/short-term planning</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000060"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1483,7 +1467,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>An electronic version of the paper record that doctors have traditionally maintained for their patients and which is typically only accessible within the facility or office that controls it. RELATED TERM. Electronic health recordREFERENCE. Canadian Medical Protective Association (2014) Electronic Records Handbook</obo:IAO_0000115>
+        <obo:IAO_0000115>An electronic version of the paper record that doctors have traditionally maintained for their patients and which is typically only accessible within the facility or office that controls it.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Electronic medical record </rdfs:label>
@@ -1491,7 +1475,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An electronic version of the paper record that doctors have traditionally maintained for their patients and which is typically only accessible within the facility or office that controls it. RELATED TERM. Electronic health recordREFERENCE. Canadian Medical Protective Association (2014) Electronic Records Handbook</owl:annotatedTarget>
+        <owl:annotatedTarget>An electronic version of the paper record that doctors have traditionally maintained for their patients and which is typically only accessible within the facility or office that controls it.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/electronic-medical-record/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1581,7 +1565,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Implement the policies that govern the choice of metadata schema, reserved vocabularies, metadata organization in tables, and metadata properties (creation date, access control, ownership, etc.).n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>Implement the policies that govern the choice of metadata schema, reserved vocabularies, metadata organization in tables, and metadata properties (creation date, access control, ownership, etc.).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Manage metadata catalog </rdfs:label>
@@ -1589,7 +1574,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000068"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Implement the policies that govern the choice of metadata schema, reserved vocabularies, metadata organization in tables, and metadata properties (creation date, access control, ownership, etc.).n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>Implement the policies that govern the choice of metadata schema, reserved vocabularies, metadata organization in tables, and metadata properties (creation date, access control, ownership, etc.).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=327</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1599,7 +1584,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Manipulation of raw data to produce a single output. RELATED TERM. Data selection; Data processing; Data pre-processingn/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Manipulation of raw data to produce a single output.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data transformation</rdfs:label>
@@ -1607,7 +1593,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000069"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Manipulation of raw data to produce a single output. RELATED TERM. Data selection; Data processing; Data pre-processingn/a</owl:annotatedTarget>
+        <owl:annotatedTarget>Manipulation of raw data to produce a single output.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-transformation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1692,7 +1678,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.n/a</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data selection</rdfs:label>
@@ -1700,7 +1687,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000074"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.n/a</owl:annotatedTarget>
+        <owl:annotatedTarget>A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-selection/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1773,7 +1760,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Data that are delivered with all associated metadata, data dictionary, description of methods and instruments used to collect and process the data, and other supporting data (e.g., duplicate sample results, replicate analyses, percent recovery, etc.).n/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Data that are delivered with all associated metadata, data dictionary, description of methods and instruments used to collect and process the data, and other supporting data (e.g., duplicate sample results, replicate analyses, percent recovery, etc.).</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Documented data </rdfs:label>
@@ -1781,7 +1768,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000078"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Data that are delivered with all associated metadata, data dictionary, description of methods and instruments used to collect and process the data, and other supporting data (e.g., duplicate sample results, replicate analyses, percent recovery, etc.).n/a</owl:annotatedTarget>
+        <owl:annotatedTarget>Data that are delivered with all associated metadata, data dictionary, description of methods and instruments used to collect and process the data, and other supporting data (e.g., duplicate sample results, replicate analyses, percent recovery, etc.).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/documented-data/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1804,7 +1791,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Data the content of which is changing frequently and at asynchronous moments. Examples include: Data streams that are generated by sensors when it is unpredictable when data segments will appear in time (i.e. data streams have gaps); Data streams that are generated by humans in crowdsourcing scenarios where it is not clear when which cell &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/dynamic-data/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Data the content of which is changing frequently and at asynchronous moments. Examples include: Data streams that are generated by sensors when it is unpredictable when data segments will appear in time (i.e. data streams have gaps); Data streams that are generated by humans in crowdsourcing scenarios where it is not clear when which cell in a database will be filled.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Dynamic data </rdfs:label>
@@ -1812,7 +1800,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000080"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Data the content of which is changing frequently and at asynchronous moments. Examples include: Data streams that are generated by sensors when it is unpredictable when data segments will appear in time (i.e. data streams have gaps); Data streams that are generated by humans in crowdsourcing scenarios where it is not clear when which cell &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/dynamic-data/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>Data the content of which is changing frequently and at asynchronous moments. Examples include: Data streams that are generated by sensors when it is unpredictable when data segments will appear in time (i.e. data streams have gaps); Data streams that are generated by humans in crowdsourcing scenarios where it is not clear when which cell in a database will be filled.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/dynamic-data/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1902,7 +1890,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>In the context of data and network security: The assurance that information can only be accessed or modified by those authorized to do so. Measures taken to ensure integrity include controlling the physical environment of networked terminals and servers, restricting access to data, and maintaining rigorous authentication practices. Data integrity can also be threatened by &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/integrity/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>In the context of data and network security: The assurance that information can only be accessed or modified by those authorized to do so. Measures taken to ensure integrity include controlling the physical environment of networked terminals and servers, restricting access to data, and maintaining rigorous authentication practices. Data integrity can also be threatened by environmental hazards, such as heat, dust, and electrical surges.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Integrity</rdfs:label>
@@ -1910,7 +1899,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000086"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>In the context of data and network security: The assurance that information can only be accessed or modified by those authorized to do so. Measures taken to ensure integrity include controlling the physical environment of networked terminals and servers, restricting access to data, and maintaining rigorous authentication practices. Data integrity can also be threatened by &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/integrity/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>In the context of data and network security: The assurance that information can only be accessed or modified by those authorized to do so. Measures taken to ensure integrity include controlling the physical environment of networked terminals and servers, restricting access to data, and maintaining rigorous authentication practices. Data integrity can also be threatened by environmental hazards, such as heat, dust, and electrical surges.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/integrity/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -1920,7 +1909,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Incorporates: � building a digital collection of information for further study and analysis; � creating appropriate tools for collection- building; � creating appropriate tools for the analysis and study of collections; � using digital collections and analytical tools to generate new intellectual products; and, � Creating authoring tools for these new intellectual products, either in &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-scholarship/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Incorporates: building a digital collection of information for further study and analysis; creating appropriate tools for collection- building; creating appropriate tools for the analysis and study of collections; using digital collections and analytical tools to generate new intellectual products; and, Creating authoring tools for these new intellectual products, either in traditional forms or in digital form.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital scholarship </rdfs:label>
@@ -1928,7 +1918,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000087"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Incorporates: � building a digital collection of information for further study and analysis; � creating appropriate tools for collection- building; � creating appropriate tools for the analysis and study of collections; � using digital collections and analytical tools to generate new intellectual products; and, � Creating authoring tools for these new intellectual products, either in &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-scholarship/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>Incorporates: building a digital collection of information for further study and analysis; creating appropriate tools for collection- building; creating appropriate tools for the analysis and study of collections; using digital collections and analytical tools to generate new intellectual products; and, Creating authoring tools for these new intellectual products, either in traditional forms or in digital form.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-scholarship/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2208,20 +2198,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000115>Planning for and controlling the present and future costs of the conservation of data, including technical storage, fixed costs, and staff resources. [LLC]</obo:IAO_0000115>
+        <obo:IAO_0000115>Planning for and controlling the present and future costs of the conservation of data, including technical storage, fixed costs, and staff resources.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000119>Based on https://www.cessda.eu/About/Projects/Past-projects/CESSDA-SaW/WP4/Cost-Benefit-Advocacy-Toolkit/Costs-Factsheet [LLC]</obo:IAO_0000119>
         <rdfs:label>preservation costs management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000104"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>Planning for and controlling the present and future costs of the conservation of data, including technical storage, fixed costs, and staff resources.</owl:annotatedTarget>
+        <obo:IAO_0000119>Based on https://www.cessda.eu/About/Projects/Past-projects/CESSDA-SaW/WP4/Cost-Benefit-Advocacy-Toolkit/Costs-Factsheet [LLC]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -2333,7 +2321,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Testing conducted to evaluate whether systems or components pass data and control correctly to each other.n/aCASRAI. https://www.ee.oulu.fi/research/ouspg/Glossary#OUSPG_Glossary</obo:IAO_0000115>
+        <obo:IAO_0000115>Testing conducted to evaluate whether systems or components pass data and control correctly to each other.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Interface testing</rdfs:label>
@@ -2341,7 +2330,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000112"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Testing conducted to evaluate whether systems or components pass data and control correctly to each other.n/aCASRAI. https://www.ee.oulu.fi/research/ouspg/Glossary#OUSPG_Glossary</owl:annotatedTarget>
+        <owl:annotatedTarget>Testing conducted to evaluate whether systems or components pass data and control correctly to each other.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/interface-testing/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2351,7 +2340,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>A digital object is editable, interactive, accessible and modifiable by means of digital objects other than the one governing its behaviour, and is distributed over information infrastructures. It is a machine-independent data structure consisting of one or more elements in digital form that can be parsed by different information systems; the structure helps to enable &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-object/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>A digital object is editable, interactive, accessible and modifiable by means of digital objects other than the one governing its behaviour, and is distributed over information infrastructures. It is a machine-independent data structure consisting of one or more elements in digital form that can be parsed by different information systems; the structure helps to enable interoperability among diverse information systems in the Internet.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital object</rdfs:label>
@@ -2359,7 +2349,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000113"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A digital object is editable, interactive, accessible and modifiable by means of digital objects other than the one governing its behaviour, and is distributed over information infrastructures. It is a machine-independent data structure consisting of one or more elements in digital form that can be parsed by different information systems; the structure helps to enable &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-object/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>A digital object is editable, interactive, accessible and modifiable by means of digital objects other than the one governing its behaviour, and is distributed over information infrastructures. It is a machine-independent data structure consisting of one or more elements in digital form that can be parsed by different information systems; the structure helps to enable interoperability among diverse information systems in the Internet.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-object/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2369,7 +2359,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records. RELATED TERM. Born digital; Digital objects; Digital records; Digital data; Electronic recordsREFERENCE. Digital preservation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-materials/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital materials </rdfs:label>
@@ -2377,7 +2368,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records. RELATED TERM. Born digital; Digital objects; Digital records; Digital data; Electronic recordsREFERENCE. Digital preservation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-materials/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-materials/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2424,15 +2415,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>define access policy</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000116"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Understand the needs and conditions of information access for different stakeholder groups. Identify the responsibility and rights for each stakeholder group on informaiton access. Build up a catalogue of risk profiles. For each risk profile, develope mitigation protocols. </owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2470,7 +2454,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.n/ahttp://searchdatamanagement.techtarget.com/definition/disambiguation</obo:IAO_0000115>
+        <obo:IAO_0000115>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Dissambuation </rdfs:label>
@@ -2478,7 +2463,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000119"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.n/ahttp://searchdatamanagement.techtarget.com/definition/disambiguation</owl:annotatedTarget>
+        <owl:annotatedTarget>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/dissambuation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2550,15 +2535,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>understand information security challenges</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000124"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Know the security requirements on the organization regarding different types of information Know the current organizational policy, infrastructure and capacity on information security. </owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2730,7 +2708,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-        <obo:IAO_0000115>Ongoing organizational activities associated with supporting functional elements, as opposed to project elements. Operational management also includes support of products that the organization has created through project activity.REFERENCE. Project Management Institute (2006) The Standard for Program Management.</obo:IAO_0000115>
+        <obo:IAO_0000115>Ongoing organizational activities associated with supporting functional elements, as opposed to project elements. Operational management also includes support of products that the organization has created through project activity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Operational management</rdfs:label>
@@ -2738,8 +2717,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000134"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ongoing organizational activities associated with supporting functional elements, as opposed to project elements. Operational management also includes support of products that the organization has created through project activity.REFERENCE. Project Management Institute (2006) The Standard for Program Management.</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=360</obo:IAO_0000119>
+        <owl:annotatedTarget>Ongoing organizational activities associated with supporting functional elements, as opposed to project elements. Operational management also includes support of products that the organization has created through project activity.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/operational-management/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -2902,18 +2881,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Authorization management is concerned with people&apos;s access to different objects, most often to data or physical objects, such as land, buildings, rooms or infrastructure. [LLC]</obo:IAO_0000115>
+        <obo:IAO_0000115>Authorization management is concerned with people&apos;s access to different objects, most often to data or physical objects, such as land, buildings, rooms or infrastructure.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>authorisation management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000142"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Authorization management is concerned with people&apos;s access to different objects, most often to data or physical objects, such as land, buildings, rooms or infrastructure. [LLC]</owl:annotatedTarget>
+        <owl:annotatedTarget>Authorization management is concerned with people&apos;s access to different objects, most often to data or physical objects, such as land, buildings, rooms or infrastructure.</owl:annotatedTarget>
         <obo:IAO_0000119>https://managementmania.com/en/authorization-management</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3081,7 +3059,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.REFERENCE. DAMA Dictionary of Data Management</obo:IAO_0000115>
+        <obo:IAO_0000115>The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Database administration</rdfs:label>
@@ -3089,8 +3068,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000151"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.REFERENCE. DAMA Dictionary of Data Management</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/database-administration/</obo:IAO_0000119>
+        <owl:annotatedTarget>The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/database-administration/ REFERENCE. DAMA Dictionary of Data Management</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -3199,7 +3178,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A phase of development where the product is tested in the real world by the intended audience. The experiences of the early users are forwarded back to the developers who make final changes before releasing the product. SYNONYM. UATn/ahttp://searchsoftwarequality.techtarget.com/definition/user-acceptance-testing-UAT</obo:IAO_0000115>
+        <obo:IAO_0000115>A phase of development where the product is tested in the real world by the intended audience. The experiences of the early users are forwarded back to the developers who make final changes before releasing the product.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>User acceptance testing</rdfs:label>
@@ -3207,8 +3187,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000158"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A phase of development where the product is tested in the real world by the intended audience. The experiences of the early users are forwarded back to the developers who make final changes before releasing the product. SYNONYM. UATn/ahttp://searchsoftwarequality.techtarget.com/definition/user-acceptance-testing-UAT</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=522</obo:IAO_0000119>
+        <owl:annotatedTarget>A phase of development where the product is tested in the real world by the intended audience. The experiences of the early users are forwarded back to the developers who make final changes before releasing the product.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/user-acceptance-testing/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -3365,7 +3345,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>1. A field or column in a database table. It is an abbreviation for &apos;physical data attribute&apos; which is a single data element related to a data object, such as a table in a database. The database schema associates one or more attributes with each database entity (i.e. table). 2. A term for a logical...</obo:IAO_0000115>
+        <obo:IAO_0000115>1. A field or column in a database table. It is an abbreviation for &apos;physical data attribute&apos; which is a single data element related to a data object, such as a table in a database. The database schema associates one or more attributes with each database entity (i.e. table). 2. A term for a logical or conceptual attribute such as in an entity-attribute-relationship (EAR) data model.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data table attribute</rdfs:label>
@@ -3373,7 +3353,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000166"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. A field or column in a database table. It is an abbreviation for &apos;physical data attribute&apos; which is a single data element related to a data object, such as a table in a database. The database schema associates one or more attributes with each database entity (i.e. table). 2. A term for a logical...</owl:annotatedTarget>
+        <owl:annotatedTarget>1. A field or column in a database table. It is an abbreviation for &apos;physical data attribute&apos; which is a single data element related to a data object, such as a table in a database. The database schema associates one or more attributes with each database entity (i.e. table). 2. A term for a logical or conceptual attribute such as in an entity-attribute-relationship (EAR) data model.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-table-attribute/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3424,7 +3404,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Identity Management (IdM), also called Identity and Access Management (IAM) refers to a framework of policies and technologies for ensuring that the proper  user in an organisation has the appropriate access to technology resources  systems fall under the overarching umbrella of IT security.  IdM systems not only identify, but authenticate and authorize individuals  who will be using IT resources, but also the hardware and applications users need to access [VdA]</obo:IAO_0000115>
+        <obo:IAO_0000115>Identity Management (IdM), also called Identity and Access Management (IAM) refers to a framework of policies and technologies for ensuring that the proper  user in an organisation has the appropriate access to technology resources  systems fall under the overarching umbrella of IT security.  IdM systems not only identify, but authenticate and authorize individuals  who will be using IT resources, but also the hardware and applications users need to access.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
@@ -3437,7 +3417,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000169"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Identity Management (IdM), also called Identity and Access Management (IAM) refers to a framework of policies and technologies for ensuring that the proper  user in an organisation has the appropriate access to technology resources  systems fall under the overarching umbrella of IT security.  IdM systems not only identify, but authenticate and authorize individuals  who will be using IT resources, but also the hardware and applications users need to access [VdA]</owl:annotatedTarget>
+        <owl:annotatedTarget>Identity Management (IdM), also called Identity and Access Management (IAM) refers to a framework of policies and technologies for ensuring that the proper  user in an organisation has the appropriate access to technology resources  systems fall under the overarching umbrella of IT security.  IdM systems not only identify, but authenticate and authorize individuals  who will be using IT resources, but also the hardware and applications users need to access.</owl:annotatedTarget>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Identity_management</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3580,18 +3560,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The process of setting up environments for workflow technologies. [KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>The process of setting up environments for workflow technologies.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>workflow technologies management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process of setting up environments for workflow technologies. [KH]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The process of setting up environments for workflow technologies.</owl:annotatedTarget>
+        <obo:IAO_0000119>KH</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -3759,7 +3738,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.n/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Research governance</rdfs:label>
@@ -3767,8 +3747,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000186"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.n/a</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=449</obo:IAO_0000119>
+        <owl:annotatedTarget>Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/research-governance/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -3846,7 +3826,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Activities and processes in a digital environment that lead to the publication of research data, associated metadata and accompanying documentation and software code on the Web. In contrast to interim or final published products, workflows are the means to curate, document, and review, and thus ensure and enhance the value of the published product. Workflows &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/research-data-publication-workflow/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Activities and processes in a digital environment that lead to the publication of research data, associated metadata and accompanying documentation and software code on the Web. In contrast to interim or final published products, workflows are the means to curate, document, and review, and thus ensure and enhance the value of the published product. Workflows can involve both humans and machines and often humans are supported by technology as they perform steps in the workflow. Similar workflows may vary in the details depending on the research discipline, data publishing product and/or the host institution of the workflow (e.g., individual publisher/journal, institutional repository, discipline-specific repository).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Research data publication workflow</rdfs:label>
@@ -3854,8 +3835,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000190"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Activities and processes in a digital environment that lead to the publication of research data, associated metadata and accompanying documentation and software code on the Web. In contrast to interim or final published products, workflows are the means to curate, document, and review, and thus ensure and enhance the value of the published product. Workflows &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/research-data-publication-workflow/ class=more-link</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=448</obo:IAO_0000119>
+        <owl:annotatedTarget>Activities and processes in a digital environment that lead to the publication of research data, associated metadata and accompanying documentation and software code on the Web. In contrast to interim or final published products, workflows are the means to curate, document, and review, and thus ensure and enhance the value of the published product. Workflows can involve both humans and machines and often humans are supported by technology as they perform steps in the workflow. Similar workflows may vary in the details depending on the research discipline, data publishing product and/or the host institution of the workflow (e.g., individual publisher/journal, institutional repository, discipline-specific repository).</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/research-data-publication-workflow/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -4075,7 +4056,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.REFERENCE. Project Management Institute (2006) The Standard for Program Management.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Program governance</rdfs:label>
@@ -4083,8 +4065,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000203"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.REFERENCE. Project Management Institute (2006) The Standard for Program Management.</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=389</obo:IAO_0000119>
+        <owl:annotatedTarget>The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/program-governance/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -4150,15 +4132,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>access risk assessment and mitigation</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000209"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Obtain an overview of information access status for different stakeholder groups. Check this overview against the organizational information access policy and risk catalogue, identify the type of information security risks based on the mismatch between the current status and policy. Choose and implement the right protocal to mitigate the risk. </owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4421,7 +4396,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.n/aCASRAI. https://www.ee.oulu.fi/research/ouspg/Glossary#OUSPG_Glossary</obo:IAO_0000115>
+        <obo:IAO_0000115>Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Evaluation </rdfs:label>
@@ -4429,7 +4405,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000225"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.n/aCASRAI. https://www.ee.oulu.fi/research/ouspg/Glossary#OUSPG_Glossary</owl:annotatedTarget>
+        <owl:annotatedTarget>Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/evaluation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -4487,19 +4463,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
         <rdfs:label>logistical support</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000229"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4537,13 +4506,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
-        <obo:IAO_0000115>Planning for and controlling expenditures related to the data management lifecycle, including, but not limited to, labor and infrastructure expenses for data collection; data documentation; data storage; data access and security; data preservation; data sharing; and data disposition. [LLC]</obo:IAO_0000115>
+        <obo:IAO_0000115>Planning for and controlling expenditures related to the data management lifecycle, including, but not limited to, labor and infrastructure expenses for data collection; data documentation; data storage; data access and security; data preservation; data sharing; and data disposition.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000119>Written by LLC, based on list at https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management</obo:IAO_0000119>
         <rdfs:label>data management costs management</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000232"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Planning for and controlling expenditures related to the data management lifecycle, including, but not limited to, labor and infrastructure expenses for data collection; data documentation; data storage; data access and security; data preservation; data sharing; and data disposition.</owl:annotatedTarget>
+        <obo:IAO_0000119>Written by LLC, based on list at https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4820,7 +4794,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</obo:IAO_0000115>
+        <obo:IAO_0000115>The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digitisation</rdfs:label>
@@ -4828,8 +4803,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000245"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/digitisation/</obo:IAO_0000119>
+        <owl:annotatedTarget>The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/digitisation/ REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -4886,19 +4861,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
         <rdfs:label>influencing/community building</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000249"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4966,12 +4934,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <rdfs:label>FAIRness assessment</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000252"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -5039,7 +5001,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.n/ahttp://searchsecurity.techtarget.com/definition/integrated-access-management-IAM</obo:IAO_0000115>
+        <obo:IAO_0000115>A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Integrated access management</rdfs:label>
@@ -5047,7 +5010,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.n/ahttp://searchsecurity.techtarget.com/definition/integrated-access-management-IAM</owl:annotatedTarget>
+        <owl:annotatedTarget>A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/integrated-access-management/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5430,7 +5393,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Manage datasets in a repository</rdfs:label>
@@ -5438,7 +5402,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000278"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=326</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5483,7 +5447,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Provides the relationship and process context for working together to ensure outcomes are achieved.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</obo:IAO_0000115>
+        <obo:IAO_0000115>Provides the relationship and process context for working together to ensure outcomes are achieved.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Governance and accountability model</rdfs:label>
@@ -5491,7 +5456,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000282"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Provides the relationship and process context for working together to ensure outcomes are achieved.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</owl:annotatedTarget>
+        <owl:annotatedTarget>Provides the relationship and process context for working together to ensure outcomes are achieved.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=274</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5787,7 +5752,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/research-data-management/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Research data management</rdfs:label>
@@ -5795,8 +5761,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000297"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/research-data-management/ class=more-link</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=446</obo:IAO_0000119>
+        <owl:annotatedTarget>Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/research-data-management/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -5936,7 +5902,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.REFERENCE. Government of Canada (2006) Model guide for the preparation of researchers&apos; career advancement (promotion) documentation ; Government of &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/intellectual-leadership/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Intellectual leadership</rdfs:label>
@@ -5944,7 +5911,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000306"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.REFERENCE. Government of Canada (2006) Model guide for the preparation of researchers&apos; career advancement (promotion) documentation ; Government of &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/intellectual-leadership/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/intellectual-leadership/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5954,7 +5921,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>In the context of a researcher&apos;s activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.RELATED TERM. Valued outcome; Incumbent-based; Research, development and analysis; Managing research; Representation and client servicesIn a 5-level incumbent-based process, demonstrated valued outcomes of innovation in research, development and &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/innovation/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>In the context of a researcher&apos;s activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Innovation </rdfs:label>
@@ -5962,7 +5930,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000307"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>In the context of a researcher&apos;s activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.RELATED TERM. Valued outcome; Incumbent-based; Research, development and analysis; Managing research; Representation and client servicesIn a 5-level incumbent-based process, demonstrated valued outcomes of innovation in research, development and &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/innovation/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>In the context of a researcher&apos;s activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/innovation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -5984,7 +5952,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>High-performance computing (HPC) is a process for using of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems by incorporating both administration and parallel computational techniques (modified from wikipedia)[VDA]</obo:IAO_0000115>
+        <obo:IAO_0000115>High-performance computing (HPC) is a process for using of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems by incorporating both administration and parallel computational techniques.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
@@ -5994,8 +5962,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000308"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>High-performance computing (HPC) is a process for using of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems by incorporating both administration and parallel computational techniques (modified from wikipedia)[VDA]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>High-performance computing (HPC) is a process for using of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems by incorporating both administration and parallel computational techniques.</owl:annotatedTarget>
+        <obo:IAO_0000119>(modified from wikipedia)[VDA]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6028,15 +5996,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages. SYNONYM. Electronic recordREFERENCE. Research Data Alliance http://smw-rda.esc.rzg.mpg.de/index.php/Main_Page ; Digital preservation coalition; http://archives.govt.nz/advice/continuum-resource-kit/glossary/definitions-full-list#Record</obo:IAO_0000115>
+        <obo:IAO_0000115>A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Electronic record</obo:IAO_0000118>
+        <rdfs:comment>AL 8.2.22: Updated label from the CASRAI &quot;Digital&quot; to &quot;Digital record&quot; to better match the definition and intent of the term, and to provide clarity.</rdfs:comment>
         <rdfs:comment>CASRAI</rdfs:comment>
-        <rdfs:label>Digital</rdfs:label>
+        <rdfs:label>Digital record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000310"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages. SYNONYM. Electronic recordREFERENCE. Research Data Alliance http://smw-rda.esc.rzg.mpg.de/index.php/Main_Page ; Digital preservation coalition; http://archives.govt.nz/advice/continuum-resource-kit/glossary/definitions-full-list#Record</owl:annotatedTarget>
+        <owl:annotatedTarget>A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6064,7 +6035,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital research data </rdfs:label>
@@ -6072,7 +6044,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000312"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-research-data/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6111,7 +6083,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>In the context of a researcher&apos;s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/managing-research/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>In the context of a researcher’s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the three research contexts in which a researcher is expected to conduct his/her activities. Managing research is distinct from the position-based role of a research manager.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Managing research</rdfs:label>
@@ -6119,8 +6092,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000314"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>In the context of a researcher&apos;s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/managing-research/ class=more-link</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=329</obo:IAO_0000119>
+        <owl:annotatedTarget>In the context of a researcher’s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the three research contexts in which a researcher is expected to conduct his/her activities. Managing research is distinct from the position-based role of a research manager.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/managing-research/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6203,7 +6176,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>The series of managed activities necessary to ensure continued access to digital materials for as long as necessary. Digital preservation is defined very broadly and refers to all of the actions required to maintain access to digital materials beyond the limits of media failure or technological change. Those materials may be records created during the &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-preservation/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>The series of managed activities necessary to ensure continued access to digital materials for as long as necessary. Digital preservation is defined very broadly and refers to all of the actions required to maintain access to digital materials beyond the limits of media failure or technological change. Those materials may be records created during the day-to-day business of an organisation; “”born-digital”” materials created for a specific purpose (e.g. teaching resources); or the products of digitisation projects. This definition specifically excludes the potential use of digital technology to preserve the original artefacts through digitisation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital preservation</rdfs:label>
@@ -6211,7 +6185,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000318"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The series of managed activities necessary to ensure continued access to digital materials for as long as necessary. Digital preservation is defined very broadly and refers to all of the actions required to maintain access to digital materials beyond the limits of media failure or technological change. Those materials may be records created during the &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-preservation/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>The series of managed activities necessary to ensure continued access to digital materials for as long as necessary. Digital preservation is defined very broadly and refers to all of the actions required to maintain access to digital materials beyond the limits of media failure or technological change. Those materials may be records created during the day-to-day business of an organisation; “”born-digital”” materials created for a specific purpose (e.g. teaching resources); or the products of digitisation projects. This definition specifically excludes the potential use of digital technology to preserve the original artefacts through digitisation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-preservation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6285,7 +6259,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time. [KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>The practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
@@ -6295,8 +6269,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000323"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time. [KH]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time.</owl:annotatedTarget>
+        <obo:IAO_0000119>KH</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6323,7 +6297,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>An object describing the context of the data, including provenance, description, structural, and administrative information.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>An object describing the context of the data, including provenance, description, structural, and administrative information.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data representation</rdfs:label>
@@ -6331,7 +6306,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000326"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An object describing the context of the data, including provenance, description, structural, and administrative information.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>An object describing the context of the data, including provenance, description, structural, and administrative information.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-representation/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6365,7 +6340,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
-        <obo:IAO_0000115>Long-term preservation - Continued access to digital materials, or at least to the information contained in them, indefinitely.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</obo:IAO_0000115>
+        <obo:IAO_0000115>Long-term preservation - Continued access to digital materials, or at least to the information contained in them, indefinitely.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Long-term preservation</rdfs:label>
@@ -6373,8 +6349,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000328"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Long-term preservation - Continued access to digital materials, or at least to the information contained in them, indefinitely.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=323</obo:IAO_0000119>
+        <owl:annotatedTarget>Long-term preservation - Continued access to digital materials, or at least to the information contained in them, indefinitely.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/long-term-preservation</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6425,16 +6401,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
-        <obo:IAO_0000115>REFERENCE. U.K. Government, 2013</obo:IAO_0000115>
+        <obo:IAO_0000115>Information governance, is the overall strategy for information at an organization. Information governance balances the risk that information presents with the value that information provides. Information governance helps with legal compliance, operational transparency, and reducing expenditures associated with legal discovery.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:comment>CASRAI</rdfs:comment>
+        <rdfs:comment>CASRAI is the source for the term, with the definition provided separately.</rdfs:comment>
         <rdfs:label>Information governance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000331"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>REFERENCE. U.K. Government, 2013</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/information-governance/</obo:IAO_0000119>
+        <owl:annotatedTarget>Information governance, is the overall strategy for information at an organization. Information governance balances the risk that information presents with the value that information provides. Information governance helps with legal compliance, operational transparency, and reducing expenditures associated with legal discovery.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Information_governance, accessed 8.2.22</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6581,7 +6558,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
-        <obo:IAO_0000115>Medium-term preservation - Continued access to digital materials beyond changes in technology for a defined period of time but not indefinitely.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</obo:IAO_0000115>
+        <obo:IAO_0000115>Medium-term preservation - Continued access to digital materials beyond changes in technology for a defined period of time but not indefinitely.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Medium-term preservation</rdfs:label>
@@ -6589,8 +6567,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000339"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Medium-term preservation - Continued access to digital materials beyond changes in technology for a defined period of time but not indefinitely.REFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=334</obo:IAO_0000119>
+        <owl:annotatedTarget>Medium-term preservation - Continued access to digital materials beyond changes in technology for a defined period of time but not indefinitely.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/medium-term-preservation/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6636,7 +6614,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Data traceability follows the lifecycle of data to track all access and changes to the data. It helps demonstrate transparency, compliance and adherence to regulations. Data traceability, along with data compliance, can be considered part of a data audit process. Data traceability is fundamental to reproducible research.n/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Data traceability follows the lifecycle of data to track all access and changes to the data. It helps demonstrate transparency, compliance and adherence to regulations. Data traceability, along with data compliance, can be considered part of a data audit process. Data traceability is fundamental to reproducible research.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data traceability</rdfs:label>
@@ -6644,7 +6622,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000342"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Data traceability follows the lifecycle of data to track all access and changes to the data. It helps demonstrate transparency, compliance and adherence to regulations. Data traceability, along with data compliance, can be considered part of a data audit process. Data traceability is fundamental to reproducible research.n/a</owl:annotatedTarget>
+        <owl:annotatedTarget>Data traceability follows the lifecycle of data to track all access and changes to the data. It helps demonstrate transparency, compliance and adherence to regulations. Data traceability, along with data compliance, can be considered part of a data audit process. Data traceability is fundamental to reproducible research.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-traceability/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6767,15 +6745,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere. SYNONYM. XMLn/ahttp://www.w3.org/XML</obo:IAO_0000115>
+        <obo:IAO_0000115>Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>XML</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Extensible Markup Language </rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000350"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere. SYNONYM. XMLn/ahttp://www.w3.org/XML</owl:annotatedTarget>
+        <owl:annotatedTarget>Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/extensible-markup-language/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6821,20 +6801,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000115>Resource management is the efficient and effective development of an organization&apos;s resources when they are needed. Such resources may include the financial resources, inventory, human skills, production resources, or information technology (IT) and natural resources. [LLC]</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Resource_management"/>
         <rdfs:label>resource management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>Resource management is the efficient and effective development of an organization&apos;s resources when they are needed. Such resources may include the financial resources, inventory, human skills, production resources, or information technology (IT) and natural resources. [LLC]</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Resource_management</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6914,15 +6892,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Those layers that sit between base technology (a computer science concern) and discipline-specific science. The focus is on value-added systems and services that can be widely shared across scientific domains, both supporting and enabling large increases in multi- and interdisciplinary science while reducing duplication of effort and resources (e.g., including hardware, software, personnel, services and &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-infrastructure/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Those layers that sit between base technology (a computer science concern) and discipline-specific science. The focus is on value-added systems and services that can be widely shared across scientific domains, both supporting and enabling large increases in multi- and interdisciplinary science while reducing duplication of effort and resources (e.g., including hardware, software, personnel, services and organizations).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Cyber infrastructure</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital infrastructure </rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000358"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Those layers that sit between base technology (a computer science concern) and discipline-specific science. The focus is on value-added systems and services that can be widely shared across scientific domains, both supporting and enabling large increases in multi- and interdisciplinary science while reducing duplication of effort and resources (e.g., including hardware, software, personnel, services and &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/digital-infrastructure/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>Those layers that sit between base technology (a computer science concern) and discipline-specific science. The focus is on value-added systems and services that can be widely shared across scientific domains, both supporting and enabling large increases in multi- and interdisciplinary science while reducing duplication of effort and resources (e.g., including hardware, software, personnel, services and organizations).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-infrastructure/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -7103,18 +7083,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The activity of recording provenance for data and software. Knowledge about provenance vocabularies, for example PROV-O and models provenance such as nanopublications [KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>The activity of recording provenance for data and software. Knowledge about provenance vocabularies, for example PROV-O and models provenance such as nanopublications.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>provenance information management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000368"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The activity of recording provenance for data and software. Knowledge about provenance vocabularies, for example PROV-O and models provenance such as nanopublications [KH]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The activity of recording provenance for data and software. Knowledge about provenance vocabularies, for example PROV-O and models provenance such as nanopublications.</owl:annotatedTarget>
+        <obo:IAO_0000119>KH</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -7330,15 +7309,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>appreciate security and usability trade-offs</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000380"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Be aware of the potential conflicts between security and usability. Understand the importance of having information security policy and keeping a balance between the information security and usability. Willing to establish both organization and technical information security measurements.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -7365,7 +7337,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The application of a comprehensive knowledge of a discipline or disciplines to the development of expertise and the generation of new knowledge through research, and the planning and presentation of courses of study for undergraduates and graduates in universities. RELATED TERM. Researchern/ahttp://www.tbs-sct.gc.ca/cla/def/conc-eng.asp#sh</obo:IAO_0000115>
+        <obo:IAO_0000115>The application of a comprehensive knowledge of a discipline or disciplines to the development of expertise and the generation of new knowledge through research, and the planning and presentation of courses of study for undergraduates and graduates in universities.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>University teaching</rdfs:label>
@@ -7373,8 +7346,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000382"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The application of a comprehensive knowledge of a discipline or disciplines to the development of expertise and the generation of new knowledge through research, and the planning and presentation of courses of study for undergraduates and graduates in universities. RELATED TERM. Researchern/ahttp://www.tbs-sct.gc.ca/cla/def/conc-eng.asp#sh</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=517</obo:IAO_0000119>
+        <owl:annotatedTarget>The application of a comprehensive knowledge of a discipline or disciplines to the development of expertise and the generation of new knowledge through research, and the planning and presentation of courses of study for undergraduates and graduates in universities.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/university-teaching/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -7762,7 +7735,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000406">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be...</obo:IAO_0000115>
+        <obo:IAO_0000115>An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be carried out in manual or automated mode.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data review</rdfs:label>
@@ -7770,7 +7744,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000406"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be...</owl:annotatedTarget>
+        <owl:annotatedTarget>An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be carried out in manual or automated mode.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-review/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -7897,15 +7871,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individual�s identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/de-identification/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individualís identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done correctly, de-identification is a defensible, repeatable, and auditable process that consistently provides assurance, based on generally accepted and repeatable statistical methodologies, that there is a very small risk of re-identification of any data that are released. 2. The use of one or more techniques designed to make it impossible — or at least more difficult — to identify a particular individual from stored data related to them. The purpose of data anonymization is to protect the privacy of the individual and to make it legal for governments and businesses to share their data without obtaining permission. Such data have proven to be very valuable for researchers, particularly in health care. Data anonymization methods include removing personally identifiable information (e.g., names, addresses, social insurance numbers, Medicare numbers, etc.), or using obfuscation methods such as encryption, hashing, generalization, pseudonymization, and perturbation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Anonymization</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>De-identification</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000414"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individual�s identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/de-identification/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individualís identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done correctly, de-identification is a defensible, repeatable, and auditable process that consistently provides assurance, based on generally accepted and repeatable statistical methodologies, that there is a very small risk of re-identification of any data that are released. 2. The use of one or more techniques designed to make it impossible — or at least more difficult — to identify a particular individual from stored data related to them. The purpose of data anonymization is to protect the privacy of the individual and to make it legal for governments and businesses to share their data without obtaining permission. Such data have proven to be very valuable for researchers, particularly in health care. Data anonymization methods include removing personally identifiable information (e.g., names, addresses, social insurance numbers, Medicare numbers, etc.), or using obfuscation methods such as encryption, hashing, generalization, pseudonymization, and perturbation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/de-identification/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -7953,7 +7929,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-        <obo:IAO_0000115>Organizational leadership is: (a) The ability to attract, assess, mobilize and focus energies and talent to work towards a shared purpose aligned with the mandate of the organization; (b) The ability to change culture, processes and priorities within the organization; and, (c) The ability to mentor.REFERENCE. Government of Canada (2006) Model guide for the preparation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/organizational-leadership/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>Organizational leadership is: (a) The ability to attract, assess, mobilize and focus energies and talent to work towards a shared purpose aligned with the mandate of the organization; (b) The ability to change culture, processes and priorities within the organization; and, (c) The ability to mentor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Organizational leadership</rdfs:label>
@@ -7961,8 +7938,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000417"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Organizational leadership is: (a) The ability to attract, assess, mobilize and focus energies and talent to work towards a shared purpose aligned with the mandate of the organization; (b) The ability to change culture, processes and priorities within the organization; and, (c) The ability to mentor.REFERENCE. Government of Canada (2006) Model guide for the preparation &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/organizational-leadership/ class=more-link</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=361</obo:IAO_0000119>
+        <owl:annotatedTarget>Organizational leadership is: (a) The ability to attract, assess, mobilize and focus energies and talent to work towards a shared purpose aligned with the mandate of the organization; (b) The ability to change culture, processes and priorities within the organization; and, (c) The ability to mentor.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/organizational-leadership/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -8095,7 +8072,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The consideration of available monetary resources for a specific time period to serve a specific purpose. [KH]</obo:IAO_0000115>
+        <obo:IAO_0000115>The consideration of available monetary resources for a specific time period to serve a specific purpose.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
@@ -8104,8 +8081,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000426"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The consideration of available monetary resources for a specific time period to serve a specific purpose. [KH]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The consideration of available monetary resources for a specific time period to serve a specific purpose.</owl:annotatedTarget>
+        <obo:IAO_0000119>KH</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -8375,7 +8352,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/dublin-core/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible for the content), subject (the topic covered), description (a textual outline of the content), publisher (those responsible for making the resource available), contributor (those who added to the content), date (when the resource was made available), type (a category for the content), format (how the resource is presented), identifier (numerical identifier for the content such as a URL), source (where the content originally derived from), language (in what language the content is written), relation (how the content relates to other resources, for instance, if it is a chapter in a book), coverage (where the resource is physically located), and rights (a link to a copyright notice).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Dublin Core </rdfs:label>
@@ -8383,7 +8361,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000445"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/dublin-core/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible for the content), subject (the topic covered), description (a textual outline of the content), publisher (those responsible for making the resource available), contributor (those who added to the content), date (when the resource was made available), type (a category for the content), format (how the resource is presented), identifier (numerical identifier for the content such as a URL), source (where the content originally derived from), language (in what language the content is written), relation (how the content relates to other resources, for instance, if it is a chapter in a book), coverage (where the resource is physically located), and rights (a link to a copyright notice).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/dublin-core/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8406,11 +8384,16 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
         <obo:IAO_0000115>The FAIR principles are guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="https://www.go-fair.org/fair-principles/"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:56:15.031154Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">FAIR principle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The FAIR principles are guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://www.go-fair.org/fair-principles/"/>
+    </owl:Axiom>
     
 
 
@@ -8447,7 +8430,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The building blocks of an XML document.n/aCASRAI. https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=docbook</obo:IAO_0000115>
+        <obo:IAO_0000115>The building blocks of an XML document.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Document type definition </rdfs:label>
@@ -8455,7 +8439,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000450"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The building blocks of an XML document.n/aCASRAI. https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=docbook</owl:annotatedTarget>
+        <owl:annotatedTarget>The building blocks of an XML document.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/document-type-definition/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8526,7 +8510,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000455">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>1. The act of bringing together smaller components into a single system that functions as one. 2. In the context of information technology: The end result of a process that aims to stitch together different, often disparate, subsystems so that the data contained in each becomes part of a larger, more comprehensive system that, ideally, &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/integration/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>1. The act of bringing together smaller components into a single system that functions as one. 2. In the context of information technology: The end result of a process that aims to stitch together different, often disparate, subsystems so that the data contained in each becomes part of a larger, more comprehensive system that, ideally, quickly and easily shares data when needed. This often requires that organizations build a customized architecture or structure of applications to combine new or existing hardware, software and other communications.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Integration</rdfs:label>
@@ -8534,7 +8519,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000455"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. The act of bringing together smaller components into a single system that functions as one. 2. In the context of information technology: The end result of a process that aims to stitch together different, often disparate, subsystems so that the data contained in each becomes part of a larger, more comprehensive system that, ideally, &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/integration/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>1. The act of bringing together smaller components into a single system that functions as one. 2. In the context of information technology: The end result of a process that aims to stitch together different, often disparate, subsystems so that the data contained in each becomes part of a larger, more comprehensive system that, ideally, quickly and easily shares data when needed. This often requires that organizations build a customized architecture or structure of applications to combine new or existing hardware, software and other communications.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/integration/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8720,19 +8705,12 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000465">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
         <rdfs:label>meeting/conference organisation</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000465"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -8752,7 +8730,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>It can be considered as a negotiated agreement between the customer and vendor which are acceptable to both parties with respect to costs and expectations in order to support the business process. [LLC]</obo:IAO_0000115>
+        <obo:IAO_0000115>It can be considered as a negotiated agreement between the customer and vendor which are acceptable to both parties with respect to costs and expectations in order to support the business process.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
@@ -8763,8 +8741,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000466"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>It can be considered as a negotiated agreement between the customer and vendor which are acceptable to both parties with respect to costs and expectations in order to support the business process. [LLC]</owl:annotatedTarget>
-        <obo:IAO_0000119>https://www.techopedia.com/definition/13848/service-level-management-slm</obo:IAO_0000119>
+        <owl:annotatedTarget>It can be considered as a negotiated agreement between the customer and vendor which are acceptable to both parties with respect to costs and expectations in order to support the business process.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.techopedia.com/definition/13848/service-level-management-slm [LLC]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -8972,18 +8950,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The activity of bringing computer system resources, especially data storage and computing power on demand via Internet (modified from wikipedia) [VDA]</obo:IAO_0000115>
+        <obo:IAO_0000115>The activity of bringing computer system resources, especially data storage and computing power on demand via Internet.</obo:IAO_0000115>
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
         <rdfs:label>cloud computing environment management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000479"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The activity of bringing computer system resources, especially data storage and computing power on demand via Internet (modified from wikipedia) [VDA]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The activity of bringing computer system resources, especially data storage and computing power on demand via Internet.</owl:annotatedTarget>
+        <obo:IAO_0000119>(modified from wikipedia) [VDA]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -9029,15 +9006,18 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000482">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication. SYNONYM. Data dissemination; Data posting. RELATED TERM. Repository; Data publication</obo:IAO_0000115>
+        <obo:IAO_0000115>The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Data dissemination</obo:IAO_0000118>
+        <obo:IAO_0000118>Data posting</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data sharing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000482"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication. SYNONYM. Data dissemination; Data posting. RELATED TERM. Repository; Data publication</owl:annotatedTarget>
+        <owl:annotatedTarget>The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-sharing/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9348,7 +9328,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000498">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or acceptedREFERENCE. Merriam-Webster dictionary</obo:IAO_0000115>
+        <obo:IAO_0000115>A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Peer review</rdfs:label>
@@ -9356,8 +9337,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000498"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or acceptedREFERENCE. Merriam-Webster dictionary</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=369</obo:IAO_0000119>
+        <owl:annotatedTarget>A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/peer-review/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -9396,7 +9377,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.n/a</obo:IAO_0000115>
+        <obo:IAO_0000115>De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>De-anonymization </rdfs:label>
@@ -9404,7 +9386,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000501"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.n/a</owl:annotatedTarget>
+        <owl:annotatedTarget>De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/de-anonymization/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9467,7 +9449,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>1. A single, well-defined version of all the data entities in an organizational ecosystem. In this context, a golden record is sometimes called the single version of the truth, where truth is understood to mean the reference to which data users can turn when they want to ensure that they have the correct version of &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/golden-record/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>1. A single, well-defined version of all the data entities in an organizational ecosystem. In this context, a golden record is sometimes called the single version of the truth, where truth is understood to mean the reference to which data users can turn when they want to ensure that they have the correct version of a piece of information. The golden record encompasses all the data in every system of record within a particular organization. A system of record is an information storage and retrieval system that serves as the authoritative source for a particular data element in a system containing multiple sources of the same element. To ensure data integrity, a single system of record must always exist for each and every data element. A well-maintained, current golden record should be a fundamental element of the Master Data Management policy for every enterprise. 2. The word “golden” is sometimes used in information technology to express the importance of some type of source. In the context of virtualization, for example, a golden image is a template for a virtual machine, virtual desktop, servers, or hard disk drive.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Golden record </rdfs:label>
@@ -9475,7 +9458,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000505"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. A single, well-defined version of all the data entities in an organizational ecosystem. In this context, a golden record is sometimes called the single version of the truth, where truth is understood to mean the reference to which data users can turn when they want to ensure that they have the correct version of &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/golden-record/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>1. A single, well-defined version of all the data entities in an organizational ecosystem. In this context, a golden record is sometimes called the single version of the truth, where truth is understood to mean the reference to which data users can turn when they want to ensure that they have the correct version of a piece of information. The golden record encompasses all the data in every system of record within a particular organization. A system of record is an information storage and retrieval system that serves as the authoritative source for a particular data element in a system containing multiple sources of the same element. To ensure data integrity, a single system of record must always exist for each and every data element. A well-maintained, current golden record should be a fundamental element of the Master Data Management policy for every enterprise. 2. The word “golden” is sometimes used in information technology to express the importance of some type of source. In the context of virtualization, for example, a golden image is a template for a virtual machine, virtual desktop, servers, or hard disk drive.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/golden-record/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9526,7 +9509,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>Data in the form of digital materials. RELATED TERM. Digital materialsn/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Data in the form of digital materials.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital data</rdfs:label>
@@ -9534,7 +9518,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000511"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Data in the form of digital materials. RELATED TERM. Digital materialsn/a</owl:annotatedTarget>
+        <owl:annotatedTarget>Data in the form of digital materials.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-data/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9738,7 +9722,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>The medium through which learning has been provided. For example, through a course, slides, video presentation, online documentation, wiki pages or others.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-09-22T13:19:57.012225Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">learning medium</rdfs:label>
@@ -9759,7 +9742,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000521">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>1. A compilation of core electronic health data submitted by various healthcare providers and organizations, accessible by numerous authorized parties from a number of points of care, possibly even from different jurisdictions. 2. An official health record for an individual that is shared among multiple facilities and agencies. 3. Electronic health records typically include: Contact &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/electronic-health-record/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>1. A compilation of core electronic health data submitted by various healthcare providers and organizations, accessible by numerous authorized parties from a number of points of care, possibly even from different jurisdictions. 2. An official health record for an individual that is shared among multiple facilities and agencies. 3. Electronic health records typically include: Contact information, Information about visits to health care professionals, Allergies, Insurance information, Family history, Immunization status, Information about any conditions or diseases, A list of medications, Records of hospitalization, Information about any surgeries or procedures performed. Digitized health information systems are expected to improve efficiency and quality of care and, ultimately, reduce costs. The benefits of electronic health records include: The ability to automatically share and update information among different offices and organizations, More efficient storage and retrieval, The ability to share multimedia information, such as medical imaging results, among locations, The ability to link records to sources of relevant and current research, Easier standardization of services and patient care, Provision of decision support systems (DSS) for healthcare professionals, Less redundancy of effort, Lower cost to the medical system once implementation is complete, The governments of many countries are working to ensure that all citizens have standardized electronic health records and that all records include the same types of information. The major barrier for the adoption of electronic health records is cost.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Electronic health record </rdfs:label>
@@ -9767,7 +9751,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. A compilation of core electronic health data submitted by various healthcare providers and organizations, accessible by numerous authorized parties from a number of points of care, possibly even from different jurisdictions. 2. An official health record for an individual that is shared among multiple facilities and agencies. 3. Electronic health records typically include: Contact &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/electronic-health-record/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>1. A compilation of core electronic health data submitted by various healthcare providers and organizations, accessible by numerous authorized parties from a number of points of care, possibly even from different jurisdictions. 2. An official health record for an individual that is shared among multiple facilities and agencies. 3. Electronic health records typically include: Contact information, Information about visits to health care professionals, Allergies, Insurance information, Family history, Immunization status, Information about any conditions or diseases, A list of medications, Records of hospitalization, Information about any surgeries or procedures performed. Digitized health information systems are expected to improve efficiency and quality of care and, ultimately, reduce costs. The benefits of electronic health records include: The ability to automatically share and update information among different offices and organizations, More efficient storage and retrieval, The ability to share multimedia information, such as medical imaging results, among locations, The ability to link records to sources of relevant and current research, Easier standardization of services and patient care, Provision of decision support systems (DSS) for healthcare professionals, Less redundancy of effort, Lower cost to the medical system once implementation is complete, The governments of many countries are working to ensure that all citizens have standardized electronic health records and that all records include the same types of information. The major barrier for the adoption of electronic health records is cost.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/electronic-health-record/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9777,15 +9761,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000522">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Techniques used to deal with parameters having different units and scales. SYNONYM. Data rescaling. RELATED TERM. Data standardizationn/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Techniques used to deal with parameters having different units and scales.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Data rescaling</obo:IAO_0000118>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data scaling</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000522"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Techniques used to deal with parameters having different units and scales. SYNONYM. Data rescaling. RELATED TERM. Data standardizationn/a</owl:annotatedTarget>
+        <owl:annotatedTarget>Techniques used to deal with parameters having different units and scales.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-scaling/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -9813,7 +9799,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods. RELATED TERM. Information governance; Governance and accountability moden/a</obo:IAO_0000115>
+        <obo:IAO_0000115>Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Privacy governance </rdfs:label>
@@ -9821,8 +9808,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000524"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods. RELATED TERM. Information governance; Governance and accountability moden/a</owl:annotatedTarget>
-        <obo:IAO_0000119>CASRAI. https://casrai-test.evision.ca/?page_id=383</obo:IAO_0000119>
+        <owl:annotatedTarget>Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods.</owl:annotatedTarget>
+        <obo:IAO_0000119>CASRAI. https://casrai.org/term/privacy-governance/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -10007,7 +9994,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000535">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000248"/>
-        <obo:IAO_0000115>Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.REFERENCE. Rhys Francis/TC3+</obo:IAO_0000115>
+        <obo:IAO_0000115>Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Encoding schema </rdfs:label>
@@ -10015,7 +10003,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000535"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.REFERENCE. Rhys Francis/TC3+</owl:annotatedTarget>
+        <owl:annotatedTarget>Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/encoding-schema/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -10048,7 +10036,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000537">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing� Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation. RELATED TERM. ArchivingREFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</obo:IAO_0000115>
+        <obo:IAO_0000115>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing: Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Digital archiving</rdfs:label>
@@ -10056,7 +10045,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000537"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing� Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation. RELATED TERM. ArchivingREFERENCE. Digital preservation coalitionhttp://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts</owl:annotatedTarget>
+        <owl:annotatedTarget>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing: Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-archiving/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -10157,7 +10146,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000544">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:comment>CASRAI</rdfs:comment>
         <rdfs:label>Data repository management</rdfs:label>
@@ -10165,7 +10155,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000544"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-repository-management/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -10233,9 +10223,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>Laura Molloy</obo:IAO_0000119>
         <obo:T4FS_0000564>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
-        <obo:T4FS_0000565>Revise Celia&apos;s presentation:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:T4FS_0000565>
         <rdfs:label>data stewardship soft skill</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000564"/>
+        <owl:annotatedTarget>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</owl:annotatedTarget>
+        <obo:IAO_0000119>Celia van Gelder:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
