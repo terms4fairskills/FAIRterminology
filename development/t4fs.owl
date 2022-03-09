@@ -399,25 +399,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000111"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000243"/>
-        <obo:IAO_0000115>To carry out appropriate data imputation techniques relevant to the domain, namely methods to impute values for data where they are missing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>apply data imputation</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To carry out appropriate data imputation techniques relevant to the domain, namely methods to impute values for data where they are missing.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000002">
@@ -1722,24 +1703,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
-        <obo:IAO_0000115>To have a sufficient grasp of the mathematical and statistical techniques relevant to the domain in question so that one can understand what is required to have the data in the right format for those techniques to be applied without further transformation of the data.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>understand mathematical and statistical concepts and techniques relevant to the domain</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000083"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To have a sufficient grasp of the mathematical and statistical techniques relevant to the domain in question so that one can understand what is required to have the data in the right format for those techniques to be applied without further transformation of the data.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000084">
@@ -1830,24 +1793,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <dc:date>2019-10-19T13:01:53.754977Z</dc:date>
         <rdfs:label>a aptitudes for resource management</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <obo:IAO_0000115>To be able to construct data sets so that they can be called directly from methods that build prediction models from or interpret data relevant to the domain.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>make data actionable for computational prediction of or interpretations from data relevant</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000090"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to construct data sets so that they can be called directly from methods that build prediction models from or interpret data relevant to the domain.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2142,24 +2087,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000083"/>
-        <obo:IAO_0000115>Be able to put data into a format so that it can be directly called by a relevant piece of software, function or workflow which implements a specific mathematical or statistical step without recourse to any further transformation.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>be able to make data actionable for computational methods relevant to the data</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000111"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Be able to put data into a format so that it can be directly called by a relevant piece of software, function or workflow which implements a specific mathematical or statistical step without recourse to any further transformation.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000112">
@@ -2265,7 +2192,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label>Dissambuation</rdfs:label>
+        <rdfs:label>Disambiguation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000119"/>
@@ -2695,26 +2622,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000144 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000147"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000545"/>
-        <obo:IAO_0000115>To create metadata to consistently define transformations on data that makes the data actionable for research and where possible to infer the original data.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>generate metadata to track transformations.</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000144"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To create metadata to consistently define transformations on data that makes the data actionable for research and where possible to infer the original data.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000145 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000145">
@@ -2761,25 +2668,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An ecosystem that includes not only traditional elements of cloud computing such as software and infrastructure, but also consultants, integrators, partners, third parties and anything in their environments that has a bearing on the other components.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/cloud-ecosystem/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000111"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000243"/>
-        <obo:IAO_0000115>To carry out the steps necessary to remove inconsistencies within a dataset that can cause downstream functions, software or workflows to fail; to label values as missing where necesary.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>be able to clean data</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000147"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To carry out the steps necessary to remove inconsistencies within a dataset that can cause downstream functions, software or workflows to fail; to label values as missing where necesary.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -3118,16 +3006,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedTarget>1. A field or column in a database table. It is an abbreviation for &apos;physical data attribute&apos; which is a single data element related to a data object, such as a table in a database. The database schema associates one or more attributes with each database entity (i.e. table). 2. A term for a logical or conceptual attribute such as in an entity-attribute-relationship (EAR) data model.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-table-attribute/</obo:IAO_0000119>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000167 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000167">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
-        <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>critical thinking and theory building</rdfs:label>
-    </owl:Class>
     
 
 
@@ -3664,42 +3542,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A formal statement describing how research data will be managed and documented throughout a research project and the terms regarding the subsequent deposit of the data with a data repository for long-term management and preservation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-management-plan/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000197 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <obo:IAO_0000115>To be able to deploy models that have been trained on data sets for further use.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>deploy generated models</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000197"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to deploy models that have been trained on data sets for further use.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000198 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
-        <obo:IAO_0000115>To understand the techniques behind querying datasets relevant for a domain, whether it be (for example) SQL queries constructed from a relational databases or GraphQL queries for a graph.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>understand querying techniques</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To understand the techniques behind querying datasets relevant for a domain, whether it be (for example) SQL queries constructed from a relational databases or GraphQL queries for a graph.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -4332,24 +4174,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000243 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000243">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000538"/>
-        <obo:IAO_0000115>Be able to make data actionable for transformation and integration techniques relevant to the research</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>make data actionable for transformation and integration</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000243"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Be able to make data actionable for transformation and integration techniques relevant to the research</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000244">
@@ -4421,7 +4245,8 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>influencing/community building</rdfs:label>
+        <rdfs:comment>AL 9.3.22: renamed to prevent compound term. Was &apos;Influencing/community building&apos;</rdfs:comment>
+        <rdfs:label>Community building</rdfs:label>
     </owl:Class>
     
 
@@ -4745,24 +4570,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <obo:IAO_0000115>To be able to construct queries of a dataset that is apposite for the domain,</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>build queries</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000269"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to construct queries of a dataset that is apposite for the domain,</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000270">
@@ -4922,17 +4729,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedTarget>Removing noise from data.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-de-noising/</obo:IAO_0000119>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000281 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment>AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy.</rdfs:comment>
-        <rdfs:label>integrate and analyse</rdfs:label>
-    </owl:Class>
     
 
 
@@ -5140,7 +4936,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000293">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -5221,7 +5017,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Know how data handling practices in the domain make FAIR criteria more or less easy to implement</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
@@ -5507,35 +5303,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-research-data/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000313 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000313">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Show appreciation of strengths and weakness of earlier FAIR data management steps taken by self or others</obo:IAO_0000115>
-        <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>ability to critically assess (earlier) work of others and yourself</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000313"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Show appreciation of strengths and weakness of earlier FAIR data management steps taken by self or others</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -6044,7 +5811,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Know how the acceptability of research data FAIRness depends on the research community norms e.g. concepts of data and methods for deriving valid knowledge</obo:IAO_0000115>
         <obo:IAO_0000115>Know how the acceptability of research evidence depends on the research community concept of data and its methods for deriving valid knowledge from it</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
@@ -6492,7 +6259,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Select data handling approaches likely to make data as FAIR as possible, considering what the data is about and its purpose in the research.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000118>??</obo:IAO_0000118>
@@ -6534,24 +6301,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The activity of recording provenance for data and software. Knowledge about provenance vocabularies, for example PROV-O and models provenance such as nanopublications.</owl:annotatedTarget>
         <obo:IAO_0000119>KH</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
-        <obo:IAO_0000115>To understand the computational techniques used in making predictions from or interpreting data sets relevant to the domain. These techniques include Predictive Modelling and Analytics, Machine Learning, Data Mining and Feature Engineering. Specifically the understanding of how the data needs to formatted for the relevant methods to used without any further intervention.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>computationally predict from or interpret data.</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000369"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To understand the computational techniques used in making predictions from or interpreting data sets relevant to the domain. These techniques include Predictive Modelling and Analytics, Machine Learning, Data Mining and Feature Engineering. Specifically the understanding of how the data needs to formatted for the relevant methods to used without any further intervention.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -7098,24 +6847,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <obo:IAO_0000115>To be able to store and access data that is a projection of a larger data set either through tecniques such as Principal Component Analysis or more general feature engineering techniques.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>deploy feature data</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000403"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to store and access data that is a projection of a larger data set either through tecniques such as Principal Component Analysis or more general feature engineering techniques.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000404 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000404">
@@ -7159,24 +6890,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <oboInOwl:creation_date>2019-10-18T08:56:32.673701Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">aptitudes associated with using fair tools and services</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000409 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000198"/>
-        <obo:IAO_0000115>To be able to define relevant metadata for models and features generated.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>build modelling metadata</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000409"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to define relevant metadata for models and features generated.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -8424,7 +8137,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Understand the concepts underpinning FAIR criteria</obo:IAO_0000115>
         <obo:IAO_0000115>Understand the concepts underpinning FAIR criteria and their application</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
@@ -8715,7 +8428,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:38:59.038306Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">using FAIR and open research tools or services</rdfs:label>
@@ -9230,29 +8943,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000536 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000536">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000167"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Be able to frame data stewardship problems in a variety of ways to guide effective strategies for making data FAIR and open</obo:IAO_0000115>
-        <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>ability to apply different perspectives to understand problems/phenomena</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000536"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Be able to frame data stewardship problems in a variety of ways to guide effective strategies for making data FAIR and open</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000537">
@@ -9267,24 +8957,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing: Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/digital-archiving/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000538 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000281"/>
-        <obo:IAO_0000115>Understand data transformation and integration techniques relevant to the research</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>understand data transformation and integration</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000538"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Understand data transformation and integration techniques relevant to the research</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -9362,25 +9034,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-repository-management/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000545 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000545">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000111"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000243"/>
-        <obo:IAO_0000115>To be able to integrate disparate datasets, using associated metadata appropriately.</obo:IAO_0000115>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>integrate data from disparate data sets</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000545"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>To be able to integrate disparate datasets, using associated metadata appropriately.</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
     </owl:Axiom>
     
 
