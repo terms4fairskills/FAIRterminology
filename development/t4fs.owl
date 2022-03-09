@@ -8328,27 +8328,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000473 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000473">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
-        <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
-        <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
-        <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>policies (legal requirements, ethical &amp; FAIR principles)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000473"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000474">
