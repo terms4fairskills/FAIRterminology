@@ -552,12 +552,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
             </owl:Restriction>
@@ -649,7 +643,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115>An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -722,13 +716,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -741,16 +729,17 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>??</obo:IAO_0000115>
+        <obo:IAO_0000115>Exposing data is when a data producer makes the data accessible to external users in a machine- and/or human-readable way.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118>??</obo:IAO_0000118>
-        <rdfs:label>expose your data</rdfs:label>
+        <rdfs:comment>AL 15.3.22: Was &quot;expose your data&quot;, which was not in the style of other term labels. Also updated definition, but might need revisiting later for a more formal definition.</rdfs:comment>
+        <rdfs:label>Exposing data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>??</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>Exposing data is when a data producer makes the data accessible to external users in a machine- and/or human-readable way.</owl:annotatedTarget>
+        <obo:IAO_0000119>[AL 15.3.22]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -1113,7 +1102,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115>Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -1482,7 +1471,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>An intellectual process of describing objects in accordance with accepted library principles, particularly those of subject and classification order.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Cataloguing</rdfs:label>
@@ -1592,30 +1581,26 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The ability to find and comprehend data produced by people other than yourself. [PMQ]</obo:IAO_0000115>
+        <obo:IAO_0000115>The ability to find and comprehend data produced by people other than yourself.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118>Data discovery</obo:IAO_0000118>
         <obo:IAO_0000118>Data search</obo:IAO_0000118>
-        <rdfs:label>discover other peoples data</rdfs:label>
+        <rdfs:comment>AL 15.3.22: tidied label from &quot;discover other peoples data&quot; to &quot;Data discovery&quot;</rdfs:comment>
+        <rdfs:label>Data discovery</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The ability to find and comprehend data produced by people other than yourself. [PMQ]</owl:annotatedTarget>
-        <obo:IAO_0000119>??</obo:IAO_0000119>
+        <owl:annotatedTarget>The ability to find and comprehend data produced by people other than yourself.</owl:annotatedTarget>
+        <obo:IAO_0000119>[PMQ]</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -2029,7 +2014,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
@@ -2390,12 +2375,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
             </owl:Restriction>
@@ -2626,12 +2605,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000076"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -3115,7 +3088,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115>The process of restoring data that have been lost, accidentally deleted, corrupted or made inaccessible for any reason. The data recovery process may vary, depending on the circumstances of the data loss, the data recovery software used to create backups, and backup target media. In some cases, end users may be able to restore lost...</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data recovery</rdfs:label>
@@ -3351,7 +3324,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115>Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -3604,7 +3577,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115>The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -3991,7 +3964,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115>The process of acquiring data from some source. For example, data may be acquired by download from a repository, transfer from a data logger, data capture, etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000118>Data capture</obo:IAO_0000118>
+        <rdfs:comment>AL 15.3.22: Removed &quot;data and metadata capture&quot; as was too similar to this term. Added alternative term &quot;data capture&quot;.</rdfs:comment>
         <rdfs:label>Data acquisition</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4213,7 +4189,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000115>The release of research data, associated metadata, accompanying documentation, and software code (in cases where the raw data have been processed or manipulated) for re-use and analysis in such a manner that they can be discovered on the Web and referred to in a unique and persistent way. Data publishing occurs via dedicated data repositories...</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data publication</rdfs:label>
@@ -4573,7 +4549,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115>The process of confirming the identity of a principal entity.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Authentication</rdfs:label>
@@ -4878,7 +4854,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000290">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000231"/>
         <obo:IAO_0000115>The process of obtaining, importing, and processing data for later use or storage in a database. This process often involves altering individual files by editing their content and/or formatting them to fit into a larger document.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data ingestion</rdfs:label>
@@ -4966,12 +4942,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -5074,12 +5044,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000076"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -5329,12 +5293,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
@@ -5861,22 +5819,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000344 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
-        <obo:IAO_0000117>Frans Huigen</obo:IAO_0000117>
-        <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <obo:IAO_0000117>Nancy Hoebelheinrich</obo:IAO_0000117>
-        <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:comment>AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy.</rdfs:comment>
-        <rdfs:comment>Aggregation of data discovery and dataset release</rdfs:comment>
-        <rdfs:label>expose and discover</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000345 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000345">
@@ -6174,37 +6116,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedTarget>Explains aspects of one discipline in terms of another (e.g., the physics of music; the politics of literature).</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/cross-disciplinary/</obo:IAO_0000119>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000363 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000248"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
-        <oboInOwl:created_by>ylefranc</oboInOwl:created_by>
-        <oboInOwl:creation_date>2020-07-31T14:29:35.912213Z</oboInOwl:creation_date>
-        <rdfs:comment>AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy.</rdfs:comment>
-        <rdfs:label xml:lang="en">data and metadata capture</rdfs:label>
-    </owl:Class>
     
 
 
@@ -6791,12 +6702,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -7624,7 +7529,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115>The exercise of authority, control and shared decision making (planning, monitoring and enforcement) over the management of data assets.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data governance</rdfs:label>
@@ -7831,14 +7736,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>1. Exercising authority to provide direction and to undertake, coordinate, and regulate activities in support of achieving this direction and desired outcomes. 2. Governance can be thought of as the role of an organization�s board of directors or its equivalent that is focused on defining that organization�s purpose and the development of the strategies, objectives, &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/governance/ class=more-link</obo:IAO_0000115>
+        <obo:IAO_0000115>1. Exercising authority to provide direction and to undertake, coordinate, and regulate activities in support of achieving this direction and desired outcomes. Governance can be thought of as the role of an organization&apos;s board of directors or its equivalent that is focused on defining that organization&apos;s purpose and the development of the strategies, objectives, values, and policies that frame how that purpose will be pursued. It includes the development of such things as mission statements, statements of organizational objectives and values, logic models, organizational performance metrics, risk management frameworks, policies and guidelines for financial and operational matters, stakeholder relations, etc.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Governance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>1. Exercising authority to provide direction and to undertake, coordinate, and regulate activities in support of achieving this direction and desired outcomes. 2. Governance can be thought of as the role of an organization�s board of directors or its equivalent that is focused on defining that organization�s purpose and the development of the strategies, objectives, &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/governance/ class=more-link</owl:annotatedTarget>
+        <owl:annotatedTarget>1. Exercising authority to provide direction and to undertake, coordinate, and regulate activities in support of achieving this direction and desired outcomes. Governance can be thought of as the role of an organization&apos;s board of directors or its equivalent that is focused on defining that organization&apos;s purpose and the development of the strategies, objectives, values, and policies that frame how that purpose will be pursued. It includes the development of such things as mission statements, statements of organizational objectives and values, logic models, organizational performance metrics, risk management frameworks, policies and guidelines for financial and operational matters, stakeholder relations, etc.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/governance/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8735,7 +8640,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000524">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115>Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
