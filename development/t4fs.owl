@@ -6528,7 +6528,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">database curator</rdfs:label>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">database curator</obo:IAO_0000118>
+        <rdfs:comment>AL 15.3.22: Updated label to &apos;data curator&apos; to encompass curation beyond just in databases.</rdfs:comment>
+        <rdfs:label>data curator</rdfs:label>
     </owl:Class>
     
 
@@ -7455,7 +7458,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000454 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000454">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000220"/>
         <obo:IAO_0000115>A person who is studying or has expert knowledge of one or more of the natural or physical sciences.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -9053,6 +9056,39 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedTarget>Any information obtained by a person on the understanding that they will not disclose it to others, or obtained in circumstances where it is expected that they will not disclose it.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/confidential-information/</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000454"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
+        <rdfs:label xml:lang="en">data scientist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ontologist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
+        <rdfs:label xml:lang="en">Terminology manager</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
