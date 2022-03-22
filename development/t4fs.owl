@@ -81,7 +81,7 @@ This terminology is of use to trainers who teach FAIR data skills, researchers w
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <obo:IAO_0000115>An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
         <oboInOwl:created_by>Allyson Lister</oboInOwl:created_by>
-        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label>Alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -169,7 +169,7 @@ This terminology is of use to trainers who teach FAIR data skills, researchers w
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
         <dc:creator>Peter McQuilton</dc:creator>
-        <rdfs:label>Created by</rdfs:label>
+        <rdfs:label>created by</rdfs:label>
     </owl:AnnotationProperty>
 
 
@@ -178,7 +178,7 @@ This terminology is of use to trainers who teach FAIR data skills, researchers w
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
         <dc:creator>Peter McQuilton</dc:creator>
-        <rdfs:label>Creation date</rdfs:label>
+        <rdfs:label>creation date</rdfs:label>
     </owl:AnnotationProperty>
 
 
@@ -447,7 +447,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <rdfs:comment>AL 8.2.22: Refactored &quot;software review and preservation&quot; to &quot;software preservation&quot;, as the review process is not within the remit of terms4FAIRskills. Added definition and source.</rdfs:comment>
-        <rdfs:label>software preservation</rdfs:label>
+        <rdfs:label>Software preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000004"/>
@@ -485,8 +485,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>develop FAIR and open research vision</rdfs:label>
+        <rdfs:label>Develop FAIR and open research vision</rdfs:label>
     </owl:Class>
 
 
@@ -500,7 +499,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>develop open research strategy and vision</rdfs:label>
+        <rdfs:label>Develop open research strategy and vision</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000008"/>
@@ -541,8 +540,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Understand how the governing principles of research integrity and FAIR overlap</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
-
-        <rdfs:label>understand research code of conduct</rdfs:label>
+        <rdfs:label>Understand research code of conduct</rdfs:label>
     </owl:Class>
 
 
@@ -565,7 +563,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         </rdfs:subClassOf>
         <obo:IAO_0000115>To be able to choose the appropriate reporting guideline/checklist for your data, based on community-adopted standards.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label>choosing the appropriate reporting guideline for your data</rdfs:label>
+        <rdfs:label>Choosing the appropriate reporting guideline for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000011"/>
@@ -590,7 +588,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <obo:T4FS_0000564>Set of actions carried out during data stewardship processes</obo:T4FS_0000564>
-        <rdfs:label xml:lang="en">data stewardship activity</rdfs:label>
+        <rdfs:label xml:lang="en">Data stewardship activity</rdfs:label>
     </owl:Class>
 
 
@@ -623,7 +621,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">interoperability of digital assets</rdfs:label>
+        <rdfs:label xml:lang="en">Interoperability of digital assets</rdfs:label>
     </owl:Class>
 
 
@@ -635,7 +633,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills related to Resource management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:02:32.735608Z</dc:date>
-        <rdfs:label>a skills for resource management</rdfs:label>
+        <rdfs:label>Skills for resource management</rdfs:label>
     </owl:Class>
 
 
@@ -667,7 +665,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118>Data Classification</obo:IAO_0000118>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:30:31.531624Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">data categorisation</rdfs:label>
+        <rdfs:label xml:lang="en">Data categorisation</rdfs:label>
     </owl:Class>
 
 
@@ -751,7 +749,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Workflow technologies management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:50.315691Z</dc:date>
-        <rdfs:label>aptitudes for workflow technologies management</rdfs:label>
+        <rdfs:label>Aptitudes for workflow technologies management</rdfs:label>
     </owl:Class>
 
 
@@ -823,8 +821,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>storage security risk assessment and mitigation</rdfs:label>
+        <rdfs:label>Storage security risk assessment and mitigation</rdfs:label>
     </owl:Class>
 
 
@@ -880,7 +877,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:12:20.624146Z</dc:date>
-        <rdfs:label>skills related to high performance computing management</rdfs:label>
+        <rdfs:label>Skills related to high performance computing management</rdfs:label>
     </owl:Class>
 
 
@@ -944,7 +941,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">database developer</rdfs:label>
+        <rdfs:label xml:lang="en">Database developer</rdfs:label>
     </owl:Class>
 
 
@@ -1009,8 +1006,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understanding FAIR and open research challenges in your organization</rdfs:label>
+        <rdfs:label>Understanding FAIR and open research challenges in your organization</rdfs:label>
     </owl:Class>
 
 
@@ -1019,7 +1015,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000106"/>
-        <rdfs:label>ethical application of patents, licenses</rdfs:label>
+        <rdfs:label>Ethical application of patents, licenses</rdfs:label>
     </owl:Class>
 
 
@@ -1114,8 +1110,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand societal impact of research</rdfs:label>
+        <rdfs:label>Understand societal impact of research</rdfs:label>
     </owl:Class>
 
 
@@ -1129,7 +1124,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118> Programmatic search&apos;</obo:IAO_0000118>
         <obo:IAO_0000118> batch search</obo:IAO_0000118>
         <obo:IAO_0000118>Algorithm searching</obo:IAO_0000118>
-        <rdfs:label>searching via algorithms and software</rdfs:label>
+        <rdfs:label>Searching via algorithms and software</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000048"/>
@@ -1163,7 +1158,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000095"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T21:03:37.147424Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">wiki site</rdfs:label>
+        <rdfs:label xml:lang="en">Wiki site</rdfs:label>
     </owl:Class>
 
 
@@ -1175,7 +1170,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:06:46.742463Z</dc:date>
-        <rdfs:label>skills related to authorisation management</rdfs:label>
+        <rdfs:label>Skills related to authorisation management</rdfs:label>
     </owl:Class>
 
 
@@ -1200,7 +1195,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>storage management</rdfs:label>
+        <rdfs:label>Storage management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000053"/>
@@ -1295,7 +1290,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>manage access</rdfs:label>
+        <rdfs:label>Manage access</rdfs:label>
     </owl:Class>
 
 
@@ -1332,7 +1327,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>tactical/short-term planning</rdfs:label>
+        <rdfs:label>Tactical/short-term planning</rdfs:label>
     </owl:Class>
 
 
@@ -1361,7 +1356,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Provenance information management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:31.489884Z</dc:date>
-        <rdfs:label>aptitudes for provenance information management</rdfs:label>
+        <rdfs:label>Aptitudes for provenance information management</rdfs:label>
     </owl:Class>
 
 
@@ -1475,8 +1470,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>design and apply processes for attribution</rdfs:label>
+        <rdfs:label>Design and apply processes for attribution</rdfs:label>
     </owl:Class>
 
 
@@ -1541,8 +1535,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>apply data access policy</rdfs:label>
+        <rdfs:label>Apply data access policy</rdfs:label>
     </owl:Class>
 
 
@@ -1599,7 +1592,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>conducting operations</rdfs:label>
+        <rdfs:label>Conducting operations</rdfs:label>
     </owl:Class>
 
 
@@ -1652,7 +1645,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000095"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:52:57.551905Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">online workbook</rdfs:label>
+        <rdfs:label xml:lang="en">Online workbook</rdfs:label>
     </owl:Class>
 
 
@@ -1661,7 +1654,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000106"/>
-        <rdfs:label>engaging in open innovation beyond academia</rdfs:label>
+        <rdfs:label>Engaging in open innovation beyond academia</rdfs:label>
     </owl:Class>
 
 
@@ -1727,7 +1720,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Resource management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:02:18.105378Z</dc:date>
-        <rdfs:label>a knowledge for resource management</rdfs:label>
+        <rdfs:label>A knowledge for resource management</rdfs:label>
     </owl:Class>
 
 
@@ -1745,7 +1738,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Resource management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-19T13:01:53.754977Z</dc:date>
-        <rdfs:label>a aptitudes for resource management</rdfs:label>
+        <rdfs:label>Aptitudes for resource management</rdfs:label>
     </owl:Class>
 
 
@@ -1757,7 +1750,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for types of Knowledge related to Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:19:33.078521Z</dc:date>
-        <rdfs:label>knowledge of storage management</rdfs:label>
+        <rdfs:label>Knowledge of storage management</rdfs:label>
     </owl:Class>
 
 
@@ -1770,8 +1763,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand open access publishing</rdfs:label>
+        <rdfs:label>Understand open access publishing</rdfs:label>
     </owl:Class>
 
 
@@ -1790,7 +1782,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label>use of persistent, resolvable identifiers (PIDs)</rdfs:label>
+        <rdfs:label>Use of persistent, resolvable identifiers (PIDs)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000093"/>
@@ -1826,7 +1818,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:59.107153Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">online documentation</rdfs:label>
+        <rdfs:label xml:lang="en">Online documentation</rdfs:label>
     </owl:Class>
 
 
@@ -1845,7 +1837,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">metadata catalogue</rdfs:label>
+        <rdfs:label xml:lang="en">Metadata catalogue</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000096"/>
@@ -1864,8 +1856,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand legal background of patents</rdfs:label>
+        <rdfs:label>Understand legal background of patents</rdfs:label>
     </owl:Class>
 
 
@@ -1940,7 +1931,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>preservation costs management</rdfs:label>
+        <rdfs:label>Preservation costs management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000104"/>
@@ -1981,7 +1972,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000118>Publish and archive data</obo:IAO_0000118>
         <obo:IAO_0000118>Publishing and archiving data</obo:IAO_0000118>
         <rdfs:comment>AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy.</rdfs:comment>
-        <rdfs:label>publish and release</rdfs:label>
+        <rdfs:label>Publish and release</rdfs:label>
     </owl:Class>
 
 
@@ -2096,7 +2087,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>define access policy</rdfs:label>
+        <rdfs:label>Define access policy</rdfs:label>
     </owl:Class>
 
 
@@ -2108,7 +2099,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Skills needed for Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:02.313138Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to provenance information management</rdfs:label>
+        <rdfs:label>Skills related to provenance information management</rdfs:label>
     </owl:Class>
 
 
@@ -2188,7 +2179,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">trainer/teacher</rdfs:label>
+        <rdfs:label xml:lang="en">Trainer/teacher</rdfs:label>
     </owl:Class>
 
 
@@ -2200,7 +2191,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Identity management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:44:49.257438Z</dc:date>
-        <rdfs:label>aptitudes for identity management</rdfs:label>
+        <rdfs:label>Aptitudes for identity management</rdfs:label>
     </owl:Class>
 
 
@@ -2214,7 +2205,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>understand information security challenges</rdfs:label>
+        <rdfs:label>Understand information security challenges</rdfs:label>
     </owl:Class>
 
 
@@ -2226,7 +2217,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000115>Bin for Aptitudes related to Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:36:46.018343Z</dc:date>
-        <rdfs:label>aptitudes for authorisation management</rdfs:label>
+        <rdfs:label>Aptitudes for authorisation management</rdfs:label>
     </owl:Class>
 
 
@@ -2283,7 +2274,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>Demonstrate ability to involve others and share responsibility for applying FAIR principles.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>ability to solve fair implementation problems collaboratively</rdfs:label>
+        <rdfs:label>Ability to solve fair implementation problems collaboratively</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000129"/>
@@ -2301,7 +2292,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Cloud computing environment management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:14:37.180683Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to cloud computing environment management</rdfs:label>
+        <rdfs:label>Skills related to cloud computing environment management</rdfs:label>
     </owl:Class>
 
 
@@ -2348,7 +2339,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Cite contributions to data work in published literature which draws upon that data.</obo:IAO_0000115>
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label>cite contributions</rdfs:label>
+        <rdfs:label>Cite contributions</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000133"/>
@@ -2406,8 +2397,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>Understand what reuse is permitted according to the licenses or terms and conditions applicable to services, tools and their content.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-
-        <rdfs:label>how to make your data reuseable</rdfs:label>
+        <rdfs:label>How to make your data reuseable</rdfs:label>
     </owl:Class>
 
 
@@ -2531,7 +2521,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>authorisation management</rdfs:label>
+        <rdfs:label>Authorisation management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000142"/>
@@ -2549,7 +2539,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Authorization management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:07:06.916293Z</dc:date>
-        <rdfs:label>knowledge of authorisation management</rdfs:label>
+        <rdfs:label>Knowledge of authorisation management</rdfs:label>
     </owl:Class>
 
 
@@ -2570,7 +2560,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000118> searching databases</obo:IAO_0000118>
         <obo:IAO_0000118> searching repositories</obo:IAO_0000118>
         <obo:IAO_0000118>Repository search</obo:IAO_0000118>
-        <rdfs:label>search repositories and knowledge-bases</rdfs:label>
+        <rdfs:label>Search repositories and knowledge-bases</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000145"/>
@@ -2606,8 +2596,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand legal background of licensing</rdfs:label>
+        <rdfs:label>Understand legal background of licensing</rdfs:label>
     </owl:Class>
 
 
@@ -2672,7 +2661,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Identity management</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:13:37.040505Z</dc:date>
-        <rdfs:label>knowledge of identity management</rdfs:label>
+        <rdfs:label>Knowledge of identity management</rdfs:label>
     </owl:Class>
 
 
@@ -2685,7 +2674,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>quality assessment</rdfs:label>
+        <rdfs:label>Quality assessment</rdfs:label>
     </owl:Class>
 
 
@@ -2749,7 +2738,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:32.816776Z</oboInOwl:creation_date>
-        <rdfs:label>knowledge of preservation costs management</rdfs:label>
+        <rdfs:label>Knowledge of preservation costs management</rdfs:label>
     </owl:Class>
 
 
@@ -2784,7 +2773,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>A description with very little curation that would include at least a name and PID of a data object. Minimal metadata is only marginally targeted at discovery since there is much better infrastructure to accomplish this.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">minimal metadata</rdfs:label>
+        <rdfs:label xml:lang="en">Minimal metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000159"/>
@@ -2962,7 +2951,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000118> IAM</obo:IAO_0000118>
         <obo:IAO_0000118> Identity and Access Management</obo:IAO_0000118>
         <obo:IAO_0000118>IdM</obo:IAO_0000118>
-        <rdfs:label>identity management</rdfs:label>
+        <rdfs:label>Identity management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000169"/>
@@ -2978,7 +2967,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">reuse of digital assets</rdfs:label>
+        <rdfs:label xml:lang="en">Reuse of digital assets</rdfs:label>
     </owl:Class>
 
 
@@ -2991,8 +2980,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>investigate open innovation opportunities</rdfs:label>
+        <rdfs:label>Investigate open innovation opportunities</rdfs:label>
     </owl:Class>
 
 
@@ -3038,7 +3026,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> FAIR data submission</obo:IAO_0000118>
         <obo:IAO_0000118>Repository FAIRness</obo:IAO_0000118>
-        <rdfs:label>evaluation of repositories for data deposition</rdfs:label>
+        <rdfs:label>Evaluation of repositories for data deposition</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
@@ -3088,7 +3076,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>workflow technologies management</rdfs:label>
+        <rdfs:label>Workflow technologies management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000177"/>
@@ -3125,7 +3113,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-steward/</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">data steward</rdfs:label>
+        <rdfs:label xml:lang="en">Data steward</rdfs:label>
     </owl:Class>
 
 
@@ -3137,7 +3125,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:32.816013Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to preservation costs management</rdfs:label>
+        <rdfs:label>Skills related to preservation costs management</rdfs:label>
     </owl:Class>
 
 
@@ -3148,7 +3136,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000489"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:10:11.837519Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">repository certification schemes</rdfs:label>
+        <rdfs:label xml:lang="en">Repository certification schemes</rdfs:label>
     </owl:Class>
 
 
@@ -3185,7 +3173,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Laura Molloy</obo:IAO_0000117>
         <obo:IAO_0000118> credit</obo:IAO_0000118>
         <obo:IAO_0000118>attribution</obo:IAO_0000118>
-        <rdfs:label>recognise and acknowledge contributions</rdfs:label>
+        <rdfs:label>Recognise and acknowledge contributions</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000183"/>
@@ -3360,7 +3348,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
         <rdfs:comment>AL 22.3.22: refactored &apos;open access publishing and self-archiving&apos; to be two separate concepts (&apos;open access publishing&apos;, and &apos;self-archiving&apos;) according to T4FS best practices. Self-archiving did not have to be created because we already had self-archive, which was then moved to the Archiving hierarchy. &apos;publish open access&apos; was also removed in favour of this term as they were too similar to have without the potential for confusion by users.</rdfs:comment>
-        <rdfs:label>open access publishing</rdfs:label>
+        <rdfs:label>Open access publishing</rdfs:label>
     </owl:Class>
 
 
@@ -3499,7 +3487,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:16:10.561925Z</oboInOwl:creation_date>
-        <rdfs:label>knowledge of workflow technologies management</rdfs:label>
+        <rdfs:label>Knowledge of workflow technologies management</rdfs:label>
     </owl:Class>
 
 
@@ -3513,7 +3501,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>access risk assessment and mitigation</rdfs:label>
+        <rdfs:label>Access risk assessment and mitigation</rdfs:label>
     </owl:Class>
 
 
@@ -3543,7 +3531,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:52:43.543314Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">presentation slides</rdfs:label>
+        <rdfs:label xml:lang="en">Presentation slides</rdfs:label>
     </owl:Class>
 
 
@@ -3557,8 +3545,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>implement secure storage</rdfs:label>
+        <rdfs:label>Implement secure storage</rdfs:label>
     </owl:Class>
 
 
@@ -3618,8 +3605,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>design processes for research integrity</rdfs:label>
+        <rdfs:label>Design processes for research integrity</rdfs:label>
     </owl:Class>
 
 
@@ -3634,7 +3620,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000119 rdf:resource="https://www.coretrustseal.org/about/"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">core trust seal</rdfs:label>
+        <rdfs:label xml:lang="en">Core trust seal</rdfs:label>
     </owl:Class>
 
 
@@ -3684,7 +3670,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <rdfs:label xml:lang="en">researcher</rdfs:label>
+        <rdfs:label xml:lang="en">Researcher</rdfs:label>
     </owl:Class>
 
 
@@ -3696,7 +3682,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:53.731967Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to service level management</rdfs:label>
+        <rdfs:label>Skills related to service level management</rdfs:label>
     </owl:Class>
 
 
@@ -3728,8 +3714,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand storage security challanges</rdfs:label>
+        <rdfs:label>Understand storage security challanges</rdfs:label>
     </owl:Class>
 
 
@@ -3812,7 +3797,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge needed for Data management costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:10:48.465372Z</dc:date>
-        <rdfs:label>knowledge of data management costs management</rdfs:label>
+        <rdfs:label>Knowledge of data management costs management</rdfs:label>
     </owl:Class>
 
 
@@ -3825,7 +3810,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>logistical support</rdfs:label>
+        <rdfs:label>Logistical support</rdfs:label>
     </owl:Class>
 
 
@@ -3837,7 +3822,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Data management costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:25.790125Z</dc:date>
-        <rdfs:label>aptitudes for data management costs management</rdfs:label>
+        <rdfs:label>Aptitudes for data management costs management</rdfs:label>
     </owl:Class>
 
 
@@ -3870,7 +3855,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>data management costs management</rdfs:label>
+        <rdfs:label>Data management costs management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000232"/>
@@ -3997,8 +3982,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>appreciate importance of research integrity</rdfs:label>
+        <rdfs:label>Appreciate importance of research integrity</rdfs:label>
     </owl:Class>
 
 
@@ -4085,7 +4069,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">findability of digital assets</rdfs:label>
+        <rdfs:label xml:lang="en">Findability of digital assets</rdfs:label>
     </owl:Class>
 
 
@@ -4381,7 +4365,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>CASRAI.https://casrai.org/term/data-curation/</obo:IAO_0000119>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">data curation</rdfs:label>
+        <rdfs:label xml:lang="en">Data curation</rdfs:label>
     </owl:Class>
 
 
@@ -4393,7 +4377,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:11:10.628886Z</dc:date>
-        <rdfs:label>skills related to funding acquisition management</rdfs:label>
+        <rdfs:label>Skills related to funding acquisition management</rdfs:label>
     </owl:Class>
 
 
@@ -4539,7 +4523,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:43:11.30844Z</dc:date>
-        <rdfs:label>aptitudes for high performance computing management</rdfs:label>
+        <rdfs:label>Aptitudes for high performance computing management</rdfs:label>
     </owl:Class>
 
 
@@ -4629,8 +4613,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>develop FAIR and open research strategy</rdfs:label>
+        <rdfs:label>Develop FAIR and open research strategy</rdfs:label>
     </owl:Class>
 
 
@@ -4643,8 +4626,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>patent application</rdfs:label>
+        <rdfs:label>Patent application</rdfs:label>
     </owl:Class>
 
 
@@ -4698,7 +4680,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:08:17.010632Z</dc:date>
-        <rdfs:label>knowledge of change management</rdfs:label>
+        <rdfs:label>Knowledge of change management</rdfs:label>
     </owl:Class>
 
 
@@ -4800,7 +4782,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000118> Ontology identification</obo:IAO_0000118>
         <obo:IAO_0000118> Thesaurus identification</obo:IAO_0000118>
         <obo:IAO_0000118>Taxonomy identification</obo:IAO_0000118>
-        <rdfs:label>choosing the appropriate terminology for your data</rdfs:label>
+        <rdfs:label>Choosing the appropriate terminology for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000294"/>
@@ -4835,8 +4817,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Know how data handling practices in the domain make FAIR criteria more or less easy to implement.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-
-        <rdfs:label>knowledge to contextualise FAIR principles to domain</rdfs:label>
+        <rdfs:label>Knowledge to contextualise FAIR principles to domain</rdfs:label>
     </owl:Class>
 
 
@@ -4867,8 +4848,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>publish output in a repository</rdfs:label>
+        <rdfs:label>Publish output in a repository</rdfs:label>
     </owl:Class>
 
 
@@ -4887,7 +4867,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Metadata processing</obo:IAO_0000118>
         <obo:IAO_0000118>Metadata search</obo:IAO_0000118>
-        <rdfs:label>metadata search via metadata providers</rdfs:label>
+        <rdfs:label>Metadata search via metadata providers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000300"/>
@@ -4952,7 +4932,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:54:08.535183Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">book</rdfs:label>
+        <rdfs:label xml:lang="en">Book</rdfs:label>
     </owl:Class>
 
 
@@ -5014,7 +4994,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>HPC management</obo:IAO_0000118>
-        <rdfs:label>high performance computing management</rdfs:label>
+        <rdfs:label>High performance computing management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000308"/>
@@ -5134,7 +5114,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>To be able to define and deploy appropriate criteria, based on the FAIR principles, to identify the appropriate publishing platform for a dataset. This may, for example, involve discovering the mark-up of the platform, the exchange formats and data models used, and the licensing information for each repository. Tools such as the FAIR evaluator or FAIRshake may be used to assess the FAIRnessbased on human-entered questionnaires or FAIRsharing resource metadata.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label>evaluation of how to publish your data</rdfs:label>
+        <rdfs:label>Evaluation of how to publish your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000315"/>
@@ -5201,7 +5181,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>project management activities</rdfs:label>
+        <rdfs:label>Project management activities</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
@@ -5219,7 +5199,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:11:36.17879Z</dc:date>
-        <rdfs:label>knowledge of funding acquisition management</rdfs:label>
+        <rdfs:label>Knowledge of funding acquisition management</rdfs:label>
     </owl:Class>
 
 
@@ -5232,15 +5212,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>manage access control</rdfs:label>
+        <rdfs:label>Manage access control</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000322"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Monitor the authorised parties&apos; access to data and keep it up to date.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -5259,7 +5232,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>PM</obo:IAO_0000118>
-        <rdfs:label>project management</rdfs:label>
+        <rdfs:label>Project management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000323"/>
@@ -5537,7 +5510,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:09.356268Z</dc:date>
-        <rdfs:label>aptitudes for change management</rdfs:label>
+        <rdfs:label>Aptitudes for change management</rdfs:label>
     </owl:Class>
 
 
@@ -5584,7 +5557,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Know how the acceptability of research data FAIRness depends on the research community norms e.g. concepts of data and methods for deriving valid knowledge.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>knowledge to relate FAIR data assessment to research community norms</rdfs:label>
+        <rdfs:label>Knowledge to relate FAIR data assessment to research community norms</rdfs:label>
     </owl:Class>
 
 
@@ -5618,7 +5591,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:23:22.115275Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">maintaining persistent identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">Maintaining persistent identifiers</rdfs:label>
     </owl:Class>
 
 
@@ -5631,15 +5604,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>select and apply license</rdfs:label>
+        <rdfs:label>Select and apply license</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000345"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Choose the proper license considering types of project data and clearly indicate (apply) the license chosen in the project work.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -5685,7 +5651,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Service level management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:47:58.529806Z</dc:date>
-        <rdfs:label>aptitudes for service level management</rdfs:label>
+        <rdfs:label>Aptitudes for service level management</rdfs:label>
     </owl:Class>
 
 
@@ -5722,7 +5688,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Change management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:08:05.609352Z</dc:date>
-        <rdfs:label>skills related to change management</rdfs:label>
+        <rdfs:label>Skills related to change management</rdfs:label>
     </owl:Class>
 
 
@@ -5759,7 +5725,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Leighton Christiansen</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>resource management</rdfs:label>
+        <rdfs:label>Resource management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
@@ -5794,7 +5760,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:48:15.071443Z</dc:date>
-        <rdfs:label>aptitudes for storage management</rdfs:label>
+        <rdfs:label>Aptitudes for storage management</rdfs:label>
     </owl:Class>
 
 
@@ -5818,7 +5784,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000118>Data Stewardship and FAIR mentorship activity</obo:IAO_0000118>
         <obo:IAO_0000118>data management and open research</obo:IAO_0000118>
         <rdfs:comment>AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy.</rdfs:comment>
-        <rdfs:label>advise and mentor</rdfs:label>
+        <rdfs:label>Advise and mentor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000356"/>
@@ -5836,7 +5802,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:15:55.86138Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to workflow technologies management</rdfs:label>
+        <rdfs:label>Skills related to workflow technologies management</rdfs:label>
     </owl:Class>
 
 
@@ -5867,7 +5833,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Data management cost management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:10:29.058244Z</dc:date>
-        <rdfs:label>skills related to data management cost management</rdfs:label>
+        <rdfs:label>Skills related to data management cost management</rdfs:label>
     </owl:Class>
 
 
@@ -5977,15 +5943,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Select data handling approaches likely to make data as FAIR as possible, considering what the data is about and its purpose in the research.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-
-        <rdfs:label>knowledge to choose FAIR data handling approaches appropriate to the research phenomena</rdfs:label>
+        <rdfs:label>Knowledge to choose FAIR data handling approaches appropriate to the research phenomena</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000367"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Select data handling approaches likely to make data as FAIR as possible, considering what the data is about and its purpose in the research.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -6009,7 +5968,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>provenance information management</rdfs:label>
+        <rdfs:label>Provenance information management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000368"/>
@@ -6059,7 +6018,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">data stewardship technical concept</rdfs:label>
+        <rdfs:label xml:lang="en">Data stewardship technical concept</rdfs:label>
     </owl:Class>
 
 
@@ -6159,7 +6118,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:18:53.73274Z</oboInOwl:creation_date>
-        <rdfs:label>knowledge of service level management</rdfs:label>
+        <rdfs:label>Knowledge of service level management</rdfs:label>
     </owl:Class>
 
 
@@ -6202,7 +6161,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>appreciate security and usability trade-offs</rdfs:label>
+        <rdfs:label>Appreciate security and usability trade-offs</rdfs:label>
     </owl:Class>
 
 
@@ -6294,7 +6253,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Identity management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:13:04.104557Z</dc:date>
-        <rdfs:label>skills related to identity management</rdfs:label>
+        <rdfs:label>Skills related to identity management</rdfs:label>
     </owl:Class>
 
 
@@ -6311,7 +6270,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">using persistent identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">Using persistent identifiers</rdfs:label>
     </owl:Class>
 
 
@@ -6323,7 +6282,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">database curator</obo:IAO_0000118>
         <rdfs:comment>AL 15.3.22: Updated label to &apos;data curator&apos; to encompass curation beyond just in databases.</rdfs:comment>
-        <rdfs:label>data curator</rdfs:label>
+        <rdfs:label>Data curator</rdfs:label>
     </owl:Class>
 
 
@@ -6336,15 +6295,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>engage innovation partners</rdfs:label>
+        <rdfs:label>Engage innovation partners</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000390"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Learn about innovation partners&apos; interests and concerns, analyze them and position the project work/outcome properly. Reach out to innovation partners with proactive and pragmatic innovation plan which is in compliance with FAIR principles.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -6440,15 +6392,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>appreciation of FAIR and open research</rdfs:label>
+        <rdfs:label>Appreciation of FAIR and open research</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000398"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Recognize the added value of FAIR and open research, encourage researchers to practise FAIR and open research.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -6470,14 +6415,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>Demonstrate willingness to engage with new ways of applying FAIR principles.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>ability to learn new techniques for fair implementation</rdfs:label>
+        <rdfs:label>Ability to learn new techniques for fair implementation</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000399"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Demonstrate willingness to engage with new ways of applying FAIR principles.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -6488,7 +6427,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Funding acquisition management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:42:52.422513Z</dc:date>
-        <rdfs:label>aptitudes for funding acquisition management</rdfs:label>
+        <rdfs:label>Aptitudes for funding acquisition management</rdfs:label>
     </owl:Class>
 
 
@@ -6513,7 +6452,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Which data model to use</obo:IAO_0000118>
         <obo:IAO_0000118>Which format to use</obo:IAO_0000118>
-        <rdfs:label>choosing the appropriate model or format for your data</rdfs:label>
+        <rdfs:label>Choosing the appropriate model or format for your data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000401"/>
@@ -6536,7 +6475,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>Information concerning the creation, attribution, or version history of managed data. Provenance metadata that indicates the relationship between two versions of data objects and is generated whenever a new version of a dataset is created. Examples include: (i) the name of the program that generated the new version, (ii) the commit id of the program.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">provenance metadata</rdfs:label>
+        <rdfs:label xml:lang="en">Provenance metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000402"/>
@@ -6588,7 +6527,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000508"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:56:32.673701Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">aptitudes associated with using fair tools and services</rdfs:label>
+        <rdfs:label xml:lang="en">Aptitudes associated with using fair tools and services</rdfs:label>
     </owl:Class>
 
 
@@ -6639,7 +6578,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>CM</obo:IAO_0000118>
-        <rdfs:label>change management</rdfs:label>
+        <rdfs:label>Change management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000411"/>
@@ -6764,7 +6703,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000211"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-11-16T22:18:14.764875Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">presentation slides with interactive exercises</rdfs:label>
+        <rdfs:label xml:lang="en">Presentation slides with interactive exercises</rdfs:label>
     </owl:Class>
 
 
@@ -6781,7 +6720,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:23:05.600474Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">creating persistent identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">Creating persistent identifiers</rdfs:label>
     </owl:Class>
 
 
@@ -6859,7 +6798,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118> Machine actionable search</obo:IAO_0000118>
         <obo:IAO_0000118>API access</obo:IAO_0000118>
-        <rdfs:label>machine access via API</rdfs:label>
+        <rdfs:label>Machine access via API</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000427"/>
@@ -6928,7 +6867,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000305"/>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:37.24517Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">book chapter</rdfs:label>
+        <rdfs:label xml:lang="en">Book chapter</rdfs:label>
     </owl:Class>
 
 
@@ -7021,15 +6960,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>stakeholder engagement on societal impact</rdfs:label>
+        <rdfs:label>Stakeholder engagement on societal impact</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000439"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Identify and engage in dialogue with stakeholders affected by the research, or by making its outputs FAIR.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -7123,7 +7055,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Yann Le Franc</obo:IAO_0000117>
         <oboInOwl:created_by>ylefranc</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-03-17T16:34:14.943152Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">data stewardship guideline</rdfs:label>
+        <rdfs:label xml:lang="en">Data stewardship guideline</rdfs:label>
     </owl:Class>
 
 
@@ -7154,7 +7086,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Cloud computing environment management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:46:14.978093Z</dc:date>
-        <rdfs:label>aptitudes for cloud computing environment management</rdfs:label>
+        <rdfs:label>Aptitudes for cloud computing environment management</rdfs:label>
     </owl:Class>
 
 
@@ -7278,7 +7210,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to High performance computing management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:12:36.446558Z</dc:date>
-        <rdfs:label>knowledge of high performance computing management</rdfs:label>
+        <rdfs:label>Knowledge of high performance computing management</rdfs:label>
     </owl:Class>
 
 
@@ -7391,15 +7323,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>understand data ownership and access policies</rdfs:label>
+        <rdfs:label>Understand data ownership and access policies</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000464"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Learn about data copyright laws, licennsing and other legal aspects of data access. Understand the application of those laws at the project level.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -7412,7 +7337,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>meeting/conference organisation</rdfs:label>
+        <rdfs:label>Meeting/conference organisation</rdfs:label>
     </owl:Class>
 
 
@@ -7439,7 +7364,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000118>SLM</obo:IAO_0000118>
-        <rdfs:label>service level management</rdfs:label>
+        <rdfs:label>Service level management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000466"/>
@@ -7496,7 +7421,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000106"/>
-        <rdfs:label>access control and management</rdfs:label>
+        <rdfs:label>Access control and management</rdfs:label>
     </owl:Class>
 
 
@@ -7510,7 +7435,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:label>storage security management</rdfs:label>
+        <rdfs:label>Storage security management</rdfs:label>
     </owl:Class>
 
 
@@ -7591,7 +7516,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Aptitudes related to Preservation costs management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-18T08:47:12.765575Z</dc:date>
-        <rdfs:label>aptitudes for preservation costs management</rdfs:label>
+        <rdfs:label>Aptitudes for preservation costs management</rdfs:label>
     </owl:Class>
 
 
@@ -7601,7 +7526,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000478">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">accessibility of digital assets</rdfs:label>
+        <rdfs:label xml:lang="en">Accessibility of digital assets</rdfs:label>
     </owl:Class>
 
 
@@ -7626,7 +7551,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117>Simon Hodson</obo:IAO_0000117>
         <obo:IAO_0000117>Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <rdfs:label>cloud computing environment management</rdfs:label>
+        <rdfs:label>Cloud computing environment management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000479"/>
@@ -7660,7 +7585,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000508"/>
         <obo:IAO_0000115>Understand how to use FAIR and open research tools and services.</obo:IAO_0000115>
         <obo:IAO_0000117>Hugh Shanahan</obo:IAO_0000117>
-        <rdfs:label>the use of FAIR and open research tools or services</rdfs:label>
+        <rdfs:label>The use of FAIR and open research tools or services</rdfs:label>
     </owl:Class>
 
 
@@ -7706,15 +7631,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>appreciate importance of crediting research contributions</rdfs:label>
+        <rdfs:label>Appreciate importance of crediting research contributions</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000483"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Understand how the rewards for effort depend on crediting the contributions of researchers and professional groups towards making FAIR outputs.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -7820,7 +7738,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115>Understand the concepts underpinning FAIR criteria.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-        <rdfs:label>knowledge of theories underlying FAIR implementation</rdfs:label>
+        <rdfs:label>Knowledge of theories underlying FAIR implementation</rdfs:label>
     </owl:Class>
 
 
@@ -7833,15 +7751,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>document in lay terms</rdfs:label>
+        <rdfs:label>Document in lay terms</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Know the purpose of the public use, choose the proper subjects for the audience and describe the project work for the purpose/audience chosen.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -7857,7 +7768,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-02T14:54:27.168274Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">understanding persistent identifiers</rdfs:label>
+        <rdfs:label xml:lang="en">Understanding persistent identifiers</rdfs:label>
     </owl:Class>
 
 
@@ -7915,15 +7826,8 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115>Know how to search for and identify FAIR services or tools that fit project needs.</obo:IAO_0000115>
         <obo:IAO_0000117>Angus Whyte</obo:IAO_0000117>
-
-        <rdfs:label>how to find FAIR research data tools/services (catalogues)</rdfs:label>
+        <rdfs:label>How to find FAIR research data tools/services (catalogues)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000495"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Know how to search for and identify FAIR services or tools that fit project needs.</owl:annotatedTarget>
-
-    </owl:Axiom>
 
 
 
@@ -7969,7 +7873,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-17T15:17:02.313897Z</oboInOwl:creation_date>
-        <rdfs:label>knowledge of provenance information management</rdfs:label>
+        <rdfs:label>Knowledge of provenance information management</rdfs:label>
     </owl:Class>
 
 
@@ -8016,7 +7920,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000508"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:45:02.980527Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">application of fair tools and services</rdfs:label>
+        <rdfs:label xml:lang="en">Application of fair tools and services</rdfs:label>
     </owl:Class>
 
 
@@ -8103,7 +8007,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <oboInOwl:created_by>HughShanahan</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-10-18T08:38:59.038306Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">using FAIR and open research tools or services</rdfs:label>
+        <rdfs:label xml:lang="en">Using FAIR and open research tools or services</rdfs:label>
     </owl:Class>
 
 
@@ -8115,7 +8019,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T20:53:15.691824Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">webinar</rdfs:label>
+        <rdfs:label xml:lang="en">Webinar</rdfs:label>
     </owl:Class>
 
 
@@ -8184,7 +8088,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">role</rdfs:label>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
     </owl:Class>
 
 
@@ -8198,7 +8102,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117>Susanna Sansone</obo:IAO_0000117>
-        <rdfs:label>strategic/long-term planning</rdfs:label>
+        <rdfs:label>Strategic/long-term planning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000514"/>
@@ -8335,7 +8239,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-09-22T13:19:57.012225Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">learning medium</rdfs:label>
+        <rdfs:label xml:lang="en">Learning medium</rdfs:label>
     </owl:Class>
 
 
@@ -8344,7 +8248,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000520">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
-        <rdfs:label xml:lang="en">data manager</rdfs:label>
+        <rdfs:label xml:lang="en">Data manager</rdfs:label>
     </owl:Class>
 
 
@@ -8429,8 +8333,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-
-        <rdfs:label>research integrity, attribution, impact awareness</rdfs:label>
+        <rdfs:label>Research integrity, attribution, impact awareness</rdfs:label>
     </owl:Class>
 
 
@@ -8442,7 +8345,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for types of Knowledge related to Cloud computing environment management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:15:04.651213Z</dc:date>
-        <rdfs:label>knowledge of cloud computing environment management</rdfs:label>
+        <rdfs:label>Knowledge of cloud computing environment management</rdfs:label>
     </owl:Class>
 
 
@@ -8507,7 +8410,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:Class>
 
 
@@ -8560,7 +8463,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-10-01T21:03:55.425579Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">github repository</rdfs:label>
+        <rdfs:label xml:lang="en">Github repository</rdfs:label>
     </owl:Class>
 
 
@@ -8663,7 +8566,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115>Bin for Skills needed for Storage management.</obo:IAO_0000115>
         <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
         <dc:date>2019-10-17T15:19:33.077732Z</dc:date>
-        <rdfs:label>skills related to storage management</rdfs:label>
+        <rdfs:label>Skills related to storage management</rdfs:label>
     </owl:Class>
 
 
@@ -8750,7 +8653,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119>Laura Molloy</obo:IAO_0000119>
         <obo:T4FS_0000564>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
-        <rdfs:label>data stewardship soft skill</rdfs:label>
+        <rdfs:label>Data stewardship soft skill</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
@@ -8828,7 +8731,7 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000454"/>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <rdfs:comment>AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">data scientist</rdfs:label>
+        <rdfs:label xml:lang="en">Data scientist</rdfs:label>
     </owl:Class>
 
 
