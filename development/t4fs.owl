@@ -662,7 +662,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000118>Data Categorization</obo:IAO_0000118>
         <obo:IAO_0000118>Data Classification</obo:IAO_0000118>
         <oboInOwl:created_by>Peter McQuilton</oboInOwl:created_by>
@@ -675,7 +675,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000115>A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -1290,7 +1290,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115>An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt it. Data splitting can be made even more effective by periodically retrieving and recombining the parts, and then splitting the data in a different way among different servers, and using a different encryption key.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -1429,7 +1429,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
@@ -1453,7 +1453,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>Manipulation of raw data to produce a single output.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -1543,7 +1543,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000231"/>
         <obo:IAO_0000115>A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -2032,7 +2032,10 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <rdfs:label>information security and access management</rdfs:label>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118>Access management</obo:IAO_0000118>
+        <rdfs:comment>AL 16.3.22: Changed &apos;information security and access management&apos; such that access management went in as an alternative term. If required in future, we may wish to separate it out completely.</rdfs:comment>
+        <rdfs:label>Information security</rdfs:label>
     </owl:Class>
     
 
@@ -2040,7 +2043,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000231"/>
         <obo:IAO_0000115>Includes all activities involved in the planning, collecting, processing, analysis and maintenance of data in the original research project. Among these activities are selecting a study design, constructing instruments for data collection, conducting data collection/creation, performing data editing/verification/validation, analyzing data, backing up data versions and preparing and tagging metadata.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data production</rdfs:label>
@@ -2075,7 +2078,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <obo:IAO_0000115>Testing conducted to evaluate whether systems or components pass data and control correctly to each other.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -2173,7 +2176,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -2279,8 +2282,9 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117>Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117>Yan Wang</obo:IAO_0000117>
-        <rdfs:comment>Was &quot;govern and assess&quot;, which is a compound concept. Split into two classes, Assess and Governance. Original source: FAIR4S defined activity.</rdfs:comment>
-        <rdfs:label>Assess</rdfs:label>
+        <rdfs:comment>AL 17.3.22: Updated to &quot;Assessment&quot; to match the style of its sibling classes.
+AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split into two classes, Assess and Governance. Original source: FAIR4S defined activity.</rdfs:comment>
+        <rdfs:label>Assessment</rdfs:label>
     </owl:Class>
     
 
@@ -2537,7 +2541,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
@@ -2703,7 +2707,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <obo:IAO_0000115>The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -2773,14 +2777,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <obo:IAO_0000115>Information systems and technology infrastructure manager, expert, or technician.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</obo:IAO_0000115>
+        <obo:IAO_0000115>Information systems and technology infrastructure manager, expert, or technician.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Information technology specialist</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000155"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Information systems and technology infrastructure manager, expert, or technician.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</owl:annotatedTarget>
+        <owl:annotatedTarget>Information systems and technology infrastructure manager, expert, or technician.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/information-technology-specialist/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -2909,7 +2913,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115>The process of destroying data stored on tapes, hard disks and other forms of electronic media so that it is completely unreadable and cannot be accessed or used.</obo:IAO_0000115>
         <rdfs:label>Data destruction</rdfs:label>
     </owl:Class>
@@ -3483,14 +3487,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <obo:IAO_0000115>A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</obo:IAO_0000115>
+        <obo:IAO_0000115>A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Information management advisor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000195"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</owl:annotatedTarget>
+        <owl:annotatedTarget>A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/information-management-advisor/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3544,14 +3548,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>A sequence of digitally encoded, coherent signals used to send or receive a representation of information content as transmitted.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>A sequence of digitally encoded, coherent signals used to send or receive a representation of information content as transmitted.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data stream</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000201"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A sequence of digitally encoded, coherent signals used to send or receive a representation of information content as transmitted.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>A sequence of digitally encoded, coherent signals used to send or receive a representation of information content as transmitted.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-stream/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3702,14 +3706,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>A repository for persistently storing collections of data, such as a database, a file system or a directory. The data stored can be of any type that can be rendered in digital format and placed in electronic media. Examples include text, image, video files and audio files.n/ahttp://whatis.techtarget.com/definition/data-store</obo:IAO_0000115>
+        <obo:IAO_0000115>A repository for persistently storing collections of data, such as a database, a file system or a directory. The data stored can be of any type that can be rendered in digital format and placed in electronic media. Examples include text, image, video files and audio files.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data store</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000215"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A repository for persistently storing collections of data, such as a database, a file system or a directory. The data stored can be of any type that can be rendered in digital format and placed in electronic media. Examples include text, image, video files and audio files.n/ahttp://whatis.techtarget.com/definition/data-store</owl:annotatedTarget>
+        <owl:annotatedTarget>A repository for persistently storing collections of data, such as a database, a file system or a directory. The data stored can be of any type that can be rendered in digital format and placed in electronic media. Examples include text, image, video files and audio files.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-store/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -3873,10 +3877,11 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000225">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <obo:IAO_0000115>Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
+        <rdfs:comment>AL 17.3.22: We may wish to make this an alternative term of Assessment.</rdfs:comment>
         <rdfs:label>Evaluation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4171,7 +4176,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -4670,7 +4675,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
@@ -4694,7 +4699,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>Removing noise from data.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data de-noising</rdfs:label>
@@ -4740,18 +4745,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <owl:annotatedTarget>The continued, available for use, ongoing usability of a digital resource, retaining all qualities of authenticity, accuracy and functionality deemed to be essential for the purposes the digital material was created and/or acquired for. Users who have access can retrieve, manipulate, copy, and store copies on a wide range of hard drives and external devices.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/access</obo:IAO_0000119>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000284 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000323"/>
-        <obo:IAO_0000115>Bin for types of Knowledge related to Project management.</obo:IAO_0000115>
-        <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-10-17T15:18:12.388949Z</oboInOwl:creation_date>
-        <rdfs:label>knowledge of project management</rdfs:label>
-    </owl:Class>
     
 
 
@@ -5005,7 +4998,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <obo:IAO_0000115>Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -5092,7 +5085,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000302">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
@@ -5127,7 +5120,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000306">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000115>The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -5478,7 +5471,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>An object describing the context of the data, including provenance, description, structural, and administrative information.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -5969,7 +5962,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>Data exploration involves summarizing the main characteristics of a dataset using visualization and should be the first step in data analysis.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data exploration</rdfs:label>
@@ -6442,7 +6435,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000383 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000383">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <obo:IAO_0000115>The process of transferring data between storage types, formats, information technologies, or computer systems. A data migration project is usually undertaken to replace or upgrade servers or storage equipment, for a website consolidation, to conduct server maintenance or to relocate a data center.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data migration</rdfs:label>
@@ -6459,7 +6452,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115>A continuous process that requires corrective actions throughout the data lifecycle.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data cleaning</rdfs:label>
@@ -6479,18 +6472,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">R1.2 (Meta)data are associated with detailed provenance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000386 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000386">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000323"/>
-        <obo:IAO_0000115>Bin for Skills needed for Project management.</obo:IAO_0000115>
-        <oboInOwl:created_by>leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-10-17T15:18:12.38819Z</oboInOwl:creation_date>
-        <rdfs:label>skills related to project management</rdfs:label>
     </owl:Class>
     
 
@@ -6569,15 +6550,15 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115>The process of reducing the amount or size of stored data. This may be achieved by eliminating redundant copies of data files, deduplicating data files by removing redundant records, or by compressing the data files.n/ahttp://searchdatabackup.techtarget.com/definition/data</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
+        <obo:IAO_0000115>The process of reducing the amount or size of stored data. This may be achieved by eliminating redundant copies of data files, deduplicating data files by removing redundant records, or by compressing the data files.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data reduction</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000392"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process of reducing the amount or size of stored data. This may be achieved by eliminating redundant copies of data files, deduplicating data files by removing redundant records, or by compressing the data files.n/ahttp://searchdatabackup.techtarget.com/definition/data</owl:annotatedTarget>
+        <owl:annotatedTarget>The process of reducing the amount or size of stored data. This may be achieved by eliminating redundant copies of data files, deduplicating data files by removing redundant records, or by compressing the data files.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-reduction/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6775,7 +6756,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000406">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be carried out in manual or automated mode.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -6879,7 +6860,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000414">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115>1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individualís identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done correctly, de-identification is a defensible, repeatable, and auditable process that consistently provides assurance, based on generally accepted and repeatable statistical methodologies, that there is a very small risk of re-identification of any data that are released. 2. The use of one or more techniques designed to make it impossible — or at least more difficult — to identify a particular individual from stored data related to them. The purpose of data anonymization is to protect the privacy of the individual and to make it legal for governments and businesses to share their data without obtaining permission. Such data have proven to be very valuable for researchers, particularly in health care. Data anonymization methods include removing personally identifiable information (e.g., names, addresses, social insurance numbers, Medicare numbers, etc.), or using obfuscation methods such as encryption, hashing, generalization, pseudonymization, and perturbation.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -6934,7 +6915,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000418">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>A data mining practice in which large volumes of data are analyzed seeking any possible relationships between data. The traditional scientific method, in contrast, begins with a hypothesis and follows with an examination of the data.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data dredging</rdfs:label>
@@ -7011,18 +6992,6 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000424 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000424">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000323"/>
-        <obo:IAO_0000115>Bin for Aptitudes related to Project management.</obo:IAO_0000115>
-        <obo:IAO_0000117>leightonlc</obo:IAO_0000117>
-        <dc:date>2019-10-18T08:47:30.242063Z</dc:date>
-        <rdfs:label>aptitudes for project management</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000425 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000425">
@@ -7094,14 +7063,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115>The continuum of data structure that includes unstructured data, semi-structured data, and structured data.n/ahttp://whatis.techtarget.com/definition/semi-structured-data</obo:IAO_0000115>
+        <obo:IAO_0000115>The continuum of data structure that includes unstructured data, semi-structured data, and structured data.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data structure continuum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000428"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The continuum of data structure that includes unstructured data, semi-structured data, and structured data.n/ahttp://whatis.techtarget.com/definition/semi-structured-data</owl:annotatedTarget>
+        <owl:annotatedTarget>The continuum of data structure that includes unstructured data, semi-structured data, and structured data.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-structure-continuum/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -7209,14 +7178,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000437">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <obo:IAO_0000115>A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</obo:IAO_0000115>
+        <obo:IAO_0000115>A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Information management specialist</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000437"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information.n/ahttp://www.tbs-sct.gc.ca/cioscripts/gloss/gloss-alpha_e.asp?SubjectID=128&amp;who=/im-gi/</owl:annotatedTarget>
+        <owl:annotatedTarget>A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/information-management-specialist/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -7896,7 +7865,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000482">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000115>The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -8102,14 +8071,14 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000493">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000215"/>
-        <obo:IAO_0000115>A collection of interrelated data often with controlled redundancy, organized according to a scheme to serve one or more applications; the data are stored so that they can be used by several programs without concern for data structures or organization.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</obo:IAO_0000115>
+        <obo:IAO_0000115>A collection of interrelated data often with controlled redundancy, organized according to a scheme to serve one or more applications; the data are stored so that they can be used by several programs without concern for data structures or organization.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data upload database</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000493"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A collection of interrelated data often with controlled redundancy, organized according to a scheme to serve one or more applications; the data are stored so that they can be used by several programs without concern for data structures or organization.n/ahttp://smw-rda.esc.rzg.mpg.de/index.php/Main_Page</owl:annotatedTarget>
+        <owl:annotatedTarget>A collection of interrelated data often with controlled redundancy, organized according to a scheme to serve one or more applications; the data are stored so that they can be used by several programs without concern for data structures or organization.</owl:annotatedTarget>
         <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-upload-database/</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8231,7 +8200,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000501">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115>De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -8284,7 +8253,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115>An approach to governance that values decisions that can be backed up with data that can be verified. The success of the data-driven approach is reliant upon the quality of the data gathered and the effectiveness of its analysis and interpretation.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data driven decision management</rdfs:label>
@@ -8471,7 +8440,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>The statistical analysis and assessment of the quality of data values within a dataset for consistency, uniqueness and logic. The data profiling process cannot identify inaccurate data; it can only identify business rules violations and anomalies.</obo:IAO_0000115>
         <obo:IAO_0000115>The statistical analysis and assessment of the quality of data values within a dataset for consistency, uniqueness and logic. The data profiling process cannot identify inaccurate data; it can only identify business rules violations and anomalies. The insight gained by data profiling can be used to determine how difficult it will be to use existing...</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -8607,7 +8576,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000522 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000522">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>Techniques used to deal with parameters having different units and scales.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -8805,7 +8774,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000533">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115>The process of analyzing multivariate datasets using pattern recognition or other knowledge discovery techniques to identify potentially unknown and potentially meaningful data content, relationships, classification, or trends.</obo:IAO_0000115>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
         <rdfs:label>Data mining</rdfs:label>
@@ -8854,7 +8823,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000537">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115>1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing: Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -8931,7 +8900,7 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <obo:IAO_0000115>A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.</obo:IAO_0000115>
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117>Peter McQuilton</obo:IAO_0000117>
@@ -9088,6 +9057,50 @@ A badge or certificate may provide evidence that a skill has been acquired, and 
         <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
         <rdfs:comment>AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">Terminology manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 16.3.22 Added as part of FAIR cookbook integration.</rdfs:comment>
+        <rdfs:label xml:lang="en">Software engineer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 16.3.22: Added as part of FAIR Cookbook integration.</rdfs:comment>
+        <rdfs:label xml:lang="en">System administrator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 16.3.22 Added as part of FAIR Cookbook integration. Useful for directing PIs to high-level training material or presentations, to ensure they know why e.g. data stewardship is vital.</rdfs:comment>
+        <rdfs:label xml:lang="en">Principal Investigator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TF4S_0000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <obo:IAO_0000117>Allyson Lister</obo:IAO_0000117>
+        <rdfs:comment>AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits.</rdfs:comment>
+        <rdfs:label xml:lang="en">Procurement officer</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
