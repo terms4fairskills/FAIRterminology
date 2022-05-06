@@ -1,0 +1,6 @@
+Label	Community t4fs Browser Label	Parent	Comment
+LABEL	A 'Community t4fs Browser label'	SC %	
+entity			
+continuant		entity	
+occurent		entity	
+process		occurent	
