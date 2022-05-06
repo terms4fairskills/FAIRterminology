@@ -40,9 +40,9 @@ VIEW1 = community
 T4FS_VIEW1 = $(VIEW1)-$(T4FS)
 
 LICENSE = https://creativecommons.org/licenses/by/4.0/
-DESCRIPTION = An ontology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.
+DESCRIPTION = terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.
 COMMENT = terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-TITLE = terms4FAIRskills
+TITLE = terms4FAIRskills (T4FS)
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -97,18 +97,18 @@ build/properties.ttl: src/ontology/templates/properties.tsv | build/robot.jar
 	--template $< \
 	--output $@
 
+#--input $<
 $(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/templates/t4fs.tsv src/ontology/templates/external.tsv src/ontology/annotations.owl | build/robot.jar
 	$(ROBOT) template \
-	--input $< \
 	--template $(word 2,$^) \
 	--template $(word 3,$^) \
 	--template $(word 4,$^) \
-	--merge-before \
 	--input $(word 5,$^) \
+	--merge-before \
 	annotate \
 	--link-annotation dcterms:license $(LICENSE) \
-	--annotation dc11:description "$(DESCRIPTION)" \
-	--annotation dc11:title "$(TITLE)" \
+	--annotation dcterms:description "$(DESCRIPTION)" \
+	--annotation dcterms:title "$(TITLE)" \
 	--annotation rdfs:comment "$(COMMENT)" \
 	--ontology-iri $(OBO)/t4fs.owl \
 	--version-iri $(OBO)/t4fs/releases/$(DATE)/t4fs.owl \

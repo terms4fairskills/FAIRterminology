@@ -1,14 +1,21 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cob/annotations.owl#"
-     xml:base="http://purl.obolibrary.org/obo/cob/annotations.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/t4fs.owl#"
+     xml:base="http://purl.obolibrary.org/obo/t4fs.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cob/annotations.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-05-06/t4fs.owl"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills (T4FS)</terms:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
+    </owl:Ontology>
     
 
 
@@ -725,8 +732,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data that could not lead to the identification of a specific individual, to distinguishing one person from another, or to personally identifiable information. These may be data that have been de-identified, or that could not lead to personally identifiable information in the first place.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data that could not lead to the identification of a specific object of interest. These may be data that have been de-identified, or that could not lead to identifiable information in the first place.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allyson Lister|Peter McQuilton</obo:IAO_0000117>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL 6.5.22: Modifed CASRAI definition to distinguish this term from &apos;non personally identifiable information.&apos; Further work may determine whether or not both terms are required.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non identifiable data</rdfs:label>
     </owl:Class>
     
@@ -872,7 +880,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000145"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be able to search using software with a GUI or terminal access. For example using BLAST or genomic search tools in the life sciences.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmatic search&apos;| batch search|Algorithm searching</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithm searching|Programmatic search|batch search</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Searching via algorithms and software</rdfs:label>
     </owl:Class>
     
@@ -1179,7 +1187,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ability to find and comprehend data produced by people other than yourself.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allyson Lister|Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data discovery|Data search</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data search</obo:IAO_0000118>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL 15.3.22: tidied label from &quot;discover other peoples data&quot; to &quot;Data discovery</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data discovery</rdfs:label>
     </owl:Class>
@@ -1905,7 +1913,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ability to search repositories and knowledge-bases.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database search| searching databases| searching repositories|Repository search</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repository search|database search|searching databases|searching repositories</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Search repositories and knowledge-bases</rdfs:label>
     </owl:Class>
     
@@ -2182,7 +2190,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identity Management (IdM), also called Identity and Access Management (IAM) refers to a framework of policies and technologies for ensuring that the proper  user in an organisation has the appropriate access to technology resources  systems fall under the overarching umbrella of IT security.  IdM systems not only identify, but authenticate and authorize individuals  who will be using IT resources, but also the hardware and applications users need to access.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristina Hettne|Leighton Christiansen|Simon Hodson|Victoria Dominguez Del Angel</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAM| Identity and Access Management|IdM</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAM|IdM|Identity and Access Management</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identity management</rdfs:label>
     </owl:Class>
     
@@ -2244,6 +2252,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAIR data submission|Repository FAIRness</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation of repositories for data deposition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAIR evaluation of repositories for data deposition</rdfs:label>
     </owl:Class>
     
 
@@ -2359,7 +2368,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To clearly communicate the existence of contributions from different individuals / projects to the compilation of a given dataset, in such a way that can be consistently cited.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laura Molloy</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">credit|attribution</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribution|credit</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recognise and acknowledge contributions</rdfs:label>
     </owl:Class>
     
@@ -3528,7 +3537,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be able to research and identify the appropriate taxonomy for your project. This may involve using resources such as FAIRsharing, which captures metadata on taxonomies and provides an assessment of their FAIRness.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Controlled Vocabulary identification| Ontology identification| Thesaurus identification|Taxonomy identification</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Controlled Vocabulary identification|Ontology identification|Taxonomy identification|Thesaurus identification</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Choosing the appropriate terminology for your data</rdfs:label>
     </owl:Class>
     
@@ -5002,7 +5011,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000256"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be able to use programmatic methods to access a resource&apos;s API to query and extract an appropriate subset of data.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine actionable search|API access</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">API access|Machine actionable search</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine access via API</rdfs:label>
     </owl:Class>
     
@@ -6050,6 +6059,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000553"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The medium through which learning has been provided. For example, through a course, slides, video presentation, online documentation, wiki pages or others.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allyson Lister|Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</oboInOwl:created_by>
@@ -6300,23 +6315,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000543 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000543">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process or means of obtaining and storing external data, particularly images or sounds, for use at a later time.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter McQuilton</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data capture</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000544">
@@ -6382,8 +6380,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000256"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A machine-readable format is a structured format that can be processed by a computer. Such formats can either be intended solely for machine processing (e.g. XML or RDF), or may be both human and machine accessible via appropriate markup (e.g. HTML).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allyson Lister|Peter McQuilton</obo:IAO_0000117>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL 6.5.22: The original CASRAI term (https://casrai.org/term/machine-readable-format/) has an identical source definition with &apos;Digital materials&apos;, and therefore has been removed.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine-readable format</rdfs:label>
     </owl:Class>
     
