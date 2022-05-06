@@ -4,6 +4,11 @@
 # Based on the CC BY 4.0 GECKO Project Build Procedure (https://github.com/IHCC-cohorts/GECKO)
 #
 
+# Software requirements for running this Makefile
+# sqlite3 - on Ubuntu, `sudo apt install sqlite3`
+# python pip - on Ubuntu, `sudo apt install python3-pip`
+# ontodev-gizmos from James Overton - on Ubuntu, `python3 -m pip install ontodev-gizmos`
+
 ### Workflow
 #
 # 1. Edit the [terms4FAIRskills template](https://docs.google.com/spreadsheets/d/1pu9o8oiP1hwnyQk1tv_8cdoe07GngINRD5pGz04m4Zo/edit?usp=sharing)
@@ -49,6 +54,8 @@ endif
 .PHONY: all
 all: views/$(T4FS_VIEW1).csv $(TREES) build/report.html
 
+# Please note that src/annotations.owl will also need to be deleted if external
+# ontologies are updated
 .PHONY: clean
 clean:
 	rm -rf build
@@ -97,7 +104,6 @@ $(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/
 	--template $(word 3,$^) \
 	--template $(word 4,$^) \
 	--merge-before \
-	merge \
 	--input $(word 5,$^) \
 	annotate \
 	--link-annotation dcterms:license $(LICENSE) \
@@ -111,7 +117,7 @@ $(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/
 
 ### Imports
 
-IMPORTS := bfo #obi
+IMPORTS := bfo #iao #obi
 IMPORT_MODS := $(foreach I,$(IMPORTS),build/imports/$(I).ttl)
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')

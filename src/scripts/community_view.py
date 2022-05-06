@@ -26,7 +26,7 @@ def main():
         for row in reader:
             template.append({"ID": row[0], "Label": row[1], "Parent": row[2]})
 
-    with open(args.ihcc_view_template, "w") as f:
+    with open(args.community_view_template, "w") as f:
         writer = csv.DictWriter(f, fieldnames=["ID", "Label", "Parent"])
         writer.writeheader()
         writer.writerow({"ID": "ID", "Label": "LABEL", "Parent": "SC %"})

@@ -1,23 +1,24 @@
-ID	LABEL	Type
-obo:T4FS_0000553	Reference URL	Data property
-obo:T4FS_0000554	confers/requires competency about	Object property
-obo:T4FS_0000555	confers/requires knowledge about	Object property
-obo:T4FS_0000556	requires/improves personal attribute	Object property
-obo:T4FS_0000557	confers/requires practical skill about	Object property
-obo:T4FS_0000558	has/wants competency in	Object property
-obo:T4FS_0000559	has/wants knowledge about	Object property
-obo:T4FS_0000560	supports implementation of	Object property
-obo:T4FS_0000561	has/wants practical skill about	Object property
-obo:T4FS_0000562	has aptitude for	Object property
-obo:T4FS_0000563	contributes to the implementation of	Object property
-IAO:0000115	definition	Annotation property
-IAO:0000117	term editor	Annotation property
-IAO:0000118	Alternative term	Annotation property
-IAO:0000119	definition source	Annotation property
-obo:T4FS_0000564	alternative definition	Annotation property
-obo:T4FS_0000565	alternative definition source	Annotation property
-oboInOwl:created_by	created by	Annotation property
-oboInOwl:creation_date	creation date	Annotation property
-owl:versionInfo		Annotation property
-rdfs:comment		Annotation property
-rdfs:label		Annotation property
+ID	Label	Type
+ID	LABEL	TYPE
+obo:T4FS_0000553	Reference URL	owl:DataProperty
+obo:T4FS_0000554	confers/requires competency about	owl:ObjectProperty
+obo:T4FS_0000555	confers/requires knowledge about	owl:ObjectProperty
+obo:T4FS_0000556	requires/improves personal attribute	owl:ObjectProperty
+obo:T4FS_0000557	confers/requires practical skill about	owl:ObjectProperty
+obo:T4FS_0000558	has/wants competency in	owl:ObjectProperty
+obo:T4FS_0000559	has/wants knowledge about	owl:ObjectProperty
+obo:T4FS_0000560	supports implementation of	owl:ObjectProperty
+obo:T4FS_0000561	has/wants practical skill about	owl:ObjectProperty
+obo:T4FS_0000562	has aptitude for	owl:ObjectProperty
+obo:T4FS_0000563	contributes to the implementation of	owl:ObjectProperty
+IAO:0000115	definition	owl:AnnotationProperty
+IAO:0000117	term editor	owl:AnnotationProperty
+IAO:0000118	Alternative term	owl:AnnotationProperty
+IAO:0000119	definition source	owl:AnnotationProperty
+obo:T4FS_0000564	alternative definition	owl:AnnotationProperty
+obo:T4FS_0000565	alternative definition source	owl:AnnotationProperty
+oboInOwl:created_by	created by	owl:AnnotationProperty
+oboInOwl:creation_date	creation date	owl:AnnotationProperty
+owl:versionInfo		owl:AnnotationProperty
+rdfs:comment		owl:AnnotationProperty
+rdfs:label		owl:AnnotationProperty
