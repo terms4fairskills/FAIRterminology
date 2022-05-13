@@ -1,6 +1,0 @@
-PREFIX T4FS: <http://purl.obolibrary.org/obo/T4FS_>
-
-SELECT ?s ?label ?category WHERE {
-	?s T4FS:9000000 ?category ;
-	   T4FS:9000001 ?label
-}

@@ -15,8 +15,8 @@
 # 2. [Update files](update)
 # 2. View files:
 #     - [ROBOT report](build/report.html)
-#     - [GECKO tree](build/gecko.html) ([gecko.owl](gecko.owl))
-#     - [IHCC view tree](build/ihcc-gecko.html) ([ihcc-gecko.owl](views/ihcc-gecko.owl))
+#     - [OBO view of T4FS]
+#     - [Community view of T4FS]
 
 ### Configuration
 #
@@ -52,13 +52,15 @@ else
 endif
 
 .PHONY: all
-all: views/$(T4FS_VIEW1).csv $(TREES) build/report.html
+all: views/$(T4FS_VIEW1).csv build/report.html
 
 # Please note that src/ontology/annotations.owl will also need to be deleted if external
 # ontologies are updated
 .PHONY: clean
 clean:
 	rm -rf build
+	rm -rf views
+	rm -rf src/ontology/annnotations.owl
 
 .PHONY: update
 update: fetch_templates all
@@ -71,10 +73,6 @@ build/imports: | build
 
 build/robot.jar: | build
 	curl -L -o $@ "https://github.com/ontodev/robot/releases/latest/download/robot.jar"
-#curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
-
-build/robot-tree.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
 
 build/rdftab: | build
 	curl -L -o $@ $(RDFTAB_URL)
@@ -98,7 +96,7 @@ build/properties.ttl: src/ontology/templates/properties.tsv | build/robot.jar
 	--output $@
 
 #--input $<
-$(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/templates/t4fs.tsv src/ontology/templates/external.tsv src/ontology/annotations.owl | build/robot.jar
+build/$(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/templates/t4fs.tsv src/ontology/templates/external.tsv src/ontology/annotations.owl | build/robot.jar
 	$(ROBOT) template \
 	--template $(word 2,$^) \
 	--template $(word 3,$^) \
@@ -158,31 +156,10 @@ src/ontology/annotations.owl: $(IMPORT_MODS) src/queries/fix_annotations.rq buil
 	--output $@
 
 
-### Community Browser View
+### Community View
 
-build/query_result.csv: $(T4FS).owl src/queries/get_$(VIEW1)_view.rq | build/robot.jar
-	$(ROBOT) query \
-	--input $< \
-	--query $(word 2,$^) $@
-
-build/$(VIEW1)_view_template.csv: src/scripts/$(VIEW1)_view.py build/query_result.csv
-	python3 $^ $@
-
-build/$(VIEW1)_annotations.ttl: $(T4FS).owl src/queries/build_$(VIEW1)_annotations.rq | build/robot.jar
-	$(ROBOT) query --input $< --query $(word 2,$^) $@
-
-views/$(VIEW1)-t4fs.owl: build/$(VIEW1)_view_template.csv build/$(VIEW1)_annotations.ttl | build/robot.jar
-	$(ROBOT) template \
-	--template $< \
-	merge \
-	--input $(word 2,$^) \
-	annotate \
-	--ontology-iri $(OBO)/t4fs/$(T4FS_VIEW1).owl \
-	--version-iri $(OBO)/t4fs/releases/$(DATE)/views/$(T4FS_VIEW1).owl \
-	--link-annotation dcterms:license $(LICENSE) \
-	--annotation dc11:title "$(TITLE) (Community View)" \
-	--annotation rdfs:comment "$(COMMENT)" \
-	--output $@
+views/$(VIEW1)-t4fs.owl: build/$(T4FS).owl
+	$(ROBOT) extract --method MIREOT --input $< --branch-from-terms src/ontology/$(VIEW1)_upper_terms.txt  --output $@
 
 build/$(T4FS_VIEW1).csv: views/$(T4FS_VIEW1).owl | build/robot.jar
 	$(ROBOT) export \
@@ -193,30 +170,12 @@ build/$(T4FS_VIEW1).csv: views/$(T4FS_VIEW1).owl | build/robot.jar
 views/$(T4FS_VIEW1).csv: src/scripts/sort_csv.py build/$(T4FS_VIEW1).csv
 	python3 $^ $@
 
-
-### Trees
-#
-# We use ROBOT's experimental tree branch to generate HTML tree views.
-
-TREES := build/$(T4FS).html build/$(T4FS_VIEW1).html
-
-build/gecko.html: $(T4FS).owl | build/robot-tree.jar
-	java -jar build/robot-tree.jar tree \
-	--input $< \
-	--tree $@
-
-build/ihcc-gecko.html: views/$(T4FS_VIEW1).owl | build/robot-tree.jar
-	java -jar build/robot-tree.jar tree \
-	--input $< \
-	--tree $@
-
-
 ### Report
 #
 # We run ROBOT report to check for common mistakes.
 
 .PRECIOUS: build/report.html
-build/report.html: $(T4FS).owl | build/robot.jar
+build/report.html: build/$(T4FS).owl | build/robot.jar
 	$(ROBOT) report \
 	--input $< \
 	--labels true \
@@ -238,21 +197,3 @@ init-cogs: .cogs
 
 destroy-cogs: | .cogs
 	cogs delete -f
-
-
-# NCIT Module - NCIT terms that have been mapped to GECKO terms
-
-#.PRECIOUS: build/ncit.owl.gz
-#build/ncit.owl.gz: | build
-#	curl -L http://purl.obolbrary.org/obo/ncit.owl | gzip > $@
-
-#build/ncit-terms.txt: build/gecko.owl src/gecko/get-ncit-ids.rq src/gecko/ncit-annotation-properites.txt | build/robot.jar
-#	$(ROBOT) query --input $< --query $(word 2,$^) $@
-#	tail -n +2 $@ > $@.tmp
-#	cat $@.tmp $(word 3,$^) > $@ && rm $@.tmp
-
-#build/ncit-module.owl: build/ncit.owl.gz build/ncit-terms.txt | build/robot-rdfxml.jar
-#	$(ROBOT_RDFXML) extract --input $< \
-#	--term-file $(word 2,$^) \
-#	--method rdfxml \
-#	--intermediates minimal --output $@
