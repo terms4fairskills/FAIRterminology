@@ -54,7 +54,7 @@ endif
 .PHONY: all
 all: views/$(T4FS_VIEW1).csv $(TREES) build/report.html
 
-# Please note that src/annotations.owl will also need to be deleted if external
+# Please note that src/ontology/annotations.owl will also need to be deleted if external
 # ontologies are updated
 .PHONY: clean
 clean:
@@ -117,7 +117,7 @@ $(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ontology/
 
 ### Imports
 
-IMPORTS := bfo #iao #obi
+IMPORTS := bfo #cob #iao #obi
 IMPORT_MODS := $(foreach I,$(IMPORTS),build/imports/$(I).ttl)
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
@@ -139,7 +139,7 @@ build/imports/%.txt: src/ontology/templates/index.tsv | build/imports
 	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed -n '/$(call UC,$(notdir $(basename $@))):/p' > $@
 
 build/annotations.txt: src/ontology/templates/properties.tsv
-	grep 'owl:AnnotationProperty$$' $< | grep -v '^T4FS' | cut -f1 > $@
+	grep 'owl:AnnotationProperty' $< | grep -v '^T4FS' | cut -f1 > $@
 
 build/imports/%.ttl: build/imports/%.db build/imports/%.txt build/annotations.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) -P $(word 3,$^) -n > $@

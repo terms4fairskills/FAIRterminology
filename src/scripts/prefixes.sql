@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS prefix (
 
 INSERT OR IGNORE INTO prefix VALUES
 ("BFO",       "http://purl.obolibrary.org/obo/BFO_"),
+("COB",       "http://purl.obolibrary.org/obo/COB_"),
 ("T4FS",     "http://purl.obolibrary.org/obo/T4FS_"),
 ("dcterms",   "http://purl.org/dc/terms/"),
 ("dc11",      "http://purl.org/dc/elements/1.1/"),
