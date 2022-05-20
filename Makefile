@@ -60,7 +60,7 @@ all: views/$(T4FS_VIEW1).csv build/report.html
 clean:
 	rm -rf build
 	rm -rf views
-	rm -rf src/ontology/annnotations.owl
+	rm -rf src/ontology/annotations.owl
 
 .PHONY: update
 update: fetch_templates all

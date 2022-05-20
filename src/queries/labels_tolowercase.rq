@@ -8,9 +8,8 @@ DELETE {
 }
 INSERT {
   ?class rdfs:label ?lower_display_name
-
 }
 WHERE {
   ?class rdfs:label ?display_name;
-  BIND(REPLACE(?display_name, ?display_name, LCASE(?display_name)) AS ?lower_display_name)
+  BIND(IF(LANG(?display_name) = "", STRLANG(LCASE(?display_name), "en"), LCASE(?display_name)) AS ?lower_display_name)
 }

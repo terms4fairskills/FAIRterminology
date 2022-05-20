@@ -1,6 +1,6 @@
 ID	Label	Type
 ID	LABEL	TYPE
-T4FS:0000553	Reference URL	owl:DataProperty
+T4FS:0000553	reference URL	owl:DataProperty
 T4FS:0000554	confers/requires competency about	owl:ObjectProperty
 T4FS:0000555	confers/requires knowledge about	owl:ObjectProperty
 T4FS:0000556	requires/improves personal attribute	owl:ObjectProperty

@@ -1,0 +1,21 @@
+# Select all definition sources (which are annotations on our definitions)
+# and print them out.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+
+SELECT ?subject ?label ?annValue ?subValue
+WHERE {
+   ?subject rdfs:label ?label .
+   OPTIONAL {
+      obo:IAO_0000115 a owl:AnnotationProperty .
+      ?subject obo:IAO_0000115 ?annValue .
+     ?annotation owl:annotatedSource ?subject ;
+     owl:annotatedProperty obo:IAO_0000115 ;
+     owl:annotatedTarget ?annValue ;
+     obo:IAO_0000119 ?subValue .
+   }
+#   OPTIONAL { ?annValue obo:IAO_0000119 ?subValue . }
+}

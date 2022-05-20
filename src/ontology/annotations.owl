@@ -210,7 +210,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000553 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000553">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reference URL</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference URL</rdfs:label>
     </owl:DatatypeProperty>
     
 
