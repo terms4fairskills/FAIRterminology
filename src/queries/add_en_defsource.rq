@@ -20,13 +20,13 @@ INSERT {
 }
 WHERE {
   ?class a owl:Class .
+  ?class obo:IAO_0000115 ?annValue .
+  BIND(IF(LANG(?annValue) = "", STRLANG(?annValue, "en"), ?annValue) AS ?annValue_en)
   OPTIONAL {
-    ?class obo:IAO_0000115 ?annValue .
     ?def_annot owl:annotatedSource ?class ;
     owl:annotatedProperty obo:IAO_0000115 ;
     owl:annotatedTarget ?annValue ;
     obo:IAO_0000119 ?subValue .
-    BIND(IF(LANG(?annValue) = "", STRLANG(?annValue, "en"), ?annValue) AS ?annValue_en)
     BIND(IF(LANG(?subValue) = "", STRLANG(?subValue, "en"), ?subValue) AS ?subValue_en)
   }
 }
