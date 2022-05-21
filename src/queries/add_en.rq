@@ -4,6 +4,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX iao: <http://purl.obolibrary.org/obo/IAO_>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX t4fs: <http://purl.obolibrary.org/obo/T4FS_>
+PREFIX go: <http://www.geneontology.org/formats/oboInOwl#>
 
 DELETE {
   ?s ?property ?annValue
@@ -14,7 +15,7 @@ INSERT {
 WHERE {
   ?s ?property ?annValue .
   #?s rdfs:comment ?annValue .
-  FILTER ( ?property IN (rdfs:comment, iao:0000117, iao:0000118, t4fs:0000564, t4fs:0000565) )
+  FILTER ( ?property IN (rdfs:comment, iao:0000117, iao:0000118, t4fs:0000564, t4fs:0000565, go:created_by) )
   #{?property a owl:AnnotationProperty} UNION {?property a rdfs:comment}
   BIND(IF(LANG(?annValue) = "", STRLANG(?annValue, "en"), ?annValue) AS ?annValue_en)
 }

@@ -26,39 +26,67 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Alternative term</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000564 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000564">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative definition</rdfs:label>
+        <rdfs:label xml:lang="en">alternative definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -66,7 +94,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000565 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000565">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative definition source</rdfs:label>
+        <rdfs:label xml:lang="en">alternative definition source</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -74,7 +102,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created by</rdfs:label>
+        <rdfs:label xml:lang="en">created by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -82,7 +110,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creation date</rdfs:label>
+        <rdfs:label xml:lang="en">creation date</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -119,7 +147,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000554 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000554">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confers/requires competency about</rdfs:label>
+        <rdfs:label xml:lang="en">confers/requires competency about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -127,7 +155,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000555 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000555">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confers/requires knowledge about</rdfs:label>
+        <rdfs:label xml:lang="en">confers/requires knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -135,7 +163,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000556 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000556">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires/improves personal attribute</rdfs:label>
+        <rdfs:label xml:lang="en">requires/improves personal attribute</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -143,7 +171,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000557 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000557">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confers/requires practical skill about</rdfs:label>
+        <rdfs:label xml:lang="en">confers/requires practical skill about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -151,7 +179,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000558 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has/wants competency in</rdfs:label>
+        <rdfs:label xml:lang="en">has/wants competency in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -159,7 +187,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000559 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000559">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has/wants knowledge about</rdfs:label>
+        <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -167,7 +195,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000560 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000560">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supports implementation of</rdfs:label>
+        <rdfs:label xml:lang="en">supports implementation of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -175,7 +203,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000561 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000561">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has/wants practical skill about</rdfs:label>
+        <rdfs:label xml:lang="en">has/wants practical skill about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -183,7 +211,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000562 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000562">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has aptitude for</rdfs:label>
+        <rdfs:label xml:lang="en">has aptitude for</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -191,7 +219,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000563 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000563">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributes to the implementation of</rdfs:label>
+        <rdfs:label xml:lang="en">contributes to the implementation of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -210,7 +238,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000553 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000553">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference URL</rdfs:label>
+        <rdfs:label xml:lang="en">reference URL</rdfs:label>
     </owl:DatatypeProperty>
     
 

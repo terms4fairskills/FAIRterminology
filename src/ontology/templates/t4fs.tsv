@@ -1,5 +1,5 @@
 ID	LABEL	Parent	IAO:0000115	IAO:0000119	IAO:0000117	IAO:0000118	obo:T4FS_0000564	obo:T4FS_0000565	oboInOwl:created_by	oboInOwl:creation_date	rdfs:comment
-ID	AL rdfs:label@en	SC % SPLIT=|	A definition	>AL 'definition source'@en	A 'term editor' SPLIT=|	A Alternative term SPLIT=|	A alternative definition	A alternative definition source	A created by	A creation date	A comment
+ID	AL rdfs:label@en	SC % SPLIT=|	AL definition@en	>AL 'definition source'@en	AL 'term editor'@en SPLIT=|	AL 'Alternative term'@en SPLIT=|	AL 'alternative definition'@en	AL 'alternative definition source'@en	AL 'created by'@en	A creation date	AL comment@en
 obo:T4FS_0000088	a knowledge for resource management	resource management	Bin for types of Knowledge related to Resource management		leightonlc
 obo:T4FS_0000038	A1. (meta)data are retrievable by their identifier using a standardised communications protocol	accessibility of digital assets			Peter McQuilton
 obo:T4FS_0000103	A1.1 the protocol is open, free, and universally implementable	A1. (meta)data are retrievable by their identifier using a standardised communications protocol			Peter McQuilton

@@ -1,24 +1,24 @@
-ID	Label	Type
-ID	LABEL	TYPE
-T4FS:0000553	reference URL	owl:DataProperty
-T4FS:0000554	confers/requires competency about	owl:ObjectProperty
-T4FS:0000555	confers/requires knowledge about	owl:ObjectProperty
-T4FS:0000556	requires/improves personal attribute	owl:ObjectProperty
-T4FS:0000557	confers/requires practical skill about	owl:ObjectProperty
-T4FS:0000558	has/wants competency in	owl:ObjectProperty
-T4FS:0000559	has/wants knowledge about	owl:ObjectProperty
-T4FS:0000560	supports implementation of	owl:ObjectProperty
-T4FS:0000561	has/wants practical skill about	owl:ObjectProperty
-T4FS:0000562	has aptitude for	owl:ObjectProperty
-T4FS:0000563	contributes to the implementation of	owl:ObjectProperty
-IAO:0000115	definition	owl:AnnotationProperty
-IAO:0000117	term editor	owl:AnnotationProperty
-IAO:0000118	Alternative term	owl:AnnotationProperty
-IAO:0000119	definition source	owl:AnnotationProperty
-T4FS:0000564	alternative definition	owl:AnnotationProperty
-T4FS:0000565	alternative definition source	owl:AnnotationProperty
-oboInOwl:created_by	created by	owl:AnnotationProperty
-oboInOwl:creation_date	creation date	owl:AnnotationProperty
-owl:versionInfo		owl:AnnotationProperty
-rdfs:comment		owl:AnnotationProperty
-rdfs:label		owl:AnnotationProperty
+ID	Label	Type	Definition	Definition source
+ID	AL rdfs:label@en	TYPE	AL definition@en	>AL 'definition source'@en
+obo:T4FS_0000553	reference URL	owl:DataProperty		
+obo:T4FS_0000554	confers/requires competency about	owl:ObjectProperty		
+obo:T4FS_0000555	confers/requires knowledge about	owl:ObjectProperty		
+obo:T4FS_0000556	requires/improves personal attribute	owl:ObjectProperty		
+obo:T4FS_0000557	confers/requires practical skill about	owl:ObjectProperty		
+obo:T4FS_0000558	has/wants competency in	owl:ObjectProperty		
+obo:T4FS_0000559	has/wants knowledge about	owl:ObjectProperty		
+obo:T4FS_0000560	supports implementation of	owl:ObjectProperty		
+obo:T4FS_0000561	has/wants practical skill about	owl:ObjectProperty		
+obo:T4FS_0000562	has aptitude for	owl:ObjectProperty		
+obo:T4FS_0000563	contributes to the implementation of	owl:ObjectProperty		
+IAO:0000115	definition	owl:AnnotationProperty	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.	IAO
+IAO:0000117	term editor	owl:AnnotationProperty	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people	IAO
+IAO:0000118	Alternative term	owl:AnnotationProperty	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)	IAO
+IAO:0000119	definition source	owl:AnnotationProperty	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007	IAO
+obo:T4FS_0000564	alternative definition	owl:AnnotationProperty		
+obo:T4FS_0000565	alternative definition source	owl:AnnotationProperty		
+oboInOwl:created_by	created by	owl:AnnotationProperty		
+oboInOwl:creation_date	creation date	owl:AnnotationProperty		
+owl:versionInfo		owl:AnnotationProperty		
+rdfs:comment		owl:AnnotationProperty		
+rdfs:label		owl:AnnotationProperty		
