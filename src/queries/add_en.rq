@@ -2,6 +2,7 @@
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 DELETE {
   ?class ?property ?annValue
@@ -12,6 +13,6 @@ INSERT {
 WHERE {
   ?class a owl:Class .
   ?class ?property ?annValue .
-  ?property a owl:AnnotationProperty .
+  {?property a owl:AnnotationProperty} UNION {?property a rdfs:comment}
   BIND(IF(LANG(?annValue) = "", STRLANG(?annValue, "en"), ?annValue) AS ?annValue_en)
 }
