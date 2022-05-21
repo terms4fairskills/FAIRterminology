@@ -147,8 +147,15 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000554 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000554">
+        <obo:IAO_0000115 xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">confers/requires competency about</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">PMQ 3.2022</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -179,8 +186,15 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000558 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
+        <obo:IAO_0000115 xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has/wants competency in</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Allyson Lister 8.2.22</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
