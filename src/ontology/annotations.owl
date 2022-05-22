@@ -27,6 +27,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <rdfs:comment xml:lang="en">Allyson Lister 8.10.2019: Although the IAO definition has been included here, we have made a curation decision to allow non-Aristotelian definitions.</rdfs:comment>
         <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -57,7 +59,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -72,6 +74,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -86,6 +90,8 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000564 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000564">
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:38:16.742124Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -94,6 +100,8 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000565 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000565">
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:39:13.568975Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -147,7 +155,13 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000554 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000554">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T21:36:11.080721Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">confers/requires competency about</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -162,6 +176,12 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000555 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000555">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-12-06 00:00:00</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">confers/requires knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
@@ -178,15 +198,32 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000557 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000557">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-12-06 00:00:00</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">confers/requires practical skill about</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">FAIR4S</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/T4FS_0000558 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants competency in</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -201,6 +238,10 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000559 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000559">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
@@ -225,6 +266,12 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000562 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000562">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-24T15:33:43.476917Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">has aptitude for</rdfs:label>
     </owl:ObjectProperty>
     
@@ -233,6 +280,12 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000563 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000563">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-22T15:25:13.443153Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">contributes to the implementation of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -291,6 +344,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
         <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000548"/>
 </rdf:RDF>
 
 

@@ -13,11 +13,6 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-05-05/t4fs.owl"/>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.
-
-This terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials (e.g. training) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.
-
-It is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills (T4FS)</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
@@ -75,7 +70,6 @@ It is intended to be of use to trainers who teach FAIR data skills, researchers 
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <obo:IAO_0000115>An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -124,12 +118,6 @@ It is intended to be of use to trainers who teach FAIR data skills, researchers 
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
@@ -155,12 +143,6 @@ It is intended to be of use to trainers who teach FAIR data skills, researchers 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
         <rdfs:label xml:lang="en">creation date</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
     
 
 
@@ -3074,10 +3056,15 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Data stewardship is a shared responsibility between Principal Investigators and data stewards. Principal Investigators are responsible for, and data stewards provide support for: (a) Data collection, data integration, or reuse of existing data; (b) Review of data quality; (c) Description of scientific workflow/process; (d) Provision of standards-compliant metadata; and, (e) Submission of data and data.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000119>CASRAI. https://casrai.org/term/data-steward/</obo:IAO_0000119>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">data steward</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data stewardship is a shared responsibility between Principal Investigators and data stewards. Principal Investigators are responsible for, and data stewards provide support for: (a) Data collection, data integration, or reuse of existing data; (b) Review of data quality; (c) Description of scientific workflow/process; (d) Provision of standards-compliant metadata; and, (e) Submission of data and data.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/data-steward/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3580,11 +3567,16 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
         <obo:IAO_0000115 xml:lang="en">CoreTrustSeal offers to any interested data repository a core level certification based on the DSA–WDS Core Trustworthy Data Repositories Requirements catalogue and procedures. This universal catalogue of requirements reflects the core characteristics of trustworthy data repositories and is the culmination of a cooperative effort between DSA and WDS under the umbrella of the Research Data Alliance to merge their data repositories certifications.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CTS</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:resource="https://www.coretrustseal.org/about/"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date>2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">core trust seal</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">CoreTrustSeal offers to any interested data repository a core level certification based on the DSA–WDS Core Trustworthy Data Repositories Requirements catalogue and procedures. This universal catalogue of requirements reflects the core characteristics of trustworthy data repositories and is the culmination of a cooperative effort between DSA and WDS under the umbrella of the Research Data Alliance to merge their data repositories certifications.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://www.coretrustseal.org/about/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -8574,16 +8566,14 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000548">
         <obo:IAO_0000115 xml:lang="en">The personal attributes necessary to perform a task.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000119>Laura Molloy</obo:IAO_0000119>
-        <obo:T4FS_0000564>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
         <obo:T4FS_0000564 xml:lang="en">Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
         <rdfs:label xml:lang="en">data stewardship soft skill</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000564"/>
-        <owl:annotatedTarget>Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</owl:annotatedTarget>
-        <obo:IAO_0000119>Celia van Gelder:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Laura Molloy, Celia van Gelder:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -8745,5 +8735,5 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
