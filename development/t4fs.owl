@@ -8695,17 +8695,6 @@ AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split i
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000571 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 16.3.22 Added as part of FAIR Cookbook integration. Useful for directing PIs to high-level training material or presentations, to ensure they know why e.g. data stewardship is vital.</rdfs:comment>
-        <rdfs:label xml:lang="en">principal investigator</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/TF4S_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000572">
