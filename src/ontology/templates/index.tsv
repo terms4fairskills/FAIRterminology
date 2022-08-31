@@ -3,7 +3,13 @@ ID	AL rdfs:label@en
 BFO:0000001	entity
 BFO:0000002	continuant
 BFO:0000003	occurent
+BFO:0000004	independent continuant
 BFO:0000015	process
+BFO:0000017	realizable entity
+BFO:0000020	specifically dependent continuant
+BFO:0000023	role
+BFO:0000031	generically dependent continuant
+IAO:0000030	information content entity
 obo:T4FS_0000002	pipe separated values
 obo:T4FS_0000004	software preservation
 obo:T4FS_0000005	repository access
@@ -429,7 +435,6 @@ obo:T4FS_0000508	using fair and open research tools or services
 obo:T4FS_0000510	webinar
 obo:T4FS_0000511	digital data
 obo:T4FS_0000512	F1. (meta)data are assigned a globally unique and persistent identifier
-obo:T4FS_0000513	role
 obo:T4FS_0000514	strategic/long-term planning
 obo:T4FS_0000515	data hygiene
 obo:T4FS_0000516	data profiling

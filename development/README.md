@@ -5,11 +5,7 @@ Building a terminology for the skills necessary to make data FAIR and to keep it
 ## Directory Contents
 
 This directory contains the following:
-* [t4fs.owl](t4fs.owl): The latest development version of terms4FAIRskills
-* [t4fs.md](t4fs.md): A human-readable summary of terms4FAIRskills, in markdown format
-* [t4fs.html](t4fs.html):  A human-readable summary of terms4FAIRskills, in html format
+* scripts/ : a directory containing convenience scripts for manipulating the ontology using SPARQL queries
 
-## Tools
 
-The [html](t4fs.html) and [markdown](t4fs.md) versions of terms4FAIRskills were created using
-[pylode](https://github.com/RDFLib/pyLODE).
+Our new build procedure makes this directory redundant, and we will move the content of scripts/ to the src/scripts/ directory once the new procedure is running smoothly.

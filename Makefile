@@ -4,20 +4,6 @@
 # Based on the CC BY 4.0 GECKO Project Build Procedure (https://github.com/IHCC-cohorts/GECKO)
 #
 
-# Software requirements for running this Makefile
-# sqlite3 - on Ubuntu, `sudo apt install sqlite3`
-# python pip - on Ubuntu, `sudo apt install python3-pip`
-# ontodev-gizmos from James Overton - on Ubuntu, `python3 -m pip install ontodev-gizmos`
-
-### Workflow
-#
-# 1. Edit the [terms4FAIRskills template](https://docs.google.com/spreadsheets/d/1pu9o8oiP1hwnyQk1tv_8cdoe07GngINRD5pGz04m4Zo/edit?usp=sharing)
-# 2. [Update files](update)
-# 2. View files:
-#     - [ROBOT report](build/report.html)
-#     - [OBO view of T4FS]
-#     - [Community view of T4FS]
-
 ### Configuration
 #
 # These are standard options to make Make sane:
@@ -115,7 +101,7 @@ build/$(T4FS).owl: build/properties.ttl src/ontology/templates/index.tsv src/ont
 
 ### Imports
 
-IMPORTS := bfo #cob #iao #obi
+IMPORTS := bfo iao #cob #obi
 IMPORT_MODS := $(foreach I,$(IMPORTS),build/imports/$(I).ttl)
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
@@ -181,19 +167,3 @@ build/report.html: build/$(T4FS).owl | build/robot.jar
 	--labels true \
 	--fail-on none \
 	--output $@
-
-
-### COGS Set Up
-
-BRANCH := $(shell git branch --show-current)
-
-init-cogs: .cogs
-
-# required env var GOOGLE_CREDENTIALS
-.cogs: | $(TEMPLATES)
-	cogs init -u $(EMAIL) -t "terms4FAIRskills $(BRANCH)" $(foreach T,$(TEMPLATES), && cogs add $(T) -r 2)
-	cogs push
-	cogs open
-
-destroy-cogs: | .cogs
-	cogs delete -f

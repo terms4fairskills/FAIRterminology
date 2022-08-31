@@ -2,7 +2,7 @@
 
 Building a terminology for the skills necessary to make data FAIR and to keep it FAIR.
 
-The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
+The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.
 
 When mature, this terminology will apply to a variety of use cases, including:
 - To assist with the creation and assessment of stewardship curricula;
@@ -23,3 +23,10 @@ We continue to develop terms4FAIRskills and our latest terminology will always b
 
 For more information on any of the technical aspects of this work, please contact Peter McQuilton or Allyson Lister.
 
+# Development documentation
+
+* [developer.md](developer.md): Documentation on building and releasing this ontology.
+
+# Views on the Ontology
+
+We currently produce two primary views of this ontology: a complete ontology intended for expert consumption, and fully adhering to the OBO Foundry principles, and a community view that has been simplified for general usage.
