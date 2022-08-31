@@ -44,6 +44,8 @@
 
     <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </AnnotationProperty>
     <Axiom>
@@ -82,6 +84,16 @@
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:38:16.742124Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000565 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000565">
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:39:13.568975Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">alternative definition source</rdfs:label>
     </AnnotationProperty>
     
 
@@ -134,6 +146,12 @@
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pipe separated values</rdfs:label>
     </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget xml:lang="en">A file that contains the values in a table as a series of ASCII text lines organized so that each column value is separated by a pipe.</annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/pipe-separated-values/</obo:IAO_0000119>
+    </Axiom>
     
 
 
@@ -317,6 +335,12 @@
         <obo:IAO_0000118 xml:lang="en">Conservation</obo:IAO_0000118>
         <rdfs:label xml:lang="en">preservation</rdfs:label>
     </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget xml:lang="en">An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology.</annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/preservation/</obo:IAO_0000119>
+    </Axiom>
     
 
 
@@ -558,7 +582,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000033"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Data that could not lead to the identification of a specific object of interest. These may be data that have been de-identified, or that could not lead to identifiable information in the first place.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/noisy-data/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Modified by AL on 6.5.22 from CASRAI. https://casrai.org/term/non-identifiable-data/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -1473,7 +1497,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000104"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Planning for and controlling the present and future costs of the conservation of data, including technical storage, fixed costs, and staff resources.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/preservation/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Based on https://www.cessda.eu/About/Projects/Past-projects/CESSDA-SaW/WP4/Cost-Benefit-Advocacy-Toolkit/Costs-Factsheet [LLC]</obo:IAO_0000119>
     </Axiom>
     
 
@@ -2231,7 +2255,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000159"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">A description with very little curation that would include at least a name and PID of a data object. Minimal metadata is only marginally targeted at discovery since there is much better infrastructure to accomplish this.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">[PMQ]</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI, https://casrai.org/term/minimal-metadata/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -2250,7 +2274,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000160"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Metadata exposure is the process of finding, identifying, selecting and acquiring/obtaining access to a metadata entity.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/metadata-dataset/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">AL 22.3.22, and see also FRBR User Tasks at: https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks.</obo:IAO_0000119>
     </Axiom>
     
 
@@ -2689,7 +2713,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000192"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Data linkage where the resulting product has been de-identified.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/privacy-governance/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/privacy-preserving-data-linkage</obo:IAO_0000119>
     </Axiom>
     
 
@@ -2970,6 +2994,12 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">core trust seal</rdfs:label>
     </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000217"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget xml:lang="en">CoreTrustSeal offers to any interested data repository a core level certification based on the DSA–WDS Core Trustworthy Data Repositories Requirements catalogue and procedures. This universal catalogue of requirements reflects the core characteristics of trustworthy data repositories and is the culmination of a cooperative effort between DSA and WDS under the umbrella of the Research Data Alliance to merge their data repositories certifications.</annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://www.coretrustseal.org/about/</obo:IAO_0000119>
+    </Axiom>
     
 
 
@@ -3074,7 +3104,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000224"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">The process of organizing data into tables in such a way that the results of using the database are always unambiguous and as intended. Normalization is typically a refinement process after the initial exercise of identifying the data objects that should be in the database, identifying their relationships, and defining the tables required and the columns within each table.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/non-personally-identifiable-information/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/normalization/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -3322,7 +3352,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000244"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Data that could not lead to the identification of a specific individual, to distinguishing one person from another, or to personally identifiable information. These may be data that have been de-identified, or that could not lead to personally identifiable information in the first place.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Modified by AL on 6.5.22 from CASRAI. https://casrai.org/term/non-identifiable-data/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/non-personally-identifiable-information/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -3517,7 +3547,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000258"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Meaningless data, including: Any data that cannot be understood and interpreted correctly by machines, such as unstructured text; any data that has been received, stored, or changed in such a manner that it cannot be read or used by the program that originally created it.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/national-standard/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/noisy-data/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -4061,7 +4091,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000300"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">To be able to identify and process metadata over the internet, sourced from a variety of metadata providers and schemata.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/metadata-record/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">[PMQ]</obo:IAO_0000119>
     </Axiom>
     
 
@@ -4420,6 +4450,12 @@
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">metadata dataset</rdfs:label>
     </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000327"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget xml:lang="en">The set of metadata describing a specific dataset.</annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/metadata-dataset/</obo:IAO_0000119>
+    </Axiom>
     
 
 
@@ -5509,7 +5545,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000410"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">Documents actions that have been undertaken to preserve a digital resource such as migrations and checks sum calculations.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Based on https://www.cessda.eu/About/Projects/Past-projects/CESSDA-SaW/WP4/Cost-Benefit-Advocacy-Toolkit/Costs-Factsheet [LLC]</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/preservation-metadata/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -5900,7 +5936,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000441"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">The Principal Investigator (P.I.) is a researcher who has a research leadership role and is the point of contact for a project or partnership that applies the scientific method, historical method, or other research methodology for the advancement of knowledge resulting in independent, objective, high quality, traceable, and reproducible results. The P.I. has primary responsibility for the intellectual direction and integrity of the research or research-related activity, including data production, findings and results, and ensures ethical conduct in all aspects of the research process including but not limited to the treatment of human and animal subjects, conflicts of interest, data acquisition, sharing and ownership, publication practices, responsible authorship, and collaborative research and reporting. While various tasks may be delegated to team members, some of whom may have greater expertise in specific areas, the P.I. is familiar with the various technical and scientific aspects of a project and how they fit together, is able to identify and remediate gaps, and ensure communication within the team and with users of the research data and results.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/preservation-metadata/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/principal-investigator</obo:IAO_0000119>
     </Axiom>
     
 
@@ -6260,7 +6296,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000467"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">From an official perspective, a national standard is adopted by a national standards body (e.g., Standards Council of Canada, American National Standards Institute, British Standards Institution) and made available to the public. Practically speaking, however, a national standard is any standard that is widely used and recognized within a country. In this context, even government standards, such as those issued by the Occupational Safety and Health Administration (OSHA), can be considered national standards.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI, https://casrai.org/term/minimal-metadata/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/national-standard/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -6941,7 +6977,7 @@
         <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000517"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <annotatedTarget xml:lang="en">A collection of data defined by a theme, category, which reflects what is being measured, observed, monitored at the various sites. The Metadata Record is an information resource of business value.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">AL 22.3.22, and see also FRBR User Tasks at: https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks.</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/metadata-record/</obo:IAO_0000119>
     </Axiom>
     
 
@@ -7049,6 +7085,12 @@
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">privacy governance</rdfs:label>
     </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000524"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget xml:lang="en">Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods.</annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/privacy-governance/</obo:IAO_0000119>
+    </Axiom>
     
 
 
@@ -7324,14 +7366,9 @@
         <obo:IAO_0000115 xml:lang="en">The personal attributes necessary to perform a task.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:T4FS_0000564 xml:lang="en">Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
+        <obo:T4FS_0000565 xml:lang="en">Laura Molloy, Celia van Gelder:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:T4FS_0000565>
         <rdfs:label xml:lang="en">data stewardship soft skill</rdfs:label>
     </Class>
-    <Axiom>
-        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <annotatedTarget xml:lang="en">The personal attributes necessary to perform a task.</annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Laura Molloy, Celia van Gelder:https://docs.google.com/presentation/d/12oNBFix39ZtsLAR4tkqESBXxMU5rVg3cCKoEDG2oK-M/edit#slide=id.p5</obo:IAO_0000119>
-    </Axiom>
     
 
 
@@ -7442,17 +7479,6 @@
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">system administrator</rdfs:label>
-    </Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000571 -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 16.3.22 Added as part of FAIR Cookbook integration. Useful for directing PIs to high-level training material or presentations, to ensure they know why e.g. data stewardship is vital.</rdfs:comment>
-        <rdfs:label xml:lang="en">principal investigator</rdfs:label>
     </Class>
     
 

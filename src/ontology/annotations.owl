@@ -44,6 +44,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -190,6 +192,10 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000556 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000556">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">requires/improves personal attribute</rdfs:label>
     </owl:ObjectProperty>
     
@@ -250,6 +256,10 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000560 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000560">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">supports implementation of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -258,8 +268,20 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000561 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000561">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">has/wants practical skill about</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000561"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">FAIR4S</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
