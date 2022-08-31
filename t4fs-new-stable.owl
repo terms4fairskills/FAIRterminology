@@ -232,7 +232,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000558 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
@@ -251,7 +251,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000559 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000559">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -275,7 +275,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000561 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000561">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
@@ -295,7 +295,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000562 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000562">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -376,12 +376,104 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
         <rdfs:label xml:lang="en">process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000561"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000562"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
     </owl:Class>
     
 
@@ -550,6 +642,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
@@ -911,7 +1004,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label xml:lang="en">database developer</rdfs:label>
     </owl:Class>
     
@@ -2142,7 +2235,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label xml:lang="en">trainer/teacher</rdfs:label>
     </owl:Class>
     
@@ -2659,7 +2752,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Information systems and technology infrastructure manager, expert, or technician.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information technology specialist</rdfs:label>
@@ -3049,7 +3142,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
@@ -3334,7 +3427,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information management advisor</rdfs:label>
@@ -3412,7 +3505,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Data experts who have a librarian background. Data librarians often carry out curation and metadata related work. There is much overlap between data librarians, data managers, and data stewards.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data librarian</rdfs:label>
@@ -3638,7 +3731,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000220">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label xml:lang="en">researcher</rdfs:label>
     </owl:Class>
     
@@ -4475,7 +4568,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A data custodian is an IT individual or organization responsible for the IT infrastructure providing and protecting data in conformance with the policies and practices prescribed by data governance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data custodian</rdfs:label>
@@ -5975,6 +6068,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
@@ -6242,7 +6336,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000389">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">database curator</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 15.3.22: Updated label to &apos;data curator&apos; to encompass curation beyond just in databases.</rdfs:comment>
@@ -6592,7 +6686,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000415">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Program delivery managers and support function managers, at all levels in an institution who are accountable for the direct delivery and support of programs and services within their domain of business responsibility.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -6890,7 +6984,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000437 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000437">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information management specialist</rdfs:label>
@@ -7015,6 +7109,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">ylefranc</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-17T16:34:14.943152Z</oboInOwl:creation_date>
@@ -8012,47 +8107,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000513 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000513">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000561"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000562"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
-        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/T4FS_0000514 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000514">
@@ -8158,6 +8212,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
@@ -8377,7 +8432,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000530">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Responsible for executing tasks and producing deliverables as outlined in the Project Plan and directed by the Project Manager, at whatever level of effort or participation has been defined for them.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -8584,6 +8639,7 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
         <obo:IAO_0000115 xml:lang="en">The personal attributes necessary to perform a task.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:T4FS_0000564 xml:lang="en">Aptitude is the innate trait or talent that a person brings to a task or situation. It is the quality of being able to do something. An aptitude is not something that can be learned or developed unless it is there to begin with.</obo:T4FS_0000564>
@@ -8669,7 +8725,7 @@
     <!-- http://purl.obolibrary.org/obo/TF4S_0000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">ontologist</rdfs:label>
@@ -8691,7 +8747,7 @@
     <!-- http://purl.obolibrary.org/obo/TF4S_0000569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000569">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22 Added as part of FAIR cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">software engineer</rdfs:label>
@@ -8702,7 +8758,7 @@
     <!-- http://purl.obolibrary.org/obo/TF4S_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">system administrator</rdfs:label>
@@ -8713,7 +8769,7 @@
     <!-- http://purl.obolibrary.org/obo/TF4S_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits.</rdfs:comment>
         <rdfs:label xml:lang="en">procurement officer</rdfs:label>
