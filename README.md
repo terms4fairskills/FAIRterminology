@@ -1,4 +1,7 @@
-# terms4FAIRskills
+![Build Status](https://github.com/terms4FAIRskills/FAIRterminology/workflows/CI/badge.svg)
+# terms4FAIRskills (T4FS)
+
+More information can be found at http://obofoundry.org/ontology/t4fs
 
 Building a terminology for the skills necessary to make data FAIR and to keep it FAIR.
 
@@ -23,10 +26,28 @@ We continue to develop terms4FAIRskills and our latest terminology will always b
 
 For more information on any of the technical aspects of this work, please contact Peter McQuilton or Allyson Lister.
 
-# Development documentation
-
-* [developer.md](developer.md): Documentation on building and releasing this ontology.
-
-# Views on the Ontology
+## Views on the Ontology
 
 We currently produce two primary views of this ontology: a complete ontology intended for expert consumption, and fully adhering to the OBO Foundry principles, and a community view that has been simplified for general usage.
+
+## Versions
+
+### Stable release versions
+
+The latest version of the ontology can always be found at:
+
+http://purl.obolibrary.org/obo/t4fs.owl
+
+(note this will not show up until the request has been approved by obofoundry.org)
+
+### Editors' version
+
+Editors of this ontology should use the edit version, [src/ontology/t4fs-edit.owl](src/ontology/t4fs-edit.owl)
+
+## Contact
+
+Please use this GitHub repository's [Issue tracker](https://github.com/terms4FAIRskills/FAIRterminology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+
+## Acknowledgements
+
+This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
