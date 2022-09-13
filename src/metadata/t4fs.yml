@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/t4fs
+
+idspace: T4FS
+base_url: /obo/t4fs
+
+products:
+- t4fs.owl: https://raw.githubusercontent.com/terms4FAIRskills/FAIRterminology/main/t4fs.owl
+- t4fs.obo: https://raw.githubusercontent.com/terms4FAIRskills/FAIRterminology/main/t4fs.obo
+
+term_browser: ontobee
+example_terms:
+- T4FS_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/terms4FAIRskills/FAIRterminology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/terms4FAIRskills/FAIRterminology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/T4FS?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/terms4FAIRskills/FAIRterminology/main/
