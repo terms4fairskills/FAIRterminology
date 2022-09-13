@@ -1,4 +1,4 @@
-![Build Status](https://github.com/terms4FAIRskills/FAIRterminology/workflows/CI/badge.svg)
+
 # terms4FAIRskills (T4FS)
 
 More information can be found at http://obofoundry.org/ontology/t4fs
