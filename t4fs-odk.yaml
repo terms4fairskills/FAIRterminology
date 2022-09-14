@@ -8,10 +8,11 @@ export_formats:
   - owl
   - obo
   - json
-release_artefacts: 
+release_artefacts:
   - base
   - simple
   - full
+  - custom-community
 primary_release: full
 import_group:
   products:

@@ -38,8 +38,6 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/t4fs.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
-
 ### Editors' version
 
 Editors of this ontology should use the templates available for comment via our (Google spreadsheet)[https://docs.google.com/spreadsheets/d/1pu9o8oiP1hwnyQk1tv_8cdoe07GngINRD5pGz04m4Zo/edit?usp=sharing]. The default permissions for this spreadsheet is Comment only. Please ask if you would like permission to modify it. The "traditional" editable document for the ODK build procedure is [src/ontology/t4fs-edit.owl](src/ontology/t4fs-edit.owl), however this is automatically built via templates.
