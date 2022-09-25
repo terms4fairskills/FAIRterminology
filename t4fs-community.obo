@@ -1,18 +1,31 @@
 format-version: 1.2
-data-version: t4fs/releases/2022-09-25/t4fs-simple.owl
-remark: terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-ontology: t4fs/t4fs-simple
-property_value: http://purl.org/dc/terms/description "terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \\(e.g. training\\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles." xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-property_value: http://purl.org/dc/terms/title "terms4FAIRskills (T4FS)" xsd:string
+data-version: t4fs/releases/2022-09-25/t4fs-community.owl
+ontology: t4fs/t4fs-community
 property_value: owl:versionInfo "2022-09-25" xsd:string
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+property_value: BFO:0000179 "role" xsd:string
+property_value: BFO:0000180 "Role" xsd:string
+property_value: IAO:0000112 "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married." xsd:string
+property_value: IAO:0000112 "the priest role" xsd:string
+property_value: IAO:0000112 "the role of a boundary to demarcate two neighboring administrative territories" xsd:string
+property_value: IAO:0000112 "the role of a building in serving as a military target" xsd:string
+property_value: IAO:0000112 "the role of a stone in marking a property boundary" xsd:string
+property_value: IAO:0000112 "the role of subject in a clinical trial" xsd:string
+property_value: IAO:0000112 "the student role" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives." xsd:string
+property_value: IAO:0000600 "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
+property_value: IAO:0000602 "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
 id: T4FS:0000002
 name: pipe separated values
 def: "A file that contains the values in a table as a series of ASCII text lines organized so that each column value is separated by a pipe." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/pipe-separated-values/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -60,7 +73,6 @@ id: T4FS:0000009
 name: data management policy
 def: "A written document backed by management describing policy and providing guidance to ensure that appropriate standards, consistent guidelines, and common strategies are used, providing linkages to and consistency with other similar systems, and fostering a true network across an organization producing data." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-management-policy/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000447 ! contributes to the implementation of fair principle
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -82,7 +94,6 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 id: T4FS:0000012
 name: data stewardship activity
 def: "A specific deed, action, function or sphere of action in relation with the role of data stewardship" []
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000117 "Yann Le Franc" xsd:string
@@ -139,7 +150,6 @@ id: T4FS:0000020
 name: interoperability
 def: "The capability to communicate, execute programs, or transfer data among various functional units in a useful and meaningful manner that requires the user to have little or no knowledge of the unique characteristics of those units. Foundational, syntactic, and semantic interoperability are the three necessary aspects of interoperability." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/interoperability/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000014 ! contributes to the implementation of interoperability of digital assets
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -163,7 +173,6 @@ id: T4FS:0000024
 name: de facto standard
 def: "A standard that is widely accepted and used, but lacks formal approval by a recognized standards developing organization (e.g., the QWERTY keyboard)." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/de-facto-standard/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -245,11 +254,7 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 [Term]
 id: T4FS:0000034
 name: database developer
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 
 [Term]
 id: T4FS:0000036
@@ -306,7 +311,6 @@ id: T4FS:0000045
 name: data organization
 def: "Denotes the complexity of measures that are used by a repository to form aggregations of data objects (including collections and metadata) to describe the properties of data objects, to register PIDs, to build the PID records, to link between all components, and to set up the containers (software stack) that are used to store all..." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-organization/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000447 ! contributes to the implementation of fair principle
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -555,7 +559,6 @@ id: T4FS:0000081
 name: reference model
 def: "A design covering a class of frameworks with the following characteristics: (1) it can be used to generate more specific models that still belong to the class and (2) it can be used to compare a concrete framework design to identify whether it belongs to the same class." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/reference-model"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -655,7 +658,6 @@ id: T4FS:0000096
 name: metadata catalogue
 def: "A catalogue containing metadata records in XML-encoded (machine-readable and human-readable) format that enables services to find data and services." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://casrai.org/term/metadata-catalogue/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000393 ! contributes to the implementation of F4. (meta)data are registered or indexed in a searchable resource
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 created_by: Peter McQuilton
@@ -825,11 +827,7 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 [Term]
 id: T4FS:0000122
 name: trainer/teacher
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 
 [Term]
 id: T4FS:0000123
@@ -879,7 +877,6 @@ id: T4FS:0000129
 name: ability to solve fair implementation problems collaboratively
 def: "Demonstrate ability to involve others and share responsibility for applying FAIR principles." [] {http://purl.obolibrary.org/obo/IAO_0000119="[PMQ, 3.2022]"}
 is_a: T4FS:0000399 ! ability to learn new techniques for fair implementation
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 
 [Term]
@@ -1058,11 +1055,7 @@ property_value: IAO:0000118 "Data format" xsd:string
 id: T4FS:0000155
 name: information technology specialist
 def: "Information systems and technology infrastructure manager, expert, or technician." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/information-technology-specialist/"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1139,7 +1132,6 @@ id: T4FS:0000168
 name: consensus standard
 def: "A standard developed through the cooperation of all parties who have an interest in participating in its development and/or use." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/consensus-standard/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000118 "Community standard" xsd:string
 
@@ -1215,13 +1207,7 @@ property_value: IAO:0000117 "Victoria Dominguez Del Angel" xsd:string
 id: T4FS:0000178
 name: data steward
 def: "Data stewardship is a shared responsibility between Principal Investigators and data stewards. Principal Investigators are responsible for, and data stewards provide support for: (a) Data collection, data integration, or reuse of existing data; (b) Review of data quality; (c) Description of scientific workflow/process; (d) Provision of standards-compliant metadata; and, (e) Submission of data and data." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-steward/"}
-relationship: T4FS:0000558 T4FS:0000162 ! has/wants competency in fair stewardship training
-relationship: T4FS:0000558 T4FS:0000297 ! has/wants competency in research data management
-relationship: T4FS:0000558 T4FS:0000492 ! has/wants competency in understanding persistent identifiers
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 created_by: Peter McQuilton
 
@@ -1287,7 +1273,6 @@ id: T4FS:0000188
 name: semantic interoperability
 def: "The ability of computer systems to transmit data with unambiguous, shared meaning. Semantic interoperability is a requirement to enable machine computable logic, inferencing, knowledge discovery, and data federation between information systems. Semantic interoperability is achieved when the information transferred has, in its communicated form, all of the meaning required for the receiving system to interpret it correctly, even when the algorithms used by the receiving system are unknown to the sending system. Syntactic interoperability is a prerequisite to semantic interoperability." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/semantic-interoperability"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000361 ! contributes to the implementation of I2. (meta)data use vocabularies that follow fair principles
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -1345,11 +1330,7 @@ property_value: IAO:0000117 "Yan Wang" xsd:string
 id: T4FS:0000195
 name: information management advisor
 def: "A person having a broad knowledge of information management disciplines and who provides guidance and support to program and staff functions on all aspects of managing the information resource." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/information-management-advisor/"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1357,7 +1338,6 @@ id: T4FS:0000196
 name: data management plan
 def: "A formal statement describing how research data will be managed and documented throughout a research project and the terms regarding the subsequent deposit of the data with a data repository for long-term management and preservation." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-management-plan/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000447 ! contributes to the implementation of fair principle
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1384,11 +1364,7 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 id: T4FS:0000202
 name: data librarian
 def: "Data experts who have a librarian background. Data librarians often carry out curation and metadata related work. There is much overlap between data librarians, data managers, and data stewards." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-librarian/"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1498,17 +1474,12 @@ id: T4FS:0000219
 name: authenticity metadata
 def: "A type of metadata that conveys information needed to link a data object to its original source." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/authenticity-metadata/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
 id: T4FS:0000220
 name: researcher
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 
 [Term]
 id: T4FS:0000221
@@ -1615,7 +1586,6 @@ name: text file
 def: "A Text file is a kind of computer file that is structured as a sequence of lines of electronic text. A text file exists stored as data within a computer file system." [] {http://purl.obolibrary.org/obo/IAO_0000119="AL, Adapted from Wikipedia. https://en.wikipedia.org/wiki/Text_file"}
 comment: AL 9.3.22: The CASRAI term (https://casrai.org/term/text-file) had an unsuitable definition, and therefore was removed.
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -1624,7 +1594,6 @@ id: T4FS:0000236
 name: human-readable format
 def: "Data and code that are commented so that humans can understand what it represents, it's design, and purpose.REFERENCE. Wilson G, Aruliah DA, Brown CT, Hong NPC, Davis M, Guy RT, Haddock SHD, Huff K, Mitchell IM, Plumbley MD, Waugh B, White EP, Wilson P (2012). Best practices for scientific computing , arXiv, 29 November, 1-6." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/human-readable-format/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1647,7 +1616,6 @@ id: T4FS:0000240
 name: appreciate importance of research integrity
 def: "Take proactive approach to ensure outputs are made FAIR consistently with research integrity principles." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -1705,7 +1673,6 @@ id: T4FS:0000250
 name: citable data
 def: "A type of referable data that has undergone quality assessment and can be referred to as citations in publications and as part of research objects." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/citable-data/"}
 is_a: T4FS:0000430 ! data
-relationship: T4FS:0000563 T4FS:0000512 ! contributes to the implementation of F1. (meta)data are assigned a globally unique and persistent identifier
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1802,9 +1769,6 @@ name: curated data
 def: "The output of a data curation activity. Such data has generally already been cleaned, standardised, documented. Additional metadata relevant to the data object has also been added, via either manual or automatic methods." [] {http://purl.obolibrary.org/obo/IAO_0000119="AL 9.5.22"}
 comment: AL 9.5.22: The orginal label ("data curation") matched a term within the Data stewardship activity hierarchy. Changing the class label to "Curated data" better fit the model.
 is_a: T4FS:0000430 ! data
-relationship: T4FS:0000563 T4FS:0000174 ! contributes to the implementation of R1. (meta)data are richly described with a plurality of accurate and relevant attributes
-relationship: T4FS:0000563 T4FS:0000361 ! contributes to the implementation of I2. (meta)data use vocabularies that follow fair principles
-relationship: T4FS:0000563 T4FS:0000435 ! contributes to the implementation of F3. metadata clearly and explicitly include the identifier of the data they describe
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 created_by: Peter McQuilton
@@ -1852,7 +1816,6 @@ id: T4FS:0000274
 name: international standard
 def: "A standard that is used in multiple nations and whose development process is open to representatives from all countries." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/international-standard/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -1866,11 +1829,7 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 id: T4FS:0000276
 name: data custodian
 def: "A data custodian is an IT individual or organization responsible for the IT infrastructure providing and protecting data in conformance with the policies and practices prescribed by data governance." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-custodian/"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -2087,7 +2046,6 @@ id: T4FS:0000309
 name: provenance
 def: "A type of historical information or metadata about the origin, location or the source of something, or the history of the ownership or location of an object or resource including digital objects. For example, information about the Principal Investigator who recorded the data, and the information concerning its storage, handling, and migration." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/provenance"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000014 ! contributes to the implementation of interoperability of digital assets
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -2219,7 +2177,6 @@ name: research metadata format
 def: "Research metadata format is a generic term encompassing the concept of a standardised format for research metadata." [] {http://purl.obolibrary.org/obo/IAO_0000119="AL, 9.3.2022"}
 comment: AL 9.3.2022: The original CASRAI definition is unsuitable (https://casrai.org/term/research-metadata-format), therefore I have changed the definition to something more generic
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -2251,7 +2208,6 @@ id: T4FS:0000333
 name: data policy
 def: "An organization's stated data/information management processes designed to assist and protect the organization's data research assets. It is a set of high-level principles that establish a guiding framework for data management. A data policy can be used to address strategic aspects such as data access, relevant legal matters, data stewardship issues and custodial duties, data..." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/data-policy/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000447 ! contributes to the implementation of fair principle
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -2267,7 +2223,6 @@ id: T4FS:0000335
 name: controlled vocabulary
 def: "A list of standardized terminology, words, or phrases, used for indexing or content analysis and information retrieval, usually in a defined information domain." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/controlled-vocabulary/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000452 ! contributes to the implementation of I3. (meta)data include qualified references to other (meta)data
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -2365,7 +2320,6 @@ id: T4FS:0000350
 name: extensible markup language
 def: "Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/extensible-markup-language/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000118 "XML" xsd:string
@@ -2472,7 +2426,6 @@ id: T4FS:0000364
 name: semantic data
 def: "Data that are tagged with particular metadata that can be used to derive relationships between data." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/semantic-data"}
 is_a: T4FS:0000430 ! data
-relationship: T4FS:0000563 T4FS:0000361 ! contributes to the implementation of I2. (meta)data use vocabularies that follow fair principles
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -2517,7 +2470,6 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 [Term]
 id: T4FS:0000372
 name: data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000446 ! contributes to the implementation of data stewardship guideline
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -2638,11 +2590,7 @@ creation_date: 2020-10-02T14:22:51.569762Z
 id: T4FS:0000389
 name: data curator
 comment: AL 15.3.22: Updated label to 'data curator' to encompass curation beyond just in databases.
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000118 "database curator" xsd:string
 
@@ -2790,11 +2738,7 @@ property_value: IAO:0000118 "Anonymization" xsd:string
 id: T4FS:0000415
 name: manager
 def: "Program delivery managers and support function managers, at all levels in an institution who are accountable for the direct delivery and support of programs and services within their domain of business responsibility." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/manager"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -2922,11 +2866,7 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 id: T4FS:0000437
 name: information management specialist
 def: "A person who is expert in one or more of the information management disciplines that support the effective and efficient management of information." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/information-management-specialist/"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
@@ -2974,7 +2914,6 @@ id: T4FS:0000445
 name: dublin core
 def: "An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible for the content), subject (the topic covered), description (a textual outline of the content), publisher (those responsible for making the resource available), contributor (those who added to the content), date (when the resource was made available), type (a category for the content), format (how the resource is presented), identifier (numerical identifier for the content such as a URL), source (where the content originally derived from), language (in what language the content is written), relation (how the content relates to other resources, for instance, if it is a chapter in a book), coverage (where the resource is physically located), and rights (a link to a copyright notice)." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/dublin-core/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -3014,7 +2953,6 @@ id: T4FS:0000450
 name: document type definition
 def: "The building blocks of an XML document." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/document-type-definition/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -3128,7 +3066,6 @@ id: T4FS:0000467
 name: national standard
 def: "From an official perspective, a national standard is adopted by a national standards body (e.g., Standards Council of Canada, American National Standards Institute, British Standards Institution) and made available to the public. Practically speaking, however, a national standard is any standard that is widely used and recognized within a country. In this context, even government standards, such as those issued by the Occupational Safety and Health Administration (OSHA), can be considered national standards." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/national-standard/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -3235,7 +3172,6 @@ id: T4FS:0000483
 name: appreciate importance of crediting research contributions
 def: "Understand how the rewards for effort depend on crediting the contributions of researchers and professional groups towards making FAIR outputs." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -3377,7 +3313,6 @@ id: T4FS:0000503
 name: mandatory standard
 def: "Requires compliance because of a government statute or regulation, an organization internal policy, or contractual requirement. Failure to comply with a mandatory standard usually carries a sanction, such as civil or criminal penalties, or loss of employment." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/mandatory-standard/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -3476,11 +3411,6 @@ property_value: IAO:0000117 "Peter McQuilton" xsd:string
 id: T4FS:0000519
 name: learning medium
 def: "The medium through which learning has been provided. For example, through a course, slides, video presentation, online documentation, wiki pages or others." []
-relationship: T4FS:0000554 T4FS:0000012 ! confers/requires competency about data stewardship activity
-relationship: T4FS:0000555 T4FS:0000372 ! confers/requires knowledge about data stewardship technical concept
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
-relationship: T4FS:0000557 T4FS:0000372 ! confers/requires practical skill about data stewardship technical concept
-relationship: T4FS:0000560 T4FS:0000446 ! supports implementation of data stewardship guideline
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 created_by: Peter McQuilton
@@ -3544,7 +3474,6 @@ id: T4FS:0000527
 name: metadata
 def: "Literally, “data about data”; data that defines and describes the characteristics of other data, used to improve both business and technical understanding of data and data-related processes. Business metadata includes the names and business definitions of subject areas, entities and attributes, attribute data types and other attribute properties, range descriptions, valid domain values and their definitions. Technical metadata includes physical database table and column names, column properties, and the properties of other database objects, including how data is stored. Process metadata is data that defines and describes the characteristics of other system elements (processes, business rules, programs, jobs, tools, etc.). Data stewardship metadata is data about data stewards, stewardship processes and responsibility assignments." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/metadata/"}
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000199 ! contributes to the implementation of F2. data are described with rich metadata
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000118 "Data documentation" xsd:string
@@ -3555,25 +3484,19 @@ name: comma separated values
 def: "A file that contains the values in a table as a series of ASCII text lines organized so that each column value is separated by a comma from the next column's value and each row starts a new line." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/comma-separated-values/"}
 comment: Maybe remove as shouldn't have formats here.
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000137 ! contributes to the implementation of I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
 id: T4FS:0000529
 name: identifier
 is_a: T4FS:0000372 ! data stewardship technical concept
-relationship: T4FS:0000563 T4FS:0000512 ! contributes to the implementation of F1. (meta)data are assigned a globally unique and persistent identifier
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
 [Term]
 id: T4FS:0000530
 name: project team member
 def: "Responsible for executing tasks and producing deliverables as outlined in the Project Plan and directed by the Project Manager, at whatever level of effort or participation has been defined for them." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/project-team-member"}
-relationship: T4FS:0000558 T4FS:0000012 ! has/wants competency in data stewardship activity
-relationship: T4FS:0000559 T4FS:0000372 ! has/wants knowledge about data stewardship technical concept
-relationship: T4FS:0000559 T4FS:0000446 ! has/wants knowledge about data stewardship guideline
-relationship: T4FS:0000561 T4FS:0000372 ! has/wants practical skill about data stewardship technical concept
-relationship: T4FS:0000562 T4FS:0000548 ! has aptitude for data stewardship soft skill
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
@@ -3696,101 +3619,52 @@ def: "Any information obtained by a person on the understanding that they will n
 is_a: T4FS:0000372 ! data stewardship technical concept
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 
-[Typedef]
-id: T4FS:0000554
-name: confers/requires competency about
-def: "Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied." [] {http://purl.obolibrary.org/obo/IAO_0000119="PMQ 3.2022"}
+[Term]
+id: TF4S:0000566
+name: data scientist
+comment: AL 15.3.22: Added for FAIR Cookbook integration.
+is_a: T4FS:0000454 ! scientist
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-domain: T4FS:0000519 ! learning medium
-range: T4FS:0000012 ! data stewardship activity
-inverse_of: TF4S:0000575 ! competency gained through
-created_by: Peter McQuilton
-creation_date: 2020-10-01T21:36:11.080721Z
 
-[Typedef]
-id: T4FS:0000555
-name: confers/requires knowledge about
+[Term]
+id: TF4S:0000567
+name: ontologist
+comment: AL 15.3.22: Added for FAIR Cookbook integration.
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-domain: T4FS:0000519 ! learning medium
-range: T4FS:0000372 ! data stewardship technical concept
-created_by: Peter McQuilton
-creation_date: 2020-12-06 00:00:00
 
-[Typedef]
-id: T4FS:0000556
-name: requires/improves personal attribute
+[Term]
+id: TF4S:0000568
+name: terminology manager
+comment: AL 15.3.22: Added for FAIR Cookbook integration.
+is_a: T4FS:0000415 ! manager
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-range: T4FS:0000548 ! data stewardship soft skill
-created_by: Peter McQuilton
 
-[Typedef]
-id: T4FS:0000557
-name: confers/requires practical skill about
-def: "A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied." [] {http://purl.obolibrary.org/obo/IAO_0000119="FAIR4S"}
+[Term]
+id: TF4S:0000569
+name: software engineer
+comment: AL 16.3.22 Added as part of FAIR cookbook integration.
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-domain: T4FS:0000519 ! learning medium
-range: T4FS:0000372 ! data stewardship technical concept
-created_by: Peter McQuilton
-creation_date: 2020-12-06 00:00:00
 
-[Typedef]
-id: T4FS:0000558
-name: has/wants competency in
-def: "Describes how an expertise level or role (e.g. \"data steward\") is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it." [] {http://purl.obolibrary.org/obo/IAO_0000119="Allyson Lister 8.2.22"}
+[Term]
+id: TF4S:0000570
+name: system administrator
+comment: AL 16.3.22: Added as part of FAIR Cookbook integration.
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-range: T4FS:0000012 ! data stewardship activity
 
-[Typedef]
-id: T4FS:0000559
-name: has/wants knowledge about
+[Term]
+id: TF4S:0000572
+name: procurement officer
+comment: AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits.
+is_a: BFO:0000023 ! role
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-range: T4FS:0000372 ! data stewardship technical concept
 
-[Typedef]
-id: T4FS:0000560
-name: supports implementation of
+[Term]
+id: TF4S:0000574
+name: metadata creation
+def: "Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object." [] {http://purl.obolibrary.org/obo/IAO_0000119="AL 22.3.22, and see also FRBR User Tasks at: https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks."}
+is_a: T4FS:0000036 ! curation
 property_value: IAO:0000117 "Allyson Lister" xsd:string
-domain: T4FS:0000519 ! learning medium
-range: T4FS:0000446 ! data stewardship guideline
-created_by: Peter McQuilton
-
-[Typedef]
-id: T4FS:0000561
-name: has/wants practical skill about
-def: "Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied." [] {http://purl.obolibrary.org/obo/IAO_0000119="FAIR4S"}
-property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-range: T4FS:0000372 ! data stewardship technical concept
-created_by: Peter McQuilton
-
-[Typedef]
-id: T4FS:0000562
-name: has aptitude for
-property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-range: T4FS:0000548 ! data stewardship soft skill
-created_by: Peter McQuilton
-creation_date: 2021-03-24T15:33:43.476917Z
-
-[Typedef]
-id: T4FS:0000563
-name: contributes to the implementation of
-property_value: IAO:0000117 "Allyson Lister" xsd:string
-property_value: IAO:0000117 "Peter McQuilton" xsd:string
-domain: T4FS:0000372 ! data stewardship technical concept
-range: T4FS:0000446 ! data stewardship guideline
-created_by: Peter McQuilton
-creation_date: 2021-03-22T15:25:13.443153Z
-
-[Typedef]
-id: TF4S:0000575
-name: competency gained through
-comment: Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete.
-domain: T4FS:0000012 ! data stewardship activity
-range: T4FS:0000519 ! learning medium
 

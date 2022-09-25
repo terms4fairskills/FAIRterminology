@@ -2853,10 +2853,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-09-14"
+            "val": "2022-09-25"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-09-14/t4fs-base.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-09-25/t4fs-base.json"
       },
       "nodes": [
         {

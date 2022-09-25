@@ -51,7 +51,7 @@ ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-simple $(ONT)-full $(ONT)-base $(ONT)-full)
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-simple $(ONT)-full t4fs-community $(ONT)-base $(ONT)-full)
 
 # ----------------------------------------
 # Top-level targets
@@ -386,6 +386,12 @@ $(ONT)-full.json: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
+t4fs-community.obo: t4fs-community.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+t4fs-community.json: t4fs-community.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -438,6 +444,9 @@ $(ONT)-simple.owl: $(SRC) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
 		reduce -r ELK \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+t4fs-community.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in t4fs.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
 # ----------------------------------------

@@ -8,13 +8,15 @@ export_formats:
   - owl
   - obo
   - json
-release_artefacts: 
+release_artefacts:
   - base
   - simple
   - full
+  - custom-t4fs-community
 primary_release: full
 import_group:
   products:
     - id: bfo
     - id: iao
 robot_java_args: '-Xmx8G'
+license: CC-BY 4.0
