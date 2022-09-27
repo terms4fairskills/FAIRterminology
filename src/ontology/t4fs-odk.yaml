@@ -20,3 +20,12 @@ import_group:
     - id: iao
 robot_java_args: '-Xmx8G'
 license: CC-BY 4.0
+components:
+  products:
+    - filename: t4fs-template.owl
+      use_template: TRUE
+      template_options: --add-prefixes config/context.json
+      templates:
+        - index.tsv
+        - properties.tsv
+        - t4fs.tsv

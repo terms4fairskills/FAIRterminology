@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: t4fs/releases/2022-09-25/t4fs-community.owl
+data-version: t4fs/releases/2022-09-27/t4fs-community.owl
 ontology: t4fs/t4fs-community
-property_value: owl:versionInfo "2022-09-25" xsd:string
+property_value: owl:versionInfo "2022-09-27" xsd:string
 
 [Term]
 id: BFO:0000023
