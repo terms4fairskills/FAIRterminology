@@ -10,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-09-27/t4fs-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-simple.owl"/>
         <terms:description>terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>terms4FAIRskills (T4FS)</terms:title>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-27</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-04</owl:versionInfo>
     </owl:Ontology>
     
 

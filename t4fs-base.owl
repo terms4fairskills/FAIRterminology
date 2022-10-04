@@ -11,13 +11,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/t4fs-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-09-27/t4fs-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>terms4FAIRskills (T4FS)</terms:title>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-27</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -35,67 +35,25 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
-        <rdfs:comment xml:lang="en">Allyson Lister 8.10.2019: Although the IAO definition has been included here, we have made a curation decision to allow non-Aristotelian definitions.</rdfs:comment>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
-    </owl:Axiom>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
-        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">term editor</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000117"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
-    </owl:Axiom>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
-    </owl:Axiom>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
-        <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">definition source</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
-    </owl:Axiom>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
 
@@ -119,61 +77,15 @@
     
 
 
-    <!-- http://purl.org/dc/terms/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:label>license</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:label xml:lang="en">created by</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:label xml:lang="en">creation date</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
     
 
 
@@ -191,9 +103,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000554 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000554">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -213,8 +122,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000555 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000555">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
@@ -227,15 +134,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000556 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000556">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">requires/improves personal attribute</rdfs:label>
@@ -246,8 +144,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000557 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000557">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -267,8 +163,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000558 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000558">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -286,8 +180,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000559 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000559">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
@@ -298,8 +190,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000560 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000560">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">supports implementation of</rdfs:label>
@@ -310,8 +200,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000561 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000561">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -330,8 +218,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000562 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000562">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
@@ -344,8 +230,6 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000563 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000563">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
@@ -357,12 +241,7 @@
 
     <!-- http://purl.obolibrary.org/obo/TF4S_0000575 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TF4S_0000575">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:comment>Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete.</rdfs:comment>
-        <rdfs:label xml:lang="en">competency gained through</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TF4S_0000575"/>
     
 
 
@@ -416,38 +295,7 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000559"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000561"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000562"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
     
 
 
@@ -662,22 +510,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A series of potentially destructive or irrevocable changes to a piece of data or a file. Common munging operations include removing punctuation or html tags, data parsing, filtering, and transformation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data munging</rdfs:label>
@@ -925,22 +757,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The activity of supervision of other people to ensure FAIR data practices.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -972,22 +788,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000252"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Ability to select the appropriate FAIR metrics among the existing ones in relation to the type of digital object concerned.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Victoria Dominguez Del Angel</obo:IAO_0000117>
@@ -1148,22 +948,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A generic concept referring to all kinds of procedures being executed on data at any point in the data life cycle.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data processing</rdfs:label>
@@ -1348,12 +1132,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An identifier that uniquely distinguishes one set of data from all others.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data identifier</rdfs:label>
@@ -1403,12 +1181,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Digital entity properties that are generated by the data management system (e.g., creation time; owner; storage location; data retention period; the length of time a digital entity will be retained).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -1468,22 +1240,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Data modeling formalizes and documents existing processes and events. It captures and translates complex system designs into easily understood representations of the data flows and processes, creating a blueprint for construction and/or re-engineering.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data modeling</rdfs:label>
@@ -2376,12 +2132,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2414,22 +2164,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A managed process, throughout the data lifecycle, by which data &amp;amp; data collections are cleansed, documented, standardized, formatted and inter-related. This includes versioning data, or forming a new collection from several data sources, annotating with metadata, adding codes to raw data (e.g., classifying a galaxy image with a galaxy type such as spiral).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data curation</rdfs:label>
@@ -2587,12 +2321,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A service that provides a connection between a PID and its target object.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -2611,12 +2339,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Foundational interoperability allows data exchange from one information technology system to be received by another and does not require the ability for the receiving information technology system to interpret the data.REFERENCE. Healthcare information management and systems society</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">foundational interoperability</rdfs:label>
@@ -2908,12 +2630,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A description with very little curation that would include at least a name and PID of a data object. Minimal metadata is only marginally targeted at discovery since there is much better infrastructure to accomplish this.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:label xml:lang="en">minimal metadata</rdfs:label>
@@ -2988,22 +2704,6 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000478"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3046,22 +2746,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The provision of training materials and events in and around good data stewardship.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -3461,12 +3145,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">In the context of chemistry: The International Chemical Identifier is a non-proprietary identifier for chemical substances that can be used in printed and electronic data sources thus enabling easier linking of diverse data compilations. International Union of Pure and Applied Chemistry (IUPAC)REFERENCE. MIT data management and publishing</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">international chemical identifier</rdfs:label>
@@ -4115,22 +3793,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Provides well-defined guarantees for fitness, accuracy, and consistency for any of various kinds of user input into an application or automated system. Data validation checks that data are valid, sensible, reasonable, clean, usable, and secure before they are processed. Failures or omissions in data validation can lead to data corruption, security vulnerability. Improperly validated data &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/data-validation/ class=more-link</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data validation</rdfs:label>
@@ -4148,12 +3810,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A type of record (and organization) that stores an instance of an executable/understandable PID. The content of a PID record distinguishes a registered digital or data object from other DOs. A PID record is a type of record that includes property information that characterizes the digital object it is identifying. Important parts of a PID record are location and checksum. However there is a large variation in usage. In some data models the PID is simply used as a unique label with an empty record. A PID record has a lifecycle including creation, publication, Curation and the destruction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -4175,12 +3831,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4198,12 +3848,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A type of metadata that indicates how compound objects are put together (e.g., how pages are ordered to form chapters; how data are organized in a table; how datasets are organized in a collection) 2. The underlying structural metadata of digital objects that tells computers how to assemble them.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -4385,12 +4029,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Describes the technical processes used to produce, or required to use a digital object.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -4561,12 +4199,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000248"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000361"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4574,12 +4206,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The output of a data curation activity. Such data has generally already been cleaned, standardised, documented. Additional metadata relevant to the data object has also been added, via either manual or automatic methods.</obo:IAO_0000115>
@@ -4613,12 +4239,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000529"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A 128-bit number used to guarantee unique identity for different objects on the internet over time. File system partitions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -4758,22 +4378,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -4951,22 +4555,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The process of manually or semi-automatically converting or mapping data from one form into another format that allows for more convenient consumption of the data with the help of semi-automated tools. Gathering and organizing disparate data from different sources, often collected by many different investigators. Activities include developing and supporting search tools that utilize standardized &amp;hellip; &lt;a href=CASRAI. https://casrai.org/term/data-wrangling/ class=more-link</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data wrangling</rdfs:label>
@@ -5113,12 +4701,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Information for a data object that includes: * the person who deposited the data object in the repository, * the source of the data object, * the date when the object was deposited, and * authenticity information needed to link the data object to its original source.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -5335,22 +4917,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000447"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">To be able to define and deploy appropriate criteria, based on the FAIR principles, to identify the appropriate publishing platform for a dataset. This may, for example, involve discovering the mark-up of the platform, the exchange formats and data models used, and the licensing information for each repository. Tools such as the FAIR evaluator or FAIRshake may be used to assess the FAIRnessbased on human-entered questionnaires or FAIRsharing resource metadata.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">evaluation of how to publish your data</rdfs:label>
@@ -5368,12 +4934,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000529"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Numbers used by the National Center for Biotechnology Information (NCBI) that are unique and citable.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">accession number</rdfs:label>
@@ -5508,12 +5068,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000517"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000393"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The set of metadata describing a specific dataset.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -5709,12 +5263,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A single data element related to a PID and part of its record content.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -6061,12 +5609,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Consists of at least one PID resolver, a name schema and a defined mechanism for issuing PIDs that conform to the name schema. Examples include: DOI, Handle System, URN, ARK, PURL, etc.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -6136,12 +5678,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">For a single identifier, the class of entity it refers to. For a PID system, the typical class of entities it is intended to be used for. Examples include: digital objects, physical objects, bodies, actors.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -6629,12 +6165,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Information concerning the creation, attribution, or version history of managed data. Provenance metadata that indicates the relationship between two versions of data objects and is generated whenever a new version of a dataset is created. Examples include: (i) the name of the program that generated the new version, (ii) the commit id of the program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <rdfs:label xml:lang="en">provenance metadata</rdfs:label>
@@ -6698,12 +6228,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000410">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Documents actions that have been undertaken to preserve a digital resource such as migrations and checks sum calculations.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -7026,12 +6550,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000434">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A name (not a location) for an entity on digital networks. It provides a system for persistent and actionable identification and interoperable exchange of managed information on digital networks. A DOI is a type of Persistent Identifier (PID) issued by the International DOI Foundation. This permanent identifier is associated with a digital object that permits it to be referenced reliably even if its location and metadata undergo change over time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -7137,12 +6655,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000443">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This is a URL. However, instead of pointing directly to the location of an Internet resource, a PURL points to an intermediate resolution service. The PURL resolution service associates the PURL with the actual URL and returns that URL to the client.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -7279,12 +6791,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000453">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000529"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A persistent identifier is a long-lasting reference to a digital object that gives information about that object regardless what happens to it. Developed to address link rot, a persistent identifier can be resolved to provide an appropriate representation of an object whether that objects changes its online location or goes offline.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -7387,12 +6893,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000460">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000529"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A defining scheme used for identification of resources (including people and organizations) and the sharing of data across domains, enterprises, and applications. XRI TC will define a Uniform Resource Identifier (URI) scheme and a corresponding Uniform Resource (URN) namespace.n/aCASRAI. https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xri</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">extensible resource identifier</rdfs:label>
@@ -7717,12 +7217,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7898,12 +7392,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000494">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000529"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A string of characters used to identify or name a resource on the Internet. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols. MIT data management and publishing</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -8208,12 +7696,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000517">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000096"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000393"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of data defined by a theme, category, which reflects what is being measured, observed, monitored at the various sites. The Metadata Record is an information resource of business value.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -8488,12 +7970,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Enables identification, location, and retrieval of information resources by users, often including the use of controlled vocabularies for classification and indexing and links to related resources.REFERENCE. DCC/TC3+</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">descriptive metadata</rdfs:label>
@@ -8590,12 +8066,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000540">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The process of resolving a PID to a useful state of information about a digital object by using a globally available system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -8754,89 +8224,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Any information obtained by a person on the understanding that they will not disclose it to others, or obtained in circumstances where it is expected that they will not disclose it.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/confidential-information/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000566 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000566">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000454"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">data scientist</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000567 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">ontologist</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000568 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000568">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">terminology manager</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000569 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000569">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 16.3.22 Added as part of FAIR cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">software engineer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000570 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration.</rdfs:comment>
-        <rdfs:label xml:lang="en">system administrator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000572 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits.</rdfs:comment>
-        <rdfs:label xml:lang="en">procurement officer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000574 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000574">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <obo:IAO_0000115 xml:lang="en">Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">metadata creation</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000574"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">AL 22.3.22, and see also FRBR User Tasks at: https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks.</obo:IAO_0000119>
     </owl:Axiom>
 </rdf:RDF>
 

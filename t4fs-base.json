@@ -20,100 +20,7 @@
               "sub": "http://purl.obolibrary.org/obo/T4FS_0000483"
             }
           ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000556",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000548"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/BFO_0000023"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000558",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000012"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/BFO_0000023"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000559",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/BFO_0000023"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000561",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/BFO_0000023"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000562",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000548"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000012"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/TF4S_0000575",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000519"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000446"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000519"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000554",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000012"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000519"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000555",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000519"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000557",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000519"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000560",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000446"
-          ]
+          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000556"
         }
       ],
       "edges": [
@@ -193,26 +100,6 @@
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000530"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000023",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000567"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000023",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000569"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000023",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000570"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000023",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000572"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/IAO_0000030",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000372"
@@ -246,11 +133,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000012",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000554",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000519"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000012",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000558",
-          "sub": "http://purl.obolibrary.org/obo/BFO_0000023"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000012",
@@ -380,17 +262,7 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000014",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000140"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000014",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000309"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000014",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000531"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000014",
@@ -566,11 +438,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000036",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000515"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000036",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000574"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000038",
@@ -1075,41 +942,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000059"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000159"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000241"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000255"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000301"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000402"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000410"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000199",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000527"
         },
         {
@@ -1196,11 +1028,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000232",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000359"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000248",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000265"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000248",
@@ -1531,16 +1358,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000557",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000519"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000559",
-          "sub": "http://purl.obolibrary.org/obo/BFO_0000023"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000561",
-          "sub": "http://purl.obolibrary.org/obo/BFO_0000023"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
@@ -2088,16 +1905,6 @@
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000096"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000393",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000327"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000393",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000517"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000397",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000072"
@@ -2146,11 +1953,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000415",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000520"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000415",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000568"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000426",
@@ -2279,11 +2081,6 @@
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000446",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000559",
-          "sub": "http://purl.obolibrary.org/obo/BFO_0000023"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000446",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000560",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000519"
         },
@@ -2311,11 +2108,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000447",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000196"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000447",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000265"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000447",
@@ -2396,11 +2188,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000453",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000540"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000454",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/TF4S_0000566"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000466",
@@ -2555,87 +2342,12 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000056"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000139"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000189"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000239"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000250"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000268"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000316"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000337"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000360"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000365"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000434"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000443"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000453"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000460"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000494"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000529"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000512",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000563",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000540"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000514",
@@ -2780,27 +2492,7 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
           "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000129"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000240"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000483"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000519"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-          "pred": "http://purl.obolibrary.org/obo/T4FS_0000562",
-          "sub": "http://purl.obolibrary.org/obo/BFO_0000023"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
@@ -2821,11 +2513,6 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000417"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/TF4S_0000575",
-          "pred": "inverseOf",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000554"
         }
       ],
       "id": "http://purl.obolibrary.org/obo/t4fs/t4fs-base.json",
@@ -2853,81 +2540,12 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-09-27"
+            "val": "2022-10-04"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-09-27/t4fs-base.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-base.json"
       },
       "nodes": [
-        {
-          "id": "http://purl.obolibrary.org/obo/IAO_0000115",
-          "lbl": "definition",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "Allyson Lister 8.10.2019: Although the IAO definition has been included here, we have made a curation decision to allow non-Aristotelian definitions."
-            ],
-            "definition": {
-              "val": "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
-            }
-          },
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/IAO_0000117",
-          "lbl": "term editor",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Peter McQuilton"
-              }
-            ],
-            "definition": {
-              "val": "Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people"
-            }
-          },
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/IAO_0000118",
-          "lbl": "alternative term",
-          "meta": {
-            "definition": {
-              "val": "An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)"
-            }
-          },
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/IAO_0000119",
-          "lbl": "definition source",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Peter McQuilton"
-              }
-            ],
-            "definition": {
-              "val": "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"
-            }
-          },
-          "type": "PROPERTY"
-        },
         {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000002",
           "lbl": "pipe separated values",
@@ -12089,128 +11707,6 @@
           "type": "PROPERTY"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000566",
-          "lbl": "data scientist",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 15.3.22: Added for FAIR Cookbook integration."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000567",
-          "lbl": "ontologist",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 15.3.22: Added for FAIR Cookbook integration."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000568",
-          "lbl": "terminology manager",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 15.3.22: Added for FAIR Cookbook integration."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000569",
-          "lbl": "software engineer",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 16.3.22 Added as part of FAIR cookbook integration."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000570",
-          "lbl": "system administrator",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 16.3.22: Added as part of FAIR Cookbook integration."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000572",
-          "lbl": "procurement officer",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "comments": [
-              "AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits."
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000574",
-          "lbl": "metadata creation",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              }
-            ],
-            "definition": {
-              "val": "Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object."
-            }
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000575",
-          "lbl": "competency gained through",
-          "meta": {
-            "comments": [
-              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete."
-            ]
-          },
-          "type": "PROPERTY"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000034",
           "lbl": "database developer",
           "type": "CLASS"
@@ -12248,31 +11744,6 @@
         {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000553",
           "lbl": "reference URL",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/description",
-          "lbl": "description",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/license",
-          "lbl": "license",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/title",
-          "lbl": "title",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "lbl": "created by",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "lbl": "creation date",
           "type": "PROPERTY"
         }
       ]

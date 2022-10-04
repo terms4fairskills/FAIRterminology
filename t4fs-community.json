@@ -2303,10 +2303,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-09-27"
+            "val": "2022-10-04"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-09-27/t4fs-community.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-community.json"
       },
       "nodes": [
         {
