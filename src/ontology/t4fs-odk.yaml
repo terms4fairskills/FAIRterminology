@@ -2,6 +2,7 @@ id: t4fs
 title: "terms4FAIRskills (T4FS)"
 github_org: terms4FAIRskills
 repo: FAIRterminology
+use_templates: TRUE
 report_fail_on: ERROR
 edit_format: owl
 export_formats:
