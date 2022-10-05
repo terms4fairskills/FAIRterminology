@@ -40,12 +40,12 @@ http://purl.obolibrary.org/obo/t4fs.owl
 
 ### Alternative Artefacts
 
-In addition to the stable release version listed above, we have a variety of different ways in which you can view T4FS:
+In addition to the stable release version listed above, we have a variety of different ways in which you can view T4FS. All artefacts other than `community` are as defined https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md:
 
 * base
 * simple
 * full
-* community
+* community: this is a version of t4fs without the upper-level BFO terms, giving our those in our community not familiar with ULOs a view that they are used to.
 
 ### Alternative formats
 
