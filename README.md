@@ -38,11 +38,25 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/t4fs.owl
 
+### Alternative Artefacts
+
+In addition to the stable release version listed above, we have a variety of different ways in which you can view T4FS:
+
+* base
+* simple
+* full
+* community
+
+### Alternative formats
+
+We produce all ontology artefacts in the following formats:
+* OWL
+* OBO
+* JSON
+
 ### Editors' version
 
-Editors of this ontology should use the templates available for comment via our (Google spreadsheet)[https://docs.google.com/spreadsheets/d/1pu9o8oiP1hwnyQk1tv_8cdoe07GngINRD5pGz04m4Zo/edit?usp=sharing]. The default permissions for this spreadsheet is Comment only. Please ask if you would like permission to modify it. The "traditional" editable document for the ODK build procedure is [src/ontology/t4fs-edit.owl](src/ontology/t4fs-edit.owl), however this is automatically built via templates.
-
-By using Google spreadsheets, we open up our ontology for comment and editing to our community who are experts in the domain but who may not be ontologists.
+T4FS uses templates to edit the ontology. This means that you should not edit any of the OWL files that you see in this repository. Instead, please see our [Templates README](src/templates/README.md) for more details.
 
 ## Contact
 

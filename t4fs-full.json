@@ -7,23 +7,19 @@
             {
               "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
               "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000129"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000240"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000483"
+              "sub": "http://purl.obolibrary.org/obo/T4FS_0000399"
             }
           ],
           "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000556",
           "rangeClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000548"
           ]
+        },
+        {
+          "domainClassIds": [
+            "http://purl.obolibrary.org/obo/BFO_0000023"
+          ],
+          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000559"
         },
         {
           "domainClassIds": [
@@ -38,15 +34,6 @@
           "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000558",
           "rangeClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000012"
-          ]
-        },
-        {
-          "domainClassIds": [
-            "http://purl.obolibrary.org/obo/BFO_0000023"
-          ],
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000559",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
           ]
         },
         {
@@ -71,7 +58,7 @@
           "domainClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000012"
           ],
-          "predicateId": "http://purl.obolibrary.org/obo/TF4S_0000575",
+          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000575",
           "rangeClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000519"
           ]
@@ -2834,7 +2821,7 @@
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000417"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/TF4S_0000575",
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000575",
           "pred": "inverseOf",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000554"
         }
@@ -2860,10 +2847,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-04"
+            "val": "2022-10-05"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-full.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-full.json"
       },
       "nodes": [
         {
@@ -3363,6 +3350,14 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000116",
                 "val": "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Allyson Lister"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000600",
@@ -13309,6 +13304,29 @@
           "type": "PROPERTY"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000575",
+          "lbl": "competency gained through",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Allyson Lister"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
+                "val": "Allyson Lister"
+              }
+            ],
+            "comments": [
+              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model."
+            ],
+            "definition": {
+              "val": "The learning meda that creates a competence or capability."
+            }
+          },
+          "type": "PROPERTY"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/TF4S_0000566",
           "lbl": "data scientist",
           "meta": {
@@ -13421,16 +13439,6 @@
           "type": "CLASS"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000575",
-          "lbl": "competency gained through",
-          "meta": {
-            "comments": [
-              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete."
-            ]
-          },
-          "type": "PROPERTY"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000034",
           "lbl": "database developer",
           "type": "CLASS"
@@ -13468,21 +13476,6 @@
         {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000553",
           "lbl": "reference URL",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/description",
-          "lbl": "description",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/license",
-          "lbl": "license",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/title",
-          "lbl": "title",
           "type": "PROPERTY"
         },
         {

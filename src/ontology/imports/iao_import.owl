@@ -8,12 +8,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/imports/iao_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/imports/iao_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/imports/iao_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-04</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -167,9 +166,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
+    <!-- http://purl.org/dc/elements/1.1/source -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl#"
      xml:base="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-simple.owl"/>
         <terms:description>terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>terms4FAIRskills (T4FS)</terms:title>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-04</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -177,27 +178,21 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.org/dc/terms/description -->
+    <!-- http://purl.org/dc/elements/1.1/source -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
+    <!-- http://purl.org/dc/terms/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:label>license</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -249,7 +244,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000554 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000554">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
@@ -343,7 +338,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000559 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000559">
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
@@ -409,14 +411,23 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TF4S_0000575 -->
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000575 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TF4S_0000575">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000575">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <rdfs:comment>Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">The learning meda that creates a competence or capability.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <rdfs:comment xml:lang="en">Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model.</rdfs:comment>
         <rdfs:label xml:lang="en">competency gained through</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The learning meda that creates a competence or capability.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Allyson Lister 13.9.22</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -588,7 +599,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -596,22 +607,6 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000452"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -767,7 +762,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1022,7 +1017,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1450,7 +1445,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1810,7 +1805,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2331,12 +2326,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000399"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Demonstrate ability to involve others and share responsibility for applying FAIR principles.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Angus Whyte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ability to solve fair implementation problems collaboratively</rdfs:label>
@@ -2385,7 +2374,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2401,7 +2390,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2470,7 +2459,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000481"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2560,7 +2549,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2880,7 +2869,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2896,7 +2885,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2912,7 +2901,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2928,7 +2917,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -3287,7 +3276,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -4169,12 +4158,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000525"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Take proactive approach to ensure outputs are made FAIR consistently with research integrity principles.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
@@ -4326,7 +4309,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -4444,7 +4427,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -4864,7 +4847,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -5091,7 +5074,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -5899,7 +5882,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -6506,6 +6489,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000408"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Demonstrate willingness to engage with new ways of applying FAIR principles.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Angus Whyte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ability to learn new techniques for fair implementation</rdfs:label>
@@ -6530,7 +6519,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000175"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -7669,12 +7658,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000483">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000525"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000556"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Understand how the rewards for effort depend on crediting the contributions of researchers and professional groups towards making FAIR outputs.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
@@ -7805,7 +7788,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -8638,7 +8621,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TF4S_0000575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">

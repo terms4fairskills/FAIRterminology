@@ -7,17 +7,7 @@
             {
               "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
               "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000129"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000240"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000483"
+              "sub": "http://purl.obolibrary.org/obo/T4FS_0000399"
             }
           ],
           "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000556"
@@ -2540,10 +2530,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-04"
+            "val": "2022-10-05"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-base.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-base.json"
       },
       "nodes": [
         {
@@ -11703,6 +11693,29 @@
                 "val": "2019-10-17T13:39:13.568975Z"
               }
             ]
+          },
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000575",
+          "lbl": "competency gained through",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Allyson Lister"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
+                "val": "Allyson Lister"
+              }
+            ],
+            "comments": [
+              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model."
+            ],
+            "definition": {
+              "val": "The learning meda that creates a competence or capability."
+            }
           },
           "type": "PROPERTY"
         },

@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: releases/2022-10-04
+data-version: releases/2022-10-05
 remark: terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ontology: t4fs
 property_value: http://purl.org/dc/terms/description "terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \\(e.g. training\\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "terms4FAIRskills (T4FS)" xsd:string
-property_value: owl:versionInfo "2022-10-04" xsd:string
+property_value: owl:versionInfo "2022-10-05" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -26,7 +26,7 @@ id: BFO:0000002
 name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 is_a: BFO:0000001 ! entity
-disjoint_from: BFO:0000003 ! occurrent
+disjoint_from: BFO:0000003 ! occurent
 property_value: BFO:0000179 "continuant" xsd:string
 property_value: BFO:0000180 "Continuant" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240" xsd:string
@@ -43,6 +43,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
 id: BFO:0000003
+name: occurent
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
 is_a: BFO:0000001 ! entity
@@ -91,7 +92,7 @@ id: BFO:0000015
 name: process
 def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
 def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/083-003"}
-is_a: BFO:0000003 ! occurrent
+is_a: BFO:0000003 ! occurent
 property_value: BFO:0000179 "process" xsd:string
 property_value: BFO:0000180 "Process" xsd:string
 property_value: IAO:0000112 "a process of cell-division, \\ a beating of the heart" xsd:string
@@ -167,6 +168,8 @@ property_value: IAO:0000112 "the role of a stone in marking a property boundary"
 property_value: IAO:0000112 "the role of subject in a clinical trial" xsd:string
 property_value: IAO:0000112 "the student role" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives." xsd:string
+property_value: IAO:0000117 "Allyson Lister" xsd:string
+property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000600 "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
 property_value: IAO:0000602 "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
@@ -1123,7 +1126,6 @@ id: T4FS:0000129
 name: ability to solve fair implementation problems collaboratively
 def: "Demonstrate ability to involve others and share responsibility for applying FAIR principles." [] {http://purl.obolibrary.org/obo/IAO_0000119="[PMQ, 3.2022]"}
 is_a: T4FS:0000399 ! ability to learn new techniques for fair implementation
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 
 [Term]
@@ -1872,7 +1874,6 @@ id: T4FS:0000240
 name: appreciate importance of research integrity
 def: "Take proactive approach to ensure outputs are made FAIR consistently with research integrity principles." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -2921,6 +2922,7 @@ id: T4FS:0000399
 name: ability to learn new techniques for fair implementation
 def: "Demonstrate willingness to engage with new ways of applying FAIR principles." []
 is_a: T4FS:0000408 ! aptitudes associated with using fair tools and services
+relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 
 [Term]
@@ -3446,7 +3448,6 @@ id: T4FS:0000483
 name: appreciate importance of crediting research contributions
 def: "Understand how the rewards for effort depend on crediting the contributions of researchers and professional groups towards making FAIR outputs." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -3973,7 +3974,7 @@ property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 domain: T4FS:0000519 ! learning medium
 range: T4FS:0000012 ! data stewardship activity
-inverse_of: TF4S:0000575 ! competency gained through
+inverse_of: T4FS:0000575 ! competency gained through
 created_by: Peter McQuilton
 creation_date: 2020-10-01T21:36:11.080721Z
 
@@ -4020,7 +4021,6 @@ name: has/wants knowledge about
 property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 domain: BFO:0000023 ! role
-range: T4FS:0000372 ! data stewardship technical concept
 
 [Typedef]
 id: T4FS:0000560
@@ -4061,9 +4061,12 @@ created_by: Peter McQuilton
 creation_date: 2021-03-22T15:25:13.443153Z
 
 [Typedef]
-id: TF4S:0000575
+id: T4FS:0000575
 name: competency gained through
-comment: Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete.
+def: "The learning meda that creates a competence or capability." [] {http://purl.obolibrary.org/obo/IAO_0000119="Allyson Lister 13.9.22"}
+comment: Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model.
+property_value: IAO:0000117 "Allyson Lister" xsd:string
 domain: T4FS:0000012 ! data stewardship activity
 range: T4FS:0000519 ! learning medium
+created_by: Allyson Lister
 

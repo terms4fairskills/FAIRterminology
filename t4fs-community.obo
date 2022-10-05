@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: t4fs/releases/2022-10-04/t4fs-community.owl
+data-version: t4fs/releases/2022-10-05/t4fs-community.owl
 ontology: t4fs/t4fs-community
-property_value: owl:versionInfo "2022-10-04" xsd:string
+property_value: owl:versionInfo "2022-10-05" xsd:string
 
 [Term]
 id: BFO:0000023
@@ -17,6 +17,8 @@ property_value: IAO:0000112 "the role of a stone in marking a property boundary"
 property_value: IAO:0000112 "the role of subject in a clinical trial" xsd:string
 property_value: IAO:0000112 "the student role" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives." xsd:string
+property_value: IAO:0000117 "Allyson Lister" xsd:string
+property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000600 "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
 property_value: IAO:0000602 "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl

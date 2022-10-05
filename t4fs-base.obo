@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: t4fs/releases/2022-10-04/t4fs-base.owl
+data-version: t4fs/releases/2022-10-05/t4fs-base.owl
 remark: terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ontology: t4fs/t4fs-base
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \\(e.g. training\\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "terms4FAIRskills (T4FS)" xsd:string
-property_value: owl:versionInfo "2022-10-04" xsd:string
+property_value: owl:versionInfo "2022-10-05" xsd:string
 
 [Term]
 id: T4FS:0000002
@@ -873,7 +873,6 @@ id: T4FS:0000129
 name: ability to solve fair implementation problems collaboratively
 def: "Demonstrate ability to involve others and share responsibility for applying FAIR principles." [] {http://purl.obolibrary.org/obo/IAO_0000119="[PMQ, 3.2022]"}
 is_a: T4FS:0000399 ! ability to learn new techniques for fair implementation
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 
 [Term]
@@ -1622,7 +1621,6 @@ id: T4FS:0000240
 name: appreciate importance of research integrity
 def: "Take proactive approach to ensure outputs are made FAIR consistently with research integrity principles." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -2671,6 +2669,7 @@ id: T4FS:0000399
 name: ability to learn new techniques for fair implementation
 def: "Demonstrate willingness to engage with new ways of applying FAIR principles." []
 is_a: T4FS:0000408 ! aptitudes associated with using fair tools and services
+relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 
 [Term]
@@ -3196,7 +3195,6 @@ id: T4FS:0000483
 name: appreciate importance of crediting research contributions
 def: "Understand how the rewards for effort depend on crediting the contributions of researchers and professional groups towards making FAIR outputs." []
 is_a: T4FS:0000525 ! research integrity, attribution, impact awareness
-relationship: T4FS:0000556 T4FS:0000548 ! requires/improves personal attribute data stewardship soft skill
 property_value: IAO:0000117 "Angus Whyte" xsd:string
 property_value: IAO:0000117 "Celia van Gelder" xsd:string
 property_value: IAO:0000117 "Mateusz Kuzak" xsd:string
@@ -3729,4 +3727,12 @@ property_value: IAO:0000117 "Allyson Lister" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 created_by: Peter McQuilton
 creation_date: 2021-03-22T15:25:13.443153Z
+
+[Typedef]
+id: T4FS:0000575
+name: competency gained through
+def: "The learning meda that creates a competence or capability." [] {http://purl.obolibrary.org/obo/IAO_0000119="Allyson Lister 13.9.22"}
+comment: Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model.
+property_value: IAO:0000117 "Allyson Lister" xsd:string
+created_by: Allyson Lister
 

@@ -2303,10 +2303,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-04"
+            "val": "2022-10-05"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-community.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-community.json"
       },
       "nodes": [
         {
@@ -2353,6 +2353,14 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000116",
                 "val": "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Allyson Lister"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000600",

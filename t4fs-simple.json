@@ -7,17 +7,7 @@
             {
               "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
               "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000129"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000240"
-            },
-            {
-              "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
-              "pred": "http://purl.obolibrary.org/obo/T4FS_0000556",
-              "sub": "http://purl.obolibrary.org/obo/T4FS_0000483"
+              "sub": "http://purl.obolibrary.org/obo/T4FS_0000399"
             }
           ],
           "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000556",
@@ -29,7 +19,7 @@
           "domainClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000012"
           ],
-          "predicateId": "http://purl.obolibrary.org/obo/TF4S_0000575",
+          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000575",
           "rangeClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000519"
           ]
@@ -83,12 +73,6 @@
           "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000558",
           "rangeClassIds": [
             "http://purl.obolibrary.org/obo/T4FS_0000012"
-          ]
-        },
-        {
-          "predicateId": "http://purl.obolibrary.org/obo/T4FS_0000559",
-          "rangeClassIds": [
-            "http://purl.obolibrary.org/obo/T4FS_0000372"
           ]
         },
         {
@@ -2806,7 +2790,7 @@
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000417"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/TF4S_0000575",
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000575",
           "pred": "inverseOf",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000554"
         }
@@ -2832,10 +2816,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-04"
+            "val": "2022-10-05"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-04/t4fs-simple.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-simple.json"
       },
       "nodes": [
         {
@@ -12162,12 +12146,25 @@
           "type": "PROPERTY"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/TF4S_0000575",
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000575",
           "lbl": "competency gained through",
           "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Allyson Lister"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
+                "val": "Allyson Lister"
+              }
+            ],
             "comments": [
-              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model. Full annotation to follow once ODK build workflow is complete."
-            ]
+              "Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model."
+            ],
+            "definition": {
+              "val": "The learning meda that creates a competence or capability."
+            }
           },
           "type": "PROPERTY"
         },
@@ -12209,21 +12206,6 @@
         {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000553",
           "lbl": "reference URL",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/description",
-          "lbl": "description",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/license",
-          "lbl": "license",
-          "type": "PROPERTY"
-        },
-        {
-          "id": "http://purl.org/dc/terms/title",
-          "lbl": "title",
           "type": "PROPERTY"
         },
         {
