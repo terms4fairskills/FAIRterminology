@@ -1,0 +1,32 @@
+# give all definition sources and their accompanying definitions
+# the @en language.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+DELETE {
+  ?class obo:IAO_0000115 ?annValue .
+  ?def_annot owl:annotatedSource ?class ;
+  owl:annotatedProperty obo:IAO_0000115 ;
+  owl:annotatedTarget ?annValue ;
+  obo:IAO_0000119 ?subValue .
+}
+INSERT {
+  ?class obo:IAO_0000115 ?annValue_en .
+  ?def_annot owl:annotatedSource ?class ;
+  owl:annotatedProperty obo:IAO_0000115 ;
+  owl:annotatedTarget ?annValue_en ;
+  obo:IAO_0000119 ?subValue_en .
+}
+WHERE {
+  ?class a owl:Class .
+  ?class obo:IAO_0000115 ?annValue .
+  BIND(IF(LANG(?annValue) = "", STRLANG(?annValue, "en"), ?annValue) AS ?annValue_en)
+  OPTIONAL {
+    ?def_annot owl:annotatedSource ?class ;
+    owl:annotatedProperty obo:IAO_0000115 ;
+    owl:annotatedTarget ?annValue ;
+    obo:IAO_0000119 ?subValue .
+    BIND(IF(LANG(?subValue) = "", STRLANG(?subValue, "en"), ?subValue) AS ?subValue_en)
+  }
+}

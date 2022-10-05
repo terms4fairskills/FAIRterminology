@@ -1,0 +1,15 @@
+# convert our terminology labels to lowercase to match OBO Foundry conventions,
+# and also will ensure all labels have the @en language.
+
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+DELETE {
+  ?class rdfs:label ?display_name
+}
+INSERT {
+  ?class rdfs:label ?lower_display_name
+}
+WHERE {
+  ?class rdfs:label ?display_name;
+  BIND(IF(LANG(?display_name) = "", STRLANG(LCASE(?display_name), "en"), LCASE(?display_name)) AS ?lower_display_name)
+}

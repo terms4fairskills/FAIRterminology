@@ -1,0 +1,476 @@
+ID	Label
+ID	AL rdfs:label@en
+BFO:0000001	entity
+BFO:0000002	continuant
+BFO:0000003	occurent
+BFO:0000004	independent continuant
+BFO:0000015	process
+BFO:0000017	realizable entity
+BFO:0000020	specifically dependent continuant
+BFO:0000023	role
+BFO:0000031	generically dependent continuant
+IAO:0000030	information content entity
+obo:T4FS_0000002	pipe separated values
+obo:T4FS_0000004	software preservation
+obo:T4FS_0000005	repository access
+obo:T4FS_0000006	develop fair and open research vision
+obo:T4FS_0000008	develop open research strategy and vision
+obo:T4FS_0000009	data management policy
+obo:T4FS_0000010	understand research code of conduct
+obo:T4FS_0000011	choosing the appropriate reporting guideline for your data
+obo:T4FS_0000012	data stewardship activity
+obo:T4FS_0000013	data munging
+obo:T4FS_0000014	interoperability of digital assets
+obo:T4FS_0000016	skills for resource management
+obo:T4FS_0000017	preservation
+obo:T4FS_0000018	data categorisation
+obo:T4FS_0000019	data registration
+obo:T4FS_0000020	interoperability
+obo:T4FS_0000021	exposing data
+obo:T4FS_0000023	aptitudes for workflow technologies management
+obo:T4FS_0000024	de facto standard
+obo:T4FS_0000025	data entity
+obo:T4FS_0000026	real-time data
+obo:T4FS_0000027	storage security risk assessment and mitigation
+obo:T4FS_0000028	remote access
+obo:T4FS_0000029	fair stewardship supervising
+obo:T4FS_0000030	skills related to high performance computing management
+obo:T4FS_0000031	fair metrics selection skills
+obo:T4FS_0000032	relational database
+obo:T4FS_0000033	non identifiable data
+obo:T4FS_0000034	database developer
+obo:T4FS_0000036	curation
+obo:T4FS_0000038	A1. (meta)data are retrievable by their identifier using a standardised communications protocol
+obo:T4FS_0000039	version control
+obo:T4FS_0000041	understanding fair and open research challenges in your organization
+obo:T4FS_0000042	ethical application of patents, licenses
+obo:T4FS_0000043	data access protocol
+obo:T4FS_0000044	data processing
+obo:T4FS_0000045	data organization
+obo:T4FS_0000046	data rescue
+obo:T4FS_0000047	understand societal impact of research
+obo:T4FS_0000048	searching via algorithms and software
+obo:T4FS_0000049	audit
+obo:T4FS_0000050	wiki site
+obo:T4FS_0000051	skills related to authorisation management
+obo:T4FS_0000053	storage management
+obo:T4FS_0000054	data warehouse
+obo:T4FS_0000055	data driven disaster
+obo:T4FS_0000056	data identifier
+obo:T4FS_0000057	data splitting
+obo:T4FS_0000058	manage access
+obo:T4FS_0000059	system metadata
+obo:T4FS_0000060	tactical/short-term planning
+obo:T4FS_0000061	electronic medical record
+obo:T4FS_0000062	aptitudes for provenance information management
+obo:T4FS_0000065	data modeling
+obo:T4FS_0000067	use of aggregator sites
+obo:T4FS_0000068	manage metadata catalog
+obo:T4FS_0000069	data transformation
+obo:T4FS_0000070	cataloguing
+obo:T4FS_0000071	design and apply processes for attribution
+obo:T4FS_0000072	dataset series
+obo:T4FS_0000073	data dictionary
+obo:T4FS_0000074	data selection
+obo:T4FS_0000075	apply data access policy
+obo:T4FS_0000076	data discovery
+obo:T4FS_0000078	documented data
+obo:T4FS_0000079	conducting operations
+obo:T4FS_0000080	dynamic data
+obo:T4FS_0000081	reference model
+obo:T4FS_0000082	online workbook
+obo:T4FS_0000084	engaging in open innovation beyond academia
+obo:T4FS_0000085	registered data
+obo:T4FS_0000086	integrity
+obo:T4FS_0000087	digital scholarship
+obo:T4FS_0000088	a knowledge for resource management
+obo:T4FS_0000089	aptitudes for resource management
+obo:T4FS_0000091	knowledge of storage management
+obo:T4FS_0000092	understand open access publishing
+obo:T4FS_0000093	use of persistent, resolvable identifiers (pids)
+obo:T4FS_0000094	record standardization
+obo:T4FS_0000095	online documentation
+obo:T4FS_0000096	metadata catalogue
+obo:T4FS_0000097	understand legal background of patents
+obo:T4FS_0000098	data file format
+obo:T4FS_0000100	data catalogue
+obo:T4FS_0000102	curation workflow
+obo:T4FS_0000103	A1.1 the protocol is open, free, and universally implementable
+obo:T4FS_0000104	preservation costs management
+obo:T4FS_0000105	project manager
+obo:T4FS_0000106	publish data
+obo:T4FS_0000107	information security
+obo:T4FS_0000108	data production
+obo:T4FS_0000109	raw data
+obo:T4FS_0000112	interface testing
+obo:T4FS_0000113	digital object
+obo:T4FS_0000114	digital materials
+obo:T4FS_0000116	define access policy
+obo:T4FS_0000117	skills related to provenance information management
+obo:T4FS_0000118	remote data access
+obo:T4FS_0000119	disambiguation
+obo:T4FS_0000120	data compliance
+obo:T4FS_0000121	re-use
+obo:T4FS_0000122	trainer/teacher
+obo:T4FS_0000123	aptitudes for identity management
+obo:T4FS_0000124	understand information security challenges
+obo:T4FS_0000125	aptitudes for authorisation management
+obo:T4FS_0000126	assessment
+obo:T4FS_0000127	personal information privacy
+obo:T4FS_0000129	ability to solve fair implementation problems collaboratively
+obo:T4FS_0000131	skills related to cloud computing environment management
+obo:T4FS_0000132	data curation
+obo:T4FS_0000133	cite contributions
+obo:T4FS_0000134	operational management
+obo:T4FS_0000135	high quality data
+obo:T4FS_0000136	how to make your data reuseable
+obo:T4FS_0000137	I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+obo:T4FS_0000138	schema
+obo:T4FS_0000139	pid service
+obo:T4FS_0000140	foundational interoperability
+obo:T4FS_0000141	data management
+obo:T4FS_0000142	authorisation management
+obo:T4FS_0000143	knowledge of authorisation management
+obo:T4FS_0000145	search repositories and knowledge-bases
+obo:T4FS_0000146	cloud ecosystem
+obo:T4FS_0000148	understand legal background of licensing
+obo:T4FS_0000149	archive
+obo:T4FS_0000150	trusted digital repository
+obo:T4FS_0000151	database administration
+obo:T4FS_0000152	knowledge of identity management
+obo:T4FS_0000153	quality assessment
+obo:T4FS_0000154	data structure
+obo:T4FS_0000155	information technology specialist
+obo:T4FS_0000156	archiving
+obo:T4FS_0000157	knowledge of preservation costs management
+obo:T4FS_0000158	user acceptance testing
+obo:T4FS_0000159	minimal metadata
+obo:T4FS_0000160	metadata exposure
+obo:T4FS_0000161	data destruction
+obo:T4FS_0000162	fair stewardship training
+obo:T4FS_0000165	creativity
+obo:T4FS_0000166	data table attribute
+obo:T4FS_0000168	consensus standard
+obo:T4FS_0000169	identity management
+obo:T4FS_0000170	reuse of digital assets
+obo:T4FS_0000172	investigate open innovation opportunities
+obo:T4FS_0000173	data recovery
+obo:T4FS_0000174	R1. (meta)data are richly described with a plurality of accurate and relevant attributes
+obo:T4FS_0000175	fair evaluation of repositories for data deposition
+obo:T4FS_0000176	regional standard
+obo:T4FS_0000177	workflow technologies management
+obo:T4FS_0000178	data steward
+obo:T4FS_0000180	skills related to preservation costs management
+obo:T4FS_0000181	repository certification schemes
+obo:T4FS_0000182	registry
+obo:T4FS_0000183	recognise and acknowledge contributions
+obo:T4FS_0000184	linked open data
+obo:T4FS_0000185	research data format
+obo:T4FS_0000186	research governance
+obo:T4FS_0000188	semantic interoperability
+obo:T4FS_0000189	international chemical identifier
+obo:T4FS_0000190	research data publication workflow
+obo:T4FS_0000191	data completeness
+obo:T4FS_0000192	privacy-preserving data linkage
+obo:T4FS_0000193	open access publishing
+obo:T4FS_0000194	self-archiving
+obo:T4FS_0000195	information management advisor
+obo:T4FS_0000196	data management plan
+obo:T4FS_0000199	F2. data are described with rich metadata
+obo:T4FS_0000200	R1.1 (meta)data are released with a clear and accessible data usage license
+obo:T4FS_0000201	data stream
+obo:T4FS_0000202	data librarian
+obo:T4FS_0000203	program governance
+obo:T4FS_0000206	knowledge of workflow technologies management
+obo:T4FS_0000209	access risk assessment and mitigation
+obo:T4FS_0000210	usable data
+obo:T4FS_0000211	presentation slides
+obo:T4FS_0000212	implement secure storage
+obo:T4FS_0000213	data lifecycle
+obo:T4FS_0000214	format and media migration
+obo:T4FS_0000215	data store
+obo:T4FS_0000216	design processes for research integrity
+obo:T4FS_0000217	core trust seal
+obo:T4FS_0000218	project management lifecycle
+obo:T4FS_0000219	authenticity metadata
+obo:T4FS_0000220	researcher
+obo:T4FS_0000221	skills related to service level management
+obo:T4FS_0000222	personally identifiable information
+obo:T4FS_0000223	understand storage security challanges
+obo:T4FS_0000224	normalization
+obo:T4FS_0000225	evaluation
+obo:T4FS_0000226	data item
+obo:T4FS_0000227	confidentiality
+obo:T4FS_0000228	knowledge of data management costs management
+obo:T4FS_0000229	logistical support
+obo:T4FS_0000230	aptitudes for data management costs management
+obo:T4FS_0000231	data acquisition
+obo:T4FS_0000232	data management costs management
+obo:T4FS_0000233	text file
+obo:T4FS_0000236	human-readable format
+obo:T4FS_0000238	data validation
+obo:T4FS_0000239	pid record
+obo:T4FS_0000240	appreciate importance of research integrity
+obo:T4FS_0000241	structural metadata
+obo:T4FS_0000244	non personally identifiable information
+obo:T4FS_0000245	digitisation
+obo:T4FS_0000247	data publication
+obo:T4FS_0000248	findability of digital assets
+obo:T4FS_0000249	community building
+obo:T4FS_0000250	citable data
+obo:T4FS_0000251	big data
+obo:T4FS_0000252	fairness assessment
+obo:T4FS_0000254	data archive
+obo:T4FS_0000255	technical metadata
+obo:T4FS_0000256	machine readable
+obo:T4FS_0000257	integrated access management
+obo:T4FS_0000258	noisy data
+obo:T4FS_0000259	fair training
+obo:T4FS_0000260	software
+obo:T4FS_0000263	data standardization
+obo:T4FS_0000264	open data
+obo:T4FS_0000265	curated data
+obo:T4FS_0000267	skills related to funding acquisition management
+obo:T4FS_0000268	universally unique identifier
+obo:T4FS_0000270	authentication
+obo:T4FS_0000271	cloud computing
+obo:T4FS_0000273	short-term preservation
+obo:T4FS_0000274	international standard
+obo:T4FS_0000275	conformance
+obo:T4FS_0000276	data custodian
+obo:T4FS_0000277	aptitudes for high performance computing management
+obo:T4FS_0000278	manage datasets in a repository
+obo:T4FS_0000280	data de-noising
+obo:T4FS_0000282	governance and accountability model
+obo:T4FS_0000283	access
+obo:T4FS_0000285	develop fair and open research strategy
+obo:T4FS_0000286	patent application
+obo:T4FS_0000287	collection management identification
+obo:T4FS_0000288	assess fairness
+obo:T4FS_0000289	knowledge of change management
+obo:T4FS_0000290	data ingestion
+obo:T4FS_0000291	data wrangling
+obo:T4FS_0000292	research data management infrastructure
+obo:T4FS_0000293	flexibility in relating fair criteria to openness
+obo:T4FS_0000294	choosing the appropriate terminology for your data
+obo:T4FS_0000295	structured data
+obo:T4FS_0000296	knowledge to contextualise fair principles to domain
+obo:T4FS_0000297	research data management
+obo:T4FS_0000298	publish output in a repository
+obo:T4FS_0000300	metadata search via metadata providers
+obo:T4FS_0000301	record provenance information
+obo:T4FS_0000302	data citation
+obo:T4FS_0000305	book
+obo:T4FS_0000306	intellectual leadership
+obo:T4FS_0000307	innovation
+obo:T4FS_0000308	high performance computing management
+obo:T4FS_0000309	provenance
+obo:T4FS_0000310	digital record
+obo:T4FS_0000311	analytical quality control
+obo:T4FS_0000312	digital research data
+obo:T4FS_0000314	managing research
+obo:T4FS_0000315	evaluation of how to publish your data
+obo:T4FS_0000316	accession number
+obo:T4FS_0000318	digital preservation
+obo:T4FS_0000320	project management activities
+obo:T4FS_0000321	knowledge of funding acquisition management
+obo:T4FS_0000322	manage access control
+obo:T4FS_0000323	project management
+obo:T4FS_0000324	data retention policy
+obo:T4FS_0000326	data representation
+obo:T4FS_0000327	metadata dataset
+obo:T4FS_0000328	long-term preservation
+obo:T4FS_0000329	research metadata format
+obo:T4FS_0000330	data residency
+obo:T4FS_0000331	information governance
+obo:T4FS_0000332	data element
+obo:T4FS_0000333	data policy
+obo:T4FS_0000334	legacy data
+obo:T4FS_0000335	controlled vocabulary
+obo:T4FS_0000336	data integrity
+obo:T4FS_0000337	pid attribute
+obo:T4FS_0000338	aptitudes for change management
+obo:T4FS_0000339	medium-term preservation
+obo:T4FS_0000340	project lifecycle
+obo:T4FS_0000341	knowledge to relate fair data assessment to research community norms
+obo:T4FS_0000342	data traceability
+obo:T4FS_0000343	maintaining persistent identifiers
+obo:T4FS_0000345	select and apply license
+obo:T4FS_0000346	relations
+obo:T4FS_0000347	dataset
+obo:T4FS_0000348	aptitudes for service level management
+obo:T4FS_0000350	extensible markup language
+obo:T4FS_0000351	skills related to change management
+obo:T4FS_0000352	data analysis
+obo:T4FS_0000353	resource management
+obo:T4FS_0000354	data exploration
+obo:T4FS_0000355	aptitudes for storage management
+obo:T4FS_0000356	advise and mentor
+obo:T4FS_0000357	skills related to workflow technologies management
+obo:T4FS_0000358	digital infrastructure
+obo:T4FS_0000359	skills related to data management cost management
+obo:T4FS_0000360	pid system
+obo:T4FS_0000361	I2. (meta)data use vocabularies that follow fair principles
+obo:T4FS_0000362	cross-disciplinary
+obo:T4FS_0000364	semantic data
+obo:T4FS_0000365	pid domain
+obo:T4FS_0000367	knowledge to choose fair data handling approaches appropriate to the research phenomena
+obo:T4FS_0000368	provenance information management
+obo:T4FS_0000370	reproducible research
+obo:T4FS_0000371	A1.2 the protocol allows for an authentication and authorisation procedure, where necessary
+obo:T4FS_0000372	data stewardship technical concept
+obo:T4FS_0000373	canonical data collection
+obo:T4FS_0000374	archival documentation of software
+obo:T4FS_0000375	data harmonization
+obo:T4FS_0000376	data mart
+obo:T4FS_0000377	access workflow
+obo:T4FS_0000378	knowledge of service level management
+obo:T4FS_0000379	data model
+obo:T4FS_0000380	appreciate security and usability trade-offs
+obo:T4FS_0000381	standard
+obo:T4FS_0000382	university teaching
+obo:T4FS_0000383	data migration
+obo:T4FS_0000384	data cleaning
+obo:T4FS_0000385	R1.2 (meta)data are associated with detailed provenance
+obo:T4FS_0000387	skills related to identity management
+obo:T4FS_0000388	using persistent identifiers
+obo:T4FS_0000389	data curator
+obo:T4FS_0000390	engage innovation partners
+obo:T4FS_0000391	R1.3 (meta)data meet domain-relevant community standards
+obo:T4FS_0000392	data reduction
+obo:T4FS_0000393	F4. (meta)data are registered or indexed in a searchable resource
+obo:T4FS_0000394	data type registry
+obo:T4FS_0000397	database
+obo:T4FS_0000398	appreciation of fair and open research
+obo:T4FS_0000399	ability to learn new techniques for fair implementation
+obo:T4FS_0000400	aptitudes for funding acquisition management
+obo:T4FS_0000401	choosing the appropriate model or format for your data
+obo:T4FS_0000402	provenance metadata
+obo:T4FS_0000404	data availability
+obo:T4FS_0000406	data review
+obo:T4FS_0000408	aptitudes associated with using fair tools and services
+obo:T4FS_0000410	preservation metadata
+obo:T4FS_0000411	change management
+obo:T4FS_0000413	original repository
+obo:T4FS_0000414	de-identification
+obo:T4FS_0000415	manager
+obo:T4FS_0000417	organizational leadership
+obo:T4FS_0000418	data dredging
+obo:T4FS_0000420	unstructured data
+obo:T4FS_0000421	presentation slides with interactive exercises
+obo:T4FS_0000422	creating persistent identifiers
+obo:T4FS_0000423	data linkage
+obo:T4FS_0000425	catalogue
+obo:T4FS_0000426	funding acquisition management
+obo:T4FS_0000427	machine access via api
+obo:T4FS_0000428	data structure continuum
+obo:T4FS_0000430	data
+obo:T4FS_0000431	semi-structured data
+obo:T4FS_0000432	book chapter
+obo:T4FS_0000433	research scientist
+obo:T4FS_0000434	digital object identifier
+obo:T4FS_0000435	F3. metadata clearly and explicitly include the identifier of the data they describe
+obo:T4FS_0000437	information management specialist
+obo:T4FS_0000438	A2. metadata are accessible, even when the data are no longer available
+obo:T4FS_0000439	stakeholder engagement on societal impact
+obo:T4FS_0000441	principal investigator
+obo:T4FS_0000442	program manager
+obo:T4FS_0000443	persistent uniform resource locator
+obo:T4FS_0000445	dublin core
+obo:T4FS_0000446	data stewardship guideline
+obo:T4FS_0000447	fair principle
+obo:T4FS_0000448	aptitudes for cloud computing environment management
+obo:T4FS_0000449	repurposed data
+obo:T4FS_0000450	document type definition
+obo:T4FS_0000452	I3. (meta)data include qualified references to other (meta)data
+obo:T4FS_0000453	persistent identifier
+obo:T4FS_0000454	scientist
+obo:T4FS_0000455	integration
+obo:T4FS_0000456	knowledge of high performance computing management
+obo:T4FS_0000457	fair mentoring
+obo:T4FS_0000458	data governance
+obo:T4FS_0000460	extensible resource identifier
+obo:T4FS_0000462	impact
+obo:T4FS_0000463	access control list
+obo:T4FS_0000464	understand data ownership and access policies
+obo:T4FS_0000465	meeting/conference organisation
+obo:T4FS_0000466	service level management
+obo:T4FS_0000467	national standard
+obo:T4FS_0000468	open government
+obo:T4FS_0000469	access control and management
+obo:T4FS_0000470	storage security management
+obo:T4FS_0000472	governance
+obo:T4FS_0000474	open archives initiative protocol for metadata harvesting
+obo:T4FS_0000475	computer code
+obo:T4FS_0000476	syntactic interoperability
+obo:T4FS_0000477	aptitudes for preservation costs management
+obo:T4FS_0000478	accessibility of digital assets
+obo:T4FS_0000479	cloud computing environment management
+obo:T4FS_0000480	corpus
+obo:T4FS_0000481	the use of fair and open research tools or services
+obo:T4FS_0000482	data sharing
+obo:T4FS_0000483	appreciate importance of crediting research contributions
+obo:T4FS_0000485	reference resolution
+obo:T4FS_0000486	research manager
+obo:T4FS_0000487	data integration
+obo:T4FS_0000488	standard operating procedure
+obo:T4FS_0000489	repository
+obo:T4FS_0000490	knowledge of theories underlying fair implementation
+obo:T4FS_0000491	document in lay terms
+obo:T4FS_0000492	understanding persistent identifiers
+obo:T4FS_0000493	data upload database
+obo:T4FS_0000494	uniform resource identifier
+obo:T4FS_0000495	how to find fair research data tools/services (catalogues)
+obo:T4FS_0000496	data reference model
+obo:T4FS_0000498	peer review
+obo:T4FS_0000499	knowledge of provenance information management
+obo:T4FS_0000500	record
+obo:T4FS_0000501	de-anonymization
+obo:T4FS_0000502	application of fair tools and services
+obo:T4FS_0000503	mandatory standard
+obo:T4FS_0000504	data driven decision management
+obo:T4FS_0000505	golden record
+obo:T4FS_0000507	data quality
+obo:T4FS_0000508	using fair and open research tools or services
+obo:T4FS_0000510	webinar
+obo:T4FS_0000511	digital data
+obo:T4FS_0000512	F1. (meta)data are assigned a globally unique and persistent identifier
+obo:T4FS_0000514	strategic/long-term planning
+obo:T4FS_0000515	data hygiene
+obo:T4FS_0000516	data profiling
+obo:T4FS_0000517	metadata record
+obo:T4FS_0000518	research data
+obo:T4FS_0000519	learning medium
+obo:T4FS_0000520	data manager
+obo:T4FS_0000521	electronic health record
+obo:T4FS_0000522	data scaling
+obo:T4FS_0000523	access controls
+obo:T4FS_0000524	privacy governance
+obo:T4FS_0000525	research integrity, attribution, impact awareness
+obo:T4FS_0000526	knowledge of cloud computing environment management
+obo:T4FS_0000527	metadata
+obo:T4FS_0000528	comma separated values
+obo:T4FS_0000529	identifier
+obo:T4FS_0000530	project team member
+obo:T4FS_0000531	descriptive metadata
+obo:T4FS_0000532	github repository
+obo:T4FS_0000533	data mining
+obo:T4FS_0000534	data archiving
+obo:T4FS_0000535	encoding schema
+obo:T4FS_0000537	digital archiving
+obo:T4FS_0000540	pid resolution
+obo:T4FS_0000541	skills related to storage management
+obo:T4FS_0000544	data repository management
+obo:T4FS_0000546	darwin information typing architecture
+obo:T4FS_0000547	analytics
+obo:T4FS_0000548	data stewardship soft skill
+obo:T4FS_0000550	archival documentation of data
+obo:T4FS_0000551	machine-readable format
+obo:T4FS_0000552	confidential information
+obo:TF4S_0000566	data scientist
+obo:TF4S_0000567	ontologist
+obo:TF4S_0000568	terminology manager
+obo:TF4S_0000569	software engineer
+obo:TF4S_0000570	system administrator
+obo:TF4S_0000572	procurement officer
+obo:TF4S_0000574	metadata creation

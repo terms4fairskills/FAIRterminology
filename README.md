@@ -1,8 +1,11 @@
-# terms4FAIRskills
+
+# terms4FAIRskills (T4FS)
+
+More information can be found at http://obofoundry.org/ontology/t4fs
 
 Building a terminology for the skills necessary to make data FAIR and to keep it FAIR.
 
-The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
+The terms4FAIRskills project aims to create a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.
 
 When mature, this terminology will apply to a variety of use cases, including:
 - To assist with the creation and assessment of stewardship curricula;
@@ -23,3 +26,42 @@ We continue to develop terms4FAIRskills and our latest terminology will always b
 
 For more information on any of the technical aspects of this work, please contact Peter McQuilton or Allyson Lister.
 
+## Views on the Ontology
+
+We currently produce two primary views of this ontology: a complete ontology intended for expert consumption, and fully adhering to the OBO Foundry principles, and a community view that has been simplified for general usage.
+
+## Versions
+
+### Stable release versions
+
+The latest version of the ontology can always be found at:
+
+http://purl.obolibrary.org/obo/t4fs.owl
+
+### Alternative Artefacts
+
+In addition to the stable release version listed above, we have a variety of different ways in which you can view T4FS:
+
+* base
+* simple
+* full
+* community
+
+### Alternative formats
+
+We produce all ontology artefacts in the following formats:
+* OWL
+* OBO
+* JSON
+
+### Editors' version
+
+T4FS uses templates to edit the ontology. This means that you should not edit any of the OWL files that you see in this repository. Instead, please see our [Templates README](src/templates/README.md) for more details.
+
+## Contact
+
+Please use this GitHub repository's [Issue tracker](https://github.com/terms4FAIRskills/FAIRterminology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+
+## Acknowledgements
+
+This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
