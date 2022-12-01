@@ -16,6 +16,7 @@ IAO:0000115	definition	owl:AnnotationProperty				The official definition, explai
 IAO:0000117	term editor	owl:AnnotationProperty				Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people	IAO		Allyson Lister|Peter McQuilton		
 IAO:0000118	alternative term	owl:AnnotationProperty				An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)	IAO				
 IAO:0000119	definition source	owl:AnnotationProperty				Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007	IAO		Allyson Lister|Peter McQuilton		
+IAO:0000233	term tracker item	owl:AnnotationProperty									
 obo:T4FS_0000564	alternative definition	owl:AnnotationProperty							Peter McQuilton	2019-10-17T13:38:16.742124Z	
 obo:T4FS_0000565	alternative definition source	owl:AnnotationProperty							Peter McQuilton	2019-10-17T13:39:13.568975Z	
 oboInOwl:created_by	created by	owl:AnnotationProperty									

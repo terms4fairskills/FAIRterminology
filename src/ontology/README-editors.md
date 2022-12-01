@@ -24,6 +24,9 @@ The editors version is [t4fs-edit.owl](t4fs-edit.owl)
 
 [../../t4fs.owl](../../t4fs.owl) is the release version
 
+**Edits to classes/properties the ontology are performed in Google spreadsheets, which are then downloaded and committed to this repository within src/templates. Please see [Templates README](../templates/README.md) for details of how to make these changes.**
+**Edits to the top-level annotation (e.g. title, description, authors) happen within `src/ontology/t4fs-edit.owl`. Open this file in your favourite editor, i.e. [Protege](https://protege.stanford.edu/). Careful: double check you are editing the correct file. There are many ontology files in this repository, but only one _editors file_!**
+
 To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/terms4FAIRskills/FAIRterminology) for details.
 
 You should discuss the git workflow you should use with the maintainer

@@ -39,7 +39,7 @@ REPORT_FAIL_ON =            None
 REPORT_LABEL =              -l true
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        
-SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri 
+SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri multiple-replaced_by 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.3.2-dev
 
@@ -191,12 +191,18 @@ RELEASE_ASSETS = \
   $(SUBSET_FILES)
 
 .PHONY: all_assets
-all_assets: $(ASSETS)
+all_assets: $(ASSETS) check_rdfxml_assets
 
 .PHONY: show_assets
 show_assets:
 	echo $(ASSETS)
 	du -sh $(ASSETS)
+
+check_rdfxml_%: %
+	@check-rdfxml  $<
+
+.PHONY: check_rdfxml_assets
+check_rdfxml_assets: $(foreach product,$(MAIN_PRODUCTS),check_rdfxml_$(product).owl)
 
 # ----------------------------------------
 # Release Management
@@ -574,7 +580,7 @@ Core commands:
 
 Imports management:
 * refresh-imports:			Refresh all imports and mirrors.
-* refresh-components:			Refresh all components.
+* recreate-components:			Recreate all components.
 * no-mirror-refresh-imports:		Refresh all imports without downloading mirrors.
 * refresh-imports-excluding-large:	Refresh all imports and mirrors, but skipping the ones labelled as 'is_large'.
 * refresh-%:				Refresh a single import, i.e. refresh-go will refresh 'imports/go_import.owl'.

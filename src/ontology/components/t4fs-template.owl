@@ -9,8 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/components/t4fs-template.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/components/t4fs-template.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-05</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-12-01/components/t4fs-template.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -89,6 +89,14 @@
         <owl:annotatedTarget xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">IAO</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -1834,33 +1842,18 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000560"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">OBSOLETE. The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">This term is redundant with http://purl.obolibrary.org/obo/T4FS_0000388 and has been deprecated.</rdfs:comment>
         <rdfs:label xml:lang="en">use of persistent, resolvable identifiers (pids)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000093"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">OBSOLETE. The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">[PMQ 3.2022]</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6303,10 +6296,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000492"/>
+        <obo:IAO_0000115 xml:lang="en">The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">using persistent identifiers</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000388"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">[PMQ 3.2022]</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
