@@ -20,6 +20,7 @@ src/ontology/t4fs-basic.*
 src/ontology/t4fs-full.*
 src/ontology/t4fs-simple.*
 src/ontology/t4fs-simple-non-classified.*
+src/ontology/t4fs-community.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log

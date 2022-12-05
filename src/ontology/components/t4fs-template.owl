@@ -30,7 +30,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">https://orcid.org/0000-0002-7702-4495</oboInOwl:created_by>
         <rdfs:comment xml:lang="en">Allyson Lister 8.10.2019: Although the IAO definition has been included here, we have made a curation decision to allow non-Aristotelian definitions.</rdfs:comment>
         <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:AnnotationProperty>
@@ -47,8 +47,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">https://orcid.org/0000-0002-7702-4495</oboInOwl:created_by>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -79,8 +79,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
+        <oboInOwl:created_by xml:lang="en">https://orcid.org/0000-0002-7702-4495</oboInOwl:created_by>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -171,18 +171,18 @@
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium is intended to confer a competence or capability regarding a particular data stewardship activity, e.g. a presentation confering competency in metadata creation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T21:36:11.080721Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">confers/requires competency about</rdfs:label>
+        <rdfs:label xml:lang="en">confers competency about</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000554"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Confers a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">PMQ 3.2022</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium is intended to confer a competence or capability regarding a particular data stewardship activity, e.g. a presentation confering competency in metadata creation.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -192,12 +192,19 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000555">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium is intended to confer knowledge of a particular data stewardship technical concept in order for that learning medium to perform its function, e.g. a presentation conferring competency in metadata.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-12-06 00:00:00</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">confers/requires knowledge about</rdfs:label>
+        <rdfs:label xml:lang="en">confers knowledge about</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000555"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium is intended to confer knowledge of a particular data stewardship technical concept in order for that learning medium to perform its function, e.g. a presentation conferring competency in metadata.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -213,7 +220,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">requires/improves personal attribute</rdfs:label>
     </owl:ObjectProperty>
@@ -225,18 +232,18 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000557">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
-        <obo:IAO_0000115 xml:lang="en">A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium confers practical skills regarding a particular data stewardship technical concept in order for that learning medium to perform its function e.g. a workshop conferring a practical skill in repository access.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-12-06 00:00:00</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">confers/requires practical skill about</rdfs:label>
+        <rdfs:label xml:lang="en">confers practical skill about</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000557"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">FAIR4S</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium confers practical skills regarding a particular data stewardship technical concept in order for that learning medium to perform its function e.g. a workshop conferring a practical skill in repository access.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -247,15 +254,16 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Definition added 8.2.22</rdfs:comment>
         <rdfs:label xml:lang="en">has/wants competency in</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000558"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Describes how an expertise level or role (e.g. &quot;data steward&quot;) is associated with a data stewardship activity (e.g. ‘workflow set-up and management’) to indicate whether someone has an awareness of the area, or an ability to do it, or expert knowledge of it.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Allyson Lister 8.2.22</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -272,8 +280,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has/wants knowledge about</rdfs:label>
     </owl:ObjectProperty>
     
@@ -284,7 +292,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000560">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">supports implementation of</rdfs:label>
     </owl:ObjectProperty>
@@ -297,8 +305,8 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Desires/has a competence or capability acquired or applied in a specific context, e.g. producing a research output or deploying a service. A skill may be specified in a ‘skills user story’. A badge or certificate may provide evidence that a skill has been acquired, and a publication, personal profile, portfolio or CV may provide evidence that a skill has been applied.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">has/wants practical skill about</rdfs:label>
     </owl:ObjectProperty>
@@ -316,8 +324,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000562">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-24T15:33:43.476917Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">has aptitude for</rdfs:label>
@@ -330,8 +338,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000563">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-22T15:25:13.443153Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">contributes to the implementation of</rdfs:label>
@@ -345,8 +353,8 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000115 xml:lang="en">The learning meda that creates a competence or capability.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
-        <oboInOwl:created_by xml:lang="en">Allyson Lister</oboInOwl:created_by>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <oboInOwl:created_by xml:lang="en">https://orcid.org/0000-0002-7702-4495</oboInOwl:created_by>
         <rdfs:comment xml:lang="en">Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model.</rdfs:comment>
         <rdfs:label xml:lang="en">competency gained through</rdfs:label>
     </owl:ObjectProperty>
@@ -354,7 +362,58 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The learning meda that creates a competence or capability.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Allyson Lister 13.9.22</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000576 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000576">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium requires competency in a particular data stewardship activity in order for that learning medium to perform its function, e.g. a presentation requiring competency in metadata creation prior to engaging with that learning medium.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">requires competency about</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000576"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium requires competency in a particular data stewardship activity in order for that learning medium to perform its function, e.g. a presentation requiring competency in metadata creation prior to engaging with that learning medium.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000577 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000577">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium requires knowledge of a particular data stewardship technical concept in order for that learning medium to perform its function, e.g. a presentation requiring knowledge of metadata.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">requires knowledge about</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000577"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium requires knowledge of a particular data stewardship technical concept in order for that learning medium to perform its function, e.g. a presentation requiring knowledge of metadata.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000578 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000578">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">Describes how a learning medium requires practical skills of a particular data stewardship technical concept in order for that learning medium to perform its function e.g. a workshop requiring a practical skill in repository access.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">requires practical skill about</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000578"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how a learning medium requires practical skills of a particular data stewardship technical concept in order for that learning medium to perform its function e.g. a workshop requiring a practical skill in repository access.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -478,8 +537,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">role</rdfs:label>
     </owl:Class>
     
@@ -512,8 +571,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A file that contains the values in a table as a series of ASCII text lines organized so that each column value is separated by a pipe.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pipe separated values</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -530,10 +589,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115 xml:lang="en">Software preservation involves the collection and long-term storage of software for archiving as well as maintaining availability and accessibility.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 8.2.22: Refactored &quot;software review and preservation&quot; to &quot;software preservation&quot;, as the review process is not within the remit of terms4FAIRskills. Added definition and source.</rdfs:comment>
         <rdfs:label xml:lang="en">software preservation</rdfs:label>
     </owl:Class>
@@ -541,7 +600,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Software preservation involves the collection and long-term storage of software for archiving as well as maintaining availability and accessibility.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">Allyson Lister 8.2.22</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495 8.2.22</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -551,8 +610,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000489"/>
         <obo:IAO_0000115 xml:lang="en">In accessing a repository one uses a client (application) to discover relevant digital objects within a repository, and then retrieve a copy of a desired digital object.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">repository access</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -693,9 +752,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A specific deed, action, function or sphere of action in relation with the role of data stewardship</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:T4FS_0000564 xml:lang="en">Set of actions carried out during data stewardship processes</obo:T4FS_0000564>
         <rdfs:label xml:lang="en">data stewardship activity</rdfs:label>
     </owl:Class>
@@ -745,8 +804,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115 xml:lang="en">An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Conservation</obo:IAO_0000118>
         <rdfs:label xml:lang="en">preservation</rdfs:label>
     </owl:Class>
@@ -777,8 +836,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000115 xml:lang="en">A curation process on a data object by which it receives a persistent object identifier (PID) from a trusted registration authority. Registration must be accompanied by the step(s) to upload the data object to a persistent repository.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data registration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -834,8 +893,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Exposing data is the activity of exposing your data to collaborators, the public, or other interested parties. A data producer makes the data accessible to external users in a machine- and/or human-readable way.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 15.3.22: Was &quot;expose your data&quot;, which was not in the style of other term labels. Also updated definition, but might need revisiting later for a more formal definition.</rdfs:comment>
         <rdfs:label xml:lang="en">exposing data</rdfs:label>
     </owl:Class>
@@ -904,8 +963,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that are being received, processed and stored at the time of their occurrence with only small delays. Examples include: stock quotes, manufacturing statistics, Web server loads, data warehouse activity and sensor feeds to data collectors. Real-time data are data streams that are typically generated by sensors and received via direct networking connections.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">real-time data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -936,8 +995,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The ability to get access to a computer or a network from a remote distance. Access may be through an Internet service provider (ISP) or through a dedicated line between a computer or a remote local area network and the central or main corporate local area network. A dedicated line is more expensive and less flexible but offers faster data rates.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">remote access</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -954,10 +1013,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115 xml:lang="en">The activity of supervision of other people to ensure FAIR data practices.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">fair stewardship supervising</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -998,8 +1057,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A collection of data items organized as a set of formally-described tables from which data can be accessed or reassembled in many different ways without having to reorganize the database tables. The standard user and application program interface to a relational database is the structured query language (SQL).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">relational database</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1016,8 +1075,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that could not lead to the identification of a specific object of interest. These may be data that have been de-identified, or that could not lead to identifiable information in the first place.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 6.5.22: Modifed CASRAI definition to distinguish this term from &apos;non personally identifiable information.&apos; Further work may determine whether or not both terms are required.</rdfs:comment>
         <rdfs:label xml:lang="en">non identifiable data</rdfs:label>
     </owl:Class>
@@ -1087,8 +1146,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Control over time of data, computer code, software, and documents that allows for the ability to revert to a previous revision, which is critical for data traceability, tracking edits, and correcting mistakes. Version control generates a (changed) copy of a data object that is uniquely labeled with a version number. The intent is to track changes to a data object, by making versioned copies. Note that a version is different from a backup copy, which is typically a copy made at a specific point in time, or a replica.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">version control</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1185,8 +1244,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115 xml:lang="en">Recovery and/or transformation and digitization of dark data and at-risk data so that they can be preserved, accessed, shared, and used. Data rescue also involves the addition of rich metadata to make the content understandable and more easily re-usable.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data rescue</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1352,8 +1411,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115 xml:lang="en">An approach to protecting sensitive data from unauthorized access by encrypting the data and storing different portions of a file on different servers. An unauthorized person would need to know the locations of the servers containing the parts, be able to get access to each server, know what data to combine, and how to decrypt it. Data splitting can be made even more effective by periodically retrieving and recombining the parts, and then splitting the data in a different way among different servers, and using a different encryption key.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data splitting</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1390,8 +1449,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Digital entity properties that are generated by the data management system (e.g., creation time; owner; storage location; data retention period; the length of time a digital entity will be retained).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">system metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1407,10 +1466,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">tactical/short-term planning</rdfs:label>
     </owl:Class>
     
@@ -1500,8 +1559,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Implement the policies that govern the choice of metadata schema, reserved vocabularies, metadata organization in tables, and metadata properties (creation date, access control, ownership, etc.).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">manage metadata catalog</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1518,8 +1577,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115 xml:lang="en">Manipulation of raw data to produce a single output.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1601,8 +1660,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000231"/>
         <obo:IAO_0000115 xml:lang="en">A process that creates a new dataset from an original source. Examples include: creating a subset of the data,querying a database.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data selection</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1632,8 +1691,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">The ability to find and comprehend data produced by people other than yourself.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data search</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 15.3.22: tidied label from &quot;discover other peoples data&quot; to &quot;Data discovery</rdfs:comment>
         <rdfs:label xml:lang="en">data discovery</rdfs:label>
@@ -1668,10 +1727,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">conducting operations</rdfs:label>
     </owl:Class>
     
@@ -1682,8 +1741,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Data the content of which is changing frequently and at asynchronous moments. Examples include: Data streams that are generated by sensors when it is unpredictable when data segments will appear in time (i.e. data streams have gaps); Data streams that are generated by humans in crowdsourcing scenarios where it is not clear when which cell in a database will be filled.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">dynamic data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1706,8 +1765,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A design covering a class of frameworks with the following characteristics: (1) it can be used to generate more specific models that still belong to the class and (2) it can be used to compare a concrete framework design to identify whether it belongs to the same class.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">reference model</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1744,8 +1803,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that have gone through a registration process and have been assigned an identifier metadata to aid in their search and retrieval.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">registered data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1762,8 +1821,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">In the context of data and network security: The assurance that information can only be accessed or modified by those authorized to do so. Measures taken to ensure integrity include controlling the physical environment of networked terminals and servers, restricting access to data, and maintaining rigorous authentication practices. Data integrity can also be threatened by environmental hazards, such as heat, dust, and electrical surges.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">integrity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1780,8 +1839,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Incorporates: building a digital collection of information for further study and analysis; creating appropriate tools for collection- building; creating appropriate tools for the analysis and study of collections; using digital collections and analytical tools to generate new intellectual products; and, Creating authoring tools for these new intellectual products, either in traditional forms or in digital form.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital scholarship</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1843,9 +1902,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000093">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE. The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/21</obo:IAO_0000233>
         <rdfs:comment xml:lang="en">This term is redundant with http://purl.obolibrary.org/obo/T4FS_0000388 and has been deprecated.</rdfs:comment>
         <rdfs:label xml:lang="en">use of persistent, resolvable identifiers (pids)</rdfs:label>
@@ -1865,8 +1924,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A process in which files are first parsed (assigned to appropriate fields in a record) and then translated to a common format. For example, if an original record had the client’s name and address as “Bob Jones, VP Acme. Co., 15 S. Main St, Brooklyn” the standardized record might read “Bob Jones, Vice President, Acme Corporation, 15 South Main Street, Brooklyn, New York”. Data often lack consistency simply because there are a many of ways of saying the same thing. Standardizing the record ensures that when a query is run for a particular field, accurate results will be returned.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">record standardization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1901,8 +1960,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A catalogue containing metadata records in XML-encoded (machine-readable and human-readable) format that enables services to find data and services.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:label xml:lang="en">metadata catalogue</rdfs:label>
     </owl:Class>
@@ -2014,8 +2073,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
         <obo:IAO_0000115 xml:lang="en">The person who is tasked with delivering a project within the boundaries and framework established by the program manager. The project manager is and should be delivery and execution focused and is judged on the elements of time, cost, and scope of the project. The person responsible for ensuring that the Project Team completes the project. The Project Manager develops the Project Plan with the team and manages the teamís performance of project tasks. It is also the responsibility of the Project Manager to secure acceptance and approval of deliverables from the Project Sponsor and Stakeholders. The Project Manager is responsible for communication, including status reporting, risk management, escalation of issues that cannot be resolved in the team, and, in general, making sure the project is delivered in budget, on schedule, and within scope.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project manager</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2031,11 +2090,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yan Wang</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Release data</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 9.3.22. Removed from &apos;FAIR4S defined activity&apos; class to better integrate with the T4FS hierarchy. AL 5.5.22: removed &quot;Publishing and archiving data&quot; and &quot;Publish and archive data&quot; alternative terms, as the two actions are not the same.</rdfs:comment>
         <rdfs:label xml:lang="en">publish data</rdfs:label>
@@ -2047,7 +2106,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Access management</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 16.3.22: Changed &apos;information security and access management&apos; such that access management went in as an alternative term. If required in future, we may wish to separate it out completely.</rdfs:comment>
         <rdfs:label xml:lang="en">information security</rdfs:label>
@@ -2077,8 +2136,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that have not been processed for meaningful use. Although raw data have the potential to become information, they require selective extraction, organization, and sometimes analysis and formatting for presentation. As a result of processing, raw data sometimes end up in a database, which enables the data to become accessible for further processing and analysis.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">raw data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2095,8 +2154,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <obo:IAO_0000115 xml:lang="en">Testing conducted to evaluate whether systems or components pass data and control correctly to each other.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">interface testing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2113,8 +2172,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A digital object is editable, interactive, accessible and modifiable by means of digital objects other than the one governing its behaviour, and is distributed over information infrastructures. It is a machine-independent data structure consisting of one or more elements in digital form that can be parsed by different information systems; the structure helps to enable interoperability among diverse information systems in the Internet.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital object</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2131,8 +2190,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A broad term encompassing: (a) digital surrogates created as a result of converting analogue materials to digital form (digitisation); (b) born digital for which there has never been and is never intended to be an analogue equivalent; and, (c) digital records.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital materials</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2175,8 +2234,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The ability to access and download data from a repository.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">remote data access</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2193,8 +2252,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115 xml:lang="en">The act of interpreting an author&apos;s intended use of a word that has multiple meanings or spellings.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">disambiguation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2228,8 +2287,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000170"/>
         <obo:IAO_0000115 xml:lang="en">Use of content outside of its original intention.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">re-use</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2290,11 +2349,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Angus Whyte</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yan Wang</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 17.3.22: Updated to &quot;Assessment&quot; to match the style of its sibling classes. AL 3.22: Was &quot;govern and assess&quot;, which is a compound concept. Split into two classes, Assess and Governance. Original source: FAIR4S defined activity.</rdfs:comment>
         <rdfs:label xml:lang="en">assessment</rdfs:label>
     </owl:Class>
@@ -2306,8 +2365,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The World Wide Web Consortium’s Platform for Personal Privacy Project (P3P) offers specific recommendations for practices that will let users define and share personal information with Web sites that they agree to share it with. The P3P incorporates a number of industry proposals, including the Open Profiling Standard (OPS). Using software that adheres to the P3P recommendations, users will be able to create a personal profile, all or parts of which can be made accessible to a Web site as the user directs. A tool that will help a user decide whether to trust a given Website with personal information is a Statement of Privacy Policy that a Web site can post.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">personal information privacy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2420,8 +2479,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000115 xml:lang="en">Ongoing organizational activities associated with supporting functional elements, as opposed to project elements. Operational management also includes support of products that the organization has created through project activity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">operational management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2492,8 +2551,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">1. The organization or structure for a database. The activity of data modeling leads to a schema. (The plural form is schemata.) The term is used in discussing both relational databases and object-oriented databases. The term sometimes seems to refer to a visualization of a structure and sometimes to a formal text-oriented description. Two common types of database schemata are the star schema and the snowflake schema. 2. A formal expression of an inference rule for artificial intelligence (AI) computing. The expression is a generalized axiom in which specific values or cases are substituted for each symbol in the axiom to derive a specific inference.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">schema</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2516,8 +2575,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A service that provides a connection between a PID and its target object.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid service</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2689,8 +2748,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">An infrastructure component that provides reliable, long-term access to managed digital resources. It stores, manages, and curates digital objects and returns their bit streams when a request is issued. Trusted repositories undergo regular assessments according to a set of rules such as defined by Data Seal of Approval (DSA) or TRAC (ISO 16363). It is well understood that such an assessment has the potential of increasing trust from its depositors and users, but it will not be the only criterion for users. Repositories can be at different stages of assessments. However, it is evident that certain quality criteria need to be met to distinguish trusted repositories from all types of other entities that store data such as notebooks or lab servers.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trusted digital repository</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2707,8 +2766,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <obo:IAO_0000115 xml:lang="en">The function of managing the physical aspects of data resources, including database design and integrity, backup and recovery, performance and tuning.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">database administration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2813,8 +2872,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">A phase of development where the product is tested in the real world by the intended audience. The experiences of the early users are forwarded back to the developers who make final changes before releasing the product.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">user acceptance testing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2837,7 +2896,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A description with very little curation that would include at least a name and PID of a data object. Minimal metadata is only marginally targeted at discovery since there is much better infrastructure to accomplish this.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">minimal metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2934,8 +2993,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Metadata exposure is the process of finding, identifying, selecting and acquiring/obtaining access to a metadata entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 22.3.22: Refactored from &apos;metadata creation and exposure&apos;. Metadata creation has moved to the Curation hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">metadata exposure</rdfs:label>
     </owl:Class>
@@ -2969,10 +3028,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <obo:IAO_0000115 xml:lang="en">The provision of training materials and events in and around good data stewardship.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">fair stewardship training</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3139,8 +3198,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A Regional standard is one that applies across a multi-nation region. Most countries have their own national standards-making bodies, which in turn may also group together to make regional standards. For example, national standards bodies in Europe are also members of the European Committee for Standardization (CEN) as well as members of ISO. The use of such standards may be voluntary, or they may be referenced in regulation (therefore mandatory).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 9.3.22: Removed reference to CASRAI (https://casrai.org/term/regional-standard/), as the definition was unsuitable.</rdfs:comment>
         <rdfs:label xml:lang="en">regional standard</rdfs:label>
     </owl:Class>
@@ -3236,8 +3295,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A database containing information about trusted repositories that are provided by the repository managers and are useful for human and machine users. It is a registry information system on which a register is maintained. These registries do not contain information about all metadata descriptions of digital objects, nor do they offer a list of PIDs of all stored digital objects. They do offer information based on standardized types on how to retrieve such information (e.g., the port under which OAI-PMH can be accessed to offer metadata). It is a set of files containing identifiers assigned to items with descriptions of the associated items. It is assignment of a permanent, unique and unambiguous identifier to an item.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">registry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3289,8 +3348,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Data where relationships/connections between them are available to allow easy data access. A typical case of a large Linked dataset is DBPedia (http://dbpedia.org/), which essentially makes the content of Wikipedia available in RDF. This related collection of interrelated datasets is stored on the Web and available via a common format -RDF.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">linked open data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3307,8 +3366,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Research data format is a generic term encompassing the concept of a standardised format for research data.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 9.3.2022: The original CASRAI definition is unsuitable (https://casrai.org/term/research-data-format), therefore I have changed the definition to something more generic.</rdfs:comment>
         <rdfs:label xml:lang="en">research data format</rdfs:label>
     </owl:Class>
@@ -3326,8 +3385,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115 xml:lang="en">Ensures that the benefits to society of research outweigh any risks, from both an ethical and legal perspective.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research governance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3350,8 +3409,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The ability of computer systems to transmit data with unambiguous, shared meaning. Semantic interoperability is a requirement to enable machine computable logic, inferencing, knowledge discovery, and data federation between information systems. Semantic interoperability is achieved when the information transferred has, in its communicated form, all of the meaning required for the receiving system to interpret it correctly, even when the algorithms used by the receiving system are unknown to the sending system. Syntactic interoperability is a prerequisite to semantic interoperability.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">semantic interoperability</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3391,8 +3450,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">Activities and processes in a digital environment that lead to the publication of research data, associated metadata and accompanying documentation and software code on the Web. In contrast to interim or final published products, workflows are the means to curate, document, and review, and thus ensure and enhance the value of the published product. Workflows can involve both humans and machines and often humans are supported by technology as they perform steps in the workflow. Similar workflows may vary in the details depending on the research discipline, data publishing product and/or the host institution of the workflow (e.g., individual publisher/journal, institutional repository, discipline-specific repository).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research data publication workflow</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3426,8 +3485,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Data linkage where the resulting product has been de-identified.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">privacy-preserving data linkage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3443,10 +3502,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000106"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yan Wang</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 22.3.22: refactored &apos;open access publishing and self-archiving&apos; to be two separate concepts (&apos;open access publishing&apos;, and &apos;self-archiving&apos;) according to T4FS best practices. Self-archiving did not have to be created because we already had self-archive, which was then moved to the Archiving hierarchy. &apos;publish open access&apos; was also removed in favour of this term as they were too similar to have without the potential for confusion by users.</rdfs:comment>
         <rdfs:label xml:lang="en">open access publishing</rdfs:label>
     </owl:Class>
@@ -3458,10 +3517,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000534"/>
         <obo:IAO_0000115 xml:lang="en">Prepare the data in preferred types and the data documentation. Choose the data repository and data license, deposit the data in the repository.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Celia van Gelder</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mateusz Kuzak</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yan Wang</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">self-archiving</rdfs:label>
     </owl:Class>
     
@@ -3567,8 +3626,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115 xml:lang="en">The process of developing, communicating, implementing, monitoring, and assuring the policies, procedures, organizational structures, and practices associated with a given program.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">program governance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3611,8 +3670,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that can be understood and used without additional information. Usable data are delivered in a form that meets the needs of different end-user audiences, is ready for the tasks that the end-user needs to accomplish, and that has been adapted to the end-user’s needs (not the other way around). Usable data have been cleaned, structured, are in machine readable format, fully documented, and ready for analysis and interpretation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">usable data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3735,8 +3794,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Defines how to manage a project. It will always be the same, regardless of the project lifecycle being employed.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project management lifecycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3797,8 +3856,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000127"/>
         <obo:IAO_0000115 xml:lang="en">1. Data which relate to a living individual who can be identified (a) from those data, or (b) from those data and other information which is in the possession of, or is likely to come into the possession of, the data controller, and includes any expression of opinion about the individual and any indication of the intentions of the data controller or any other person in respect of the individual. 2. Any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered personally identifiable data. 3. Data are identifiable if the information contains the name of an individual, or other identifying items such as birth date, address or geocoding. Data will be identifiable if the information contains a unique personal identifier and the holder of the information also has the master list linking the identifiers to individuals. Data may also be identifiable because of the number of different pieces of information known about a particular individual. It may also be possible to ascertain the identity of individuals from aggregated data where there are very few individuals in a particular category. Identifiability is dependent on the amount of information held and also on the skills and technology of the holder.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">personally identifiable information</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3829,8 +3888,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The process of organizing data into tables in such a way that the results of using the database are always unambiguous and as intended. Normalization is typically a refinement process after the initial exercise of identifying the data objects that should be in the database, identifying their relationships, and defining the tables required and the columns within each table.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">normalization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3847,8 +3906,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <obo:IAO_0000115 xml:lang="en">Evaluation is a decision about significance, value, or quality of something, based on careful study of its good and bad features.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 17.3.22: We may wish to make this an alternative term of Assessment.</rdfs:comment>
         <rdfs:label xml:lang="en">evaluation</rdfs:label>
     </owl:Class>
@@ -3910,10 +3969,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">logistical support</rdfs:label>
     </owl:Class>
     
@@ -3935,8 +3994,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">The process of acquiring data from some source. For example, data may be acquired by download from a repository, transfer from a data logger, data capture, etc.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data capture</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 15.3.22: Removed &quot;data and metadata capture&quot; as was too similar to this term. Added alternative term &quot;data capture&quot;.</rdfs:comment>
         <rdfs:label xml:lang="en">data acquisition</rdfs:label>
@@ -3980,8 +4039,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A Text file is a kind of computer file that is structured as a sequence of lines of electronic text. A text file exists stored as data within a computer file system.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 9.3.22: The CASRAI term (https://casrai.org/term/text-file) had an unsuitable definition, and therefore was removed.</rdfs:comment>
         <rdfs:label xml:lang="en">text file</rdfs:label>
     </owl:Class>
@@ -4045,8 +4104,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A type of record (and organization) that stores an instance of an executable/understandable PID. The content of a PID record distinguishes a registered digital or data object from other DOs. A PID record is a type of record that includes property information that characterizes the digital object it is identifying. Important parts of a PID record are location and checksum. However there is a large variation in usage. In some data models the PID is simply used as a unique label with an empty record. A PID record has a lifecycle including creation, publication, Curation and the destruction.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4083,8 +4142,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A type of metadata that indicates how compound objects are put together (e.g., how pages are ordered to form chapters; how data are organized in a table; how datasets are organized in a collection) 2. The underlying structural metadata of digital objects that tells computers how to assemble them.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">structural metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4101,8 +4160,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Data that could not lead to the identification of a specific individual, to distinguishing one person from another, or to personally identifiable information. These may be data that have been de-identified, or that could not lead to personally identifiable information in the first place.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">non personally identifiable information</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4119,8 +4178,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115 xml:lang="en">The process of creating digital files by scanning or otherwise converting analogue materials. The resulting digital copy, or digital surrogate, would then be classed as digital material and then subject to the same broad challenges involved in preserving access to it, as born digital materials.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digitisation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4163,10 +4222,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 9.3.22: renamed to prevent compound term. Was &apos;Influencing/community building&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">community building</rdfs:label>
     </owl:Class>
@@ -4270,8 +4329,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Describes the technical processes used to produce, or required to use a digital object.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">technical metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4288,8 +4347,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">In a form that can be used and understood by a computer.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">machine readable</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4306,8 +4365,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">integrated access management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4324,8 +4383,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Meaningless data, including: Any data that cannot be understood and interpreted correctly by machines, such as unstructured text; any data that has been received, stored, or changed in such a manner that it cannot be read or used by the program that originally created it.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">noisy data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4358,10 +4417,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Activities in and around the provision of training, mentorship and teaching opportunities for good data management and the implementation of FAIR practices.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">fair training</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4378,8 +4437,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A set of instructions that direct a computer to do a specific task.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">software</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4413,8 +4472,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Strutured data that are accessible, machine-readable, usable, intelligible, and freely shared. Open data can be freely used, re-used, built on, and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">open data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4461,8 +4520,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The output of a data curation activity. Such data has generally already been cleaned, standardised, documented. Additional metadata relevant to the data object has also been added, via either manual or automatic methods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <rdfs:comment xml:lang="en">AL 9.5.22: The orginal label (&quot;data curation&quot;) matched a term within the Data stewardship activity hierarchy. Changing the class label to &quot;Curated data&quot; better fit the model.</rdfs:comment>
         <rdfs:label xml:lang="en">curated data</rdfs:label>
@@ -4498,8 +4557,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A 128-bit number used to guarantee unique identity for different objects on the internet over time. File system partitions.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">UUID</obo:IAO_0000118>
         <rdfs:label xml:lang="en">universally unique identifier</rdfs:label>
     </owl:Class>
@@ -4551,8 +4610,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Short-term preservation. Access to digital materials either for a defined period of time while use is predicted but which does not extend beyond the foreseeable future and/or until it becomes inaccessible because of changes in technology.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">short-term preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4653,8 +4712,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">manage datasets in a repository</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4688,8 +4747,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Provides the relationship and process context for working together to ensure outcomes are achieved.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">governance and accountability model</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4847,8 +4906,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The configuration of staff, services and tools assembled to support data management across the research lifecycle and more specifically to provide comprehensive coverage of the stages making up the data lifecycle. It can be organized locally and/or globally to support research data activities across the research lifecycle.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research data management infrastructure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4897,8 +4956,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data whose elements have been organized into a consistent format and data structure within a defined data model such that the elements can be easily addressed, organized and accessed in various combinations to make better use of the information, such as in a relational database.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">structured data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4926,8 +4985,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
         <obo:IAO_0000115 xml:lang="en">Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research data management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4982,8 +5041,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Information for a data object that includes: * the person who deposited the data object in the repository, * the source of the data object, * the date when the object was deposited, and * authenticity information needed to link the data object to its original source.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">record provenance information</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5045,8 +5104,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000115 xml:lang="en">The capacity to influence stakeholders and the direction of research activities; the ability to shape others&apos; understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">intellectual leadership</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5063,8 +5122,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">In the context of a researcher&apos;s activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">innovation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5107,8 +5166,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A type of historical information or metadata about the origin, location or the source of something, or the history of the ownership or location of an object or resource including digital objects. For example, information about the Principal Investigator who recorded the data, and the information concerning its storage, handling, and migration.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">provenance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5125,8 +5184,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Electronic record</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 8.2.22: Updated label from the CASRAI &quot;Digital&quot; to &quot;Digital record&quot; to better match the definition and intent of the term, and to provide clarity.</rdfs:comment>
         <rdfs:label xml:lang="en">digital record</rdfs:label>
@@ -5162,8 +5221,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital research data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5180,8 +5239,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">In the context of a researcher’s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the three research contexts in which a researcher is expected to conduct his/her activities. Managing research is distinct from the position-based role of a research manager.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">managing research</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5238,8 +5297,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The series of managed activities necessary to ensure continued access to digital materials for as long as necessary. Digital preservation is defined very broadly and refers to all of the actions required to maintain access to digital materials beyond the limits of media failure or technological change. Those materials may be records created during the day-to-day business of an organisation; “”born-digital”” materials created for a specific purpose (e.g. teaching resources); or the products of digitisation projects. This definition specifically excludes the potential use of digital technology to preserve the original artefacts through digitisation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5256,10 +5315,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">The practice of initiating, planning, executing, controlling, and closing the work of a team in relation to FAIR data stewardship.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project management activities</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5337,8 +5396,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115 xml:lang="en">An object describing the context of the data, including provenance, description, structural, and administrative information.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data representation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5361,8 +5420,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The set of metadata describing a specific dataset.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">metadata dataset</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5379,8 +5438,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
         <obo:IAO_0000115 xml:lang="en">Long-term preservation - Continued access to digital materials, or at least to the information contained in them, indefinitely.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">long-term preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5403,8 +5462,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Research metadata format is a generic term encompassing the concept of a standardised format for research metadata.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 9.3.2022: The original CASRAI definition is unsuitable (https://casrai.org/term/research-metadata-format), therefore I have changed the definition to something more generic</rdfs:comment>
         <rdfs:label xml:lang="en">research metadata format</rdfs:label>
     </owl:Class>
@@ -5439,8 +5498,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115 xml:lang="en">Information governance, is the overall strategy for information at an organization. Information governance balances the risk that information presents with the value that information provides. Information governance helps with legal compliance, operational transparency, and reducing expenditures associated with legal discovery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">CASRAI is the source for the term, with the definition provided separately.</rdfs:comment>
         <rdfs:label xml:lang="en">information governance</rdfs:label>
     </owl:Class>
@@ -5498,8 +5557,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that fall into the category of dark data or at-risk data.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">legacy data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5562,8 +5621,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A single data element related to a PID and part of its record content.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid attribute</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5591,8 +5650,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000017"/>
         <obo:IAO_0000115 xml:lang="en">Medium-term preservation - Continued access to digital materials beyond changes in technology for a defined period of time but not indefinitely.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">medium-term preservation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5609,8 +5668,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Describes the processes and tasks that must be completed to produce a product or service. Different project lifecycles exist for specific products and services. (For example, the lifecycle followed to build a house is very different from the lifecycle followed to develop a software package.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project lifecycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5679,8 +5738,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Indicates how the different components within a system are linked to fulfill the tasks. Relations are thus defined by the services they are making use of and by the interface specifications.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">relations</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5731,8 +5790,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">XML</obo:IAO_0000118>
         <rdfs:label xml:lang="en">extensible markup language</rdfs:label>
     </owl:Class>
@@ -5842,10 +5901,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Management and provision of good data stewardship practice.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Advise and enable</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Data Stewardship and FAIR mentorship activity</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">data management and open research</obo:IAO_0000118>
@@ -5878,8 +5937,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Those layers that sit between base technology (a computer science concern) and discipline-specific science. The focus is on value-added systems and services that can be widely shared across scientific domains, both supporting and enabling large increases in multi- and interdisciplinary science while reducing duplication of effort and resources (e.g., including hardware, software, personnel, services and organizations).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Cyber infrastructure</obo:IAO_0000118>
         <rdfs:label xml:lang="en">digital infrastructure</rdfs:label>
     </owl:Class>
@@ -5914,8 +5973,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Consists of at least one PID resolver, a name schema and a defined mechanism for issuing PIDs that conform to the name schema. Examples include: DOI, Handle System, URN, ARK, PURL, etc.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid system</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5965,8 +6024,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Data that are tagged with particular metadata that can be used to derive relationships between data.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">semantic data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5989,8 +6048,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">For a single identifier, the class of entity it refers to. For a PID system, the typical class of entities it is intended to be used for. Examples include: digital objects, physical objects, bodies, actors.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid domain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6037,8 +6096,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000170"/>
         <obo:IAO_0000115 xml:lang="en">Published results can be replicated using the documented data, code, and methods employed by the author or provider without the need for any additional information or needing to communicate with the author or provider.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">reproducible research</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6070,8 +6129,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data stewardship technical concept</rdfs:label>
     </owl:Class>
     
@@ -6099,10 +6158,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115 xml:lang="en">Ability to clean up existing source code and version control systems, get Unique ID for the code, choose the appropriate code repository/registry [YLF, VDA, KH]</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">archival documentation of software</rdfs:label>
     </owl:Class>
     
@@ -6207,8 +6266,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A document that applies collectively to codes, specifications, recommended practices, classifications, test methods, and guides, which have been prepared by a standards developing organization or group, and published in accordance with established procedures.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">standard</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6225,8 +6284,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">The application of a comprehensive knowledge of a discipline or disciplines to the development of expertise and the generation of new knowledge through research, and the planning and presentation of courses of study for undergraduates and graduates in universities.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">university teaching</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6298,9 +6357,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000492"/>
         <obo:IAO_0000115 xml:lang="en">The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">using persistent identifiers</rdfs:label>
@@ -6318,7 +6377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">database curator</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 15.3.22: Updated label to &apos;data curator&apos; to encompass curation beyond just in databases.</rdfs:comment>
         <rdfs:label xml:lang="en">data curator</rdfs:label>
@@ -6504,7 +6563,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Information concerning the creation, attribution, or version history of managed data. Provenance metadata that indicates the relationship between two versions of data objects and is generated whenever a new version of a dataset is created. Examples include: (i) the name of the program that generated the new version, (ii) the commit id of the program.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">provenance metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6538,8 +6597,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000406">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115 xml:lang="en">An activity through which the correctness conditions of the data are verified. It also includes the specification of the type of the error or condition not met, and the qualification of the data and its division into the error-free and erroneous data. Data review consists of both error detection and data analysis, and can be carried out in manual or automated mode.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data review</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6573,8 +6632,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Documents actions that have been undertaken to preserve a digital resource such as migrations and checks sum calculations.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">preservation metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6612,8 +6671,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000413">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000215"/>
         <obo:IAO_0000115 xml:lang="en">A type of repository where the original copy of data was stored and probably a data identifier registered.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">original repository</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6630,8 +6689,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115 xml:lang="en">1. The act of minimally perturbing individual-level data to decrease the probability of discovering an individualís identity. It involves masking direct identifiers (e.g., name, phone number, address) as well as transforming indirect identifiers that could be used alone or in combination to-identify an individual (e.g., birth dates, geographic details, dates of key events). If done correctly, de-identification is a defensible, repeatable, and auditable process that consistently provides assurance, based on generally accepted and repeatable statistical methodologies, that there is a very small risk of re-identification of any data that are released. 2. The use of one or more techniques designed to make it impossible — or at least more difficult — to identify a particular individual from stored data related to them. The purpose of data anonymization is to protect the privacy of the individual and to make it legal for governments and businesses to share their data without obtaining permission. Such data have proven to be very valuable for researchers, particularly in health care. Data anonymization methods include removing personally identifiable information (e.g., names, addresses, social insurance numbers, Medicare numbers, etc.), or using obfuscation methods such as encryption, hashing, generalization, pseudonymization, and perturbation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Anonymization</obo:IAO_0000118>
         <rdfs:label xml:lang="en">de-identification</rdfs:label>
     </owl:Class>
@@ -6649,8 +6708,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Program delivery managers and support function managers, at all levels in an institution who are accountable for the direct delivery and support of programs and services within their domain of business responsibility.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">manager</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6667,8 +6726,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000548"/>
         <obo:IAO_0000115 xml:lang="en">Organizational leadership is: (a) The ability to attract, assess, mobilize and focus energies and talent to work towards a shared purpose aligned with the mandate of the organization; (b) The ability to change culture, processes and priorities within the organization; and, (c) The ability to mentor.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organizational leadership</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6702,8 +6761,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000420">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that have not been organized into a format and identifiable data structure that makes them easy to access and process. These data can often be searched as long as they are digital, but they are difficult to use for computer analyses.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">unstructured data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6848,8 +6907,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that have not been organized into a specialized repository, such as a database, but that nevertheless have associated information, such as metadata, that makes them more amenable to processing than raw data. Semi-structured data lie somewhere between structured and unstructured data. They are not organized in a complex manner that makes sophisticated access and analysis possible. However, they may have information associated with them, such as metadata tagging that allows elements contained to be addressed. Example: A Word document is generally considered to be unstructured data. However, metadata tags could be added in the form of keywords and other metadata that represent the document content and make it easier for that document to be found when people search for those terms — the data are now semi-structured. Nevertheless, the document still lacks the complex organization of a database, so falls short of being fully structured data.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">semi-structured data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6877,8 +6936,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000433">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000220"/>
         <obo:IAO_0000115 xml:lang="en">A scientist who conducts activities in: (1) Research, development and analysis (RDA); (2) Managing research; and, (3) Representation and client services.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research scientist</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6901,8 +6960,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A name (not a location) for an entity on digital networks. It provides a system for persistent and actionable identification and interoperable exchange of managed information on digital networks. A DOI is a type of Persistent Identifier (PID) issued by the International DOI Foundation. This permanent identifier is associated with a digital object that permits it to be referenced reliably even if its location and metadata undergo change over time.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital object identifier</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6970,8 +7029,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000441">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
         <obo:IAO_0000115 xml:lang="en">The Principal Investigator (P.I.) is a researcher who has a research leadership role and is the point of contact for a project or partnership that applies the scientific method, historical method, or other research methodology for the advancement of knowledge resulting in independent, objective, high quality, traceable, and reproducible results. The P.I. has primary responsibility for the intellectual direction and integrity of the research or research-related activity, including data production, findings and results, and ensures ethical conduct in all aspects of the research process including but not limited to the treatment of human and animal subjects, conflicts of interest, data acquisition, sharing and ownership, publication practices, responsible authorship, and collaborative research and reporting. While various tasks may be delegated to team members, some of whom may have greater expertise in specific areas, the P.I. is familiar with the various technical and scientific aspects of a project and how they fit together, is able to identify and remediate gaps, and ensure communication within the team and with users of the research data and results.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">principal investigator</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6988,8 +7047,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
         <obo:IAO_0000115 xml:lang="en">The person responsible for creating the organizational environment culture by providing clear direction and circumstances that allow people to be successful. The program manager is judged on the elements time, cost, and scope, cumulatively for all the projects and operations within the program. Program management decisions are both tactical and strategic in nature. The strategy aspects of these decisions must consider multidimensional impacts beyond the near-term delivery dates of the project. In addition to delivery and execution, the program manager has to also be concerned with the overall health and effectiveness of the program over the long term.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">program manager</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7012,8 +7071,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This is a URL. However, instead of pointing directly to the location of an Internet resource, a PURL points to an intermediate resolution service. The PURL resolution service associates the PURL with the actual URL and returns that URL to the client.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">persistent uniform resource locator</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7036,8 +7095,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An initiative to create a digital library card catalog for the Web. Dublin Core is made up of 15 metadata elements that offer expanded cataloging information and improved document indexing for search engine programs. The 15 metadata elements used by Dublin Core are: title (the name given the resource), creator (the person or organization responsible for the content), subject (the topic covered), description (a textual outline of the content), publisher (those responsible for making the resource available), contributor (those who added to the content), date (when the resource was made available), type (a category for the content), format (how the resource is presented), identifier (numerical identifier for the content such as a URL), source (where the content originally derived from), language (in what language the content is written), relation (how the content relates to other resources, for instance, if it is a chapter in a book), coverage (where the resource is physically located), and rights (a link to a copyright notice).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">dublin core</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7096,8 +7155,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000449">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">New datasets obtained by combining data appropriately from a variety of existing files, generating new data products that did not previously exist. Repurposed data result from data wrangling.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">repurposed data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7120,8 +7179,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The building blocks of an XML document.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">document type definition</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7154,8 +7213,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A persistent identifier is a long-lasting reference to a digital object that gives information about that object regardless what happens to it. Developed to address link rot, a persistent identifier can be resolved to provide an appropriate representation of an object whether that objects changes its online location or goes offline.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">persistent identifier</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7172,8 +7231,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000454">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000220"/>
         <obo:IAO_0000115 xml:lang="en">A person who is studying or has expert knowledge of one or more of the natural or physical sciences.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">scientist</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7190,8 +7249,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000455">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">1. The act of bringing together smaller components into a single system that functions as one. 2. In the context of information technology: The end result of a process that aims to stitch together different, often disparate, subsystems so that the data contained in each becomes part of a larger, more comprehensive system that, ideally, quickly and easily shares data when needed. This often requires that organizations build a customized architecture or structure of applications to combine new or existing hardware, software and other communications.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">integration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7235,10 +7294,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The act of mentoring around FAIR data stewardship.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">fair mentoring</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7342,10 +7401,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000465">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
         <obo:IAO_0000115 xml:lang="en">Meeting/conference organisation is a project management activity that encompasses all of the steps required to run a meeting or conference.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">meeting/conference organisation</rdfs:label>
     </owl:Class>
     
@@ -7383,8 +7442,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">From an official perspective, a national standard is adopted by a national standards body (e.g., Standards Council of Canada, American National Standards Institute, British Standards Institution) and made available to the public. Practically speaking, however, a national standard is any standard that is widely used and recognized within a country. In this context, even government standards, such as those issued by the Occupational Safety and Health Administration (OSHA), can be considered national standards.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">national standard</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7401,8 +7460,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000468">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">A governing culture that holds that the public has the right to access the documents and proceedings of government to allow for greater openness, accountability, and engagement.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">open government</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7493,8 +7552,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000476">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Syntactic interoperability defines the structure or format of data exchange and is achieved through tools such as XML or SQL Standards.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">syntactic interoperability</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7579,8 +7638,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000482">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <obo:IAO_0000115 xml:lang="en">The practice of making data available for reuse. This may be done, for example, by depositing the data in a repository, through data publication.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data dissemination</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Data posting</obo:IAO_0000118>
         <rdfs:label xml:lang="en">data sharing</rdfs:label>
@@ -7613,8 +7672,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000485">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">The process of resolving a reference to useful information by using a globally available system.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">reference resolution</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7631,8 +7690,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000220"/>
         <obo:IAO_0000115 xml:lang="en">The person who manages or coordinates resources, personnel, facilities, and operating funds-allocations in an organization conducting research, development and analysis (RDA) in the natural and physical sciences. A research manager determines the nature, priority objectives and the resources committed to their achievement within and across the organizations, and evaluates program outputs in relation to organizational objectives and policies. A research manager provides scientific advice on the direction, conduct and management of these programs. A research manager does not personally conduct research development and analysis (RDA), control and coordinate projects, or control and coordinate contracted RDA.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research manager</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7649,8 +7708,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000487">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115 xml:lang="en">Combining diverse datasets from disparate sources into one unified dataset or database. Data are accessed and extracted, moved, validated, cleaned, transformed and loaded.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data integration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7667,8 +7726,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000488">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Detailed, written instructions to achieve uniformity of the performance of a specific function.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">standard operating procedure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7685,8 +7744,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000489">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Repositories preserve, manage, and provide access to many types of digital materials in a variety of formats.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">repository</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7777,8 +7836,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A string of characters used to identify or name a resource on the Internet. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols. MIT data management and publishing</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">uniform resource identifier</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7839,8 +7898,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000498">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000126"/>
         <obo:IAO_0000115 xml:lang="en">A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">peer review</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7869,8 +7928,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000500">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">1. A collection of data items arranged for processing by a program. Multiple records are contained in a file or dataset. Typically, records can be of fixed-length or be of variable length with the length information contained within the record. 2. A record (sometimes called a row) is a group of fields (sometimes called columns) within a table that are relevant to a specific entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7887,8 +7946,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000107"/>
         <obo:IAO_0000115 xml:lang="en">De-anonymization is a reverse engineering process in which de-identified data are cross-referenced with other data sources to re-identify the personally identifiable information. This could occur if a de-identification process had not been not successfully performed, or had not been undertaken in the first place.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">de-anonymization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7922,8 +7981,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Requires compliance because of a government statute or regulation, an organization internal policy, or contractual requirement. Failure to comply with a mandatory standard usually carries a sanction, such as civil or criminal penalties, or loss of employment.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">mandatory standard</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7957,8 +8016,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">1. A single, well-defined version of all the data entities in an organizational ecosystem. In this context, a golden record is sometimes called the single version of the truth, where truth is understood to mean the reference to which data users can turn when they want to ensure that they have the correct version of a piece of information. The golden record encompasses all the data in every system of record within a particular organization. A system of record is an information storage and retrieval system that serves as the authoritative source for a particular data element in a system containing multiple sources of the same element. To ensure data integrity, a single system of record must always exist for each and every data element. A well-maintained, current golden record should be a fundamental element of the Master Data Management policy for every enterprise. 2. The word “golden” is sometimes used in information technology to express the importance of some type of source. In the context of virtualization, for example, a golden image is a template for a virtual machine, virtual desktop, servers, or hard disk drive.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">golden record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8015,8 +8074,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data in the form of digital materials.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8043,10 +8102,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000514">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000320"/>
         <obo:IAO_0000115 xml:lang="en">An organization&apos;s process of defining its strategy or direction in the context of FAIR project management activities, both in the context of current knowledge and unknown factors in the future.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">strategic/long-term planning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8103,8 +8162,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of data defined by a theme, category, which reflects what is being measured, observed, monitored at the various sites. The Metadata Record is an information resource of business value.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">metadata record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8121,8 +8180,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000518">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
         <obo:IAO_0000115 xml:lang="en">Data that are used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to validate research findings and results. All other digital and non-digital content have the potential of becoming research data. Research data may be experimental data, observational data, operational data, third party data, public sector data, monitoring data, processed data, or repurposed data.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">research data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8170,13 +8229,31 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000576"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000577"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000578"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000553"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The medium through which learning has been provided. For example, through a course, slides, video presentation, online documentation, wiki pages or others.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-09-22T13:19:57.012225Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">learning medium</rdfs:label>
@@ -8198,8 +8275,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000521">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">1. A compilation of core electronic health data submitted by various healthcare providers and organizations, accessible by numerous authorized parties from a number of points of care, possibly even from different jurisdictions. 2. An official health record for an individual that is shared among multiple facilities and agencies. 3. Electronic health records typically include: Contact information, Information about visits to health care professionals, Allergies, Insurance information, Family history, Immunization status, Information about any conditions or diseases, A list of medications, Records of hospitalization, Information about any surgeries or procedures performed. Digitized health information systems are expected to improve efficiency and quality of care and, ultimately, reduce costs. The benefits of electronic health records include: The ability to automatically share and update information among different offices and organizations, More efficient storage and retrieval, The ability to share multimedia information, such as medical imaging results, among locations, The ability to link records to sources of relevant and current research, Easier standardization of services and patient care, Provision of decision support systems (DSS) for healthcare professionals, Less redundancy of effort, Lower cost to the medical system once implementation is complete, The governments of many countries are working to ensure that all citizens have standardized electronic health records and that all records include the same types of information. The major barrier for the adoption of electronic health records is cost.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">electronic health record</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8216,8 +8293,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000522">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
         <obo:IAO_0000115 xml:lang="en">Techniques used to deal with parameters having different units and scales.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data rescaling</obo:IAO_0000118>
         <rdfs:label xml:lang="en">data scaling</rdfs:label>
     </owl:Class>
@@ -8252,8 +8329,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000472"/>
         <obo:IAO_0000115 xml:lang="en">Monitoring the risk to privacy posed by data requests from researchers, and the practices of data custodians in providing data (information governance) to ensure that confidentiality is protected. Such governance requires specialized knowledge of technology, law, and statistical methods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">privacy governance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8300,8 +8377,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Literally, “data about data”; data that defines and describes the characteristics of other data, used to improve both business and technical understanding of data and data-related processes. Business metadata includes the names and business definitions of subject areas, entities and attributes, attribute data types and other attribute properties, range descriptions, valid domain values and their definitions. Technical metadata includes physical database table and column names, column properties, and the properties of other database objects, including how data is stored. Process metadata is data that defines and describes the characteristics of other system elements (processes, business rules, programs, jobs, tools, etc.). Data stewardship metadata is data about data stewards, stewardship processes and responsibility assignments.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data documentation</obo:IAO_0000118>
         <rdfs:label xml:lang="en">metadata</rdfs:label>
     </owl:Class>
@@ -8359,8 +8436,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000530">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">Responsible for executing tasks and producing deliverables as outlined in the Project Plan and directed by the Project Manager, at whatever level of effort or participation has been defined for them.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project team member</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8428,8 +8505,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000534">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data preservation</obo:IAO_0000118>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:18:22.641817Z</oboInOwl:creation_date>
@@ -8443,8 +8520,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000535">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000248"/>
         <obo:IAO_0000115 xml:lang="en">Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">encoding schema</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8461,8 +8538,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000537">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000156"/>
         <obo:IAO_0000115 xml:lang="en">1. In the context of library and archiving communities: Digital archiving is often used interchangeably with digital preservation. 2. In the context of computing: Digital archiving is process of backup and ongoing maintenance as opposed to strategies for long-term digital preservation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">digital archiving</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8485,8 +8562,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The process of resolving a PID to a useful state of information about a digital object by using a globally available system.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pid resolution</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8514,8 +8591,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000544">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000353"/>
         <obo:IAO_0000115 xml:lang="en">A type of data management using repositories. It is the set of policies that govern the organization, control, and properties of the repository such as: required file formats, access control restrictions, integrity, replication, retention, disposition, etc.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data repository management</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8595,10 +8672,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Ability to apply the FAIR principles i.e. describe the data with community metadata standard for machine and human, align with existing semantic models (ontologies, controlled vocabularies, ...), get a persistent ID, attribute licence and credit for data creators, legal aspect related to data (ownership, confidentiality, ethics, ...) add data provenance.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Kristina Hettne</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Victoria Dominguez Del Angel</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">archival documentation of data</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8615,8 +8692,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000256"/>
         <obo:IAO_0000115 xml:lang="en">A machine-readable format is a structured format that can be processed by a computer. Such formats can either be intended solely for machine processing (e.g. XML or RDF), or may be both human and machine accessible via appropriate markup (e.g. HTML).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 6.5.22: The original CASRAI term (https://casrai.org/term/machine-readable-format/) has an identical source definition with &apos;Digital materials&apos;, and therefore has been removed.</rdfs:comment>
         <rdfs:label xml:lang="en">machine-readable format</rdfs:label>
     </owl:Class>
@@ -8650,7 +8727,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000566">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000454"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">data scientist</rdfs:label>
     </owl:Class>
@@ -8661,7 +8738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000567">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">ontologist</rdfs:label>
     </owl:Class>
@@ -8672,7 +8749,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000568">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000415"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 15.3.22: Added for FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">terminology manager</rdfs:label>
     </owl:Class>
@@ -8683,7 +8760,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000569">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22 Added as part of FAIR cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">software engineer</rdfs:label>
     </owl:Class>
@@ -8694,7 +8771,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000570">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration.</rdfs:comment>
         <rdfs:label xml:lang="en">system administrator</rdfs:label>
     </owl:Class>
@@ -8705,7 +8782,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000572">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">AL 16.3.22: Added as part of FAIR Cookbook integration. Useful for such roles to be able to understand the cost of e.g. making things FAIR (and how to deal with it), but also the benefits.</rdfs:comment>
         <rdfs:label xml:lang="en">procurement officer</rdfs:label>
     </owl:Class>
@@ -8717,7 +8794,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000574">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
         <obo:IAO_0000115 xml:lang="en">Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">metadata creation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
