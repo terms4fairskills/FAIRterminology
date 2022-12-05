@@ -8518,10 +8518,11 @@
     <!-- http://purl.obolibrary.org/obo/T4FS_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000248"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <obo:IAO_0000115 xml:lang="en">Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">AL 5.12.22 Moved from &apos;findability of digital assets&apos; as it is definitely not a particular data stewardship guideline.</rdfs:comment>
         <rdfs:label xml:lang="en">encoding schema</rdfs:label>
     </owl:Class>
     <owl:Axiom>
