@@ -265,11 +265,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000021",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000093"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000021",
-          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000106"
         },
         {
@@ -481,6 +476,11 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000095",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000082"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000095",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000579"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000096",
@@ -923,24 +923,9 @@
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000512"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000248",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000535"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000252",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000031"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000256",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000427"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000256",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000551"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000259",
@@ -1455,11 +1440,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/T4FS_0000256"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
-          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000260"
         },
         {
@@ -1620,6 +1600,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
           "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000427"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
+          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000428"
         },
         {
@@ -1725,12 +1710,22 @@
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
           "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000535"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
+          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000546"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000547"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000551"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000372",
@@ -2296,6 +2291,396 @@
           "obj": "http://purl.obolibrary.org/obo/T4FS_0000548",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/T4FS_0000417"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000580",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000583"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000583",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000584"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000583",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000585"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000583",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000586"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000616"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000617"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000618"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000619"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000620"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000621"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000622"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000623"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000624"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000625"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000626"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000627"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000628"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000629"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000630"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000631"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000632"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000633"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000634"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000635"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000636"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000637"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000638"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000639"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000640"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000641"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000642"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000643"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000587"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000588"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000589"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000590"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000591"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000592"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000593"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000594"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000595"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000596"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000597"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000598"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000599"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000600"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000601"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000602"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000603"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000604"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000605"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000606"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000607"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000608"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000609"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000610"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000611"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000612"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000613"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000614"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000615"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000644"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000645"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000646"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000647"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000648"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000649"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000650"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000651"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000652"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000653"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000654"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000655"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000656"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000657"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000658"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000659"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/T4FS_0000660"
         }
       ],
       "id": "http://purl.obolibrary.org/obo/t4fs/t4fs-community.json",
@@ -2303,10 +2688,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-05"
+            "val": "2022-12-05"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-10-05/t4fs-community.json"
+        "version": "http://purl.obolibrary.org/obo/t4fs/releases/2022-12-05/t4fs-community.json"
       },
       "nodes": [
         {
@@ -2356,11 +2741,11 @@
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000600",
@@ -2408,7 +2793,7 @@
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
@@ -2451,11 +2836,11 @@
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
@@ -2475,11 +2860,15 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000111",
-                "val": "alternative term"
+                "val": "alternative label"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000114",
                 "val": "http://purl.obolibrary.org/obo/IAO_0000125"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "OBO Operations committee"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
@@ -2494,8 +2883,46 @@
                 "val": "http://purl.obolibrary.org/obo/iao.owl"
               }
             ],
+            "comments": [
+              "Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related)."
+            ],
             "definition": {
               "val": "An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)"
+            }
+          },
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/IAO_0000233",
+          "lbl": "term tracker item",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000111",
+                "val": "term tracker item"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000112",
+                "val": "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000114",
+                "val": "http://purl.obolibrary.org/obo/IAO_0000125"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000119",
+                "val": "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+              }
+            ],
+            "comments": [
+              "The 'tracker item' can associate a tracker with a specific ontology term."
+            ],
+            "definition": {
+              "val": "An IRI or similar locator for a request or discussion of an ontology term."
             }
           },
           "type": "PROPERTY"
@@ -2507,11 +2934,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -2527,10 +2954,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Kristina Hettne"
               },
               {
@@ -2540,6 +2963,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yann Le Franc"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -2558,11 +2985,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -2686,15 +3113,15 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yann Le Franc"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/T4FS_0000564",
@@ -2759,11 +3186,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -2808,11 +3235,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -2844,11 +3271,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -2915,11 +3342,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -2963,11 +3390,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -2983,10 +3410,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -2996,6 +3419,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3051,11 +3478,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3071,11 +3498,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -3123,11 +3550,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3219,11 +3646,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3416,11 +3843,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3464,11 +3891,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3484,10 +3911,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -3497,6 +3920,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ]
           },
@@ -3577,11 +4004,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3597,11 +4024,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3693,11 +4120,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3737,11 +4164,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -3780,10 +4207,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -3793,6 +4216,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ]
           },
@@ -3805,11 +4232,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3825,11 +4252,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3862,11 +4289,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3882,11 +4309,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3902,11 +4329,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -3988,41 +4415,17 @@
           "type": "CLASS"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/T4FS_0000093",
-          "lbl": "use of persistent, resolvable identifiers (pids)",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Nancy Hoebelheinrich"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
-              }
-            ],
-            "definition": {
-              "val": "The use of persistent identifiers or PIDs to uniquely and persistently identify an entity."
-            }
-          },
-          "type": "CLASS"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/T4FS_0000094",
           "lbl": "record standardization",
           "meta": {
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4059,11 +4462,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -4196,11 +4599,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4216,10 +4619,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Celia van Gelder"
               },
               {
@@ -4233,6 +4632,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yan Wang"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -4252,7 +4655,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -4288,11 +4691,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4308,11 +4711,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4328,11 +4731,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4348,11 +4751,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4416,11 +4819,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4436,11 +4839,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4472,11 +4875,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4552,10 +4955,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Angus Whyte"
               },
               {
@@ -4569,6 +4968,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yan Wang"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -4584,11 +4987,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4676,11 +5079,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4741,11 +5144,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4761,11 +5164,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4945,11 +5348,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -4965,11 +5368,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5098,11 +5501,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5118,7 +5521,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5134,11 +5537,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Nancy Hoebelheinrich"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Nancy Hoebelheinrich"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -5167,10 +5570,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -5180,6 +5579,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5377,11 +5780,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -5481,11 +5884,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5525,11 +5928,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5545,11 +5948,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -5568,11 +5971,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5588,11 +5991,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5624,11 +6027,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5660,11 +6063,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5680,10 +6083,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Celia van Gelder"
               },
               {
@@ -5693,6 +6092,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yan Wang"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -5708,10 +6111,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Celia van Gelder"
               },
               {
@@ -5721,6 +6120,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yan Wang"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5830,11 +6233,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -5898,11 +6301,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6076,11 +6479,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6132,11 +6535,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6180,11 +6583,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6200,11 +6603,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -6271,10 +6674,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -6284,6 +6683,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ]
           },
@@ -6312,11 +6715,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -6363,11 +6766,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -6418,11 +6821,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6466,11 +6869,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6486,11 +6889,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6506,11 +6909,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6555,10 +6958,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -6568,6 +6967,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -6655,35 +7058,15 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
               "val": "Describes the technical processes used to produce, or required to use a digital object."
-            }
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/T4FS_0000256",
-          "lbl": "machine readable",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
-              }
-            ],
-            "definition": {
-              "val": "In a form that can be used and understood by a computer."
             }
           },
           "type": "CLASS"
@@ -6695,11 +7078,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6715,11 +7098,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6735,10 +7118,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -6748,6 +7127,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6763,11 +7146,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6799,11 +7182,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -6819,11 +7202,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -6862,11 +7245,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -6918,11 +7301,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7002,11 +7385,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7038,11 +7421,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7214,11 +7597,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7282,11 +7665,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7318,11 +7701,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7386,11 +7769,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7443,11 +7826,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7463,11 +7846,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7511,11 +7894,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7531,11 +7914,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -7574,11 +7957,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7594,11 +7977,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7646,11 +8029,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7666,10 +8049,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -7679,6 +8058,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7778,11 +8161,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7798,11 +8181,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7818,11 +8201,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7838,11 +8221,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -7877,11 +8260,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -7932,11 +8315,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -7984,11 +8367,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8020,11 +8403,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8040,11 +8423,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8133,11 +8516,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8185,11 +8568,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -8301,10 +8684,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -8314,6 +8693,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -8364,11 +8747,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -8404,11 +8787,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8453,11 +8836,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8473,11 +8856,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8533,11 +8916,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8566,11 +8949,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ]
           },
@@ -8599,10 +8982,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Kristina Hettne"
               },
               {
@@ -8612,6 +8991,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yann Le Franc"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8739,11 +9122,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8759,11 +9142,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -8839,6 +9222,18 @@
           "meta": {
             "basicPropertyValues": [
               {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Nancy Hoebelheinrich"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "Peter McQuilton"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              },
+              {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
                 "val": "Peter McQuilton"
               },
@@ -8846,7 +9241,10 @@
                 "pred": "http://www.geneontology.org/formats/oboInOwl#creation_date",
                 "val": "2020-10-02T14:22:51.569762Z"
               }
-            ]
+            ],
+            "definition": {
+              "val": "The use of persistent identifiers or PIDs to uniquely and persistently identify an entity."
+            }
           },
           "type": "CLASS"
         },
@@ -8857,7 +9255,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -9059,7 +9457,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9091,11 +9489,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9128,11 +9526,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9180,11 +9578,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9200,11 +9598,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -9224,11 +9622,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9244,11 +9642,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9280,11 +9678,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9446,11 +9844,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9483,11 +9881,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9503,11 +9901,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9593,11 +9991,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9613,11 +10011,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9633,11 +10031,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9653,11 +10051,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9734,11 +10132,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9754,11 +10152,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9787,11 +10185,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9807,11 +10205,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9827,11 +10225,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9863,10 +10261,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -9876,6 +10270,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -9979,10 +10377,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -9992,6 +10386,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10039,11 +10437,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10059,11 +10457,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10155,11 +10553,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10260,11 +10658,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -10316,11 +10714,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10336,11 +10734,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10356,11 +10754,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10376,11 +10774,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10396,11 +10794,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10489,11 +10887,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10541,11 +10939,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10581,11 +10979,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10601,11 +10999,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10638,11 +11036,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10674,11 +11072,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10748,11 +11146,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10781,10 +11179,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Peter McQuilton"
               },
               {
@@ -10794,6 +11188,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Susanna Sansone"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10841,11 +11239,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10861,11 +11259,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10881,11 +11279,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -10909,11 +11307,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -10929,11 +11327,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -10969,11 +11367,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11030,11 +11428,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -11086,11 +11484,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11159,11 +11557,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -11188,12 +11586,15 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
+            ],
+            "comments": [
+              "AL 5.12.22 Moved from 'findability of digital assets' as it is definitely not a particular data stewardship guideline."
             ],
             "definition": {
               "val": "Machine processable specifications which define the structure and syntax of metadata specifications in a formal schema language."
@@ -11208,11 +11609,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11228,11 +11629,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11264,11 +11665,11 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11340,10 +11741,6 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Kristina Hettne"
               },
               {
@@ -11353,6 +11750,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "Yann Le Franc"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {
@@ -11368,15 +11769,15 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "Peter McQuilton"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Peter McQuilton"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
-              "AL 6.5.22: The original CASRAI term (https://casrai.org/term/machine-readable-format/) has an identical source definition with 'Digital materials', and therefore has been removed."
+              "AL 5.12.22: Merged with now-obsolete 'machine readable' (http://purl.obolibrary.org/obo/T4FS_0000256), as we do not need that level of granularity. AL 6.5.22: The original CASRAI term (https://casrai.org/term/machine-readable-format/) has an identical source definition with 'Digital materials', and therefore has been removed."
             ],
             "definition": {
               "val": "A machine-readable format is a structured format that can be processed by a computer. Such formats can either be intended solely for machine processing (e.g. XML or RDF), or may be both human and machine accessible via appropriate markup (e.g. HTML)."
@@ -11435,13 +11836,1300 @@
           "type": "PROPERTY"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000579",
+          "lbl": "fair cookbook recipe",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The FAIR Cookbook’s recipes are a combination of guidance, technical, hands-on, background and review types to cover the operation steps of FAIR data management, and are classified according to the audience types, to serve all those involved in the data management life cycle. The FAIR Cookbook is for anyone working in the Life Sciences who needs guidance on applying the FAIR Principles in practice."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000580",
+          "lbl": "evaluation indicator",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000233",
+                "val": "https://github.com/terms4fairskills/FAIRterminology/issues/22"
+              }
+            ],
+            "definition": {
+              "val": "Evaluation indicators are designed to enable the measurement of the degree of compliance against a guideline using a set of criteria. The goals of such indicators are varied, but a good example would be to improve the re-usability of the digital asset being measured for increased discoverability, interoperability and overall machine actionability."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000583",
+          "lbl": "fairplus dataset maturity model indicator",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000118",
+                "val": "fairplus DSM model indicator"
+              }
+            ],
+            "definition": {
+              "val": "The fairplus dataset maturity model indicators are used within the context of the model, which is intended as a comprehensive reference model for state-of-FAIRness improvement in research datasets. Based on the FAIR guiding principles, the DSM model defines and classifies requirements that constitute an incremental path towards improving FAIRness level for a given research dataset."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000584",
+          "lbl": "fairplus DSM content-related indicator",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The fairplus DSM content-related indicators relate to what is reported in the Dataset (data) & the Dataset Descriptor (metadata)."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000585",
+          "lbl": "fairplus DSM representation and format indicator",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "comments": [
+              "AL 5.12.22: Please note that the 'and' in this label is a direct representation of the fairplus DSM model, and not a ontological design choice."
+            ],
+            "definition": {
+              "val": "The fairplus DSM representation and format indicators relate to how the data object & metadata object are represented and formatted."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000586",
+          "lbl": "fairplus DSM hosting-environment capabilities indicator",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The fairplus DSM hosting-environment capabilities indicator relate to the capabilities of the hosting environment that enables and supports the use of FAIR data"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000587",
+          "lbl": "DSM-0-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "No representation of Data purposed for FAIR sharing is available"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000588",
+          "lbl": "DSM-1-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Structured and/or Unstructured Data are organised into Dataset(s) created for the purpose of FAIR sharing"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000589",
+          "lbl": "DSM-2-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Project collected Data are organized into structured Dataset(s) and conform to a locally defined Dataset Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000590",
+          "lbl": "DSM-3-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Structured Data are represented as Datasets and conform to relevant Standard Dataset Model(s) for FAIR sharing"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000591",
+          "lbl": "DSM-4-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) content is semantically represented using Linked Data Represetations conforming to a Semantic Data Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000592",
+          "lbl": "DSM-5-R2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) are granularly represented and managed at the Data Element Level (e.g. ISO 11179 MDR standard)"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000593",
+          "lbl": "DSM-0-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Metadata is NOT formally represented in a structured Dataset Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000594",
+          "lbl": "DSM-1-R0",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Metadata is formally represented in the form of an Identifiable Dataset Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000595",
+          "lbl": "DSM-1-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A representation of the Dataset Descriptor conforming to a relevant General Purpose Metadata Schema is available"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000596",
+          "lbl": "DSM-2-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor(s) conforms to or extends a Standard Generic Dataset Descriptor Model to describe and represent structural metadata of Dataset(s)"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000597",
+          "lbl": "DSM-3-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor(s) use community-defined or domain-specific metadata standard"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000598",
+          "lbl": "DSM-4-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A Semantic Data Model (Metadata) used for data harmonisation across Datasets is formally defined and represented using Linked Data Representations"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000599",
+          "lbl": "DSM-5-R3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Common Data Elements and their value sets are defined and registered in a managed Metadata Registry"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000600",
+          "lbl": "DSM-0-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata is NOT formally represented in any form"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000601",
+          "lbl": "DSM-1-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata is reported at summary level and represented in the Dataset Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000602",
+          "lbl": "DSM-2-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata is formally represented in the form of a locally defined Domain Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000603",
+          "lbl": "DSM-3-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata is formally represented and conforms to a standard defined Domain Model if available"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000604",
+          "lbl": "DSM-4-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata is formally represented by a defined set Common Data Elements"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000605",
+          "lbl": "DSM-5-R1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Domain entities are represented by Managed Master Data Objects conforming to a Master Data Model used for data consolidation"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000606",
+          "lbl": "DSM-0-R4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor (metadata) is NOT available in a Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000607",
+          "lbl": "DSM-1-R4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor is available in Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000608",
+          "lbl": "DSM-2-R4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Contextual Metadata represented in the form of a Domain Model is available in a Human Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000609",
+          "lbl": "DSM-3-R4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A formal documentation of the adopted Standard Dataset Model is available in a Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000610",
+          "lbl": "DSM-4-R4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A Semantic Data Model (Metadata) describing the data is represented in a Machine Readable and Machine Interptretable format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000611",
+          "lbl": "DSM-0-R5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) are NOT available in a Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000612",
+          "lbl": "DSM-1-R5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) available in Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000613",
+          "lbl": "DSM-3-R5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "If applicable, Dataset(s) available in non-proprietary Machine Readable Format relevant to the adopted standard Dataset Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000614",
+          "lbl": "DSM-4-R5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Datasets are available in a Machine Readable and Machine Interpretable format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000615",
+          "lbl": "DSM-4-R6",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "If applicable, license information and/or permitted use and accessability to parts of the dataset is formally represented and encoded in a Machine Readable Format"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000616",
+          "lbl": "DSM-0-C0",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) are NOT Identifiable via Unique Identifiers"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000617",
+          "lbl": "DSM-1-C0",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Each Dataset purposed for FAIR sharing is assigned a unique identifier"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000618",
+          "lbl": "DSM-2-C2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, data is structured in the Dataset according to the Tidy Data Principles"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000619",
+          "lbl": "DSM-3-C2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, Dataset(s) scope and content are reported in compliance with relevant community-defined Data Reporting Guidelines"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000620",
+          "lbl": "DSM-4-C2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) content is harmonised against a designed-for-purpose Semantic Data Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000621",
+          "lbl": "DSM-2-C3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset(s) include Reference Fields that enable joining related datasets"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000622",
+          "lbl": "DSM-3-C3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, Dataset Field Names use standard controlled terms as recommended by the adopted Standard"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000623",
+          "lbl": "DSM-4-C3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Key Dataset Fields are mapped to Common Data Elements as defined by the Semantic Data Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000624",
+          "lbl": "DSM-5-C3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Fields are linked and harmonized against enterprise managed Metadata Elements (e.g. MDR registered Data Elements)"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000625",
+          "lbl": "DSM-2-C4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, Dataset Field Values are standardized against a locally defined Data Dictionary within and across related Datasets"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000626",
+          "lbl": "DSM-3-C4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, Dataset Field Values are standardised against domain-specific Controlled Terminologies and/or Ontology Terms"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000627",
+          "lbl": "DSM-4-C4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Values for key Domain Entities reported in the Dataset(s) are standardised and assigned unique Standard Identifiers"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000628",
+          "lbl": "DSM-5-C4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Field values are controlled and managed via enterprise managed Reference and Master Data"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000629",
+          "lbl": "DSM-0-C1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Study/Project-Level metadata is NOT reported"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000630",
+          "lbl": "DSM-1-C1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes Descriptive Study/Project-Level summary information"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000631",
+          "lbl": "DSM-2-C1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A locally defined Domain Model contains concepts that describes the overall project/study design, the relationships between the Datasets, the key entities reported within the Datasets and the relationships between them."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000632",
+          "lbl": "DSM-3-C1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Where applicable, study-level / experimental metadata is reported in compliance with relevant Minimum Information Reporting Guidelines"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000633",
+          "lbl": "DSM-4-C1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "A Semantic Data Model includes study design Data Elements and the relationships between them"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000634",
+          "lbl": "DSM-0-C2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor does NOT include a reference to the Dataset it describes"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000635",
+          "lbl": "DSM-1-C2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes Identifying & Descriptive Dataset-Level metadata"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000636",
+          "lbl": "DSM-1-C3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor contains access information for the Dataset"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000637",
+          "lbl": "DSM-2-C5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes reference to related Datasets and if applicable the relevant joining Dataset Fields"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000638",
+          "lbl": "DSM-3-C7",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor references a standard license under which the dataset can be re-used."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000639",
+          "lbl": "DSM-2-C6",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes Field-level Metadata as prescribed by a locally defined Dataset Model"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000640",
+          "lbl": "DSM-3-C6",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes standard-compliant Field-level Metadata as prescribed by the adopted standard Dataset Model."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000641",
+          "lbl": "DSM-4-C5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The Semantic Data Model includes a pre-defined set of Common Data Elements reported within the Datasets and the relationships between them"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000642",
+          "lbl": "DSM-2-C7",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset Descriptor includes Value-level Metadata or if applicable includes a reference to a locally defined Data Dictionary"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000643",
+          "lbl": "DSM-3-C5",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Value Level Metadata includes Resolvable Identifiers for Controlled and/or Standard Terms reported in the Dataset"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000644",
+          "lbl": "DSM-0-H1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data or metadata is hosted in non-accessible storage (e.g., personal desktop, local file system or archive)"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000645",
+          "lbl": "DSM-1-H1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Metadata hosting environment stores and maintains an identifiable Dataset Descriptor for each identifiable Dataset"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000646",
+          "lbl": "DSM-2-H1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The Data hosting environment's Persistence Model is aligned with a locally defined Domain Model to enable interpretation of Datasets"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000647",
+          "lbl": "DSM-3-H1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The Data hosting environment's Persistence Model is aligned with a standard Dataset model or compliant with relevant Minimum Information Reporting Guidelines"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000648",
+          "lbl": "DSM-4-H1",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data Hosting environment stores data in a relevant linked data store (e.g., Triple Store or Graph Databaase)"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000649",
+          "lbl": "DSM-0-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data or metadata hosted in an accessible resource but with no retrieval capability"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000650",
+          "lbl": "DSM-1-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "The Dataset and its Descriptor are indexed and retrievable (in the same or separate hosting environments) via unique and persistent identifiers"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000651",
+          "lbl": "DSM-1-H3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Retrieval of the Dataset and the Dataset Descriptor utilises a standardized communication protocol that is open, free and universally implementable"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000652",
+          "lbl": "DSM-2-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Metadata hosting environment provides programmatic access and retrieval (API) for the Dataset Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000653",
+          "lbl": "DSM-3-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "For each dataset, the hosting environment maintains a globally unique, persistent and resolvable identifier for access and retrieval"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000654",
+          "lbl": "DSM-3-H4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "If applicable, Dataset hosting environment offers dataset-level authentication and authorisation capabilities"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000655",
+          "lbl": "DSM-4-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data Hosting Environment provides semantic querying capability"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000656",
+          "lbl": "DSM-0-H3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Dataset's Metadata is NOT searchable via keywords or elements within the Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000657",
+          "lbl": "DSM-1-H4",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Metadata hosting environment offers the capability to browse and search contents of the Dataset Descriptor"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000658",
+          "lbl": "DSM-2-H3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data hosting environment offers the capability to browse and search related Datasets"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000659",
+          "lbl": "DSM-3-H3",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data Hosting environment utilises controlled terms and/or ontology terms to search within Dataset content."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/T4FS_0000660",
+          "lbl": "DSM-4-H2",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0002-7702-4495"
+              }
+            ],
+            "definition": {
+              "val": "Data Hosting Environment provides semantic querying capability"
+            }
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/TF4S_0000566",
           "lbl": "data scientist",
           "meta": {
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11457,7 +13145,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11473,7 +13161,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11489,7 +13177,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11505,7 +13193,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11521,7 +13209,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "comments": [
@@ -11537,7 +13225,7 @@
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "Allyson Lister"
+                "val": "https://orcid.org/0000-0002-7702-4495"
               }
             ],
             "definition": {

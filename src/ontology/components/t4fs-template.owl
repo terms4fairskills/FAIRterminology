@@ -8797,6 +8797,1334 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000580"/>
+        <obo:IAO_0000115 xml:lang="en">The fairplus dataset maturity model indicators are used within the context of the model, which is intended as a comprehensive reference model for state-of-FAIRness improvement in research datasets. Based on the FAIR guiding principles, the DSM model defines and classifies requirements that constitute an incremental path towards improving FAIRness level for a given research dataset.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">fairplus DSM model indicator</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fairplus dataset maturity model indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000583"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fairplus dataset maturity model indicators are used within the context of the model, which is intended as a comprehensive reference model for state-of-FAIRness improvement in research datasets. Based on the FAIR guiding principles, the DSM model defines and classifies requirements that constitute an incremental path towards improving FAIRness level for a given research dataset.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000583"/>
+        <obo:IAO_0000115 xml:lang="en">The fairplus DSM content-related indicators relate to what is reported in the Dataset (data) &amp; the Dataset Descriptor (metadata).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">fairplus DSM content-related indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fairplus DSM content-related indicators relate to what is reported in the Dataset (data) &amp; the Dataset Descriptor (metadata).</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000583"/>
+        <obo:IAO_0000115 xml:lang="en">The fairplus DSM representation and format indicators relate to how the data object &amp; metadata object are represented and formatted.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">AL 5.12.22: Please note that the &apos;and&apos; in this label is a direct representation of the fairplus DSM model, and not a ontological design choice.</rdfs:comment>
+        <rdfs:label xml:lang="en">fairplus DSM representation and format indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fairplus DSM representation and format indicators relate to how the data object &amp; metadata object are represented and formatted.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000583"/>
+        <obo:IAO_0000115 xml:lang="en">The fairplus DSM hosting-environment capabilities indicator relate to the capabilities of the hosting environment that enables and supports the use of FAIR data</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">fairplus DSM hosting-environment capabilities indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fairplus DSM hosting-environment capabilities indicator relate to the capabilities of the hosting environment that enables and supports the use of FAIR data</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">No representation of Data purposed for FAIR sharing is available</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">No representation of Data purposed for FAIR sharing is available</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Structured and/or Unstructured Data are organised into Dataset(s) created for the purpose of FAIR sharing</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000588"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Structured and/or Unstructured Data are organised into Dataset(s) created for the purpose of FAIR sharing</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Project collected Data are organized into structured Dataset(s) and conform to a locally defined Dataset Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000589"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Project collected Data are organized into structured Dataset(s) and conform to a locally defined Dataset Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Structured Data are represented as Datasets and conform to relevant Standard Dataset Model(s) for FAIR sharing</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000590"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Structured Data are represented as Datasets and conform to relevant Standard Dataset Model(s) for FAIR sharing</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) content is semantically represented using Linked Data Represetations conforming to a Semantic Data Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000591"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) content is semantically represented using Linked Data Represetations conforming to a Semantic Data Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) are granularly represented and managed at the Data Element Level (e.g. ISO 11179 MDR standard)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-5-R2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000592"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) are granularly represented and managed at the Data Element Level (e.g. ISO 11179 MDR standard)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Metadata is NOT formally represented in a structured Dataset Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000593"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Metadata is NOT formally represented in a structured Dataset Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Metadata is formally represented in the form of an Identifiable Dataset Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R0</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000594"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Metadata is formally represented in the form of an Identifiable Dataset Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">A representation of the Dataset Descriptor conforming to a relevant General Purpose Metadata Schema is available</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000595"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A representation of the Dataset Descriptor conforming to a relevant General Purpose Metadata Schema is available</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor(s) conforms to or extends a Standard Generic Dataset Descriptor Model to describe and represent structural metadata of Dataset(s)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000596"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor(s) conforms to or extends a Standard Generic Dataset Descriptor Model to describe and represent structural metadata of Dataset(s)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor(s) use community-defined or domain-specific metadata standard</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000597"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor(s) use community-defined or domain-specific metadata standard</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">A Semantic Data Model (Metadata) used for data harmonisation across Datasets is formally defined and represented using Linked Data Representations</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000598"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A Semantic Data Model (Metadata) used for data harmonisation across Datasets is formally defined and represented using Linked Data Representations</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Common Data Elements and their value sets are defined and registered in a managed Metadata Registry</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-5-R3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000599"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Common Data Elements and their value sets are defined and registered in a managed Metadata Registry</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata is NOT formally represented in any form</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000600"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata is NOT formally represented in any form</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata is reported at summary level and represented in the Dataset Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000601"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata is reported at summary level and represented in the Dataset Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata is formally represented in the form of a locally defined Domain Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000602"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata is formally represented in the form of a locally defined Domain Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata is formally represented and conforms to a standard defined Domain Model if available</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000603"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata is formally represented and conforms to a standard defined Domain Model if available</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata is formally represented by a defined set Common Data Elements</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000604"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata is formally represented by a defined set Common Data Elements</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Domain entities are represented by Managed Master Data Objects conforming to a Master Data Model used for data consolidation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-5-R1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000605"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Domain entities are represented by Managed Master Data Objects conforming to a Master Data Model used for data consolidation</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor (metadata) is NOT available in a Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-R4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000606"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor (metadata) is NOT available in a Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor is available in Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000607"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor is available in Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Contextual Metadata represented in the form of a Domain Model is available in a Human Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-R4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000608"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Contextual Metadata represented in the form of a Domain Model is available in a Human Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">A formal documentation of the adopted Standard Dataset Model is available in a Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-R4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000609"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A formal documentation of the adopted Standard Dataset Model is available in a Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">A Semantic Data Model (Metadata) describing the data is represented in a Machine Readable and Machine Interptretable format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000610"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A Semantic Data Model (Metadata) describing the data is represented in a Machine Readable and Machine Interptretable format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) are NOT available in a Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-R5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) are NOT available in a Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) available in Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-R5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000612"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) available in Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">If applicable, Dataset(s) available in non-proprietary Machine Readable Format relevant to the adopted standard Dataset Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-R5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000613"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">If applicable, Dataset(s) available in non-proprietary Machine Readable Format relevant to the adopted standard Dataset Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">Datasets are available in a Machine Readable and Machine Interpretable format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000614"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Datasets are available in a Machine Readable and Machine Interpretable format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <obo:IAO_0000115 xml:lang="en">If applicable, license information and/or permitted use and accessability to parts of the dataset is formally represented and encoded in a Machine Readable Format</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-R6</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000615"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">If applicable, license information and/or permitted use and accessability to parts of the dataset is formally represented and encoded in a Machine Readable Format</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) are NOT Identifiable via Unique Identifiers</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-C0</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000616"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) are NOT Identifiable via Unique Identifiers</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Each Dataset purposed for FAIR sharing is assigned a unique identifier</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-C0</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000617"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Each Dataset purposed for FAIR sharing is assigned a unique identifier</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, data is structured in the Dataset according to the Tidy Data Principles</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000618"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, data is structured in the Dataset according to the Tidy Data Principles</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset(s) scope and content are reported in compliance with relevant community-defined Data Reporting Guidelines</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000619"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, Dataset(s) scope and content are reported in compliance with relevant community-defined Data Reporting Guidelines</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) content is harmonised against a designed-for-purpose Semantic Data Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-C2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000620"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) content is harmonised against a designed-for-purpose Semantic Data Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset(s) include Reference Fields that enable joining related datasets</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000621"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset(s) include Reference Fields that enable joining related datasets</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Names use standard controlled terms as recommended by the adopted Standard</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000622"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, Dataset Field Names use standard controlled terms as recommended by the adopted Standard</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Key Dataset Fields are mapped to Common Data Elements as defined by the Semantic Data Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-C3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000623"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Key Dataset Fields are mapped to Common Data Elements as defined by the Semantic Data Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Fields are linked and harmonized against enterprise managed Metadata Elements (e.g. MDR registered Data Elements)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-5-C3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000624"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Fields are linked and harmonized against enterprise managed Metadata Elements (e.g. MDR registered Data Elements)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Values are standardized against a locally defined Data Dictionary within and across related Datasets</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000625"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, Dataset Field Values are standardized against a locally defined Data Dictionary within and across related Datasets</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Values are standardised against domain-specific Controlled Terminologies and/or Ontology Terms</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000626"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, Dataset Field Values are standardised against domain-specific Controlled Terminologies and/or Ontology Terms</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Values for key Domain Entities reported in the Dataset(s) are standardised and assigned unique Standard Identifiers</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-C4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000627"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Values for key Domain Entities reported in the Dataset(s) are standardised and assigned unique Standard Identifiers</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Field values are controlled and managed via enterprise managed Reference and Master Data</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-5-C4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000628"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Field values are controlled and managed via enterprise managed Reference and Master Data</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Study/Project-Level metadata is NOT reported</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-C1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000629"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Study/Project-Level metadata is NOT reported</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Descriptive Study/Project-Level summary information</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-C1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000630"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes Descriptive Study/Project-Level summary information</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">A locally defined Domain Model contains concepts that describes the overall project/study design, the relationships between the Datasets, the key entities reported within the Datasets and the relationships between them.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000631"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A locally defined Domain Model contains concepts that describes the overall project/study design, the relationships between the Datasets, the key entities reported within the Datasets and the relationships between them.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Where applicable, study-level / experimental metadata is reported in compliance with relevant Minimum Information Reporting Guidelines</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000632"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Where applicable, study-level / experimental metadata is reported in compliance with relevant Minimum Information Reporting Guidelines</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">A Semantic Data Model includes study design Data Elements and the relationships between them</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-C1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000633"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A Semantic Data Model includes study design Data Elements and the relationships between them</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor does NOT include a reference to the Dataset it describes</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-C2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000634"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor does NOT include a reference to the Dataset it describes</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Identifying &amp; Descriptive Dataset-Level metadata</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-C2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000635"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes Identifying &amp; Descriptive Dataset-Level metadata</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor contains access information for the Dataset</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-C3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000636"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor contains access information for the Dataset</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes reference to related Datasets and if applicable the relevant joining Dataset Fields</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000637"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes reference to related Datasets and if applicable the relevant joining Dataset Fields</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor references a standard license under which the dataset can be re-used.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C7</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000638"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor references a standard license under which the dataset can be re-used.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Field-level Metadata as prescribed by a locally defined Dataset Model</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C6</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000639"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes Field-level Metadata as prescribed by a locally defined Dataset Model</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes standard-compliant Field-level Metadata as prescribed by the adopted standard Dataset Model.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C6</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000640"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes standard-compliant Field-level Metadata as prescribed by the adopted standard Dataset Model.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">The Semantic Data Model includes a pre-defined set of Common Data Elements reported within the Datasets and the relationships between them</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-C5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000641"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The Semantic Data Model includes a pre-defined set of Common Data Elements reported within the Datasets and the relationships between them</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Value-level Metadata or if applicable includes a reference to a locally defined Data Dictionary</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-C7</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset Descriptor includes Value-level Metadata or if applicable includes a reference to a locally defined Data Dictionary</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <obo:IAO_0000115 xml:lang="en">Value Level Metadata includes Resolvable Identifiers for Controlled and/or Standard Terms reported in the Dataset</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-C5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000643"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Value Level Metadata includes Resolvable Identifiers for Controlled and/or Standard Terms reported in the Dataset</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data or metadata is hosted in non-accessible storage (e.g., personal desktop, local file system or archive)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-H1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000644"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data or metadata is hosted in non-accessible storage (e.g., personal desktop, local file system or archive)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Metadata hosting environment stores and maintains an identifiable Dataset Descriptor for each identifiable Dataset</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-H1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000645"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Metadata hosting environment stores and maintains an identifiable Dataset Descriptor for each identifiable Dataset</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a locally defined Domain Model to enable interpretation of Datasets</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-H1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000646"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a locally defined Domain Model to enable interpretation of Datasets</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a standard Dataset model or compliant with relevant Minimum Information Reporting Guidelines</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-H1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000647"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a standard Dataset model or compliant with relevant Minimum Information Reporting Guidelines</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data Hosting environment stores data in a relevant linked data store (e.g., Triple Store or Graph Databaase)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-H1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000648"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data Hosting environment stores data in a relevant linked data store (e.g., Triple Store or Graph Databaase)</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data or metadata hosted in an accessible resource but with no retrieval capability</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000649"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data or metadata hosted in an accessible resource but with no retrieval capability</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">The Dataset and its Descriptor are indexed and retrievable (in the same or separate hosting environments) via unique and persistent identifiers</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000650"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The Dataset and its Descriptor are indexed and retrievable (in the same or separate hosting environments) via unique and persistent identifiers</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Retrieval of the Dataset and the Dataset Descriptor utilises a standardized communication protocol that is open, free and universally implementable</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-H3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000651"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Retrieval of the Dataset and the Dataset Descriptor utilises a standardized communication protocol that is open, free and universally implementable</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Metadata hosting environment provides programmatic access and retrieval (API) for the Dataset Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000652"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Metadata hosting environment provides programmatic access and retrieval (API) for the Dataset Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">For each dataset, the hosting environment maintains a globally unique, persistent and resolvable identifier for access and retrieval</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000653"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">For each dataset, the hosting environment maintains a globally unique, persistent and resolvable identifier for access and retrieval</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">If applicable, Dataset hosting environment offers dataset-level authentication and authorisation capabilities</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-H4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000654"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">If applicable, Dataset hosting environment offers dataset-level authentication and authorisation capabilities</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data Hosting Environment provides semantic querying capability</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000655"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data Hosting Environment provides semantic querying capability</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Dataset&apos;s Metadata is NOT searchable via keywords or elements within the Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-0-H3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000656"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dataset&apos;s Metadata is NOT searchable via keywords or elements within the Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Metadata hosting environment offers the capability to browse and search contents of the Dataset Descriptor</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-1-H4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000657"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Metadata hosting environment offers the capability to browse and search contents of the Dataset Descriptor</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data hosting environment offers the capability to browse and search related Datasets</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-2-H3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000658"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data hosting environment offers the capability to browse and search related Datasets</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data Hosting environment utilises controlled terms and/or ontology terms to search within Dataset content.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-3-H3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000659"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data Hosting environment utilises controlled terms and/or ontology terms to search within Dataset content.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <obo:IAO_0000115 xml:lang="en">Data Hosting Environment provides semantic querying capability</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DSM-4-H2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000660"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data Hosting Environment provides semantic querying capability</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://fairplus.github.io/Data-Maturity/docs/Indicators/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TF4S_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000566">
