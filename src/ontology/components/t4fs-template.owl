@@ -352,7 +352,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000575">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000012"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
-        <obo:IAO_0000115 xml:lang="en">The learning meda that creates a competence or capability.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The learning media that creates a competence or capability.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">https://orcid.org/0000-0002-7702-4495</oboInOwl:created_by>
         <rdfs:comment xml:lang="en">Allyson Lister 13.9.22: This class is created as the inverse of confers/requires competency about to allow consistent reasoning and access to the Data stewardship guidelines for Data stewardship activities. It needs to be revisited by the entire team to check the model.</rdfs:comment>
@@ -361,7 +361,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000575"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The learning meda that creates a competence or capability.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The learning media that creates a competence or capability.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -413,6 +413,44 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000578"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Describes how a learning medium requires practical skills of a particular data stewardship technical concept in order for that learning medium to perform its function e.g. a workshop requiring a practical skill in repository access.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000581 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000581">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000580"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000446"/>
+        <obo:IAO_0000115 xml:lang="en">Describes how an evaluation indicator may confer compliance with a particular guideline or set of guidelines</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/22</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">confers compliance with</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Describes how an evaluation indicator may confer compliance with a particular guideline or set of guidelines</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000582 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000582">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000580"/>
+        <obo:IAO_0000115 xml:lang="en">A learning medium may demonstrate how to meet the requirements for a particular evaluation indicator(s).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/22</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">demonstrates how to fulfil the requirements for</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000582"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A learning medium may demonstrate how to meet the requirements for a particular evaluation indicator(s).</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -8738,6 +8776,23 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The FAIR Cookbook’s recipes are a combination of guidance, technical, hands-on, background and review types to cover the operation steps of FAIR data management, and are classified according to the audience types, to serve all those involved in the data management life cycle. The FAIR Cookbook is for anyone working in the Life Sciences who needs guidance on applying the FAIR Principles in practice.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-cookbook-audience.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Evaluation indicators are designed to enable the measurement of the degree of compliance against a guideline using a set of criteria. The goals of such indicators are varied, but a good example would be to improve the re-usability of the digital asset being measured for increased discoverability, interoperability and overall machine actionability.</obo:IAO_0000115>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/22</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">evaluation indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000580"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Evaluation indicators are designed to enable the measurement of the degree of compliance against a guideline using a set of criteria. The goals of such indicators are varied, but a good example would be to improve the re-usability of the digital asset being measured for increased discoverability, interoperability and overall machine actionability.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Definition by https://orcid.org/0000-0002-7702-4495 and drawn in part from https://fairplus.github.io/Data-Maturity/docs/Indicators</obo:IAO_0000119>
     </owl:Axiom>
     
 
