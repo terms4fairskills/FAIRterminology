@@ -9,8 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/components/t4fs-template.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-12-01/components/t4fs-template.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-12-05/components/t4fs-template.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1846,6 +1846,7 @@
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/21</obo:IAO_0000233>
         <rdfs:comment xml:lang="en">This term is redundant with http://purl.obolibrary.org/obo/T4FS_0000388 and has been deprecated.</rdfs:comment>
         <rdfs:label xml:lang="en">use of persistent, resolvable identifiers (pids)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
