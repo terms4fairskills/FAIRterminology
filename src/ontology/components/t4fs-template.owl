@@ -8725,6 +8725,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000095"/>
+        <obo:IAO_0000115 xml:lang="en">The FAIR Cookbook’s recipes are a combination of guidance, technical, hands-on, background and review types to cover the operation steps of FAIR data management, and are classified according to the audience types, to serve all those involved in the data management life cycle. The FAIR Cookbook is for anyone working in the Life Sciences who needs guidance on applying the FAIR Principles in practice.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">fair cookbook recipe</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000579"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The FAIR Cookbook’s recipes are a combination of guidance, technical, hands-on, background and review types to cover the operation steps of FAIR data management, and are classified according to the audience types, to serve all those involved in the data management life cycle. The FAIR Cookbook is for anyone working in the Life Sciences who needs guidance on applying the FAIR Principles in practice.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-cookbook-audience.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TF4S_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TF4S_0000566">
