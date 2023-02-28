@@ -70,7 +70,7 @@ For how to write a good term request, please read the [best practices carefully]
 
 ### How to add a new term
 
-If you have never editted this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
+If you have never edited this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
 
 **Process**:
 
