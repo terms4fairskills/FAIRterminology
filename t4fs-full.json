@@ -9923,6 +9923,10 @@
         } ]
       }
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+      "lbl" : "Obsolete Class",
+      "type" : "CLASS"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
       "lbl" : "created by",
       "type" : "PROPERTY"
@@ -10360,6 +10364,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/T4FS_0000193"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/T4FS_0000093",
+      "pred" : "is_a",
+      "obj" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/T4FS_0000094",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/T4FS_0000372"
@@ -10451,6 +10459,10 @@
       "sub" : "http://purl.obolibrary.org/obo/T4FS_0000120",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/T4FS_0000372"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/T4FS_0000121",
+      "pred" : "is_a",
+      "obj" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/T4FS_0000122",
       "pred" : "is_a",
@@ -10935,6 +10947,10 @@
       "sub" : "http://purl.obolibrary.org/obo/T4FS_0000255",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/T4FS_0000527"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/T4FS_0000256",
+      "pred" : "is_a",
+      "obj" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/T4FS_0000257",
       "pred" : "is_a",
@@ -12551,6 +12567,10 @@
       "sub" : "http://purl.obolibrary.org/obo/TF4S_0000574",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/T4FS_0000036"
+    }, {
+      "sub" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000002",
       "pred" : "type",

@@ -56,6 +56,10 @@ id: IAO:0000030
 name: information content entity
 
 [Term]
+id: ObsoleteClass
+name: Obsolete Class
+
+[Term]
 id: T4FS:0000002
 name: pipe separated values
 def: "A file that contains the values in a table as a series of ASCII text lines organized so that each column value is separated by a pipe." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/pipe-separated-values/"}
@@ -677,6 +681,7 @@ id: T4FS:0000093
 name: use of persistent, resolvable identifiers (pids)
 def: "OBSOLETE. The use of persistent identifiers or PIDs to uniquely and persistently identify an entity." [] {http://purl.obolibrary.org/obo/IAO_0000119="[PMQ 3.2022]"}
 comment: This term is redundant with http://purl.obolibrary.org/obo/T4FS_0000388 and has been deprecated.
+is_a: ObsoleteClass ! Obsolete Class
 property_value: IAO:0000117 "https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000117 "Nancy Hoebelheinrich" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
@@ -868,6 +873,7 @@ id: T4FS:0000121
 name: re-use
 def: "OBSOLETE. Use of content outside of its original intention." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/re-use"}
 comment: AL 2.3.23: Removed because of its high level of similarity with the 'R' FAIR principle.
+is_a: ObsoleteClass ! Obsolete Class
 property_value: IAO:0000117 "https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 property_value: IAO:0000233 "https://github.com/terms4fairskills/FAIRterminology/issues/15" xsd:string
@@ -1777,6 +1783,7 @@ id: T4FS:0000256
 name: machine readable
 def: "OBSOLETE. In a form that can be used and understood by a computer." [] {http://purl.obolibrary.org/obo/IAO_0000119="CASRAI. https://casrai.org/term/machine-readable/"}
 comment: AL 5.12.22: Deprecated because of its similarity with http://purl.obolibrary.org/obo/T4FS_0000551. We don't need to be going to the level of granularity that the concept of machine readability needs to be modelled as well as machine readable format.
+is_a: ObsoleteClass ! Obsolete Class
 property_value: IAO:0000117 "https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000117 "Peter McQuilton" xsd:string
 is_obsolete: true

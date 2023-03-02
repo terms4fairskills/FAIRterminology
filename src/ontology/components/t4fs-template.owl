@@ -564,6 +564,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/TF4S_0000569>))
 Declaration(Class(<http://purl.obolibrary.org/obo/TF4S_0000570>))
 Declaration(Class(<http://purl.obolibrary.org/obo/TF4S_0000572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/TF4S_0000574>))
+Declaration(Class(<http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/T4FS_0000554>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/T4FS_0000555>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/T4FS_0000556>))
@@ -1493,6 +1494,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/T4FS_0000093> "This term is redundant with http://purl.obolibrary.org/obo/T4FS_0000388 and has been deprecated."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/T4FS_0000093> "use of persistent, resolvable identifiers (pids)"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/T4FS_0000093> "true"^^xsd:boolean)
+SubClassOf(<http://purl.obolibrary.org/obo/T4FS_0000093> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
 
 # Class: <http://purl.obolibrary.org/obo/T4FS_0000094> (record standardization)
 
@@ -1683,6 +1685,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/T4FS_0000121> "AL 2.3.23: Removed because of its high level of similarity with the 'R' FAIR principle."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/T4FS_0000121> "re-use"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/T4FS_0000121> "true"^^xsd:boolean)
+SubClassOf(<http://purl.obolibrary.org/obo/T4FS_0000121> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
 
 # Class: <http://purl.obolibrary.org/obo/T4FS_0000122> (trainer/teacher)
 
@@ -2602,6 +2605,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/T4FS_0000256> "AL 5.12.22: Deprecated because of its similarity with http://purl.obolibrary.org/obo/T4FS_0000551. We don't need to be going to the level of granularity that the concept of machine readability needs to be modelled as well as machine readable format."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/T4FS_0000256> "machine readable"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/T4FS_0000256> "true"^^xsd:boolean)
+SubClassOf(<http://purl.obolibrary.org/obo/T4FS_0000256> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
 
 # Class: <http://purl.obolibrary.org/obo/T4FS_0000257> (integrated access management)
 
@@ -5234,6 +5238,11 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "AL 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/TF4S_0000574> "https://orcid.org/0000-0002-7702-4495"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TF4S_0000574> "metadata creation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/TF4S_0000574> <http://purl.obolibrary.org/obo/T4FS_0000036>)
+
+# Class: <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass> (Obsolete Class)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass> "Obsolete Class"@en)
+SubClassOf(<http://www.geneontology.org/formats/oboInOwl#ObsoleteClass> owl:Thing)
 
 
 )

@@ -2913,6 +2913,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/T4FS_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE. The use of persistent identifiers or PIDs to uniquely and persistently identify an entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Nancy Hoebelheinrich</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
@@ -3297,6 +3298,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/T4FS_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE. Use of content outside of its original intention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
@@ -5301,6 +5303,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/T4FS_0000256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000256">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE. In a form that can be used and understood by a computer.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
@@ -11236,6 +11239,15 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedTarget xml:lang="en">Metadata creation concerns the creation of data that provides information about characteristics, aspects or context of other data entities such as a dataset or other digital or analog object.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">AL 22.3.22, and see also FRBR User Tasks at: https://sites.google.com/site/metadatastandards/chapter-6/6-3-frbr-user-tasks.</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">Obsolete Class</rdfs:label>
+    </owl:Class>
     
 
 
