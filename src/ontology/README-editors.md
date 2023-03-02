@@ -75,6 +75,10 @@ to regenerate imports.
 Note: the ont_terms.txt file may include 'starter' classes seeded from
 the ontology starter kit. It is safe to remove these.
 
+## Deprecation of terms
+
+Find out more about our [deprecation policy](src/ontology/DEPRECATION.md).
+
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is

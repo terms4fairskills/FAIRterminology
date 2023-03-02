@@ -58,6 +58,10 @@ We produce all ontology artefacts in the following formats:
 
 T4FS uses templates to edit the ontology. This means that you should not edit any of the OWL files that you see in this repository. Instead, please see our [Contributing README](CONTRIBUTING.md) and our [Templates README](src/templates/README.md) for more details.
 
+## Deprecation of terms
+
+Find out more about our [deprecation policy](src/ontology/DEPRECATION.md).
+
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/terms4FAIRskills/FAIRterminology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.

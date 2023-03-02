@@ -83,6 +83,10 @@ If you have never edited this ontology before, first follow a [general tutorial]
 6. Push changes upstream
 7. Create pull request
 
+## How to deprecate terms
+
+Find out more about our [deprecation policy](src/ontology/DEPRECATION.md).
+
 ## Best Practices
 
 <a id="great-issues"></a>
