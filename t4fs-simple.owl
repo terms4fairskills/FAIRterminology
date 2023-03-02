@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl#"
      xml:base="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -11,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/t4fs-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-12-05/t4fs-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2023-03-02/t4fs-simple.owl"/>
         <terms:description>terms4FAIRskills describes the competencies, skills and knowledge associated with making and keeping data FAIR.\nThis terminology applies to a variety of use cases, including: assisting with the creation and assessment of stewardship curricula; facilitating the annotation, discovery and evaluation of FAIR-enabling materials \(e.g. training\) and resources; enabling the formalisation of job descriptions and CVs with recognised, structured competencies.\nIt is intended to be of use to trainers who teach FAIR data skills, researchers who wish to identify skill gaps in their teams and managers who need to recruit individuals to relevant roles.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>terms4FAIRskills (T4FS)</terms:title>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-05</owl:versionInfo>
+        <rdfs:comment>terms4FAIRskills by the terms4FAIRskills developers is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
+        <owl:versionInfo>2023-03-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -128,8 +127,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -200,12 +199,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:creation_date>2019-10-17T13:39:13.568975Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition source</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/source -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 
@@ -2330,16 +2323,18 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000170"/>
-        <obo:IAO_0000115 xml:lang="en">Use of content outside of its original intention.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Use of content outside of its original intention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/15</obo:IAO_0000233>
+        <rdfs:comment xml:lang="en">AL 2.3.23: Removed because of its high level of similarity with the &apos;R&apos; FAIR principle.</rdfs:comment>
         <rdfs:label xml:lang="en">re-use</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000121"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Use of content outside of its original intention.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">OBSOLETE. Use of content outside of its original intention.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/re-use</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -6285,15 +6280,17 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <obo:IAO_0000115 xml:lang="en">In the context of epidemiology: Making data from different sources comparable. The processes involved in producing inferentially equivalent data.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Data harmonization is the process of making data from different sources comparable.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/17</obo:IAO_0000233>
         <rdfs:label xml:lang="en">data harmonization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000375"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">In the context of epidemiology: Making data from different sources comparable. The processes involved in producing inferentially equivalent data.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/data-harmonization/</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Data harmonization is the process of making data from different sources comparable.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Modified from CASRAI. https://casrai.org/term/data-harmonization/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -8588,9 +8585,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
         <obo:IAO_0000115 xml:lang="en">Enables identification, location, and retrieval of information resources by users, often including the use of controlled vocabularies for classification and indexing and links to related resources.REFERENCE. DCC/TC3+</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/13</obo:IAO_0000233>
         <rdfs:label xml:lang="en">descriptive metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9124,6 +9123,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000597">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor(s) use community-defined or domain-specific metadata standard</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-R3</rdfs:label>
@@ -9141,6 +9146,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000598">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A Semantic Data Model (Metadata) used for data harmonisation across Datasets is formally defined and represented using Linked Data Representations</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-R3</rdfs:label>
@@ -9430,6 +9441,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">If applicable, license information and/or permitted use and accessability to parts of the dataset is formally represented and encoded in a Machine Readable Format</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-R6</rdfs:label>
@@ -9464,6 +9481,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Each Dataset purposed for FAIR sharing is assigned a unique identifier</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-C0</rdfs:label>
@@ -9481,6 +9504,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000618">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, data is structured in the Dataset according to the Tidy Data Principles</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C2</rdfs:label>
@@ -9498,6 +9527,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000619">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset(s) scope and content are reported in compliance with relevant community-defined Data Reporting Guidelines</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C2</rdfs:label>
@@ -9515,6 +9550,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset(s) content is harmonised against a designed-for-purpose Semantic Data Model</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-C2</rdfs:label>
@@ -9532,6 +9573,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000621">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset(s) include Reference Fields that enable joining related datasets</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C3</rdfs:label>
@@ -9549,6 +9596,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Names use standard controlled terms as recommended by the adopted Standard</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C3</rdfs:label>
@@ -9600,6 +9653,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Values are standardized against a locally defined Data Dictionary within and across related Datasets</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C4</rdfs:label>
@@ -9617,6 +9682,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000626">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, Dataset Field Values are standardised against domain-specific Controlled Terminologies and/or Ontology Terms</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C4</rdfs:label>
@@ -9634,6 +9711,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000627">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Values for key Domain Entities reported in the Dataset(s) are standardised and assigned unique Standard Identifiers</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-C4</rdfs:label>
@@ -9685,6 +9768,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Descriptive Study/Project-Level summary information</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-C1</rdfs:label>
@@ -9702,6 +9797,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000631">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A locally defined Domain Model contains concepts that describes the overall project/study design, the relationships between the Datasets, the key entities reported within the Datasets and the relationships between them.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C1</rdfs:label>
@@ -9719,6 +9820,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Where applicable, study-level / experimental metadata is reported in compliance with relevant Minimum Information Reporting Guidelines</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C1</rdfs:label>
@@ -9735,7 +9842,20 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A Semantic Data Model includes study design Data Elements and the relationships between them</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-C1</rdfs:label>
@@ -9770,6 +9890,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Identifying &amp; Descriptive Dataset-Level metadata</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-C2</rdfs:label>
@@ -9787,6 +9919,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000636">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor contains access information for the Dataset</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-C3</rdfs:label>
@@ -9821,6 +9959,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000638">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor references a standard license under which the dataset can be re-used.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C7</rdfs:label>
@@ -9838,6 +9982,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Field-level Metadata as prescribed by a locally defined Dataset Model</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C6</rdfs:label>
@@ -9872,6 +10028,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The Semantic Data Model includes a pre-defined set of Common Data Elements reported within the Datasets and the relationships between them</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-4-C5</rdfs:label>
@@ -9889,6 +10051,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000642">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Dataset Descriptor includes Value-level Metadata or if applicable includes a reference to a locally defined Data Dictionary</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-C7</rdfs:label>
@@ -9906,6 +10080,36 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000643">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Value Level Metadata includes Resolvable Identifiers for Controlled and/or Standard Terms reported in the Dataset</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-C5</rdfs:label>
@@ -9940,6 +10144,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000645">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Metadata hosting environment stores and maintains an identifiable Dataset Descriptor for each identifiable Dataset</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-H1</rdfs:label>
@@ -9957,6 +10173,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a locally defined Domain Model to enable interpretation of Datasets</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-H1</rdfs:label>
@@ -9974,6 +10196,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000647">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The Data hosting environment&apos;s Persistence Model is aligned with a standard Dataset model or compliant with relevant Minimum Information Reporting Guidelines</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-H1</rdfs:label>
@@ -10025,6 +10253,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000650">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The Dataset and its Descriptor are indexed and retrievable (in the same or separate hosting environments) via unique and persistent identifiers</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-H2</rdfs:label>
@@ -10042,6 +10276,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000651">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Retrieval of the Dataset and the Dataset Descriptor utilises a standardized communication protocol that is open, free and universally implementable</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-H3</rdfs:label>
@@ -10059,6 +10299,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000652">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Metadata hosting environment provides programmatic access and retrieval (API) for the Dataset Descriptor</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-H2</rdfs:label>
@@ -10076,6 +10322,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000653">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">For each dataset, the hosting environment maintains a globally unique, persistent and resolvable identifier for access and retrieval</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-H2</rdfs:label>
@@ -10093,6 +10345,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000654">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">If applicable, Dataset hosting environment offers dataset-level authentication and authorisation capabilities</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-H4</rdfs:label>
@@ -10144,6 +10402,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000657">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Metadata hosting environment offers the capability to browse and search contents of the Dataset Descriptor</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-1-H4</rdfs:label>
@@ -10161,6 +10425,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000658">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Data hosting environment offers the capability to browse and search related Datasets</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-2-H3</rdfs:label>
@@ -10178,6 +10448,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000659">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000581"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Data Hosting environment utilises controlled terms and/or ontology terms to search within Dataset content.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <rdfs:label xml:lang="en">DSM-3-H3</rdfs:label>
@@ -10209,5 +10485,5 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.24) https://github.com/owlcs/owlapi -->
 

@@ -9,8 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/t4fs/t4fs-community.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2022-12-05/t4fs-community.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-05</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/t4fs/releases/2023-03-02/t4fs-community.owl"/>
+        <owl:versionInfo>2023-03-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -194,7 +194,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000564">
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:38:16.742124Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T13:38:16.742124Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -204,7 +204,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/T4FS_0000565">
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T13:39:13.568975Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T13:39:13.568975Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">alternative definition source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -505,7 +505,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000118 xml:lang="en">Data Categorization</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Data Classification</obo:IAO_0000118>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:30:31.531624Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-02-17T22:30:31.531624Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">data categorisation</rdfs:label>
     </owl:Class>
     
@@ -943,7 +943,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000095"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T21:03:37.147424Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T21:03:37.147424Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">wiki site</rdfs:label>
     </owl:Class>
     
@@ -1379,7 +1379,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000095"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:52:57.551905Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:52:57.551905Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">online workbook</rdfs:label>
     </owl:Class>
     
@@ -1518,7 +1518,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:53:59.107153Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:53:59.107153Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">online documentation</rdfs:label>
     </owl:Class>
     
@@ -1792,7 +1792,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000368"/>
         <obo:IAO_0000115 xml:lang="en">Bin for Skills needed for Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:17:02.313138Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:17:02.313138Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">skills related to provenance information management</rdfs:label>
     </owl:Class>
     
@@ -1847,24 +1847,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Data compliance consists of the ongoing processes to ensure adherence of data to both enterprise business rules (government department, university, industry, or agency), and to legal, regulatory and accreditation requirements.</owl:annotatedTarget>
         <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/data-compliance/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/T4FS_0000121 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000170"/>
-        <obo:IAO_0000115 xml:lang="en">Use of content outside of its original intention.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">re-use</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000121"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Use of content outside of its original intention.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/re-use</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -1970,7 +1952,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000479"/>
         <obo:IAO_0000115 xml:lang="en">Bin for Skills needed for Cloud computing environment management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:14:37.180683Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:14:37.180683Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">skills related to cloud computing environment management</rdfs:label>
     </owl:Class>
     
@@ -2354,7 +2336,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000104"/>
         <obo:IAO_0000115 xml:lang="en">Bin for types of Knowledge related to Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:17:32.816776Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:17:32.816776Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">knowledge of preservation costs management</rdfs:label>
     </owl:Class>
     
@@ -2656,7 +2638,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000104"/>
         <obo:IAO_0000115 xml:lang="en">Bin for Skills needed for Preservation costs management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:17:32.816013Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:17:32.816013Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">skills related to preservation costs management</rdfs:label>
     </owl:Class>
     
@@ -2667,7 +2649,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000489"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:10:11.837519Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-02-17T22:10:11.837519Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">repository certification schemes</rdfs:label>
     </owl:Class>
     
@@ -2994,7 +2976,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000177"/>
         <obo:IAO_0000115 xml:lang="en">Bin for types of Knowledge related to Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:16:10.561925Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:16:10.561925Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">knowledge of workflow technologies management</rdfs:label>
     </owl:Class>
     
@@ -3038,7 +3020,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:52:43.543314Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:52:43.543314Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">presentation slides</rdfs:label>
     </owl:Class>
     
@@ -3126,7 +3108,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CTS</obo:IAO_0000118>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-02-17T22:12:12.996581Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">core trust seal</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3188,7 +3170,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000466"/>
         <obo:IAO_0000115 xml:lang="en">Bin for Skills needed for Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:18:53.731967Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:18:53.731967Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">skills related to service level management</rdfs:label>
     </owl:Class>
     
@@ -4254,7 +4236,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:54:08.535183Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:54:08.535183Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">book</rdfs:label>
     </owl:Class>
     
@@ -4833,7 +4815,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000343">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000492"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:23:22.115275Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-02T14:23:22.115275Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">maintaining persistent identifiers</rdfs:label>
     </owl:Class>
     
@@ -5023,7 +5005,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000177"/>
         <obo:IAO_0000115 xml:lang="en">Bin for Skills needed for Workflow technologies management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:15:55.86138Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:15:55.86138Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">skills related to workflow technologies management</rdfs:label>
     </owl:Class>
     
@@ -5243,15 +5225,17 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000036"/>
-        <obo:IAO_0000115 xml:lang="en">In the context of epidemiology: Making data from different sources comparable. The processes involved in producing inferentially equivalent data.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Data harmonization is the process of making data from different sources comparable.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/17</obo:IAO_0000233>
         <rdfs:label xml:lang="en">data harmonization</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000375"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">In the context of epidemiology: Making data from different sources comparable. The processes involved in producing inferentially equivalent data.</owl:annotatedTarget>
-        <obo:IAO_0000119 xml:lang="en">CASRAI. https://casrai.org/term/data-harmonization/</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Data harmonization is the process of making data from different sources comparable.</owl:annotatedTarget>
+        <obo:IAO_0000119 xml:lang="en">Modified from CASRAI. https://casrai.org/term/data-harmonization/</obo:IAO_0000119>
     </owl:Axiom>
     
 
@@ -5296,7 +5280,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000466"/>
         <obo:IAO_0000115 xml:lang="en">Bin for types of Knowledge related to Service level management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:18:53.73274Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:18:53.73274Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">knowledge of service level management</rdfs:label>
     </owl:Class>
     
@@ -5433,7 +5417,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-02T14:22:51.569762Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">using persistent identifiers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5653,7 +5637,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000408">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000508"/>
         <oboInOwl:created_by xml:lang="en">HughShanahan</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-18T08:56:32.673701Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-18T08:56:32.673701Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">aptitudes associated with using fair tools and services</rdfs:label>
     </owl:Class>
     
@@ -5811,7 +5795,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000211"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-16T22:18:14.764875Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-11-16T22:18:14.764875Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">presentation slides with interactive exercises</rdfs:label>
     </owl:Class>
     
@@ -5822,7 +5806,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000422">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000492"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:23:05.600474Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-02T14:23:05.600474Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">creating persistent identifiers</rdfs:label>
     </owl:Class>
     
@@ -5957,7 +5941,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000432">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000305"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:53:37.24517Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:53:37.24517Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">book chapter</rdfs:label>
     </owl:Class>
     
@@ -6127,7 +6111,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000446">
         <obo:IAO_0000117 xml:lang="en">Yann Le Franc</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">ylefranc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-17T16:34:14.943152Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-03-17T16:34:14.943152Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">data stewardship guideline</rdfs:label>
     </owl:Class>
     
@@ -6140,7 +6124,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">The FAIR principles are guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:56:15.031154Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-02T14:56:15.031154Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">fair principle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6759,7 +6743,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000492">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000021"/>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-02T14:54:27.168274Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-02T14:54:27.168274Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">understanding persistent identifiers</rdfs:label>
     </owl:Class>
     
@@ -6852,7 +6836,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000368"/>
         <obo:IAO_0000115 xml:lang="en">Bin for types of Knowledge related to Provenance information management.</obo:IAO_0000115>
         <oboInOwl:created_by xml:lang="en">leightonlc</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-17T15:17:02.313897Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-17T15:17:02.313897Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">knowledge of provenance information management</rdfs:label>
     </owl:Class>
     
@@ -6899,7 +6883,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000502">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000508"/>
         <oboInOwl:created_by xml:lang="en">HughShanahan</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-18T08:45:02.980527Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-18T08:45:02.980527Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">application of fair tools and services</rdfs:label>
     </owl:Class>
     
@@ -6980,7 +6964,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000259"/>
         <oboInOwl:created_by xml:lang="en">HughShanahan</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-10-18T08:38:59.038306Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2019-10-18T08:38:59.038306Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">using fair and open research tools or services</rdfs:label>
     </owl:Class>
     
@@ -6992,7 +6976,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T20:53:15.691824Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T20:53:15.691824Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">webinar</rdfs:label>
     </owl:Class>
     
@@ -7123,7 +7107,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-09-22T13:19:57.012225Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-09-22T13:19:57.012225Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">learning medium</rdfs:label>
     </owl:Class>
     
@@ -7302,9 +7286,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000527"/>
         <obo:IAO_0000115 xml:lang="en">Enables identification, location, and retrieval of information resources by users, often including the use of controlled vocabularies for classification and indexing and links to related resources.REFERENCE. DCC/TC3+</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">https://github.com/terms4fairskills/FAIRterminology/issues/13</obo:IAO_0000233>
         <rdfs:label xml:lang="en">descriptive metadata</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7322,7 +7308,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000519"/>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-01T21:03:55.425579Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2020-10-01T21:03:55.425579Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">github repository</rdfs:label>
     </owl:Class>
     
@@ -7353,7 +7339,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Data preservation</obo:IAO_0000118>
         <oboInOwl:created_by xml:lang="en">Peter McQuilton</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17T22:18:22.641817Z</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-02-17T22:18:22.641817Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">data archiving</rdfs:label>
     </owl:Class>
     
@@ -8433,6 +8419,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/T4FS_0000633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000584"/>
         <obo:IAO_0000115 xml:lang="en">A Semantic Data Model includes study design Data Elements and the relationships between them</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
@@ -8990,5 +8977,5 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.24) https://github.com/owlcs/owlapi -->
 
