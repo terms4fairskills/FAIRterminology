@@ -77,7 +77,7 @@ the ontology starter kit. It is safe to remove these.
 
 ## Deprecation of terms
 
-Find out more about our [deprecation policy](src/ontology/DEPRECATION.md).
+Find out more about our [deprecation policy](DEPRECATION.md).
 
 ## Release Manager notes
 
