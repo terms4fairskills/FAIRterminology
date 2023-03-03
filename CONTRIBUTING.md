@@ -83,9 +83,13 @@ If you have never edited this ontology before, first follow a [general tutorial]
 6. Push changes upstream
 7. Create pull request
 
-## How to deprecate terms
+### How to deprecate terms
 
 Find out more about our [deprecation policy](src/ontology/DEPRECATION.md).
+
+## Guidelines for Building the Release
+
+If you are part of the team that builds releases, please see our [editors' release documentation](src/ontology/README-editors.md).
 
 ## Best Practices
 

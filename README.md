@@ -28,7 +28,17 @@ For more information on any of the technical aspects of this work, please contac
 
 ## Views on the Ontology
 
-We currently produce two primary views of this ontology: a complete ontology intended for expert consumption, and fully adhering to the OBO Foundry principles, and a community view that has been simplified for general usage.
+We currently produce two primary views of this ontology: a complete ontology intended for expert consumption, and fully adhering to the OBO Foundry principles, and a community view that has been simplified for general usage. Please see further details of these in the next sections, which cover release versions and alternative artefacts.
+
+On top of this, we also provide a number of ways to look at and use the ontology. The one that best suits you depends on your needs and your knowledge of ontologies.
+
+
+1. _Are you new to ontologies?_ Try our [Google spreadsheet](https://docs.google.com/spreadsheets/d/1pu9o8oiP1hwnyQk1tv_8cdoe07GngINRD5pGz04m4Zo/edit?usp=sharing): This is actually our "master" version of the ontology; we use the [ontology development kit](https://github.com/INCATools/ontology-development-kit) and [ROBOT](http://robot.obolibrary.org/) to convert this spreadsheet into OWL. If you like spreadsheets, and you're just looking for terms to use for tagging, then this might be your best bet. The sheet titled "Index" has a simple list of IRIs and labels for each tag. If you are also interested in definitions, please see the sheet titled "t4fs"; this has all the axioms and properties for each of the terms listed in "index". There's a lot of dense information here (and it is very hard to work out the relationships and hierarchies), so please read on if this isn't right for you.
+2. Have some experience with ontologies, and want to also consider our hierarchy? Take a look at our [OBO Foundry t4fs page](https://obofoundry.org/ontology/t4fs), and you can see links to a variety of ontology browsers, including [Ontobee](https://ontobee.org/browser/index.php?o=t4fs) and [OLS](http://www.ebi.ac.uk/ols/ontologies/t4fs). Please note that these browsers utilise our full OBO Foundry hierarchy, which is more complex to view initially as it contains all of the BFO/IAO terms required to place t4fs within the OBO Foundry family. To help with that, please see our current diagram for our ontology model (below), as this provides the relationships among all of our top-level t4fs terms without the BFO/IAO hierarchies.
+3. Are you knowledgeable about ontologies? Then, as stated below, you can download the ontology in a variety of formats as outlined below (obo, owl and json).
+
+We've drawn this diagram of all upper-level t4fs terms and the relationships they have to each other, in order to provide an overview of how we think about and structure the ontology.
+![t4fs Ontology Model](t4fs-ontology-model.png)
 
 ## Versions
 
