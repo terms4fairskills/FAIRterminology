@@ -6,10 +6,10 @@ By using Google spreadsheets, we open up our ontology for comment and editing to
 
 ## Converting TSVs to OWL
 
-Currently, the production of an ODK release via templates is only available through the development snapshot. In order to set up to use the development snapshot, please follow [these instructions](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ODKDevelopmentSnapshot.md).
+Since ODK 1.4 (Feb 2023), the production of an ODK release via templates is available in the production version of ODK.
 
 Run from the src/ontology directory, the following command will take the three TSV files contained within this `template` directory and re-build `components/t4fs-template.owl`.
 
 ```
-ODK_TAG=dev ./run.sh make recreate-t4fs-template
+./run.sh make recreate-t4fs-template
 ```

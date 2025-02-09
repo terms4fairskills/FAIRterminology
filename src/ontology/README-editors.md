@@ -88,6 +88,15 @@ These instructions assume you have
 [docker](https://www.docker.com/get-docker). This folder has a script
 [run.sh](run.sh) that wraps docker commands.
 
+if you wish to update the ODK first, as outlined [here](https://oboacademy.github.io/obook/howto/odk-update/) you need to run:
+
+	docker pull obolibrary/odkfull
+
+If you have updated the ODK, then make sure you update in your branch too. It must successfully run twice before this step is complete. Change to this directory (src/ontology) and run:
+
+	sh run.sh make update_repo
+	sh run.sh make update_repo
+
 to release:
 
 first type
